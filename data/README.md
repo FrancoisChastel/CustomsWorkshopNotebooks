@@ -314,6 +314,42 @@ Value-weighted ratio to the regional median by chapter and country.
 | `value_usd` | Trade value |
 | `weight_coverage` | Share of value with a reported weight |
 
+## accepted_history
+
+2B valuation track: 20,000 import lines accepted in the last 90 days (to 2026-09-30), as declared.
+
+| Field | Meaning |
+| --- | --- |
+| `line_id` | Accepted line (H + 5 digits) |
+| `accepted_on` | Date the declaration was accepted |
+| `description` | Goods description as typed |
+| `hs6` | Six-digit heading |
+| `origin` | Country of origin |
+| `incoterm` | FOB, CIF, CFR or EXW: where the price stops |
+| `currency` | Currency of the price |
+| `unit_price` | Price per unit in that currency and under that incoterm |
+| `quantity` | Quantity |
+| `unit` | units, cartons or kg |
+| `net_weight_kg` | Net weight in kilograms |
+
+## invoice_lines
+
+2B valuation track: the five invoice lines of the exercise.
+
+| Field | Meaning |
+| --- | --- |
+| `ref` | Line reference (V1 to V5) |
+| `invoice_date` | Invoice date |
+| `description` | Goods description |
+| `hs6` | Six-digit heading |
+| `origin` | Country of origin |
+| `incoterm` | Where the price stops |
+| `currency` | Invoice currency |
+| `unit_price` | Price per unit |
+| `quantity` | Quantity |
+| `unit` | Unit |
+| `discount` | Discount on the invoice (share of the price) |
+
 ## monthly_trader_uv
 
 Monthly value per kilo for the 50 largest importers' main code, 36 months.

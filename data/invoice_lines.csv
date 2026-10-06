@@ -1,0 +1,6 @@
+ref,invoice_date,description,hs6,origin,incoterm,currency,unit_price,quantity,unit,discount
+V1,2026-09-30,"Mountain bicycle, 26 inch, aluminium frame",871200,China,CIF,USD,120.26,240,units,0.0
+V2,2026-09-30,Monocrystalline solar panel 400 W,854143,China,FOB,USD,64.21,1200,units,0.05
+V3,2026-09-30,"Wooden dining chair, rubberwood",940360,Viet Nam,FOB,USD,29.15,600,units,0.0
+V4,2026-09-30,"Upper-arm blood pressure monitor, automatic",901819,China,EXW,CNY,106.77,3000,units,0.0
+V5,2026-09-30,Portable dental X-ray unit,902214,Germany,CIF,EUR,6201.92,4,units,0.0

@@ -11,6 +11,7 @@ workshop_methods/peer.py
 workshop_methods/quick_queries.py
 workshop_methods/signals.py
 workshop_methods/trade.py
+workshop_methods/valuation.py
 workshop_methods.egg-info/PKG-INFO
 workshop_methods.egg-info/SOURCES.txt
 workshop_methods.egg-info/dependency_links.txt

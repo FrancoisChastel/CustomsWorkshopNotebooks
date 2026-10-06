@@ -119,6 +119,14 @@
    "Price alone catches two decoys; add description and origin weight, then drop the unit error and the discount."
   ]
  },
+ "2b.valuation.neighbours": {
+  "topic": "find what similar goods were accepted at, put every price on one basis, and read the middle half",
+  "hints": [
+   "Which fields make two descriptions similar?",
+   "How many neighbours is enough?",
+   "The range is never a value."
+  ]
+ },
  "2b.mirror.bridge": {
   "topic": "start from the partner's exports, add shipping and insurance, subtract each known explanation; what is left is worth a query",
   "hints": [

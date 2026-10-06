@@ -12,7 +12,7 @@ import pandas as pd
 TABLES = [
     "declarations", "traders", "brokers", "exporters", "consignees", "tariff", "reference_prices", "fx_rates", "offices",
     "mirror_trade", "tax_registry", "vat_returns", "warehouse_stock", "transit", "parcels", "licences",
-    "land_border_mirror", "regional_unit_values", "sector_regional", "monthly_trader_uv",
+    "land_border_mirror", "regional_unit_values", "sector_regional", "monthly_trader_uv", "accepted_history", "invoice_lines",
 ]
 TEXT_COLUMNS = {"ahtn8", "hs6", "chapter", "trader_id", "tin", "duty_cliff_neighbour", "month", "period", "certificate_ref", "relief_scheme", "exporter_id", "consignee_id"}
 
