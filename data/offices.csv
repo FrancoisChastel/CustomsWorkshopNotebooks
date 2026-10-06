@@ -1,0 +1,7 @@
+office_id,office_name,office_type
+OFF1,North Seaport,seaport
+OFF2,South Seaport,seaport
+OFF3,Capital Airport,airport
+OFF4,East Land Border,land border
+OFF5,West Land Border,land border
+OFF6,Inland Dry Port,dry port

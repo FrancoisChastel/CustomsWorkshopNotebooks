@@ -1,0 +1,724 @@
+tin,legal_name,address_id,director_id,phone,region,sector,vat_registered,registration_date,filing_status
+T1016,Quarry Stone Exports Ltd,A49555,D97283,0425294852,East,Steel and metals,True,2026-05-29,filer
+T1042,Langton Enterprises Ltd,A82508,D39568,0251554121,North,Steel and metals,True,2026-05-15,filer
+T105145,Evergreen Living Commercial Co.,A54450,D79003,0876881532,West,Furniture and home,True,2012-05-22,filer
+T1000,Harbour Foods Export Limited,A14581,D78111,0584891292,Coastal,Fresh produce,True,2017-02-11,filer
+T250806,Coral Mobile Partners Limited,A66748,D39744,0894659538,North,Electronics,True,2025-07-24,non-filer
+T157217,Jade Furniture Commercial Company,A90424,D34388,0338405514,East,Furniture and home,True,2014-08-29,filer
+T816106,Ocean Metal Distribution Ltd,A59496,D79008,0860432649,Coastal,Steel and metals,True,2020-06-13,filer
+T1017,Kirkby Textile Trading Ltd,A43347,D68051,0625123864,West,Textiles,True,2021-05-27,filer
+T583425,Ocean Fruits Commercial Co.,A85880,D86245,0935774582,South,Fresh produce,True,2007-02-16,non-filer
+T412247,Horizon Motor Enterprises,A75333,D14811,0658297500,Coastal,Vehicles and parts,True,2017-03-05,filer
+T287166,Harmony Orchard Partners Ltd,A20979,D33548,0835504914,West,Fresh produce,True,2016-11-23,non-filer
+T648031,Coral Living International Ltd,A76431,D10763,0683749983,Capital,Furniture and home,True,2018-10-02,non-filer
+T427400,Mekong Sugar Trading Company Limited,A49664,D40602,0532695261,South,Sugar and confectionery,True,2013-08-04,filer
+T913347,Monsoon Sugar Partners Ltd,A16032,D54861,0671230994,North,Sugar and confectionery,True,2019-11-08,filer
+T657299,Blue River Electronics Import Export Ltd,A58284,D99651,0387018251,Capital,Electronics,True,2020-11-21,filer
+T1125,Carrick Services Ltd,A28543,D26577,0545512795,Coastal,Fresh produce,True,2025-06-09,non-filer
+T1005,Meridian Components Ltd,A23485,D63768,0744841936,Coastal,Electronics,True,2022-10-12,filer
+T449219,Phoenix Pack Supply Company,A70980,D15621,0618798913,East,Plastics and packaging,True,2023-07-17,filer
+T1028,Arden Group Ltd,A78014,D50471,0445848853,North,Electronics,True,2017-08-18,filer
+T1110,Ashcombe Agri Exports Ltd,A94469,D34942,0370221400,Coastal,Fresh produce,True,2026-05-13,filer
+T889187,Lakeside Agro Group Ltd,A87148,D97629,0538091831,Capital,Fresh produce,True,2010-02-02,filer
+T1057,Kestrel Export Ltd,A16138,D37171,0868532686,South,Steel and metals,True,2022-04-17,filer
+T617933,"Royal Glow Trading Co., Ltd",A69732,D77949,0862768585,West,Cosmetics and personal care,True,2015-01-18,filer
+T1143,Anvil Enterprises Ltd,A58267,D19034,0227376246,South,Fresh produce,True,2023-04-05,filer
+T1023,Yardley Enterprises Limited,A18363,D55337,0221599077,West,Medical and optical,True,2021-07-05,filer
+T1119,Orchard Group Limited,A64347,D73315,0882544932,North,Furniture and home,False,2025-09-06,filer
+T606037,Prime Steel Partners Ltd,A89011,D26271,0777027842,North,Steel and metals,True,2007-01-24,filer
+T290454,Harmony Alloy Partners Ltd,A73016,D83038,0665002629,Coastal,Steel and metals,False,2010-06-05,filer
+T950477,Silk Road Fashion Partners Ltd,A59914,D98405,0732458988,Coastal,Apparel,True,2010-09-18,filer
+T238636,Star Pack Distribution Ltd,A10256,D71251,0895093422,South,Plastics and packaging,True,2005-06-19,filer
+T918604,Evergreen Living Partners Ltd,,D62311,0661782629,West,Furniture and home,True,2025-07-15,filer
+T195860,Bamboo Smoke Distribution Ltd,A35750,D33981,0694692790,South,Tobacco,True,2022-06-28,filer
+T240694,Grand Home International Ltd,A73543,D34422,0850159418,South,Furniture and home,True,2007-11-26,filer
+T1160,Juniper & Co Limited,A36154,D45299,0446367709,South,Textiles,True,2025-01-19,filer
+T1004,Pacific Digital Services Limited,A91452,D21747,0859400978,West,Sugar and confectionery,True,2023-04-27,filer
+T955808,Horizon Polymer Enterprises ,A81162,D85511,0612411673,West,Plastics and packaging,True,2020-03-25,filer
+T1090,Larkfield Holdings Ltd,A21658,D27737,0863529823,Coastal,Textiles,True,2021-12-07,filer
+T1165,Marlow Trading Ltd,A76927,D15112,0853445377,East,Furniture and home,True,2024-07-08,filer
+T542851,Orchid Agro Supply Company,A88983,D11197,0229983759,North,Fresh produce,True,2009-03-10,filer
+T788791,Green Valley Weaving Holdings Ltd,A68867,D23126,0794557420,West,Textiles,True,2024-07-19,filer
+T838522,Mekong Smoke Holdings Ltd,A81783,D59080,0273713429,Capital,Tobacco,False,2025-07-16,filer
+T1010,Bayline Provisioning Limited,A49144,D66165,0253843826,Capital,Furniture and home,True,2026-01-04,filer
+T802353,Eastern Tech Partners Ltd,A22987,D11945,0254756635,Coastal,Electronics,True,2019-04-03,filer
+T1135,Dunmore Industries Ltd,A50671,D51308,0769454379,West,Fresh produce,False,2014-05-04,filer
+T444043,Summit Living Partners Ltd,A10981,D25656,0533845245,Coastal,Furniture and home,True,2026-01-15,filer
+T664679,Lakeside Mobile Commercial Company,A74253,D77336,0692066815,Capital,Electronics,True,2020-10-22,filer
+T1169,Elmsworth Group Ltd,A98693,D41636,0516429330,East,Tobacco,False,2019-09-21,filer
+T1083,Thornton Manufacturing Ltd,A79745,D34248,0381655269,East,Steel and metals,True,2025-01-15,filer
+T864196,Star Motor Supply Co.,A71496,D58902,0602301197,East,Vehicles and parts,True,2008-02-03,filer
+T1194,Carrick & Co Ltd,A62957,D14716,0950854341,Capital,Fresh produce,True,2020-07-03,filer
+T248897,Green Valley Care Group Ltd,A99031,D80994,0456461392,North,Cosmetics and personal care,True,2007-09-24,filer
+T764774,Unity Cosmetics Commercial Company,A46548,D13008,0904340757,North,Cosmetics and personal care,True,2024-07-10,filer
+T546792,Sunrise Pack Partners Ltd,A58274,D55681,0344825691,South,Plastics and packaging,True,2019-12-31,filer
+T992591,Green Valley Care International Ltd,A62337,D76608,0717214361,Capital,Cosmetics and personal care,True,2020-05-11,filer
+T1038,Dunmore Enterprises Ltd,A73949,D46900,0371308848,West,Steel and metals,True,2022-11-21,filer
+T312040,Star Motor Commercial Co.,A39076,D86308,0213374887,Coastal,Vehicles and parts,True,2020-01-05,filer
+T217842,Phoenix Metal Partners Ltd,A28953,D96168,0567474407,East,Steel and metals,True,2005-02-21,filer
+T418014,"Green Valley Wheels Trading Co., Ltd",A86776,D71971,0322872318,Coastal,Vehicles and parts,True,2023-12-08,filer
+T1039,Ashcombe Services Limited,A85432,D49808,0328886933,East,Steel and metals,True,2025-04-28,filer
+T1100,Granite Enterprises Ltd,A92500,D71394,0347007921,Capital,Cosmetics and personal care,True,2013-11-27,filer
+T1064,Brightwater Group Limited,A83121,D92004,0464835836,East,Sugar and confectionery,True,2025-11-21,filer
+T229048,Jade Cotton Commercial Co.,A18884,D50442,0334374847,Capital,Textiles,True,2019-08-20,filer
+T1067,Ullswater Trading Limited,A98475,D82546,0771885754,South,Textiles,True,2023-11-14,filer
+T1156,Redstone Ltd,A18117,D12054,0890189322,Capital,Steel and metals,True,2022-11-28,filer
+T1048,Westbrook Industries Ltd,A77019,D46596,0321712226,South,Steel and metals,True,2016-07-04,filer
+T262734,"Twin Rivers Medical Trading Co., Ltd",A44971,D34042,0361977924,Coastal,Medical and optical,True,2011-04-28,filer
+T1049,Portside Holdings Ltd,A74339,D95050,0641714954,Capital,Textiles,True,2020-11-05,filer
+T1195,Cobalt Ltd,A73463,D14493,0437988663,Capital,Fresh produce,True,2015-11-17,filer
+T648160,Delta Textile Group Limited,A80067,D63851,0397870153,East,Textiles,True,2018-12-12,filer
+T548459,Lantern Sweet Distribution Ltd,A96809,D35587,0703048756,West,Sugar and confectionery,False,2011-01-15,filer
+T621906,Blue River Furniture Import Export Ltd,A30869,D91647,0705223887,South,Furniture and home,True,2006-12-23,filer
+T1072,Newlyn Trading Ltd,A32556,D11608,0982801958,East,Electronics,True,2026-03-24,filer
+T110913,Coral Drive Holdings Limited,A10460,D60874,0282878172,Capital,Vehicles and parts,True,2018-01-26,filer
+T863358,Highland Garment Import Export Ltd,A24836,D58100,0911582324,East,Apparel,True,2024-10-29,filer
+T451712,Lotus Pack Holdings Ltd,A42137,D14971,0293818108,North,Plastics and packaging,True,2016-10-14,filer
+T532908,Star Medical Distribution Ltd,A24747,D33204,0603485432,South,Medical and optical,True,2016-10-05,filer
+T588524,Silver Polymer Partners Ltd,A26072,D80139,0780209809,South,Plastics and packaging,True,2019-04-24,filer
+T984903,"Harmony Tobacco Trading Co., Ltd",A14439,D79944,0495393865,West,Tobacco,True,2016-12-27,filer
+T765237,Crystal Optics Commercial Co.,A82139,D34881,0915292515,Capital,Medical and optical,True,2022-10-06,filer
+T563331,Green Valley Cotton Group Ltd,A29277,D28009,0609540479,Coastal,Textiles,True,2022-05-25,filer
+T586552,Lotus Furniture Enterprises,A30300,D49043,0372812243,West,Furniture and home,True,2009-08-04,filer
+T592762,Phoenix Motor Distribution Limited,A56180,D50616,0801434271,East,Vehicles and parts,False,2022-11-06,filer
+T361921,Lotus Resin Partners Ltd,A96228,D46562,0371262123,North,Plastics and packaging,True,2015-06-24,filer
+T194747,Bright Confection Holdings Limited,A28230,D58604,0338952182,West,Sugar and confectionery,True,2013-08-29,filer
+T1106,Meridian Services Limited,A16808,D55298,0804390513,North,Medical and optical,True,2020-09-11,filer
+T513489,Ocean Fashion Import Export Ltd,A60283,D87378,0741004380,East,Apparel,True,2024-11-30,filer
+T429976,Pacific Apparel Group Ltd,A89916,D54215,0858952253,Capital,Apparel,True,2018-11-25,filer
+T704119,Lucky Home Commercial Co.,A58826,D52946,0294612286,Capital,Furniture and home,True,2012-06-10,filer
+T397546,Orchid Care Distribution Ltd,A80265,D79084,0213689802,North,Cosmetics and personal care,True,2013-02-14,filer
+T1189,Oakhurst Holdings Ltd,A61376,D90276,0317784180,Capital,Sugar and confectionery,True,2013-10-29,filer
+T227704,Summit Cane Group Ltd,A65191,D66044,0718396182,West,Sugar and confectionery,True,2021-10-11,filer
+T1175,Tavistock Manufacturing Ltd,A43279,D68224,0979385108,West,Steel and metals,True,2017-08-14,filer
+T751844,Rising Leaf Enterprises,A22878,D66342,0614200992,Coastal,Tobacco,True,2008-01-01,filer
+T1070,Elmsworth Enterprises Limited,A76211,D36624,0905276659,North,Apparel,True,2026-03-17,filer
+T1118,Yardley Trading Ltd,A13245,D94188,0246066792,North,Electronics,True,2024-01-15,filer
+T984001,Royal Motor Group Ltd,A47875,D79049,0640941794,East,Vehicles and parts,True,2011-01-09,filer
+T403146,Delta Plastics Partners Limited,A78818,D80513,0653797400,Capital,Plastics and packaging,False,2012-08-13,filer
+T231844,Golden Agro Trading Company Limited,A67376,D32234,0610046964,North,Fresh produce,True,2023-12-08,filer
+T212406,Star Agro Group Ltd,A89584,D51219,0350071772,East,Fresh produce,True,2010-06-14,filer
+T1051,Cobalt Export Ltd,A38621,D90548,0792773083,North,Tobacco,True,2026-03-04,filer
+T886257,Delta Optics Supply Company,A35913,D75495,0327919373,East,Medical and optical,True,2008-03-29,filer
+T1186,Marlow Enterprises Limited,A76434,D21191,0446428514,Coastal,Electronics,True,2021-11-18,filer
+T1012,Harbourlight Trading Ltd,A31348,D56779,0370699023,West,Furniture and home,True,2025-08-23,filer
+T223028,Bamboo Confection Commercial Co.,A69904,D32383,0288943192,North,Sugar and confectionery,True,2013-02-24,filer
+T993739,Royal Living Group Limited,A81927,D68849,0411427238,North,Furniture and home,True,2019-04-29,filer
+T819403,Summit Timber International Ltd,A87214,D41486,0387332143,East,Furniture and home,True,2013-12-02,filer
+T695484,Royal Apparel Supply Co.,A36235,D41541,0961095030,South,Apparel,True,2024-04-22,filer
+T887171,Golden Orchard Import Export Ltd,A94436,D94113,0425976532,Coastal,Fresh produce,True,2014-01-01,filer
+T1164,Shepton Group Limited,A43692,D80770,0239961702,East,Vehicles and parts,True,2025-08-23,filer
+T839876,Star Plastics Distribution Ltd,A88536,D70286,0520943391,South,Plastics and packaging,True,2009-08-12,filer
+T635775,Harmony Polymer International Limited,A35654,D59163,0639582665,East,Plastics and packaging,True,2016-10-15,filer
+T674270,Prime Sweet Supply Co.,A73673,D50847,0762242276,North,Sugar and confectionery,True,2017-08-20,filer
+T1080,Inverness & Co Ltd,A61750,D35883,0917453884,North,Fresh produce,True,2022-09-11,filer
+T323555,Royal Fresh Import Export Ltd,A42137,D95099,0870373346,North,Fresh produce,True,2010-05-04,filer
+T759697,Delta Weaving Distribution Ltd,A12104,D74886,0751946310,West,Textiles,True,2005-01-22,filer
+T170813,Evergreen Sugar International Ltd,A19325,D13510,0486465965,West,Sugar and confectionery,True,2012-12-12,filer
+T104496,Saffron Sugar Commercial Company,A60819,D33614,0209599375,East,Sugar and confectionery,True,2011-11-28,filer
+T826967,Star Auto Supply Co.,A20184,D71029,0488529205,North,Vehicles and parts,True,2025-11-29,filer
+T159766,Mekong Digital Supply Co.,A84812,D82676,0827886017,North,Electronics,True,2020-05-03,filer
+T1139,Belmont & Co Limited,A74410,D86281,0480616364,Capital,Furniture and home,True,2021-08-23,filer
+T779717,Pacific Resin Group Limited,A95111,D62811,0570442346,Capital,Plastics and packaging,True,2006-07-28,filer
+T620787,Blue River Plastics Group Ltd,A61479,D93524,0555431497,South,Plastics and packaging,True,2010-06-19,filer
+T972338,Unity Fabric Enterprises,A28506,D60096,0485798330,Capital,Textiles,True,2019-06-13,filer
+T722944,Orchid Fresh Holdings Limited,A93259,D50824,0787466565,Capital,Fresh produce,False,2017-12-02,filer
+T878170,Crystal Orchard Distribution Ltd,A27188,D37823,0322444402,South,Fresh produce,True,2020-11-01,filer
+T647481,"Delta Golden Leaf Trading Co., Ltd",A49008,D65336,0893315438,Capital,Tobacco,True,2020-03-30,filer
+T1129,Oakhurst Enterprises Ltd,A49946,D59684,0728361623,East,Plastics and packaging,True,2016-03-05,filer
+T302026,Coral Style Group Limited,A38930,D83454,0383107452,Capital,Apparel,True,2008-06-16,filer
+T1162,Kingsley Holdings Ltd,A12802,D19928,0653580066,North,Cosmetics and personal care,False,2024-08-09,filer
+T565348,Golden Timber International Ltd,A76566,D44492,0705152716,North,Furniture and home,True,2015-06-29,filer
+T1032,Hollis Ltd,A33148,D74772,0421569599,South,Steel and metals,True,2017-12-19,filer
+T418955,Silk Road Agro Enterprises,A84077,D64106,0561873147,West,Fresh produce,True,2007-05-21,filer
+T899436,Orchid Iron Group Ltd,A84731,D12711,0690668653,South,Steel and metals,True,2009-06-22,filer
+T1089,Cobalt Manufacturing Ltd,A41151,D44920,0768419905,Coastal,Electronics,True,2023-09-20,filer
+T1190,Langton Trading Limited,A37510,D77698,0921988236,Coastal,Electronics,True,2018-05-27,filer
+T808637,Horizon Fruits Distribution Limited,A41213,D99024,0571200894,West,Fresh produce,True,2006-04-02,filer
+T191682,Prime Optics Supply Company,A47178,D16872,0201226945,East,Medical and optical,True,2019-03-16,filer
+T1184,Seaview Enterprises Ltd,A72224,D66210,0324831791,North,Vehicles and parts,True,2018-12-18,filer
+T283089,Prime Glow International Ltd,A53999,D59287,0691581039,East,Cosmetics and personal care,True,2010-05-21,filer
+T154569,Lucky Agro Group Limited,A57462,D32724,0750541927,Capital,Fresh produce,True,2013-04-04,filer
+T314218,Bright Living Commercial Co.,A48266,D65298,0595121519,North,Furniture and home,True,2006-12-30,filer
+T652576,Phoenix Health Holdings Ltd,A92862,D48919,0880664929,West,Medical and optical,True,2013-07-14,filer
+T478665,Crystal Style Enterprises,A68539,D33765,0817597149,Coastal,Apparel,True,2010-02-11,filer
+T980803,Evergreen Care Commercial Co.,A42406,D86025,0318437244,South,Cosmetics and personal care,True,2025-11-06,filer
+T1149,Quinton Group Ltd,A59949,D58913,0736834239,East,Electronics,True,2022-12-07,filer
+T1178,Melrose Holdings Ltd,A13217,D40576,0498740254,South,Textiles,True,2023-09-25,filer
+T722026,Pacific Wheels Commercial Co.,A79753,D82985,0696571144,West,Vehicles and parts,True,2021-07-04,filer
+T1115,Inglewood Ltd,A31658,D95293,0683569156,North,Electronics,False,2022-06-18,filer
+T803329,Harmony Digital Distribution Ltd,A73372,D96398,0316329674,South,Electronics,True,2019-06-01,filer
+T148772,Orchid Resin Partners Ltd,A89333,D42389,0593510251,East,Plastics and packaging,True,2021-05-12,filer
+T1199,Fenwick Services Limited,A24587,D81581,0687626017,West,Textiles,True,2020-02-29,filer
+T1025,Thornton Export Ltd,A83197,D70601,0678869226,North,Textiles,True,2021-04-12,filer
+T789263,Lantern Fresh Partners Ltd,A96394,D96411,0642071885,West,Fresh produce,True,2015-02-14,filer
+T137781,Coral Metal Supply Co.,A13336,D78742,0716145995,Coastal,Steel and metals,True,2025-01-19,filer
+T154100,Royal Golden Leaf International Limited,A61816,D29857,0552095563,East,Tobacco,True,2014-11-28,filer
+T442867,Monsoon Plastics Import Export Ltd,A80461,D35418,0733331577,North,Plastics and packaging,True,2009-12-28,filer
+T430188,Lantern Timber Group Limited,A55421,D71383,0328366209,Coastal,Furniture and home,True,2020-01-11,filer
+T1098,Netherby Export Ltd,A29291,D40616,0729482634,South,Steel and metals,True,2023-01-16,filer
+T268717,LOTUS TIMBER ENTERPRISES,A28467,D36532,0828542591,East,Furniture and home,True,2023-03-12,filer
+T927629,"Twin Rivers Iron Trading Co., Ltd",A37385,D50493,0422667654,Coastal,Steel and metals,False,2010-12-28,filer
+T923404,Sunrise Iron Import Export Ltd,A64547,D79768,0637360859,Coastal,Steel and metals,False,2020-04-22,filer
+T928482,Star Smoke International Ltd,A55021,D69295,0718692177,North,Tobacco,True,2025-11-06,filer
+T1003,Coastland Solar Project Ltd,A53977,D11019,0792685064,Coastal,Electronics,False,2024-10-17,filer
+T169056,Bamboo Steel Import Export Ltd,A43363,D65340,0372443174,Capital,Steel and metals,True,2020-10-07,filer
+T1043,Pacific Enterprises Ltd,A10534,D44448,0737539719,West,Fresh produce,True,2025-05-08,filer
+T961763,Phoenix Vision Group Ltd,A74638,D81485,0811390319,North,Medical and optical,True,2021-06-09,filer
+T1101,Larkfield Services Limited,A82474,D78969,0974183472,West,Electronics,True,2017-10-31,filer
+T1026,Kelso Holdings Limited,A27109,D99711,0577973854,East,Textiles,True,2020-08-05,filer
+T922554,Sunrise Glow Holdings Ltd,A56607,D11679,0745360780,West,Cosmetics and personal care,True,2008-06-28,filer
+T508835,Golden Furniture Commercial Co.,A65533,D58285,0553390239,Capital,Furniture and home,True,2019-07-10,filer
+T107002,Delta Furniture Group Ltd,A77813,D15285,0815098427,Capital,Furniture and home,True,2015-04-06,filer
+T1096,Vernham Trading Limited,A64113,D67243,0714221396,West,Steel and metals,True,2014-04-07,filer
+T274483,"Ocean Sugar Trading Co., Ltd",A93627,D59529,0448386053,Capital,Sugar and confectionery,True,2007-04-17,filer
+T506216,Rising Garment Holdings Ltd,A27018,D14182,0750690483,Coastal,Apparel,True,2012-02-19,filer
+T1015,Drayton Components Ltd,A26148,D22783,0848769662,East,Electronics,True,2024-09-22,filer
+T1055,Wexford Group Ltd,A30372,D34602,0676213873,West,Sugar and confectionery,True,2020-02-08,filer
+T883176,Horizon Metal International Ltd,A25946,D18584,0338078784,Capital,Steel and metals,True,2005-05-19,filer
+T935081,Golden Furniture Partners Ltd,A93661,D43169,0217316470,West,Furniture and home,True,2018-02-28,filer
+T688328,"Lakeside Sweet Trading Co., Ltd",A55306,D61845,0816046573,East,Sugar and confectionery,True,2020-02-09,filer
+T1102,Drayton Export Ltd,A59200,D39301,0768202327,West,Steel and metals,True,2025-03-12,filer
+T1176,Blackwell Services Ltd,A22946,D30638,0420802699,Capital,Steel and metals,True,2019-11-19,filer
+T1130,Halcyon Holdings Ltd,A62410,D33066,0345966399,South,Fresh produce,True,2024-11-07,filer
+T352721,Jade Pack Group Ltd,A10761,D61407,0534364656,South,Plastics and packaging,False,2021-09-05,filer
+T822469,Silk Road Agro Import Export Ltd,A67152,D58345,0916890740,South,Fresh produce,True,2009-05-02,filer
+T467707,Lotus Cane Import Export Ltd,A48332,D77561,0828706252,East,Sugar and confectionery,True,2011-04-08,filer
+T351810,"Saffron Fashion Trading Co., Ltd",A88852,D22852,0577865142,West,Apparel,True,2010-11-20,filer
+T733557,Lantern Cosmetics Enterprises,A23928,D44565,0859142567,West,Cosmetics and personal care,True,2019-08-01,filer
+T1187,Jarrow Services Ltd,A27475,D73497,0480856418,North,Cosmetics and personal care,True,2026-01-24,filer
+T668853,Lucky Home International Ltd,A36676,D56616,0811214072,Coastal,Furniture and home,True,2023-02-28,filer
+T1197,Elmsworth Holdings Ltd,A75174,D47383,0971422361,East,Medical and optical,True,2026-02-05,filer
+T1060,Newlyn Export Ltd,A77285,D27880,0876276023,Coastal,Electronics,True,2017-08-29,filer
+T722496,Horizon Wheels Distribution Ltd,A18840,D10333,0320954464,East,Vehicles and parts,True,2010-11-01,filer
+T1198,Zephyr Group Limited,A67893,D64477,0848165593,South,Electronics,True,2025-04-27,filer
+T1054,Delta Enterprises Ltd,A15143,D17645,0601610014,East,Steel and metals,True,2024-11-11,filer
+T869233,Crystal Tech Import Export Limited,A22158,D37825,0473009295,Coastal,Electronics,True,2011-10-10,filer
+T392140,Lantern Metal Holdings Ltd,A92076,D73696,0266610457,East,Steel and metals,False,2010-07-09,filer
+T777951,Mekong Confection Distribution Limited,A31019,D53817,0684410133,West,Sugar and confectionery,True,2009-01-16,filer
+T403124,Lotus Medical Commercial Co.,A64900,D22813,0396724907,East,Medical and optical,True,2025-04-10,filer
+T131813,Star Mobile Holdings Ltd,A38329,D57736,0916535120,Coastal,Electronics,True,2022-09-08,filer
+T110442,Highland Beauty Group Ltd,A99447,D93844,0242196928,East,Cosmetics and personal care,True,2012-01-03,filer
+T504469,Delta Home Distribution Ltd,A68121,D43547,0249261273,East,Furniture and home,True,2024-04-08,filer
+T1091,Pinehill Export Ltd,A92604,D27400,0292848394,Capital,Textiles,True,2026-02-16,filer
+T214995,Prime Digital Partners Limited,A33523,D46530,0474337139,Capital,Electronics,True,2018-10-30,filer
+T739639,Highland Cosmetics International Limited,A75351,D20957,0908186158,Capital,Cosmetics and personal care,True,2020-02-11,filer
+T965856,Highland Cane Partners Ltd,A64342,D66429,0452914959,Coastal,Sugar and confectionery,False,2013-11-17,filer
+T1124,Juniper Services Ltd,A11851,D50598,0375571331,South,Steel and metals,True,2015-12-18,filer
+T611147,Lakeside Auto Partners Ltd,A43903,D46116,0481440136,North,Vehicles and parts,True,2023-01-19,filer
+T1044,Havering Group Ltd,A78265,D94867,0955146416,East,Electronics,True,2025-09-14,filer
+T1041,Lyndon Export Ltd,A13627,D81142,0666128522,Capital,Electronics,True,2014-01-10,filer
+T513180,Star Health Partners Limited,A96440,D52635,0285900125,North,Medical and optical,True,2005-09-16,filer
+T524191,Pacific Resin Distribution Limited,A17745,D81201,0818705819,East,Plastics and packaging,True,2019-01-25,filer
+T834921,Eastern Digital Group Ltd,A11743,D18499,0461077935,Coastal,Electronics,True,2022-09-20,filer
+T572974,Evergreen Orchard Partners Limited,A40781,D30412,0387167386,Capital,Fresh produce,True,2025-05-17,filer
+T351828,Golden Fruits International Limited,A55478,D32588,0333297066,North,Fresh produce,True,2024-02-18,filer
+T466259,Summit Resin International Ltd,A68926,D53685,0999785644,North,Plastics and packaging,False,2015-09-07,filer
+T841165,Evergreen Pack Group Limited,A26705,D37139,0348439029,North,Plastics and packaging,True,2011-08-16,filer
+T1155,Ullswater Ltd,A12924,D76229,0596610269,South,Steel and metals,True,2014-05-31,filer
+T445477,Evergreen Smoke Commercial Co.,A11497,D95058,0930786795,East,Tobacco,True,2007-09-24,filer
+T1157,Ironwood Group Limited,A84324,D88708,0707371273,East,Electronics,True,2014-04-30,filer
+T1093,Cobalt Trading Ltd,A23461,D54676,0635614034,North,Steel and metals,True,2016-04-03,filer
+T490831,Unity Polymer Group Ltd,A97832,D84105,0488344820,North,Plastics and packaging,True,2010-05-03,filer
+T646878,Summit Garment Distribution Limited,A29571,D94641,0582765732,Capital,Apparel,True,2013-08-06,filer
+T253306,Lakeside Medical Holdings Ltd,A86480,D12819,0394564830,West,Medical and optical,False,2022-01-08,filer
+T564670,Pearl Electronics Group Ltd,A95841,D40132,0299125467,South,Electronics,False,2019-01-13,filer
+T852232,Silk Road Confection Commercial Co.,A42895,D79849,0623981469,Capital,Sugar and confectionery,False,2020-08-09,filer
+T492648,Royal Fruits Commercial Co.,A21196,D36468,0293451149,West,Fresh produce,True,2005-04-05,filer
+T137334,Lantern Cosmetics Commercial Co.,A35570,D33704,0201749518,Capital,Cosmetics and personal care,True,2006-05-29,filer
+T1150,Blackwell Group Limited,A67305,D69936,0418910086,West,Furniture and home,False,2016-01-21,filer
+T652466,Grand Textile Commercial Company,A11788,D61472,0676542607,South,Textiles,True,2010-03-08,filer
+T861834,"Coral Wheels Trading Co., Ltd",A76966,D76142,0297548528,Coastal,Vehicles and parts,True,2026-01-14,filer
+T1145,Pacific Group Limited,A61456,D80836,0642554510,South,Electronics,True,2016-04-26,filer
+T1021,Harbour Manufacturing Ltd,A32708,D85251,0607047533,Coastal,Steel and metals,False,2020-04-27,filer
+T1014,Ellesmere Agri Exports Limited,A43567,D92903,0658442941,West,Fresh produce,True,2023-11-28,filer
+T713837,"Twin Rivers Living Trading Co., Ltd",A25004,D49048,0712365974,West,Furniture and home,True,2021-12-22,filer
+T1193,Stanmore Services Ltd,A62378,D27249,0775176685,East,Furniture and home,True,2019-10-07,filer
+T1097,Northgate & Co Limited,A46002,D42717,0921571685,Capital,Electronics,True,2014-03-14,filer
+T383740,Evergreen Home Distribution Ltd,A26496,D50713,0403788589,West,Furniture and home,True,2010-08-13,filer
+T1111,Yarrow Manufacturing Ltd,A49316,D66801,0944956319,Capital,Electronics,False,2026-02-18,filer
+T880664,Evergreen Sugar Holdings Ltd,A19719,D73710,0531087518,West,Sugar and confectionery,True,2013-02-15,filer
+T1163,Aldergate Group Limited,A55457,D50292,0328464945,Capital,Steel and metals,True,2016-07-02,filer
+T1094,Sunrise Enterprises Limited,A78392,D52595,0790818053,South,Fresh produce,True,2025-02-23,filer
+T1036,Kirkby Trading Ltd,A75142,D95171,0780746992,North,Steel and metals,True,2026-06-09,filer
+T1069,Gateshill Manufacturing Ltd,A79400,D24362,0679401232,Capital,Furniture and home,True,2020-06-19,filer
+T192238,Orchid Pack International Ltd,A43537,D28774,0220556841,South,Plastics and packaging,True,2007-01-08,filer
+T1076,Ullswater Holdings Ltd,A65105,D37493,0501451252,North,Steel and metals,True,2024-09-26,filer
+T206090,Delta Cane International Ltd,A75201,D44596,0645494883,West,Sugar and confectionery,True,2005-10-09,filer
+T1127,Underhill Limited,A57554,D76813,0705517674,East,Vehicles and parts,True,2025-02-03,filer
+T616102,"Lakeside Resin Trading Co., Ltd",A75251,D78827,0930598671,West,Plastics and packaging,True,2020-04-17,filer
+T1180,Arden Trading Ltd,A80189,D93907,0494752048,South,Medical and optical,True,2019-06-08,filer
+T271410,Golden Alloy Supply Co.,A82447,D89477,0297105394,North,Steel and metals,True,2018-02-26,filer
+T1159,Aldergate Services Ltd,A18952,D34833,0721795546,West,Furniture and home,True,2026-02-06,filer
+T384745,"Orchid Health Trading Co., Ltd",A85032,D85555,0582360630,West,Medical and optical,True,2023-11-28,filer
+T162980,Star Mobile Group Ltd,A61672,D34031,0744098558,North,Electronics,True,2010-02-21,filer
+T1174,Gateshill Enterprises Ltd,A20095,D72737,0438719281,Capital,Steel and metals,True,2024-12-25,filer
+T829552,Ocean Wheels International Ltd,A39555,D51744,0355379892,Coastal,Vehicles and parts,True,2008-12-13,filer
+T610109,Eastern Fashion International Ltd,A72607,D60982,0807444398,East,Apparel,True,2014-08-02,filer
+T660194,Silver Style Holdings Ltd,A90961,D30590,0248977971,North,Apparel,True,2021-01-17,filer
+T1128,Belmont Advisory Services Limited,A55834,D66217,0643686935,Coastal,Medical and optical,True,2020-11-14,filer
+T356586,Silver Mobile Distribution Ltd,A80612,D39579,0347934161,East,Electronics,True,2006-06-17,filer
+T632174,Orchid Health Import Export Limited,A98346,D90487,0982965483,East,Medical and optical,True,2014-05-25,filer
+T528457,Coral Timber Group Limited,A19717,D81112,0950264282,Coastal,Furniture and home,True,2005-03-22,filer
+T744608,Harmony Medical Holdings Limited,A53215,D92674,0242256839,East,Medical and optical,True,2016-01-07,filer
+T1158,Norbury Trading Ltd,A37528,D48476,0923429887,Capital,Electronics,True,2021-09-19,filer
+T1079,Juniper Ltd,A98894,D16836,0709600189,West,Steel and metals,False,2024-04-22,filer
+T789008,"Phoenix Beauty Trading Co., Ltd",A37381,D87943,0667740028,South,Cosmetics and personal care,True,2013-04-05,filer
+T935209,Lantern Glow Holdings Ltd,A12842,D91389,0576780741,West,Cosmetics and personal care,True,2025-12-05,filer
+T312557,Saffron Cotton International Ltd,A86114,D23718,0648529544,South,Textiles,True,2025-05-20,filer
+T212935,TWIN RIVERS SUGAR ENTERPRISES,A26217,D61484,0762674007,East,Sugar and confectionery,True,2019-01-17,filer
+T992020,Lantern Sugar Partners Ltd,A32824,D78483,0967837289,Capital,Sugar and confectionery,True,2008-10-20,filer
+T1113,Lyndon Group Ltd,A64154,D59683,0780055389,South,Textiles,True,2024-11-11,filer
+T269821,Grand Health Holdings Ltd,A63099,D17653,0369837308,Capital,Medical and optical,True,2014-11-03,filer
+T814598,Star Sweet Import Export Ltd,A51791,D58235,0788853640,North,Sugar and confectionery,True,2022-10-08,filer
+T1081,Granite Ltd,A74092,D62147,0219670509,West,Textiles,False,2013-09-03,filer
+T1062,Meridian Manufacturing Ltd,A30642,D89811,0631520911,North,Vehicles and parts,True,2026-02-21,filer
+T752615,"Monsoon Optics Trading Co., Ltd",A33228,D87893,0407384105,Capital,Medical and optical,True,2007-01-17,filer
+T1031,Blackwell & Co Ltd,A33503,D12140,0908132450,East,Electronics,True,2025-05-02,filer
+T875371,Ocean Home Enterprises,A92112,D76785,0384516078,Coastal,Furniture and home,True,2020-02-06,filer
+T1035,Drayton Group Ltd,A41627,D24856,0500573969,North,Fresh produce,True,2022-05-02,filer
+T1138,Hollis Group Ltd,A66147,D69075,0894264542,Coastal,Furniture and home,False,2025-03-17,filer
+T557200,Grand Timber Import Export Limited,A82438,D77666,0642255124,South,Furniture and home,True,2011-03-10,filer
+T1191,Thornton Services Ltd,A32819,D96479,0754930295,Capital,Textiles,True,2017-11-02,filer
+T676028,Evergreen Fruits Enterprises ,A88560,D13777,0894254372,Coastal,Fresh produce,True,2012-04-04,filer
+T777413,Monsoon Confection Supply Company,A89097,D58062,0737330990,South,Sugar and confectionery,False,2020-11-23,filer
+T735543,Bamboo Vision Distribution Ltd,A60953,D60576,0624429455,Capital,Medical and optical,True,2005-01-09,filer
+T630356,"Monsoon Pack Trading Co., Ltd",A95005,D73276,0827033058,Capital,Plastics and packaging,True,2016-01-12,filer
+T1148,Blackwell Holdings Limited,A13171,D26399,0922245306,East,Fresh produce,True,2026-02-16,filer
+T523664,Eastern Textile Partners Ltd,A71610,D53915,0529642328,Capital,Textiles,True,2005-09-26,filer
+T198549,Monsoon Mobile Group Ltd,A72488,D25560,0632148035,East,Electronics,True,2018-12-09,filer
+T282155,Golden Resin Partners Limited,A11556,D57531,0827379616,East,Plastics and packaging,True,2022-02-05,filer
+T1029,Prescott Trading Limited,A21052,D44703,0763777708,Coastal,Sugar and confectionery,True,2022-11-02,filer
+T761342,Silk Road Fashion Group Limited,A30806,D38439,0677743355,East,Apparel,True,2022-07-03,filer
+T465255,"Sunrise Auto Trading Co., Ltd",A94695,D66082,0802710715,Coastal,Vehicles and parts,True,2025-09-06,filer
+T1183,Quinton Holdings Ltd,A26360,D63884,0631279309,East,Textiles,True,2024-11-21,filer
+T1013,Tarnbrook Metals Export Ltd,A18712,D30770,0293729462,West,Steel and metals,False,2025-08-31,filer
+T1142,Inglewood Trading Ltd,A34344,D75538,0486209193,Capital,Electronics,True,2026-01-17,filer
+T1192,Fairhaven Ltd,A81223,D50971,0989430409,South,Textiles,True,2024-10-30,filer
+T976862,Coral Cotton International Limited,A94859,D57828,0806098315,East,Textiles,True,2007-06-15,filer
+T1033,Riverside Enterprises Ltd,A92735,D56625,0815187869,South,Plastics and packaging,True,2024-04-24,filer
+T704384,Saffron Tech Supply Company,A33650,D89835,0427509517,West,Electronics,True,2008-04-05,filer
+T1114,Elmsworth Industries Limited,A69341,D54487,0292016991,East,Tobacco,True,2018-04-26,filer
+T1141,Jesmond Industries Ltd,A73651,D70441,0421144470,Capital,Electronics,True,2026-01-11,filer
+T776643,Star Sugar Enterprises,A10534,D81195,0952346116,Capital,Sugar and confectionery,True,2023-03-27,filer
+T1007,Seaview Coastal Trading Ltd,A18283,D35384,0428176145,West,Furniture and home,True,2025-09-23,filer
+T1052,Sunrise Services Ltd,A78679,D69973,0458213657,North,Textiles,True,2026-04-26,filer
+T1121,Kirkby Ltd,A19241,D61200,0724939790,East,Steel and metals,True,2019-11-26,filer
+T186791,Highland Optics Supply Co.,A94019,D87454,0767316082,East,Medical and optical,True,2022-02-21,filer
+T1107,Westbrook Group Ltd,A65729,D86584,0461195762,North,Electronics,True,2024-09-22,filer
+T1084,Jarrow Ltd,A96427,D73436,0441749162,Coastal,Electronics,True,2026-02-03,filer
+T194363,Silk Road Cane International Ltd,A18872,D70221,0291747157,West,Sugar and confectionery,True,2025-10-22,filer
+T688690,Silk Road Glow International Ltd,A27664,D98857,0825319077,West,Cosmetics and personal care,True,2009-05-13,filer
+T1112,Blackwell Trading Ltd,A92479,D61430,0512886151,East,Fresh produce,True,2025-05-10,filer
+T1172,Yealand Enterprises Ltd,A47237,D38068,0903136709,West,Tobacco,True,2022-07-07,filer
+T491337,Pearl Pack Holdings Ltd,A36236,D43160,0257847348,Capital,Plastics and packaging,True,2009-05-30,filer
+T713688,Silver Glow Distribution Ltd,A21898,D18751,0887497944,South,Cosmetics and personal care,True,2023-09-27,filer
+T759823,Delta Steel Distribution Ltd,A75781,D77895,0936664118,West,Steel and metals,True,2022-03-27,filer
+T1009,Bayline Marine Limited,A69596,D33086,0216229479,East,Furniture and home,False,2026-04-17,filer
+T1022,Vernham Industries Ltd,A73722,D52627,0767266591,Capital,Electronics,True,2017-03-24,filer
+T1030,Vantage Industries Limited,A91964,D58306,0753102067,East,Fresh produce,True,2022-08-15,filer
+T249676,Blue River Drive Distribution Ltd,A37055,D85335,0509464597,East,Vehicles and parts,True,2006-01-30,filer
+T295457,Ocean Smoke Import Export Limited,A98969,D85353,0342270944,West,Tobacco,True,2013-07-09,filer
+T1050,Netherby Holdings Ltd,A99351,D53381,0760710006,West,Electronics,True,2025-06-04,filer
+T752071,Orchid Resin Import Export Ltd,A54847,D67602,0896724241,Coastal,Plastics and packaging,True,2012-11-09,filer
+T275097,Crystal Cotton Supply Co.,A72752,D65505,0958137838,North,Textiles,True,2011-10-27,filer
+T241985,Prime Sugar Partners Ltd,A29707,D18878,0762364195,North,Sugar and confectionery,True,2010-03-28,filer
+T545491,Mekong Beauty Commercial Co.,A69057,D31826,0424937636,South,Cosmetics and personal care,True,2008-01-19,filer
+T289336,Crystal Beauty Group Ltd,A93702,D61522,0850040199,Coastal,Cosmetics and personal care,True,2006-12-06,filer
+T936425,"Mekong Confection Trading Co., Ltd",A59469,D61811,0554914431,West,Sugar and confectionery,True,2014-12-16,filer
+T678490,Ocean Fabric Import Export Limited,A22846,D33193,0613089228,East,Textiles,True,2011-10-27,filer
+T1154,Jesmond Limited,A70917,D17534,0334935209,South,Furniture and home,True,2022-03-22,filer
+T1058,Brightwater Holdings Ltd,A67194,D45529,0505473028,South,Sugar and confectionery,True,2024-12-10,filer
+T563711,Bamboo Alloy Holdings Limited,A65404,D67558,0433709926,East,Steel and metals,True,2014-02-04,filer
+T326971,Highland Pack Commercial Co.,A93068,D97234,0578662851,Coastal,Plastics and packaging,True,2012-11-10,filer
+T842476,Phoenix Pack Holdings Ltd,A74174,D32886,0632412883,East,Plastics and packaging,False,2008-11-30,filer
+T377450,Bamboo Care Commercial Company,A49826,D81872,0546966672,Coastal,Cosmetics and personal care,False,2008-05-16,filer
+T1181,Kelso Group Ltd,A66930,D47600,0687429505,South,Electronics,True,2023-01-02,filer
+T1152,Juniper Holdings Limited,A57262,D43018,0693974012,South,Textiles,True,2019-04-26,filer
+T351345,Pacific Style Holdings Ltd,A17581,D22021,0284694066,North,Apparel,True,2012-02-14,filer
+T728181,Eastern Pack Import Export Ltd,A67456,D64685,0416810802,South,Plastics and packaging,True,2025-05-24,filer
+T552961,Unity Sugar Import Export Ltd,A39443,D71811,0491951929,Capital,Sugar and confectionery,True,2009-04-12,filer
+T855050,Bamboo Steel Supply Co.,A44587,D96576,0746954556,South,Steel and metals,True,2011-07-23,filer
+T805559,Prime Fashion Distribution Limited,A71298,D57152,0582787441,South,Apparel,True,2023-11-12,filer
+T647681,Silk Road Vision Import Export Ltd,A95647,D30120,0876993091,East,Medical and optical,True,2012-01-15,filer
+T260927,Crystal Tobacco Enterprises ,A11965,D92123,0218647657,Coastal,Tobacco,True,2020-02-27,filer
+T359163,Delta Sugar Group Limited,A41412,D22306,0707219124,East,Sugar and confectionery,True,2005-04-29,filer
+T656977,Coral Resin Group Ltd,A72279,D15562,0469457152,Coastal,Plastics and packaging,False,2022-01-31,filer
+T1046,Brightwater Services Ltd,A24569,D52171,0909956605,South,Electronics,True,2024-08-28,filer
+T1146,Yealand Industries Ltd,A82311,D94652,0505951881,South,Electronics,True,2014-01-09,filer
+T101199,Highland Electronics Group Ltd,A84077,D29848,0987879872,North,Electronics,True,2010-03-28,filer
+T758199,Phoenix Fresh Partners Ltd,A68239,D99553,0886970918,North,Fresh produce,True,2007-06-22,filer
+T1196,Melrose Industries Ltd,A29300,D39024,0206450822,Coastal,Vehicles and parts,True,2022-01-28,filer
+T1037,Quinton Enterprises Ltd,A77495,D45527,0914921640,South,Textiles,False,2024-11-07,filer
+T1144,Ironwood Industries Limited,A68945,D52352,0222249895,South,Electronics,True,2024-04-18,filer
+T846347,Coral Agro Import Export Limited,A61846,D22650,0916460895,Capital,Fresh produce,True,2005-11-07,filer
+T325617,Bamboo Motor International Limited,A75604,D70918,0561719450,South,Vehicles and parts,True,2021-07-23,filer
+T214834,Highland Fruits International Ltd,A99873,D36835,0337816912,West,Fresh produce,False,2016-02-06,filer
+T562485,Silk Road Pack Holdings Ltd,A90982,D72258,0230144796,West,Plastics and packaging,True,2005-05-12,filer
+T230122,"Horizon Tobacco Trading Co., Ltd",A91085,D76362,0977797011,North,Tobacco,False,2016-01-10,filer
+T1099,Fordham Export Ltd,A88965,D48651,0695282805,North,Electronics,True,2018-03-27,filer
+T584839,Royal Timber Distribution Limited,A37207,D76444,0563677540,North,Furniture and home,True,2017-05-09,filer
+T1131,Newlyn Group Ltd,A24290,D51310,0835058295,North,Furniture and home,False,2020-05-14,filer
+T889052,"Delta Living Trading Co., Ltd",A80317,D25083,0856840320,Capital,Furniture and home,True,2015-07-03,filer
+T1140,Penrose Trading Ltd,A86007,D17782,0462797998,West,Fresh produce,True,2015-12-05,filer
+T657557,Pacific Drive International Ltd,A48454,D67791,0382561426,East,Vehicles and parts,True,2015-11-11,filer
+T580754,Green Valley Furniture International Ltd,A49758,D97516,0745665267,South,Furniture and home,False,2015-10-11,filer
+T161537,Orchid Health Enterprises,A90717,D59097,0414912280,East,Medical and optical,True,2023-05-10,filer
+T534402,Coral Pack Trading Company Limited,A41840,D51116,0743397352,West,Plastics and packaging,True,2024-03-30,filer
+T1092,Vantage Holdings Ltd,A70371,D50939,0736748232,Coastal,Fresh produce,True,2026-04-05,filer
+T503387,Lakeside Weaving Supply Co.,A50719,D21941,0533028341,North,Textiles,True,2023-05-14,filer
+T727475,Unity Smoke Commercial Co.,A67551,D53746,0866891224,Capital,Tobacco,True,2015-11-06,filer
+T805938,Blue River Leaf Enterprises,A56545,D97097,0237494228,North,Tobacco,True,2014-08-10,filer
+T920396,Lotus Drive Partners Ltd,A96046,D69052,0610290518,Coastal,Vehicles and parts,True,2014-09-18,filer
+T453844,Saffron Alloy Supply Company,A57472,D83419,0813175948,Coastal,Steel and metals,True,2006-05-02,filer
+T591982,Jade Cane Commercial Co.,A85836,D19263,0795486911,East,Sugar and confectionery,True,2020-01-22,filer
+T717158,Prime Resin Distribution Limited,A59823,D45676,0331069001,East,Plastics and packaging,True,2010-03-07,filer
+T139636,Blue River Cane Commercial Company,A72291,D58757,0781813738,Coastal,Sugar and confectionery,True,2025-08-31,filer
+T1137,Verity Manufacturing Ltd,A83193,D22508,0844188818,South,Electronics,True,2026-03-05,filer
+T535233,Lakeside Living Holdings Ltd,A95449,D31021,0327684128,Coastal,Furniture and home,True,2007-09-01,filer
+T137348,Twin Rivers Health Supply Company,A46150,D92657,0330615200,Capital,Medical and optical,True,2014-06-01,filer
+T365686,Silk Road Orchard Trading Company Limited,A33193,D76629,0289206998,Coastal,Fresh produce,True,2019-02-13,filer
+T665794,Lotus Digital International Ltd,A41990,D25652,0971028963,Capital,Electronics,True,2019-10-23,filer
+T741441,Silver Agro Holdings Ltd,A11960,D74019,0366752168,North,Fresh produce,True,2012-11-08,filer
+T1086,Drayton Manufacturing Ltd,A50922,D38675,0501300153,Capital,Electronics,True,2016-05-16,filer
+T627121,Sunrise Medical Commercial Co.,A83697,D57793,0761349984,Capital,Medical and optical,True,2016-09-10,filer
+T812269,Orchid Optics Enterprises ,A63797,D46930,0296936641,North,Medical and optical,True,2009-03-14,filer
+T987918,Lakeside Resin Holdings Ltd,A45894,D80262,0624234679,East,Plastics and packaging,True,2005-10-31,filer
+T645937,Delta Polymer Holdings Limited,A98658,D39157,0239787798,South,Plastics and packaging,True,2008-01-31,filer
+T778447,Golden Medical Holdings Ltd,A58166,D77892,0648116920,Coastal,Medical and optical,True,2017-11-22,filer
+T1103,Glenmore Enterprises Ltd,A71356,D37653,0573870915,South,Textiles,True,2015-10-27,filer
+T853247,Coral Home Enterprises,A18192,D48801,0225316483,Coastal,Furniture and home,True,2012-03-20,filer
+T1074,Ashcombe Holdings Limited,A76693,D62362,0752258679,South,Electronics,True,2026-01-09,filer
+T1122,Ellesmere Holdings Ltd,A82376,D46073,0293910916,North,Fresh produce,False,2016-04-22,filer
+T369569,Orchid Medical Enterprises,A85938,D99517,0615961409,West,Medical and optical,True,2011-11-19,filer
+T557490,Lotus Pack Commercial Co.,A89071,D55708,0373340769,North,Plastics and packaging,False,2012-03-17,filer
+T780194,Lakeside Cosmetics Holdings Ltd,A51933,D11468,0213989894,Coastal,Cosmetics and personal care,True,2010-08-06,filer
+T1161,Kestrel Manufacturing Ltd,A98551,D83389,0936226206,Capital,Steel and metals,True,2026-06-02,filer
+T1045,Kirkby Group Ltd,A62030,D21862,0517045627,North,Furniture and home,False,2026-06-05,filer
+T188427,Golden Digital Distribution Ltd,A80901,D22063,0423195728,East,Electronics,True,2022-01-03,filer
+T1185,Riverside & Co Ltd,A69667,D39613,0288491255,South,Electronics,True,2014-03-23,filer
+T332389,Unity Textile Partners Limited,A73754,D25315,0640716510,Capital,Textiles,True,2005-06-24,filer
+T1020,Moreton & Co Ltd,A53895,D37997,0435777585,Capital,Steel and metals,True,2023-01-26,filer
+T1001,New Horizon Trading Ltd,A93436,D69881,0898048390,South,Furniture and home,True,2026-07-03,filer
+T1073,Radcliffe Services Limited,A10034,D87740,0763290463,North,Steel and metals,True,2026-06-20,filer
+T480743,Twin Rivers Fabric International Ltd,A82823,D74499,0348997202,North,Textiles,True,2008-10-11,filer
+T467167,Twin Rivers Fresh Group Ltd,A78066,D19079,0846539056,North,Fresh produce,True,2020-09-04,filer
+T1056,Belmont Industries Ltd,A98289,D46905,0414652243,North,Textiles,True,2024-11-10,filer
+T1126,Prescott Ltd,A91623,D89371,0536241143,South,Vehicles and parts,True,2024-05-25,filer
+T1066,Shepton Manufacturing Limited,A50903,D81937,0843936221,North,Furniture and home,True,2025-12-11,filer
+T677980,Pearl Vision Supply Co.,A43312,D28485,0680775333,West,Medical and optical,True,2011-04-25,filer
+T834969,Eastern Care Holdings Ltd,A14540,D98991,0893960219,Coastal,Cosmetics and personal care,True,2018-08-27,filer
+T933390,"Phoenix Fabric Trading Co., Ltd",A73005,D79853,0975189283,Coastal,Textiles,False,2023-09-16,filer
+T284744,Lakeside Living Enterprises ,A49579,D22736,0241758016,South,Furniture and home,True,2007-11-23,filer
+T883912,Pearl Agro Enterprises,A13030,D81260,0653880277,North,Fresh produce,False,2014-01-26,filer
+T660666,Pacific Cosmetics Enterprises,A37206,D45811,0509933235,West,Cosmetics and personal care,True,2016-10-13,filer
+T149705,Pearl Fresh Holdings Ltd,A51655,D64216,0205016295,South,Fresh produce,True,2007-10-17,filer
+T244282,Evergreen Fruits Group Ltd,A88549,D52224,0338880495,North,Fresh produce,True,2022-10-26,filer
+T1153,Shepton Ltd,A18277,D20743,0716376431,East,Cosmetics and personal care,True,2022-03-23,filer
+T733146,Horizon Steel Enterprises ,A95226,D92690,0929203931,East,Steel and metals,True,2016-10-26,filer
+T240842,Grand Orchard Partners Ltd,A14806,D48791,0569146938,East,Fresh produce,True,2005-09-09,filer
+T366848,"Mekong Care Trading Co., Ltd",A69187,D69653,0390629909,North,Cosmetics and personal care,True,2008-01-30,filer
+T289611,Harmony Vision Holdings Ltd,A71742,D70023,0883074446,South,Medical and optical,True,2019-10-12,filer
+T810419,Delta Cane Import Export Ltd,A27603,D41591,0665888756,South,Sugar and confectionery,True,2005-10-11,filer
+T1116,Arden Manufacturing Ltd,A72734,D51180,0565051583,North,Electronics,False,2021-09-24,filer
+T760350,Grand Confection Partners Limited,A60077,D46567,0223876257,West,Sugar and confectionery,True,2019-08-04,filer
+T417312,Monsoon Smoke Holdings Ltd,A78593,D67296,0232075399,East,Tobacco,False,2005-09-19,filer
+T726777,Silk Road Care Supply Co.,A80334,D66144,0335261095,North,Cosmetics and personal care,False,2010-10-27,filer
+T747399,Jade Mobile Commercial Co.,A98678,D88242,0742436503,Coastal,Electronics,True,2019-07-18,filer
+T638333,Ocean Medical Supply Company,A29226,D22782,0901974939,West,Medical and optical,True,2017-02-24,filer
+T690928,SILK ROAD STYLE ENTERPRISES,A37051,D96371,0843761573,West,Apparel,True,2014-02-27,filer
+T955896,Evergreen Auto Distribution Ltd,A68977,D71291,0423170464,Capital,Vehicles and parts,True,2012-04-04,filer
+T726783,Summit Iron Supply Co.,A83510,D36895,0802455162,East,Steel and metals,True,2006-04-13,filer
+T1182,Underhill Industries Ltd,A44543,D59904,0935800735,West,Textiles,True,2023-05-17,filer
+T1133,Yardley Group Ltd,A90929,D78631,0587952686,South,Tobacco,True,2025-02-12,filer
+T1085,Jarrow & Co Ltd,A91943,D98106,0857093753,West,Textiles,True,2022-08-11,filer
+T542618,Highland Medical International Limited,A35869,D24015,0553371707,East,Medical and optical,False,2007-09-27,filer
+T1019,Hollis Export Limited,A86403,D30612,0338023646,East,Furniture and home,True,2019-08-10,filer
+T227300,Horizon Electronics Supply Company,A38154,D41063,0296863353,West,Electronics,True,2020-02-13,filer
+T791893,Bright Metal Holdings Ltd,A42462,D24374,0217597484,West,Steel and metals,True,2009-01-08,filer
+T948789,Lantern Health Group Ltd,A17932,D94638,0898467653,West,Medical and optical,True,2024-07-04,filer
+T1095,Arden Services Ltd,A96959,D77238,0998442111,West,Medical and optical,True,2018-02-03,filer
+T610374,Lantern Drive Distribution Ltd,A89854,D49712,0607153230,East,Vehicles and parts,True,2019-01-06,filer
+T1063,Danesfield Export Ltd,A23212,D59737,0492573356,South,Electronics,True,2025-08-24,filer
+T940009,Eastern Care Commercial Company,A87081,D24367,0641631440,West,Cosmetics and personal care,True,2005-02-15,filer
+T268522,SAFFRON RESIN ENTERPRISES,A81471,D75368,0499829345,East,Plastics and packaging,True,2011-05-03,filer
+T723648,Unity Timber Supply Co.,A47637,D58352,0380061058,Coastal,Furniture and home,True,2008-08-03,filer
+T896099,Royal Fruits Partners Ltd,A11601,D94893,0890304742,North,Fresh produce,True,2006-02-09,filer
+T254179,Rising Smoke Distribution Ltd,A98427,D23252,0617537922,East,Tobacco,True,2025-10-12,filer
+T993947,"Delta Tech Trading Co., Ltd",A90588,D59974,0950402871,East,Electronics,True,2013-10-01,filer
+T1006,Seaview Marine Supplies Ltd,A38013,D75053,0301742437,Coastal,Furniture and home,True,2026-03-11,filer
+T891139,Bamboo Steel Holdings Ltd,A30755,D55634,0707262186,West,Steel and metals,True,2019-10-13,filer
+T1018,Redstone Export Ltd,A97148,D81827,0543641225,Coastal,Steel and metals,True,2023-05-02,filer
+T773224,Summit Steel Distribution Ltd,A17989,D65837,0725699890,South,Steel and metals,True,2019-03-04,filer
+T195123,Monsoon Living International Limited,A51382,D16252,0269649266,Coastal,Furniture and home,True,2016-01-20,filer
+T490544,Sunrise Tobacco Trading Company Limited,A79500,D41536,0502149728,Capital,Tobacco,True,2020-12-27,filer
+T865697,Ocean Polymer Partners Limited,A51399,D43422,0934328101,North,Plastics and packaging,True,2015-04-30,filer
+T999913,Orchid Orchard Import Export Limited,A57094,D97372,0351393250,East,Fresh produce,True,2016-02-12,filer
+T983690,Grand Garment Commercial Company,A13599,D71520,0497157491,Capital,Apparel,True,2012-01-06,filer
+T568649,Jade Care International Ltd,A14705,D56536,0369455484,South,Cosmetics and personal care,True,2008-04-01,filer
+T508583,Pacific Tech Holdings Ltd,A75294,D69099,0840957781,East,Electronics,True,2006-07-24,filer
+T1170,Aldergate Manufacturing Ltd,A12513,D51804,0443584776,South,Plastics and packaging,True,2022-03-02,filer
+T648591,Rising Resin Partners Ltd,A79228,D39979,0984169914,Coastal,Plastics and packaging,False,2020-07-11,filer
+T918800,Silver Motor Holdings Ltd,A60078,D57128,0950380299,West,Vehicles and parts,True,2023-09-04,filer
+T828988,Monsoon Cotton Holdings Limited,A39592,D26837,0790788618,East,Textiles,True,2022-06-23,filer
+T611950,TWIN RIVERS GOLDEN LEAF ENTERPRISES,A75173,D90261,0681137085,South,Tobacco,True,2021-04-15,filer
+T708431,Bamboo Glow Group Limited,A46680,D49478,0810116222,South,Cosmetics and personal care,True,2013-12-05,filer
+T353020,Royal Tobacco Commercial Company,A69504,D53773,0936155301,West,Tobacco,True,2015-10-06,filer
+T375601,Delta Iron Group Ltd,A57018,D22290,0390261389,North,Steel and metals,True,2009-07-15,filer
+T805109,Phoenix Garment Supply Co.,A81981,D60855,0630101554,East,Apparel,True,2021-11-17,filer
+T963423,Lucky Cosmetics Trading Company Limited,A23114,D23452,0316463269,East,Cosmetics and personal care,True,2018-03-14,filer
+T1108,Langton Manufacturing Ltd,A61495,D94919,0539247929,West,Vehicles and parts,True,2016-01-04,filer
+T483469,Bright Alloy Distribution Limited,A77252,D38600,0643180201,East,Steel and metals,True,2018-03-30,filer
+T240074,Blue River Sweet Supply Company,A69169,D69457,0352817713,South,Sugar and confectionery,True,2020-01-07,filer
+T839829,Bright Furniture Commercial Company,A58514,D91880,0741967210,Coastal,Furniture and home,True,2025-11-09,filer
+T604017,Delta Fruits Enterprises ,A72851,D13600,0663386921,East,Fresh produce,True,2025-06-19,filer
+T876259,Silk Road Alloy Import Export Ltd,A47576,D73930,0369366508,West,Steel and metals,True,2014-04-23,filer
+T844277,Lakeside Resin Import Export Limited,A36268,D48480,0428241704,Capital,Plastics and packaging,True,2024-07-20,filer
+T1105,Pinehill Enterprises Ltd,A83891,D31461,0247974692,South,Steel and metals,True,2020-12-02,filer
+T602931,Royal Smoke Holdings Limited,A80238,D61814,0824517063,Capital,Tobacco,True,2022-08-11,filer
+T1123,Penrose Manufacturing Limited,A73208,D32699,0202102698,North,Apparel,False,2017-11-23,filer
+T376252,Coral Fresh Commercial Co.,A75789,D74931,0392830947,West,Fresh produce,False,2017-10-03,filer
+T931348,Horizon Motor Trading Company Limited,A79801,D10913,0990892029,Coastal,Vehicles and parts,True,2024-11-27,filer
+T1120,Selby Enterprises Limited,A96550,D68128,0442444155,Coastal,Cosmetics and personal care,True,2025-12-28,filer
+T1168,Yealand Ltd,A42727,D56767,0870995161,East,Furniture and home,True,2025-03-13,filer
+T653460,Star Cotton Distribution Ltd,A59374,D87446,0592817499,South,Textiles,True,2017-02-17,filer
+T100399,Ocean Tobacco Supply Company,A86624,D82789,0265893363,East,Tobacco,True,2015-08-10,filer
+T1087,Netherby Manufacturing Limited,A76068,D68071,0618124490,East,Electronics,True,2025-03-25,filer
+T798305,Bamboo Sweet Enterprises,A23307,D88663,0408081296,South,Sugar and confectionery,True,2010-02-21,filer
+T187739,Silk Road Fruits Import Export Ltd,A78302,D98093,0329193286,North,Fresh produce,True,2024-03-06,filer
+T1053,Ullswater Manufacturing Ltd,A69451,D59044,0468830537,North,Furniture and home,True,2026-05-16,filer
+T478893,Saffron Motor Import Export Ltd,A44805,D91569,0350347876,Capital,Vehicles and parts,True,2011-12-05,filer
+T195789,"Lucky Cotton Trading Co., Ltd",A50989,D60228,0543683289,East,Textiles,True,2021-01-30,filer
+T923313,Coral Mobile Commercial Co.,A12878,D45789,0532395504,West,Electronics,True,2024-12-06,filer
+T323058,Saffron Optics Supply Co.,A38833,D34691,0630607464,West,Medical and optical,True,2016-05-04,filer
+T221218,Green Valley Fashion International Ltd,A35106,D27528,0437849385,South,Apparel,True,2020-10-08,filer
+T963464,Green Valley Polymer Commercial Co.,A88446,D83131,0740295151,Capital,Plastics and packaging,True,2016-01-30,filer
+T1136,Lyndon Services Ltd,A86787,D82827,0344827023,South,Apparel,True,2018-12-15,filer
+T1134,Larkfield Manufacturing Ltd,A42278,D38520,0539892164,Coastal,Steel and metals,True,2015-12-02,filer
+T1071,Yardley Export Ltd,A49662,D54582,0655406900,East,Vehicles and parts,True,2025-01-17,filer
+T291182,"Coral Leaf Trading Co., Ltd",A88540,D46603,0812643349,South,Tobacco,True,2007-11-16,filer
+T1167,Moreton Export Limited,A19843,D47921,0507174791,Capital,Furniture and home,True,2024-01-17,filer
+T112935,Grand Motor Import Export Limited,A60207,D98825,0647048054,East,Vehicles and parts,True,2008-01-20,filer
+T1104,Kirkby Services Ltd,A41043,D13626,0736936893,Capital,Cosmetics and personal care,False,2021-10-02,filer
+T1002,Sunrise Textiles Export Ltd,A99288,D14552,0989667003,North,Textiles,True,2021-09-16,filer
+T389470,Green Valley Timber Import Export Limited,A79560,D74042,0852939778,North,Furniture and home,True,2011-01-04,filer
+T147270,Lakeside Optics International Limited,A86545,D95859,0998381138,East,Medical and optical,True,2019-02-16,filer
+T1075,Foxhall Holdings Ltd,A47260,D76613,0768873892,East,Furniture and home,True,2022-06-03,filer
+T238431,Silk Road Fabric Holdings Ltd,A38738,D63433,0403244504,South,Textiles,True,2006-05-30,filer
+T1008,Seaview Provisions Ltd,A87023,D70959,0357416799,South,Furniture and home,True,2025-11-24,filer
+T272280,Star Furniture Commercial Company,A46723,D15776,0611945570,Capital,Furniture and home,True,2020-12-17,filer
+T1088,Melrose & Co Ltd,A87510,D25268,0763925642,West,Electronics,True,2026-03-30,filer
+T934434,Mekong Drive Holdings Ltd,A90726,D57593,0215704837,South,Vehicles and parts,True,2005-01-09,filer
+T1117,Carrick Trading Ltd,A27119,D58159,0951770917,South,Steel and metals,True,2025-03-04,filer
+T1059,Seaview Holdings Ltd,A43597,D17694,0318417473,South,Fresh produce,True,2015-11-21,filer
+T766520,Evergreen Metal Holdings Ltd,A93453,D40085,0624007624,East,Steel and metals,True,2025-07-01,filer
+T1166,Ashcombe Manufacturing Ltd,A10907,D15575,0813714511,South,Steel and metals,True,2022-02-18,filer
+T726074,Orchid Wheels Commercial Co.,A99390,D70353,0936899015,North,Vehicles and parts,True,2024-07-08,filer
+T1065,Juniper Group Ltd,A55508,D58953,0555563276,North,Textiles,True,2025-06-05,filer
+T1078,Ashcombe Trading Ltd,A98821,D88360,0789504767,Coastal,Steel and metals,True,2026-01-15,filer
+T336424,Silver Apparel Partners Limited,A53686,D13048,0286456651,Coastal,Apparel,True,2015-02-15,filer
+T1151,Crayford Distribution Ltd,A93098,D58353,0722621830,Coastal,Furniture and home,True,2020-03-01,filer
+T803655,Blue River Mobile Partners Ltd,A65370,D62101,0671862958,South,Electronics,True,2011-09-04,filer
+T701529,Grand Care International Limited,A10763,D83521,0992579877,Capital,Cosmetics and personal care,True,2013-05-29,filer
+T1147,Tarnbrook Services Ltd,A76949,D70667,0598338853,West,Steel and metals,True,2023-11-14,filer
+T569123,Pearl Mobile Enterprises,A59036,D87130,0994202327,Capital,Electronics,True,2006-06-03,filer
+T227834,Lakeside Auto Group Ltd,A16652,D98046,0624215336,North,Vehicles and parts,True,2010-10-28,filer
+T127594,Golden Care Supply Company,A37950,D22247,0446201349,South,Cosmetics and personal care,True,2005-01-23,filer
+T1068,Eastmoor Export Ltd,A57455,D39725,0314018027,East,Furniture and home,True,2021-12-01,filer
+T1082,Inverness Manufacturing Ltd,A38538,D75491,0408435300,South,Electronics,True,2024-09-04,filer
+T1061,Oakhurst Ltd,A88164,D90300,0284241649,North,Electronics,True,2025-02-04,filer
+T1040,Tarnbrook Trading Ltd,A84429,D53588,0477502340,North,Fresh produce,True,2026-06-06,filer
+T123298,Horizon Style Distribution Ltd,A70201,D29165,0406182562,Coastal,Apparel,True,2014-04-28,filer
+T297999,Pearl Style Holdings Ltd,A77929,D91189,0864361881,South,Apparel,True,2025-01-13,filer
+T728448,Green Valley Motor Supply Co.,A14172,D49385,0390288606,South,Vehicles and parts,True,2018-04-22,filer
+T1077,Coastland Manufacturing Ltd,A88417,D18840,0333911993,Capital,Furniture and home,True,2022-01-26,filer
+T1173,Lyndon Ltd,A68697,D88826,0750314651,South,Furniture and home,True,2013-10-01,filer
+T127611,Blue River Leaf Import Export Ltd,A11544,D18701,0839895866,South,Tobacco,True,2006-10-21,filer
+T1047,Vantage Services Limited,A60276,D53111,0619145357,North,Vehicles and parts,False,2026-04-17,filer
+T1132,Cobalt Holdings Ltd,A36990,D96330,0682917437,East,Fresh produce,True,2018-10-31,filer
+T843597,Ocean Home Supply Co.,A24511,D20427,0410491065,Coastal,Furniture and home,True,2024-04-07,filer
+T790133,Twin Rivers Agro Commercial Company,A66884,D73046,0738855409,South,Fresh produce,True,2024-02-17,filer
+T1024,Halcyon Industries Limited,A56204,D98873,0664875196,Capital,Textiles,False,2018-01-07,filer
+T701134,Saffron Steel Commercial Company,A25499,D55225,0825763713,South,Steel and metals,True,2016-11-02,filer
+T602629,Highland Cosmetics Commercial Co.,A31193,D99754,0370022131,South,Cosmetics and personal care,True,2016-12-11,filer
+T1171,Harbour Holdings Limited,A28576,D69046,0676891840,West,Electronics,True,2020-01-07,filer
+T1011,Harbourlight Supplies Ltd,A79574,D10167,0994781300,West,Furniture and home,True,2026-06-20,filer
+T168372,Golden Style Import Export Ltd,A71775,D59686,0892832740,South,Apparel,True,2009-07-14,filer
+T774597,Coral Tobacco Import Export Ltd,A35161,D47580,0664812005,West,Tobacco,True,2024-01-28,filer
+T805483,"Sunrise Textile Trading Co., Ltd",A95747,D26012,0656543651,South,Textiles,False,2009-08-25,filer
+T479401,Sunrise Orchard Enterprises,A97132,D84234,0592556927,Coastal,Fresh produce,True,2016-04-08,filer
+T838372,Monsoon Steel Group Ltd,A12277,D22220,0351348653,East,Steel and metals,True,2013-08-19,filer
+T431515,Lakeside Medical Enterprises,A90870,D85059,0489589007,Coastal,Medical and optical,True,2006-12-21,filer
+T590993,Crystal Steel Import Export Ltd,A16620,D91777,0804865469,West,Steel and metals,True,2016-10-22,filer
+T131483,Rising Electronics Enterprises,A95721,D71518,0279819637,Capital,Electronics,True,2017-02-19,filer
+T807987,Mekong Pack Commercial Co.,A99274,D48545,0926921759,South,Plastics and packaging,True,2006-10-01,filer
+T1027,Norbury Services Ltd,A75908,D56905,0619394029,Coastal,Electronics,False,2024-06-19,filer
+T812138,Bamboo Care Enterprises,A62429,D84019,0316651505,East,Cosmetics and personal care,True,2017-03-11,filer
+T856373,Saffron Fresh Group Ltd,A94843,D94999,0457063383,Capital,Fresh produce,True,2021-02-09,filer
+T685144,Highland Sweet Distribution Ltd,A10110,D21252,0218767387,Capital,Sugar and confectionery,True,2013-10-03,filer
+T289695,Sunrise Glow Partners Ltd,A50064,D40787,0757191149,Capital,Cosmetics and personal care,False,2018-06-14,filer
+T1109,Crayford Services Ltd,A16952,D22134,0818653445,North,Textiles,True,2024-01-22,filer
+T1177,Quarry Manufacturing Limited,A71814,D59378,0471636760,Coastal,Fresh produce,True,2016-06-17,filer
+T1034,Linford Industries Ltd,A47838,D19403,0446422124,South,Textiles,True,2022-02-14,filer
+T561999,Highland Textile Import Export Ltd,A56840,D97573,0672027782,Capital,Textiles,True,2014-12-29,filer
+T622037,Blue River Timber Supply Company,A48032,D75850,0675230814,Capital,Furniture and home,True,2019-01-30,filer
+T301018,Grand Home Import Export Ltd,A63929,D73318,0626747589,North,Furniture and home,True,2020-09-04,filer
+T309378,Lucky Wheels Import Export Limited,A72586,D87607,0489013819,West,Vehicles and parts,True,2008-06-10,filer
+T772899,Mekong Pack Import Export Ltd,A84603,D49098,0366117486,Capital,Plastics and packaging,True,2015-09-02,filer
+T779432,Royal Resin Holdings Ltd,A51005,D12984,0602785097,North,Plastics and packaging,True,2018-05-03,filer
+T527013,Lotus Pack International Ltd,A53357,D73422,0498148271,South,Plastics and packaging,True,2023-01-09,filer
+T570899,Ocean Cotton International Limited,A19818,D29402,0699139875,South,Textiles,True,2023-07-08,filer
+T1179,Havering Trading Ltd,A66850,D33394,0362904751,East,Plastics and packaging,True,2020-05-04,filer
+T1188,Underhill Enterprises Ltd,A19372,D18781,0445431404,Capital,Fresh produce,True,2025-03-02,filer
+T743511,Grand Polymer Distribution Ltd,A70170,D19552,0707588944,East,Plastics and packaging,True,2020-03-27,filer
+T638261,Twin Rivers Electronics International Limited,A51634,D12112,0898221999,West,Electronics,True,2018-04-01,filer
+T474175,Jarrow & International Ltd,A68263,D55467,0815237598,West,Medical and optical,True,2018-06-08 00:00:00,filer
+T525797,Evergreen Pack Distribution Ltd,A42994,D12693,0976917988,East,Textiles,True,2011-07-06 00:00:00,filer
+T376897,Lakeside Agro Group Ltd,A10445,D60797,0847007515,Coastal,Medical and optical,False,2011-08-11 00:00:00,filer
+T915055,Silk Road Commercial Co.,A23873,D72813,0618086610,Capital,Vehicles and parts,False,2013-07-13 00:00:00,filer
+T574944,Grand Garment Enterprises,A55836,D51346,0431441906,Capital,Plastics and packaging,True,2019-07-16 00:00:00,filer
+T531669,Lantern Cosmetics Supply Co.,A58712,D68767,0265652583,South,Fresh produce,True,2015-10-08 00:00:00,filer
+T193559,Aldergate Manufacturing Commercial Co.,A60785,D95788,0387765335,West,Medical and optical,True,2014-08-30 00:00:00,filer
+T230362,Horizon Wheels Commercial Co.,A23207,D13918,0573062573,Coastal,Textiles,True,2018-07-14 00:00:00,filer
+T536544,Halcyon Holdings Commercial Co.,A58793,D32197,0856327860,Capital,Textiles,True,2021-11-17 00:00:00,filer
+T240576,Eastern Pack Partners Ltd,A19183,D84842,0843200728,Coastal,Furniture and home,True,2014-09-01 00:00:00,filer
+T116588,Delta Furniture Import Export Ltd,A69064,D79583,0712097856,North,Vehicles and parts,True,2019-08-03 00:00:00,filer
+T606027,Blackwell Group Enterprises,A59169,D56548,0981244803,North,Tobacco,True,2015-11-21 00:00:00,filer
+T581525,Grand Care Import Export Ltd,A83151,D89131,0905188955,Coastal,Apparel,True,2020-08-16 00:00:00,filer
+T212726,Royal Tobacco Group Ltd,A20333,D66857,0469466566,Capital,Plastics and packaging,False,2018-12-21 00:00:00,filer
+T139158,Lucky Cotton Supply Co.,A65213,D77571,0501182908,Capital,Textiles,True,2014-07-29 00:00:00,filer
+T306380,Orchid Logistics Holdings Ltd,A81919,D18763,0668110386,Coastal,Sugar and confectionery,False,2016-10-02 00:00:00,filer
+T208481,Bamboo Holdings International Ltd,A59475,D46454,0859770670,Capital,Apparel,True,2015-04-07 00:00:00,filer
+T834895,Delta Consulting International Ltd,A69980,D56842,0704605413,West,Medical and optical,True,2012-10-03 00:00:00,filer
+T927351,Harmony Holdings Partners Ltd,A63334,D56058,0775016086,South,Cosmetics and personal care,True,2018-01-04 00:00:00,filer
+T466151,Unity Logistics Holdings Ltd,A30534,D78733,0259725349,South,Sugar and confectionery,False,2020-07-27 00:00:00,filer
+T242192,Pearl Consulting Enterprises,A58396,D57003,0346785999,North,Fresh produce,False,2019-05-31 00:00:00,filer
+T983105,Evergreen Holdings Import Export Ltd,A19060,D68422,0625388138,East,Apparel,True,2021-05-09 00:00:00,filer
+T701142,Sunrise Services Import Export Ltd,A71147,D64808,0379670630,South,Vehicles and parts,True,2014-10-08 00:00:00,filer
+T242324,Pacific Services Group Ltd,A62235,D64900,0830185119,West,Fresh produce,False,2021-12-28 00:00:00,filer
+T628713,Star Services Import Export Ltd,A98406,D75160,0739667248,East,Cosmetics and personal care,True,2021-03-27 00:00:00,filer
+T393481,Golden Consulting Supply Co.,A77483,D96952,0590402075,Coastal,Fresh produce,True,2018-01-07 00:00:00,filer
+T924984,Summit Consulting Distribution Ltd,A94717,D59586,0362463090,North,Apparel,True,2014-12-21 00:00:00,filer
+T185632,Horizon Construction Import Export Ltd,A36584,D79897,0645428792,West,Steel and metals,True,2021-07-04 00:00:00,filer
+T429841,Silver Services Supply Co.,A21310,D87227,0440296358,North,Cosmetics and personal care,True,2023-08-19 00:00:00,filer
+T849932,Sunrise Logistics Enterprises,A64840,D93889,0947292074,North,Vehicles and parts,False,2020-10-19 00:00:00,filer
+T466166,Rising Holdings Commercial Co.,A59936,D37706,0841703097,West,Medical and optical,True,2023-02-09 00:00:00,filer
+T308095,Green Valley Logistics Supply Co.,A86813,D31532,0456713437,North,Steel and metals,False,2014-12-03 00:00:00,filer
+T661787,Star Holdings Enterprises,A75587,D48950,0207469775,South,Furniture and home,True,2014-09-02 00:00:00,filer
+T302193,Horizon Logistics Supply Co.,A88011,D97965,0289976936,North,Electronics,False,2014-05-05 00:00:00,filer
+T345714,Ocean Logistics Holdings Ltd,A28473,D57355,0889352291,East,Electronics,False,2023-02-27 00:00:00,filer
+T441647,Silk Road Services Distribution Ltd,A22558,D37188,0277135318,West,Sugar and confectionery,True,2010-12-14 00:00:00,filer
+T998291,Blue River Construction Enterprises,A64528,D26864,0877560301,West,Steel and metals,False,2017-09-04 00:00:00,filer
+T628802,Lucky Consulting Import Export Ltd,A37927,D86606,0777470166,East,Apparel,False,2016-11-29 00:00:00,filer
+T867557,Crystal Services Supply Co.,A54483,D69145,0852696736,South,Apparel,False,2010-11-07 00:00:00,filer
+T914614,Star Construction Enterprises,A22225,D68070,0207789135,Coastal,Tobacco,False,2018-03-16 00:00:00,filer
+T829312,Saffron Consulting Group Ltd,A99900,D93888,0776267751,East,Vehicles and parts,True,2016-12-31 00:00:00,filer
+T905799,Silver Logistics Group Ltd,A67190,D56178,0561381268,Coastal,Tobacco,True,2014-07-14 00:00:00,filer
+T681246,Pacific Logistics Enterprises,A53921,D27202,0393722429,North,Electronics,True,2016-02-20 00:00:00,filer
+T359430,Blue River Consulting Partners Ltd,A58611,D52068,0657361482,North,Steel and metals,False,2013-03-19 00:00:00,filer
+T816699,Lakeside Services Import Export Ltd,A95831,D53871,0417878361,North,Electronics,True,2013-01-08 00:00:00,filer
+T185769,Blue River Logistics Group Ltd,A65190,D84318,0612327589,Capital,Electronics,True,2017-01-17 00:00:00,filer
+T214436,Saffron Construction Import Export Ltd,A55031,D50627,0876789571,South,Plastics and packaging,True,2014-10-22 00:00:00,filer
+T191504,Mekong Logistics Partners Ltd,A13462,D25631,0373288913,Capital,Plastics and packaging,True,2016-12-15 00:00:00,filer
+T812324,Phoenix Services Distribution Ltd,A69864,D20923,0447913141,East,Sugar and confectionery,True,2015-04-02 00:00:00,filer
+T983040,Summit Holdings Group Ltd,A63276,D95465,0955829114,North,Vehicles and parts,True,2012-11-27 00:00:00,filer
+T179190,Horizon Services Holdings Ltd,A96609,D87292,0995812168,East,Tobacco,True,2015-12-01 00:00:00,filer
+T830330,Silver Construction Partners Ltd,A75160,D27587,0367808923,Coastal,Steel and metals,True,2018-08-28 00:00:00,filer
+T846452,Silk Road Construction Partners Ltd,A34260,D16365,0764341847,South,Plastics and packaging,True,2019-07-22 00:00:00,filer
+T392898,Monsoon Consulting Commercial Co.,A38312,D78810,0303967398,West,Sugar and confectionery,True,2013-05-04 00:00:00,filer
+T972513,Lotus Services Group Ltd,A95064,D97518,0429937374,West,Textiles,False,2014-07-26 00:00:00,filer
+T492710,Grand Logistics Commercial Co.,A94856,D37845,0699347293,Coastal,Medical and optical,True,2012-04-18 00:00:00,filer
+T173812,Delta Holdings Holdings Ltd,A47116,D34771,0447914637,North,Plastics and packaging,True,2016-02-17 00:00:00,filer
+T652216,Grand Holdings Group Ltd,A58684,D28549,0651168344,North,Cosmetics and personal care,True,2021-08-18 00:00:00,filer
+T998941,Blue River Consulting Import Export Ltd,A58812,D39182,0320139945,North,Textiles,True,2021-04-21 00:00:00,filer
+T328323,Jade Construction International Ltd,A26320,D66016,0559166442,West,Electronics,True,2016-06-18 00:00:00,filer
+T345984,Horizon Logistics Partners Ltd,A85958,D59591,0786963940,West,Plastics and packaging,False,2012-06-05 00:00:00,filer
+T678061,Blue River Logistics Supply Co.,A50179,D58758,0314675597,North,Steel and metals,True,2018-11-12 00:00:00,filer
+T532914,Crystal Holdings Holdings Ltd,A42554,D59984,0855104792,Capital,Apparel,False,2014-10-19 00:00:00,filer
+T666870,Silver Services Supply Co.,A84478,D86666,0669226558,Capital,Sugar and confectionery,True,2010-12-27 00:00:00,filer
+T318765,Summit Logistics Partners Ltd,A95242,D66782,0407736462,South,Tobacco,True,2015-03-26 00:00:00,filer
+T250020,Rising Logistics Holdings Ltd,A40995,D46472,0806792899,Coastal,Apparel,False,2019-09-17 00:00:00,filer
+T348826,Royal Holdings International Ltd,A85291,D92832,0277148003,North,Medical and optical,True,2019-07-04 00:00:00,filer
+T225027,Sunrise Construction Partners Ltd,A32001,D57539,0258518203,North,Vehicles and parts,False,2012-06-05 00:00:00,filer
+T156853,Star Construction Group Ltd,A47979,D82672,0432880082,East,Tobacco,False,2014-07-04 00:00:00,filer
+T435053,Summit Consulting International Ltd,A12674,D18156,0390205170,West,Electronics,True,2018-07-06 00:00:00,filer
+T995767,"Orchid Holdings Trading Co., Ltd",A66672,D75777,0376800971,Capital,Vehicles and parts,True,2018-11-12 00:00:00,filer
+T414290,Mekong Construction International Ltd,A64285,D56943,0627708683,Capital,Plastics and packaging,True,2020-10-27 00:00:00,filer
+T468596,Highland Consulting Group Ltd,A11435,D64578,0899730401,South,Plastics and packaging,False,2020-04-09 00:00:00,filer
+T280743,Saffron Logistics International Ltd,A85110,D30066,0255023661,West,Medical and optical,False,2019-04-06 00:00:00,filer
+T599876,Crystal Construction Commercial Co.,A81009,D29636,0389957067,Capital,Cosmetics and personal care,False,2023-02-12 00:00:00,filer
+T323373,"Star Consulting Trading Co., Ltd",A51917,D78418,0366861919,Capital,Tobacco,False,2022-09-23 00:00:00,filer
+T882569,Rising Logistics Holdings Ltd,A96626,D61761,0295673037,North,Fresh produce,True,2023-06-23 00:00:00,filer
+T583964,Lucky Logistics Partners Ltd,A62207,D25323,0449894672,West,Furniture and home,True,2010-05-25 00:00:00,filer
+T309885,Prime Consulting Commercial Co.,A83289,D64121,0342778887,North,Furniture and home,True,2021-07-10 00:00:00,filer
+T433426,Mekong Construction International Ltd,A36891,D64480,0876448807,East,Vehicles and parts,True,2011-05-19 00:00:00,filer
+T441421,Royal Services Distribution Ltd,A96118,D69147,0493010933,Coastal,Medical and optical,True,2017-03-07 00:00:00,filer
+T585914,Pearl Construction Holdings Ltd,A87390,D17899,0250579074,West,Medical and optical,False,2012-11-27 00:00:00,filer
+T318739,Prime Construction Import Export Ltd,A85368,D58733,0284030598,West,Fresh produce,True,2018-09-21 00:00:00,filer
+T556387,Pacific Construction Partners Ltd,A69575,D67501,0303243488,South,Plastics and packaging,False,2018-03-14 00:00:00,filer
+T941707,Highland Logistics Group Ltd,A60310,D48923,0473903593,South,Sugar and confectionery,True,2023-05-14 00:00:00,filer
+T333595,Bright Logistics Distribution Ltd,A28305,D92060,0326704339,South,Fresh produce,True,2019-09-01 00:00:00,filer
+T271063,Silk Road Construction Import Export Ltd,A46040,D40043,0657389070,East,Plastics and packaging,True,2022-06-16 00:00:00,filer
+T104046,Harmony Services Commercial Co.,A16378,D56653,0710479882,Capital,Medical and optical,True,2011-02-18 00:00:00,filer
+T470183,Pearl Holdings Partners Ltd,A52282,D12195,0458585784,East,Steel and metals,True,2016-07-21 00:00:00,filer
+T173674,Star Consulting Holdings Ltd,A76337,D23907,0933512728,West,Furniture and home,True,2023-01-20 00:00:00,filer
+T332252,Twin Rivers Holdings International Ltd,A96718,D59333,0685120152,South,Vehicles and parts,True,2011-05-08 00:00:00,filer
+T143298,"Horizon Logistics Trading Co., Ltd",A71701,D84796,0663761873,North,Textiles,True,2021-07-18 00:00:00,filer
+T568594,Unity Consulting International Ltd,A45729,D63921,0667256949,Capital,Electronics,False,2012-07-20 00:00:00,filer
+T160494,Silver Construction Partners Ltd,A40305,D68207,0586210313,East,Furniture and home,False,2013-01-22 00:00:00,filer
+T112796,Eastern Consulting International Ltd,A17028,D76463,0634569118,North,Cosmetics and personal care,False,2023-04-13 00:00:00,filer
+T552796,Unity Construction Import Export Ltd,A40662,D38060,0978985028,West,Steel and metals,True,2010-05-06 00:00:00,filer
+T465344,Phoenix Logistics Group Ltd,A75833,D87245,0242479079,North,Vehicles and parts,True,2022-04-26 00:00:00,filer
+T881925,Monsoon Consulting International Ltd,A84334,D70587,0918903121,Coastal,Steel and metals,True,2021-09-03 00:00:00,filer
+T388755,Bamboo Logistics Distribution Ltd,A11277,D74993,0381421807,Capital,Medical and optical,False,2021-04-27 00:00:00,filer
+T692620,Ocean Construction Enterprises,A50453,D83857,0955749241,South,Plastics and packaging,True,2011-06-19 00:00:00,filer
+T815934,Eastern Services Holdings Ltd,A48177,D92983,0785783955,North,Plastics and packaging,True,2019-05-30 00:00:00,filer
+T495793,Eastern Logistics Holdings Ltd,A50521,D37108,0382169869,Coastal,Sugar and confectionery,False,2010-06-26 00:00:00,filer
+T339370,Blue River Consulting Holdings Ltd,A17415,D63150,0745137578,Capital,Electronics,True,2020-04-25 00:00:00,filer
+T638077,Horizon Services Group Ltd,A27238,D50076,0320546194,East,Furniture and home,True,2015-03-12 00:00:00,filer
+T946357,Orchid Consulting Supply Co.,A31390,D36705,0411484090,East,Cosmetics and personal care,True,2016-05-16 00:00:00,filer
+T679801,Coral Holdings International Ltd,A56007,D39624,0654486896,South,Sugar and confectionery,False,2017-03-18 00:00:00,filer
+T908282,Lantern Construction International Ltd,A95315,D84882,0238026753,North,Medical and optical,False,2014-09-26 00:00:00,filer
+T430316,Golden Construction Supply Co.,A80929,D88990,0750958751,Capital,Fresh produce,False,2012-12-22 00:00:00,filer
+T233228,Evergreen Logistics Import Export Ltd,A18618,D33466,0439471263,North,Cosmetics and personal care,True,2021-06-23 00:00:00,filer
+T343640,Silver Construction International Ltd,A84777,D87865,0737544360,West,Fresh produce,True,2016-02-25 00:00:00,filer
+T408226,Green Valley Logistics Import Export Ltd,A44262,D68672,0831128245,Coastal,Sugar and confectionery,True,2023-08-27 00:00:00,filer
+T187460,Horizon Logistics International Ltd,A48024,D29215,0683288851,West,Medical and optical,False,2019-07-12 00:00:00,filer
+T883755,Silver Holdings Partners Ltd,A99959,D14535,0871236335,West,Fresh produce,True,2013-08-05 00:00:00,filer
+T833588,Green Valley Consulting Partners Ltd,A88233,D90420,0320497636,East,Medical and optical,False,2011-04-24 00:00:00,filer
+T624612,Unity Logistics Import Export Ltd,A22131,D83843,0421151243,South,Textiles,True,2016-01-25 00:00:00,filer
+T145796,Evergreen Consulting Enterprises,A34612,D68148,0680210983,West,Vehicles and parts,True,2020-01-18 00:00:00,filer
+T194874,Crystal Construction Distribution Ltd,A50741,D23226,0307706767,Capital,Steel and metals,True,2016-11-23 00:00:00,filer
+T245774,Bright Logistics Enterprises,A30833,D12112,0566834474,Capital,Electronics,False,2015-05-10 00:00:00,filer
+T603601,Pearl Construction Partners Ltd,A16724,D68606,0464755909,Capital,Textiles,False,2011-05-23 00:00:00,filer
+T710434,Jade Services Partners Ltd,A69666,D40637,0278338871,Coastal,Apparel,False,2022-06-14 00:00:00,filer
+T925234,Summit Consulting Holdings Ltd,A46875,D94677,0223323200,South,Sugar and confectionery,True,2021-12-07 00:00:00,filer
+T898390,Prime Holdings Distribution Ltd,A30795,D50426,0777827748,North,Steel and metals,True,2015-11-30 00:00:00,filer
+T276465,Highland Holdings Supply Co.,A83657,D84263,0668373929,South,Cosmetics and personal care,False,2018-06-21 00:00:00,filer
+T874922,Delta Holdings Supply Co.,A65963,D34584,0824702669,Capital,Electronics,True,2016-12-18 00:00:00,filer
+T389445,Phoenix Holdings Supply Co.,A15902,D17636,0930208153,East,Furniture and home,False,2020-11-07 00:00:00,filer
+T891705,Lotus Services International Ltd,A94443,D22544,0959774633,West,Fresh produce,True,2017-03-16 00:00:00,filer
+T588314,Blue River Consulting Partners Ltd,A74021,D84933,0399600221,West,Apparel,True,2018-03-20 00:00:00,filer
+T984485,Lantern Holdings Commercial Co.,A76561,D54535,0690290516,North,Apparel,True,2011-06-20 00:00:00,filer
+T623617,Lucky Services Holdings Ltd,A56057,D25148,0317996944,East,Electronics,False,2012-07-30 00:00:00,filer
+T796188,"Summit Services Trading Co., Ltd",A89145,D27914,0482198089,East,Vehicles and parts,True,2016-08-18 00:00:00,filer
+T540144,Rising Holdings Import Export Ltd,A21984,D88932,0680922505,South,Tobacco,False,2018-09-13 00:00:00,filer
+T593306,"Evergreen Holdings Trading Co., Ltd",A29337,D84201,0383280858,Coastal,Fresh produce,True,2010-03-26 00:00:00,filer
+T482981,Orchid Services Commercial Co.,A65032,D20676,0300167218,West,Steel and metals,True,2023-01-02 00:00:00,filer
+T334207,Star Holdings Enterprises,A39622,D86154,0669946792,Capital,Plastics and packaging,True,2017-02-03 00:00:00,filer
+T778098,Unity Services Group Ltd,A81247,D66120,0595042801,North,Furniture and home,True,2020-01-17 00:00:00,filer
+T399843,Silk Road Holdings Distribution Ltd,A22281,D19698,0816356806,North,Tobacco,True,2021-06-09 00:00:00,filer
+T917261,Silk Road Logistics Enterprises,A49423,D57595,0564074294,East,Steel and metals,True,2016-04-21 00:00:00,filer
+T803536,Lucky Services Enterprises,A21959,D47930,0922007744,East,Tobacco,True,2018-03-31 00:00:00,filer
+T718652,"Pacific Consulting Trading Co., Ltd",A74728,D77005,0472371878,South,Steel and metals,True,2014-12-02 00:00:00,filer
+T908661,"Unity Construction Trading Co., Ltd",A94119,D50060,0769781474,North,Sugar and confectionery,True,2015-01-23 00:00:00,filer
+T385254,Prime Holdings Import Export Ltd,A75644,D56917,0536668360,North,Apparel,True,2015-08-13 00:00:00,filer
+T849435,Sunrise Construction Holdings Ltd,A82030,D21271,0962700067,Coastal,Apparel,True,2023-05-15 00:00:00,filer
+T713288,Golden Logistics Import Export Ltd,A93971,D89792,0915314423,Capital,Fresh produce,True,2014-05-11 00:00:00,filer
+T525875,Phoenix Construction Holdings Ltd,A17777,D74021,0837346416,West,Medical and optical,True,2020-12-17 00:00:00,filer
+T886147,Bamboo Services Partners Ltd,A44102,D76982,0381530661,Coastal,Medical and optical,True,2020-06-26 00:00:00,filer
+T612940,Horizon Services Import Export Ltd,A55420,D67030,0570753601,East,Fresh produce,True,2018-07-26 00:00:00,filer
+T487335,Grand Construction Holdings Ltd,A85231,D82585,0774939588,West,Apparel,False,2014-02-24 00:00:00,filer
+T581888,Monsoon Logistics Group Ltd,A28710,D52828,0605853162,Coastal,Textiles,True,2021-11-28 00:00:00,filer
+T788709,Summit Holdings International Ltd,A40793,D39939,0527988451,East,Cosmetics and personal care,True,2010-06-09 00:00:00,filer
+T244799,Bamboo Consulting Enterprises,A69765,D76887,0510288842,South,Steel and metals,True,2018-02-15 00:00:00,filer
