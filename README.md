@@ -6,10 +6,25 @@ Material for the customs breakouts of the workshop **Data Driven Domestic Revenu
 Everything here is synthetic. Every trader, declaration and name is generated, and nothing
 describes a real company or person. Answers and facilitator notes are not in this repository.
 
+## Notebooks
+
+Open a notebook in Google Colab, then *Runtime › Run all*. Nothing to install: the first cell loads the
+data and the methods of release `data-v2`.
+
+| Session | Notebook |
+| --- | --- |
+| Breakout 1B · Targeting: from signals to a score | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v2/notebooks/1b_targeting.ipynb) |
+| Plenary 8 · Three customs questions, three numbers | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v2/notebooks/p8_quick_diagnostics.ipynb) |
+| Breakout 2B · Trade and the border | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v2/notebooks/2b_trade_border.ipynb) |
+| Breakout 4B · Informality: matching customs and tax | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v2/notebooks/4b_informality.ipynb) |
+
+The exercises end with a reveal that only the facilitator can open.
+
 ## What is here
 
 | Folder | Contents |
 | --- | --- |
+| `notebooks/` | The four Colab notebooks |
 | `data/` | The 20 workshop tables (CSV and Parquet), the session worksheets (JSON) and the data dictionary ([data/README.md](data/README.md)) |
 | `workshop_methods/` | The methods used in the sessions, as a small Python package |
 

@@ -78,10 +78,9 @@ def steps(question: str, *plain_steps: str) -> None:
     _markdown("\n\n".join(lines[:1]) + "\n\n" + "\n".join(lines[1:]))
 
 
-def finding(sentence: str) -> str:
-    """The sentence every analysis cell ends with, built from the data."""
+def finding(sentence: str) -> None:
+    """The sentence every analysis cell ends with, built from the data (shown once, never echoed)."""
     _markdown(f"**Finding.** {sentence}")
-    return sentence
 
 
 def show(frame: pd.DataFrame, formats: dict[str, str] | None = None, highlight: pd.Series | None = None, max_rows: int = 20):

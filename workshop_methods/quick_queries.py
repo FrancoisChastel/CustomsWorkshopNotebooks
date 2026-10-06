@@ -32,6 +32,16 @@ def relief_overuse(declarations: pd.DataFrame, licences: pd.DataFrame) -> pd.Dat
     return out.sort_values("use_of_limit", ascending=False)
 
 
+def relief_excess_duty(declarations: pd.DataFrame, tariff: pd.DataFrame, licences: pd.DataFrame) -> float:
+    """Duty foregone, over the last 12 months, on the part of each beneficiary's relief beyond its licence limit."""
+    use = relief_overuse(declarations, licences).set_index("beneficiary_ref")
+    over = use[use["use_of_limit"] > 1]
+    imp = declarations[(declarations["relief_scheme"] != "") & (declarations["flow"] == "import")]
+    last12 = imp[imp["month"] > str(pd.Period(declarations["month"].max(), freq="M") - 12)]
+    foregone = (last12["customs_value_lcu"] * last12["ahtn8"].map(tariff.set_index("ahtn8")["duty_mfn"]) / 100).groupby(last12["trader_ref"]).sum()
+    return float(sum(foregone.get(b, 0.0) * (1 - 1 / row["use_of_limit"]) for b, row in over.iterrows()))
+
+
 def foregone_duty(declarations: pd.DataFrame, tariff: pd.DataFrame) -> pd.DataFrame:
     imp = declarations[(declarations["relief_scheme"] != "") & (declarations["flow"] == "import")]
     mfn = imp["ahtn8"].map(tariff.set_index("ahtn8")["duty_mfn"])
@@ -53,5 +63,6 @@ def import_vat_lists(declarations: pd.DataFrame, traders: pd.DataFrame, registry
     credit = returns[returns["period"].isin(months)].groupby("tin")["import_vat_credit"].sum()
     by["import_vat_credit"] = by["customs_tin"].map(credit)
     by["credit_minus_paid"] = (by["import_vat_credit"] - by["import_vat_paid"]).round(0)
+    by["credit_to_paid"] = (by["import_vat_credit"] / by["import_vat_paid"].replace(0, float("nan"))).round(2)
     list2 = by.dropna(subset=["import_vat_credit"]).sort_values("credit_minus_paid", ascending=False)
     return list1, list2

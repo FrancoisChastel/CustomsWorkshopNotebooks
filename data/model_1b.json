@@ -8,15 +8,7 @@
    "reasons": [
     {
      "signal": "description fits a dearer code",
-     "contribution": 0.742
-    },
-    {
-     "signal": "often amended or withdrawn",
-     "contribution": 0.013
-    },
-    {
-     "signal": "origin claim doubtful",
-     "contribution": 0.0
+     "contribution": 0.765
     }
    ]
   },
@@ -27,14 +19,6 @@
     {
      "signal": "description fits a dearer code",
      "contribution": 0.0
-    },
-    {
-     "signal": "origin claim doubtful",
-     "contribution": 0.0
-    },
-    {
-     "signal": "new importer",
-     "contribution": 0.0
     }
    ]
   },
@@ -44,15 +28,7 @@
    "reasons": [
     {
      "signal": "description fits a dearer code",
-     "contribution": 0.427
-    },
-    {
-     "signal": "origin claim doubtful",
-     "contribution": 0.0
-    },
-    {
-     "signal": "new importer",
-     "contribution": 0.0
+     "contribution": 0.598
     }
    ]
   },
@@ -61,16 +37,12 @@
    "score": 0.6415,
    "reasons": [
     {
-     "signal": "origin claim doubtful",
-     "contribution": 0.0
+     "signal": "description fits a dearer code",
+     "contribution": 0.321
     },
     {
-     "signal": "new importer",
-     "contribution": 0.0
-    },
-    {
-     "signal": "often amended or withdrawn",
-     "contribution": -0.092
+     "signal": "price below peers",
+     "contribution": 0.242
     }
    ]
   },
@@ -80,15 +52,11 @@
    "reasons": [
     {
      "signal": "origin claim doubtful",
-     "contribution": 0.851
+     "contribution": 0.843
     },
     {
      "signal": "often amended or withdrawn",
-     "contribution": 0.044
-    },
-    {
-     "signal": "new importer",
-     "contribution": -0.001
+     "contribution": 0.031
     }
    ]
   },
@@ -98,15 +66,7 @@
    "reasons": [
     {
      "signal": "price below peers",
-     "contribution": 0.28
-    },
-    {
-     "signal": "description fits a dearer code",
-     "contribution": 0.0
-    },
-    {
-     "signal": "origin claim doubtful",
-     "contribution": 0.0
+     "contribution": 0.487
     }
    ]
   },
@@ -116,15 +76,7 @@
    "reasons": [
     {
      "signal": "price below peers",
-     "contribution": 0.346
-    },
-    {
-     "signal": "description fits a dearer code",
-     "contribution": 0.0
-    },
-    {
-     "signal": "origin claim doubtful",
-     "contribution": 0.0
+     "contribution": 0.587
     }
    ]
   },
@@ -134,15 +86,7 @@
    "reasons": [
     {
      "signal": "price below peers",
-     "contribution": 0.508
-    },
-    {
-     "signal": "description fits a dearer code",
-     "contribution": 0.005
-    },
-    {
-     "signal": "origin claim doubtful",
-     "contribution": 0.0
+     "contribution": 0.673
     }
    ]
   },
@@ -152,15 +96,7 @@
    "reasons": [
     {
      "signal": "often amended or withdrawn",
-     "contribution": 0.001
-    },
-    {
-     "signal": "origin claim doubtful",
-     "contribution": 0.0
-    },
-    {
-     "signal": "new importer",
-     "contribution": 0.0
+     "contribution": 0.008
     }
    ]
   },
@@ -170,15 +106,7 @@
    "reasons": [
     {
      "signal": "often amended or withdrawn",
-     "contribution": 0.081
-    },
-    {
-     "signal": "description fits a dearer code",
-     "contribution": 0.0
-    },
-    {
-     "signal": "origin claim doubtful",
-     "contribution": 0.0
+     "contribution": 0.087
     }
    ]
   },
@@ -188,15 +116,11 @@
    "reasons": [
     {
      "signal": "price below peers",
-     "contribution": 0.26
+     "contribution": 0.215
     },
     {
      "signal": "description fits a dearer code",
-     "contribution": 0.146
-    },
-    {
-     "signal": "origin claim doubtful",
-     "contribution": 0.0
+     "contribution": 0.073
     }
    ]
   },
@@ -206,15 +130,15 @@
    "reasons": [
     {
      "signal": "price below peers",
-     "contribution": 0.27
+     "contribution": 0.203
     },
     {
      "signal": "description fits a dearer code",
-     "contribution": 0.13
+     "contribution": 0.065
     },
     {
      "signal": "often amended or withdrawn",
-     "contribution": 0.005
+     "contribution": 0.011
     }
    ]
   },
@@ -225,14 +149,6 @@
     {
      "signal": "origin claim doubtful",
      "contribution": 0.0
-    },
-    {
-     "signal": "new importer",
-     "contribution": 0.0
-    },
-    {
-     "signal": "often amended or withdrawn",
-     "contribution": -0.003
     }
    ]
   },
@@ -243,14 +159,6 @@
     {
      "signal": "description fits a dearer code",
      "contribution": 0.0
-    },
-    {
-     "signal": "origin claim doubtful",
-     "contribution": 0.0
-    },
-    {
-     "signal": "new importer",
-     "contribution": 0.0
     }
    ]
   },
@@ -260,15 +168,7 @@
    "reasons": [
     {
      "signal": "often amended or withdrawn",
-     "contribution": 0.152
-    },
-    {
-     "signal": "price below peers",
-     "contribution": 0.074
-    },
-    {
-     "signal": "new importer",
-     "contribution": 0.067
+     "contribution": 0.123
     }
    ]
   },
@@ -279,14 +179,6 @@
     {
      "signal": "description fits a dearer code",
      "contribution": 0.0
-    },
-    {
-     "signal": "origin claim doubtful",
-     "contribution": 0.0
-    },
-    {
-     "signal": "often amended or withdrawn",
-     "contribution": 0.0
     }
    ]
   },
@@ -295,16 +187,8 @@
    "score": 0.0034,
    "reasons": [
     {
-     "signal": "origin claim doubtful",
-     "contribution": 0.0
-    },
-    {
-     "signal": "new importer",
-     "contribution": 0.0
-    },
-    {
      "signal": "often amended or withdrawn",
-     "contribution": -0.002
+     "contribution": 0.001
     }
    ]
   },
@@ -315,14 +199,6 @@
     {
      "signal": "description fits a dearer code",
      "contribution": 0.0
-    },
-    {
-     "signal": "origin claim doubtful",
-     "contribution": 0.0
-    },
-    {
-     "signal": "new importer",
-     "contribution": 0.0
     }
    ]
   },
@@ -332,15 +208,7 @@
    "reasons": [
     {
      "signal": "often amended or withdrawn",
-     "contribution": 0.081
-    },
-    {
-     "signal": "description fits a dearer code",
-     "contribution": 0.0
-    },
-    {
-     "signal": "origin claim doubtful",
-     "contribution": 0.0
+     "contribution": 0.087
     }
    ]
   },
@@ -350,15 +218,7 @@
    "reasons": [
     {
      "signal": "price below peers",
-     "contribution": 0.285
-    },
-    {
-     "signal": "origin claim doubtful",
-     "contribution": 0.0
-    },
-    {
-     "signal": "new importer",
-     "contribution": 0.0
+     "contribution": 0.369
     }
    ]
   }
