@@ -24,14 +24,14 @@ describes a real company or person. Answers and facilitator notes are not in thi
 ## Notebooks
 
 Open a notebook in Google Colab, then *Runtime › Run all*. Nothing to install: the first cell loads the
-data and the methods of release `data-v4`.
+data and the methods of release `data-v5`.
 
 | Session | Notebook |
 | --- | --- |
-| Breakout 1B · Targeting: from signals to a score | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v4/notebooks/1b_targeting.ipynb) |
-| Plenary 8 · Three customs questions, three numbers | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v4/notebooks/p8_quick_diagnostics.ipynb) |
-| Breakout 2B · Trade and the border | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v4/notebooks/2b_trade_border.ipynb) |
-| Breakout 4B · Informality: matching customs and tax | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v4/notebooks/4b_informality.ipynb) |
+| Breakout 1B · Targeting: from signals to a score | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v5/notebooks/1b_targeting.ipynb) |
+| Plenary 8 · Three customs questions, three numbers | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v5/notebooks/p8_quick_diagnostics.ipynb) |
+| Breakout 2B · Trade and the border | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v5/notebooks/2b_trade_border.ipynb) |
+| Breakout 4B · Informality: matching customs and tax | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v5/notebooks/4b_informality.ipynb) |
 
 The exercises end with a reveal that only the facilitator can open.
 
