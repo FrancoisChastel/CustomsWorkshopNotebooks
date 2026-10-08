@@ -2,7 +2,7 @@
 
 Plain words: "the typical value per kilo for the same goods from the same origin over the last
 12 months; when fewer than 30 lines exist, fall back to a wider group".
-Technical: reference class with a minimum cell size and a four-level fallback.
+Technical: reference class with a minimum cell size and a three-level fallback (DATASET-v3 section 7).
 """
 
 from __future__ import annotations
@@ -10,35 +10,30 @@ from __future__ import annotations
 import numpy as np
 import pandas as pd
 
-LEVELS: list[tuple[str, ...]] = [("ahtn8", "origin_country"), ("ahtn8",), ("hs6", "origin_country"), ("hs6",)]
-LEVEL_NAMES = [
-    "same goods code and origin, last 12 months",
-    "same goods code, any origin, last 12 months",
-    "same 6-digit heading and origin, last 12 months",
-    "same 6-digit heading, any origin, last 12 months",
-]
+LEVELS: list[tuple[str, ...]] = [("hs8", "origin"), ("hs8",), ("hs6",)]
+LEVEL_NAMES = ["same goods code and origin, last 12 months", "same goods code, any origin, last 12 months", "same 6-digit heading, any origin, last 12 months"]
 MIN_LINES = 30
 MAD_TO_SD = 1.4826
 
 
 def unit_value(frame: pd.DataFrame) -> pd.Series:
     """Customs value per kilogram, in local currency units."""
-    return frame["customs_value_lcu"] / frame["net_weight_kg"].clip(lower=0.001)
+    return frame["customs_value_lcu"] / frame["net_kg"].clip(lower=0.001)
 
 
-def window(imports: pd.DataFrame, months: int = 12, end_month: str | None = None) -> pd.DataFrame:
-    end = pd.Period(end_month or imports["month"].max(), freq="M")
+def window(lines: pd.DataFrame, months: int = 12, end_month: str | None = None) -> pd.DataFrame:
+    end = pd.Period(end_month or lines["month"].max(), freq="M")
     start = str(end - months + 1)
-    return imports[(imports["month"] >= start) & (imports["month"] <= str(end))]
+    return lines[(lines["month"] >= start) & (lines["month"] <= str(end))]
 
 
 def _mad(values: pd.Series) -> float:
     return float(np.median(np.abs(values - np.median(values))))
 
 
-def level_stats(imports: pd.DataFrame, months: int = 12, end_month: str | None = None) -> list[pd.DataFrame]:
-    """Median, spread and count of value per kilo at each of the four levels."""
-    pool = window(imports, months, end_month).assign(uv=lambda d: unit_value(d))
+def level_stats(lines: pd.DataFrame, months: int = 12, end_month: str | None = None) -> list[pd.DataFrame]:
+    """Median, spread and count of value per kilo at each level over the window."""
+    pool = window(lines, months, end_month).assign(uv=lambda d: unit_value(d))
     out = []
     for keys in LEVELS:
         g = pool.groupby(list(keys))["uv"]
@@ -46,13 +41,12 @@ def level_stats(imports: pd.DataFrame, months: int = 12, end_month: str | None =
     return out
 
 
-def peer_values(lines: pd.DataFrame, imports: pd.DataFrame, min_lines: int = MIN_LINES, months: int = 12, fixed_level: int | None = None) -> pd.DataFrame:
+def peer_values(lines: pd.DataFrame, reference: pd.DataFrame, min_lines: int = MIN_LINES, months: int = 12, fixed_level: int | None = None) -> pd.DataFrame:
     """For each line: the peer median, spread and count at the first level with enough lines.
 
-    fixed_level (1-4) forces one level and leaves lines without enough peers empty, which is how
-    the thin-cell example shows a line "disappearing" at level 1.
+    fixed_level (1-3) forces one level and leaves lines without enough peers empty.
     """
-    stats = level_stats(imports, months)
+    stats = level_stats(reference, months)
     result = pd.DataFrame(index=lines.index, data={"peer_median": np.nan, "peer_mad": np.nan, "peer_n": 0, "peer_level": 0})
     levels = [fixed_level - 1] if fixed_level else range(len(LEVELS))
     for i in levels:
@@ -67,13 +61,14 @@ def peer_values(lines: pd.DataFrame, imports: pd.DataFrame, min_lines: int = MIN
     uv = unit_value(lines)
     result["unit_value"] = uv
     result["ratio_to_peers"] = uv / result["peer_median"]
-    result["robust_z"] = (uv - result["peer_median"]) / (MAD_TO_SD * result["peer_mad"]).replace(0, np.nan)
+    spread = np.maximum(MAD_TO_SD * result["peer_mad"], 0.02 * result["peer_median"])
+    result["robust_z"] = (uv - result["peer_median"]) / spread.replace(0, np.nan)
     return result
 
 
-def levels_for_line(line: pd.Series, imports: pd.DataFrame, min_lines: int = MIN_LINES, months: int = 12) -> pd.DataFrame:
-    """The four levels for one line: how many peers each has and which one is used."""
-    stats = level_stats(imports, months)
+def levels_for_line(line: pd.Series, reference: pd.DataFrame, min_lines: int = MIN_LINES, months: int = 12) -> pd.DataFrame:
+    """The three levels for one line: how many peers each has and which one is used."""
+    stats = level_stats(reference, months)
     rows, used = [], None
     for i, keys in enumerate(LEVELS):
         match = stats[i]

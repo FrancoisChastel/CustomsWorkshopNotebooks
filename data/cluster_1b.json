@@ -1,1806 +1,1406 @@
 {
  "session": "1b",
- "ahtn8": "85171300",
+ "hs8": "85171303",
  "lines": [
   {
-   "decl_id": "DCL1000025",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 102.2,
-   "kg_per_unit": 0.142,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.332
-  },
-  {
-   "decl_id": "DCL1000067",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 151.4,
-   "kg_per_unit": 0.147,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.086
-  },
-  {
-   "decl_id": "DCL1000076",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 139.2,
-   "kg_per_unit": 0.134,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.346
-  },
-  {
-   "decl_id": "DCL1000103",
-   "line_no": 3,
-   "description": "Smartphones",
-   "usd_per_kg": 121.8,
-   "kg_per_unit": 0.126,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.622
-  },
-  {
-   "decl_id": "DCL1000111",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 154.7,
-   "kg_per_unit": 0.142,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.155
-  },
-  {
-   "decl_id": "DCL1000133",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 417.5,
-   "kg_per_unit": 0.199,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.306
-  },
-  {
-   "decl_id": "DCL1000144",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 175.5,
-   "kg_per_unit": 0.15,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.29
-  },
-  {
-   "decl_id": "DCL1000158",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 438.7,
-   "kg_per_unit": 0.242,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.995
-  },
-  {
-   "decl_id": "DCL1000173",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 461.1,
-   "kg_per_unit": 0.24,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.965
-  },
-  {
-   "decl_id": "DCL1000208",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 433.7,
-   "kg_per_unit": 0.185,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.753
-  },
-  {
-   "decl_id": "DCL1000230",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 104.8,
-   "kg_per_unit": 0.13,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.554
-  },
-  {
-   "decl_id": "DCL1000230",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 103.8,
-   "kg_per_unit": 0.163,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.589
-  },
-  {
-   "decl_id": "DCL1000243",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 159.7,
-   "kg_per_unit": 0.155,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.316
-  },
-  {
-   "decl_id": "DCL1000252",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 355.0,
-   "kg_per_unit": 0.136,
-   "group_k2": 1,
-   "distance_to_nearest_group": 1.684
-  },
-  {
-   "decl_id": "DCL1000281",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 374.8,
-   "kg_per_unit": 0.209,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.327
-  },
-  {
-   "decl_id": "DCL1000319",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 132.0,
-   "kg_per_unit": 0.158,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.364
-  },
-  {
-   "decl_id": "DCL1000332",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 112.8,
-   "kg_per_unit": 0.156,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.389
-  },
-  {
-   "decl_id": "DCL1000343",
-   "line_no": 1,
-   "description": "Smartphones",
+   "line_id": "L0167237",
+   "decl_id": "DCL0133449",
+   "description": "Smartphones, other",
    "usd_per_kg": 140.0,
-   "kg_per_unit": 0.225,
-   "group_k2": 2,
-   "distance_to_nearest_group": 2.205
-  },
-  {
-   "decl_id": "DCL1000399",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 156.3,
-   "kg_per_unit": 0.136,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.316
-  },
-  {
-   "decl_id": "DCL1000413",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 481.6,
-   "kg_per_unit": 0.218,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.566
-  },
-  {
-   "decl_id": "DCL1000471",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 171.6,
-   "kg_per_unit": 0.142,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.259
-  },
-  {
-   "decl_id": "DCL1000528",
-   "line_no": 3,
-   "description": "Smartphones",
-   "usd_per_kg": 137.8,
-   "kg_per_unit": 0.164,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.55
-  },
-  {
-   "decl_id": "DCL1000531",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 171.4,
-   "kg_per_unit": 0.123,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.73
-  },
-  {
-   "decl_id": "DCL1000544",
-   "line_no": 2,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 499.9,
-   "kg_per_unit": 0.233,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.953
-  },
-  {
-   "decl_id": "DCL1000554",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 138.8,
-   "kg_per_unit": 0.169,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.706
-  },
-  {
-   "decl_id": "DCL1000554",
-   "line_no": 3,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 486.0,
-   "kg_per_unit": 0.191,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.775
-  },
-  {
-   "decl_id": "DCL1000662",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 106.8,
-   "kg_per_unit": 0.169,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.756
-  },
-  {
-   "decl_id": "DCL1000662",
-   "line_no": 3,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 410.4,
-   "kg_per_unit": 0.183,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.808
-  },
-  {
-   "decl_id": "DCL1000662",
-   "line_no": 4,
-   "description": "Smartphones",
-   "usd_per_kg": 144.0,
-   "kg_per_unit": 0.144,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.061
-  },
-  {
-   "decl_id": "DCL1000712",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 161.9,
-   "kg_per_unit": 0.16,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.456
-  },
-  {
-   "decl_id": "DCL1000761",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 177.5,
-   "kg_per_unit": 0.126,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.649
-  },
-  {
-   "decl_id": "DCL1000826",
-   "line_no": 3,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 416.6,
-   "kg_per_unit": 0.206,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.1
-  },
-  {
-   "decl_id": "DCL1000833",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 136.8,
-   "kg_per_unit": 0.151,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.154
-  },
-  {
-   "decl_id": "DCL1000852",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 126.1,
-   "kg_per_unit": 0.124,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.672
-  },
-  {
-   "decl_id": "DCL1000875",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 130.3,
-   "kg_per_unit": 0.132,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.434
-  },
-  {
-   "decl_id": "DCL1000880",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 136.8,
-   "kg_per_unit": 0.123,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.679
-  },
-  {
-   "decl_id": "DCL1000920",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 130.7,
-   "kg_per_unit": 0.132,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.431
-  },
-  {
-   "decl_id": "DCL1000935",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 480.0,
-   "kg_per_unit": 0.243,
-   "group_k2": 2,
-   "distance_to_nearest_group": 1.11
-  },
-  {
-   "decl_id": "DCL1000935",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 103.2,
-   "kg_per_unit": 0.167,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.711
-  },
-  {
-   "decl_id": "DCL1000962",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 116.4,
-   "kg_per_unit": 0.12,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.796
-  },
-  {
-   "decl_id": "DCL1000971",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 129.7,
-   "kg_per_unit": 0.129,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.52
-  },
-  {
-   "decl_id": "DCL1001045",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 146.6,
-   "kg_per_unit": 0.157,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.331
-  },
-  {
-   "decl_id": "DCL1001082",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 111.6,
-   "kg_per_unit": 0.159,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.462
-  },
-  {
-   "decl_id": "DCL1001132",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 146.7,
-   "kg_per_unit": 0.131,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.432
-  },
-  {
-   "decl_id": "DCL1001243",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 113.4,
-   "kg_per_unit": 0.14,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.285
-  },
-  {
-   "decl_id": "DCL1001261",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 146.9,
-   "kg_per_unit": 0.129,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.514
-  },
-  {
-   "decl_id": "DCL1001261",
-   "line_no": 2,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 257.7,
-   "kg_per_unit": 0.216,
-   "group_k2": 2,
-   "distance_to_nearest_group": 1.255
-  },
-  {
-   "decl_id": "DCL1001262",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 154.1,
-   "kg_per_unit": 0.15,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.164
-  },
-  {
-   "decl_id": "DCL1001275",
-   "line_no": 2,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 357.4,
-   "kg_per_unit": 0.249,
-   "group_k2": 2,
-   "distance_to_nearest_group": 1.269
-  },
-  {
-   "decl_id": "DCL1001319",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 145.7,
-   "kg_per_unit": 0.17,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.717
-  },
-  {
-   "decl_id": "DCL1001333",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 148.6,
-   "kg_per_unit": 0.125,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.623
-  },
-  {
-   "decl_id": "DCL1001362",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 145.7,
-   "kg_per_unit": 0.131,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.435
-  },
-  {
-   "decl_id": "DCL1001400",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 153.0,
-   "kg_per_unit": 0.141,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.179
-  },
-  {
-   "decl_id": "DCL1001416",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 466.3,
-   "kg_per_unit": 0.193,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.622
-  },
-  {
-   "decl_id": "DCL1001445",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 452.0,
-   "kg_per_unit": 0.194,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.554
-  },
-  {
-   "decl_id": "DCL1001510",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 123.1,
-   "kg_per_unit": 0.134,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.384
-  },
-  {
-   "decl_id": "DCL1001527",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 440.7,
-   "kg_per_unit": 0.182,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.86
-  },
-  {
-   "decl_id": "DCL1001537",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 173.2,
-   "kg_per_unit": 0.132,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.472
-  },
-  {
-   "decl_id": "DCL1001568",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 135.5,
-   "kg_per_unit": 0.129,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.51
-  },
-  {
-   "decl_id": "DCL1001585",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 130.4,
-   "kg_per_unit": 0.149,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.144
-  },
-  {
-   "decl_id": "DCL1001595",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 136.2,
-   "kg_per_unit": 0.151,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.156
-  },
-  {
-   "decl_id": "DCL1001604",
-   "line_no": 1,
-   "description": "Refurbished smartphones, grade B",
-   "usd_per_kg": 85.0,
-   "kg_per_unit": 0.11,
-   "group_k2": 1,
-   "distance_to_nearest_group": 1.164
-  },
-  {
-   "decl_id": "DCL1001604",
-   "line_no": 3,
-   "description": "Smartphones",
-   "usd_per_kg": 146.5,
-   "kg_per_unit": 0.164,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.535
-  },
-  {
-   "decl_id": "DCL1001632",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 382.0,
-   "kg_per_unit": 0.202,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.347
-  },
-  {
-   "decl_id": "DCL1001696",
-   "line_no": 3,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 399.6,
-   "kg_per_unit": 0.184,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.792
-  },
-  {
-   "decl_id": "DCL1001778",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 392.3,
-   "kg_per_unit": 0.2,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.339
-  },
-  {
-   "decl_id": "DCL1001778",
-   "line_no": 3,
-   "description": "Smartphones",
-   "usd_per_kg": 105.4,
-   "kg_per_unit": 0.158,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.457
-  },
-  {
-   "decl_id": "DCL1001781",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 175.1,
-   "kg_per_unit": 0.168,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.701
-  },
-  {
-   "decl_id": "DCL1001785",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 132.9,
-   "kg_per_unit": 0.159,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.403
-  },
-  {
-   "decl_id": "DCL1001821",
-   "line_no": 2,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 430.9,
-   "kg_per_unit": 0.219,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.295
-  },
-  {
-   "decl_id": "DCL1001930",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 108.5,
-   "kg_per_unit": 0.17,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.759
-  },
-  {
-   "decl_id": "DCL1001965",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 401.8,
-   "kg_per_unit": 0.183,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.791
-  },
-  {
-   "decl_id": "DCL1002106",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 364.3,
-   "kg_per_unit": 0.227,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.661
-  },
-  {
-   "decl_id": "DCL1002106",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 119.0,
-   "kg_per_unit": 0.16,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.46
-  },
-  {
-   "decl_id": "DCL1002164",
-   "line_no": 2,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 423.4,
-   "kg_per_unit": 0.228,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.545
-  },
-  {
-   "decl_id": "DCL1002183",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 384.5,
-   "kg_per_unit": 0.205,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.292
-  },
-  {
-   "decl_id": "DCL1002217",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 104.9,
-   "kg_per_unit": 0.135,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.441
-  },
-  {
-   "decl_id": "DCL1002255",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 118.9,
-   "kg_per_unit": 0.17,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.743
-  },
-  {
-   "decl_id": "DCL1002264",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 376.9,
-   "kg_per_unit": 0.238,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.91
-  },
-  {
-   "decl_id": "DCL1002280",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 343.2,
-   "kg_per_unit": 0.155,
-   "group_k2": 1,
-   "distance_to_nearest_group": 1.586
-  },
-  {
-   "decl_id": "DCL1002391",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 135.9,
-   "kg_per_unit": 0.152,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.179
-  },
-  {
-   "decl_id": "DCL1002416",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 179.5,
-   "kg_per_unit": 0.12,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.814
-  },
-  {
-   "decl_id": "DCL1002418",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 156.7,
-   "kg_per_unit": 0.141,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.183
-  },
-  {
-   "decl_id": "DCL1002467",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 129.2,
-   "kg_per_unit": 0.143,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.142
-  },
-  {
-   "decl_id": "DCL1002561",
-   "line_no": 3,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 492.1,
-   "kg_per_unit": 0.191,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.813
-  },
-  {
-   "decl_id": "DCL1002569",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 131.1,
-   "kg_per_unit": 0.121,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.754
-  },
-  {
-   "decl_id": "DCL1002581",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 116.4,
-   "kg_per_unit": 0.133,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.434
-  },
-  {
-   "decl_id": "DCL1002631",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 131.9,
-   "kg_per_unit": 0.166,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.612
-  },
-  {
-   "decl_id": "DCL1002731",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 149.6,
-   "kg_per_unit": 0.161,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.464
-  },
-  {
-   "decl_id": "DCL1002731",
-   "line_no": 3,
-   "description": "Smartphones",
-   "usd_per_kg": 149.9,
-   "kg_per_unit": 0.152,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.186
-  },
-  {
-   "decl_id": "DCL1002790",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 415.3,
-   "kg_per_unit": 0.189,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.62
-  },
-  {
-   "decl_id": "DCL1002806",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 123.9,
-   "kg_per_unit": 0.126,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.615
-  },
-  {
-   "decl_id": "DCL1002856",
-   "line_no": 3,
-   "description": "Smartphones",
-   "usd_per_kg": 124.7,
-   "kg_per_unit": 0.167,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.641
-  },
-  {
-   "decl_id": "DCL1002865",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 128.9,
-   "kg_per_unit": 0.154,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.261
-  },
-  {
-   "decl_id": "DCL1002907",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 112.0,
-   "kg_per_unit": 0.168,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.703
-  },
-  {
-   "decl_id": "DCL1002907",
-   "line_no": 3,
-   "description": "Smartphones",
-   "usd_per_kg": 147.5,
-   "kg_per_unit": 0.143,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.088
-  },
-  {
-   "decl_id": "DCL1002956",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 161.1,
-   "kg_per_unit": 0.168,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.672
-  },
-  {
-   "decl_id": "DCL1003077",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 157.7,
-   "kg_per_unit": 0.17,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.733
-  },
-  {
-   "decl_id": "DCL1003124",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 468.9,
-   "kg_per_unit": 0.191,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.692
-  },
-  {
-   "decl_id": "DCL1003124",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 159.3,
-   "kg_per_unit": 0.139,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.235
-  },
-  {
-   "decl_id": "DCL1003124",
-   "line_no": 3,
-   "description": "Smartphones",
-   "usd_per_kg": 131.6,
-   "kg_per_unit": 0.17,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.731
-  },
-  {
-   "decl_id": "DCL1003210",
-   "line_no": 2,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 452.7,
-   "kg_per_unit": 0.207,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.29
-  },
-  {
-   "decl_id": "DCL1003232",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 144.0,
-   "kg_per_unit": 0.145,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.016
-  },
-  {
-   "decl_id": "DCL1003290",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 148.5,
-   "kg_per_unit": 0.127,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.569
-  },
-  {
-   "decl_id": "DCL1003309",
-   "line_no": 2,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 427.5,
-   "kg_per_unit": 0.238,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.867
-  },
-  {
-   "decl_id": "DCL1003350",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 105.4,
-   "kg_per_unit": 0.17,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.776
-  },
-  {
-   "decl_id": "DCL1003379",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 122.1,
-   "kg_per_unit": 0.156,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.342
-  },
-  {
-   "decl_id": "DCL1003400",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 101.1,
-   "kg_per_unit": 0.12,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.837
-  },
-  {
-   "decl_id": "DCL1003460",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 117.4,
-   "kg_per_unit": 0.13,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.504
-  },
-  {
-   "decl_id": "DCL1003493",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 120.7,
-   "kg_per_unit": 0.138,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.277
-  },
-  {
-   "decl_id": "DCL1003496",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 108.1,
-   "kg_per_unit": 0.136,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.405
-  },
-  {
-   "decl_id": "DCL1003499",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 128.9,
-   "kg_per_unit": 0.148,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.131
-  },
-  {
-   "decl_id": "DCL1003499",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 154.7,
-   "kg_per_unit": 0.153,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.238
-  },
-  {
-   "decl_id": "DCL1003550",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 444.0,
-   "kg_per_unit": 0.24,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.949
-  },
-  {
-   "decl_id": "DCL1003550",
-   "line_no": 4,
-   "description": "Smartphones",
-   "usd_per_kg": 116.7,
-   "kg_per_unit": 0.136,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.356
-  },
-  {
-   "decl_id": "DCL1003638",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 377.1,
-   "kg_per_unit": 0.238,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.919
-  },
-  {
-   "decl_id": "DCL1003638",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 403.8,
-   "kg_per_unit": 0.159,
-   "group_k2": 2,
-   "distance_to_nearest_group": 1.519
-  },
-  {
-   "decl_id": "DCL1003669",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 112.2,
-   "kg_per_unit": 0.152,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.291
-  },
-  {
-   "decl_id": "DCL1003692",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 151.0,
-   "kg_per_unit": 0.165,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.577
-  },
-  {
-   "decl_id": "DCL1003704",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 154.6,
-   "kg_per_unit": 0.135,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.341
-  },
-  {
-   "decl_id": "DCL1003763",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 175.9,
-   "kg_per_unit": 0.162,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.565
-  },
-  {
-   "decl_id": "DCL1003839",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 147.0,
-   "kg_per_unit": 0.161,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.469
-  },
-  {
-   "decl_id": "DCL1003951",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 172.2,
-   "kg_per_unit": 0.134,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.434
-  },
-  {
-   "decl_id": "DCL1003993",
-   "line_no": 2,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 461.7,
-   "kg_per_unit": 0.231,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.734
-  },
-  {
-   "decl_id": "DCL1004074",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 162.4,
-   "kg_per_unit": 0.161,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.471
-  },
-  {
-   "decl_id": "DCL1004084",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 113.3,
-   "kg_per_unit": 0.145,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.228
-  },
-  {
-   "decl_id": "DCL1004091",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 173.1,
-   "kg_per_unit": 0.131,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.515
-  },
-  {
-   "decl_id": "DCL1004095",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 100.1,
-   "kg_per_unit": 0.163,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.614
-  },
-  {
-   "decl_id": "DCL1004153",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 166.2,
-   "kg_per_unit": 0.14,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.258
-  },
-  {
-   "decl_id": "DCL1004174",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 101.3,
-   "kg_per_unit": 0.145,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.322
-  },
-  {
-   "decl_id": "DCL1004174",
-   "line_no": 3,
-   "description": "Smartphones",
-   "usd_per_kg": 137.7,
-   "kg_per_unit": 0.161,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.456
-  },
-  {
-   "decl_id": "DCL1004198",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 171.1,
-   "kg_per_unit": 0.157,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.396
-  },
-  {
-   "decl_id": "DCL1004240",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 161.4,
-   "kg_per_unit": 0.157,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.362
-  },
-  {
-   "decl_id": "DCL1004281",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 411.3,
-   "kg_per_unit": 0.186,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.705
-  },
-  {
-   "decl_id": "DCL1004281",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 155.3,
-   "kg_per_unit": 0.164,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.557
-  },
-  {
-   "decl_id": "DCL1004295",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 107.6,
-   "kg_per_unit": 0.133,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.459
-  },
-  {
-   "decl_id": "DCL1004320",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 167.4,
-   "kg_per_unit": 0.16,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.474
-  },
-  {
-   "decl_id": "DCL1004353",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 161.7,
-   "kg_per_unit": 0.16,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.439
-  },
-  {
-   "decl_id": "DCL1004360",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 131.0,
-   "kg_per_unit": 0.132,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.411
-  },
-  {
-   "decl_id": "DCL1004372",
-   "line_no": 3,
-   "description": "Smartphones",
-   "usd_per_kg": 147.7,
-   "kg_per_unit": 0.146,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.042
-  },
-  {
-   "decl_id": "DCL1004431",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 123.1,
-   "kg_per_unit": 0.126,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.604
-  },
-  {
-   "decl_id": "DCL1004496",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 126.5,
-   "kg_per_unit": 0.141,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.195
-  },
-  {
-   "decl_id": "DCL1004526",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 130.6,
-   "kg_per_unit": 0.162,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.487
-  },
-  {
-   "decl_id": "DCL1004526",
-   "line_no": 2,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 497.7,
-   "kg_per_unit": 0.245,
-   "group_k2": 2,
-   "distance_to_nearest_group": 1.229
-  },
-  {
-   "decl_id": "DCL1004554",
-   "line_no": 3,
-   "description": "Smartphones",
-   "usd_per_kg": 345.8,
-   "kg_per_unit": 0.159,
-   "group_k2": 2,
-   "distance_to_nearest_group": 1.6
-  },
-  {
-   "decl_id": "DCL1004611",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 147.8,
-   "kg_per_unit": 0.145,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.045
-  },
-  {
-   "decl_id": "DCL1004656",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 423.5,
-   "kg_per_unit": 0.212,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.099
-  },
-  {
-   "decl_id": "DCL1004709",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 134.7,
-   "kg_per_unit": 0.144,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.087
-  },
-  {
-   "decl_id": "DCL1004712",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 148.2,
-   "kg_per_unit": 0.134,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.367
-  },
-  {
-   "decl_id": "DCL1004754",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 173.3,
-   "kg_per_unit": 0.145,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.242
-  },
-  {
-   "decl_id": "DCL1004754",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 137.2,
-   "kg_per_unit": 0.155,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.274
-  },
-  {
-   "decl_id": "DCL1004768",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 120.9,
-   "kg_per_unit": 0.158,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.415
-  },
-  {
-   "decl_id": "DCL1004801",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 135.2,
-   "kg_per_unit": 0.161,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.474
-  },
-  {
-   "decl_id": "DCL1004817",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 112.9,
-   "kg_per_unit": 0.122,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.747
-  },
-  {
-   "decl_id": "DCL1004837",
-   "line_no": 3,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 483.9,
-   "kg_per_unit": 0.182,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.986
-  },
-  {
-   "decl_id": "DCL1004841",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 166.4,
-   "kg_per_unit": 0.148,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.197
-  },
-  {
-   "decl_id": "DCL1004910",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 153.9,
-   "kg_per_unit": 0.158,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.381
-  },
-  {
-   "decl_id": "DCL1004970",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 372.3,
-   "kg_per_unit": 0.241,
-   "group_k2": 2,
-   "distance_to_nearest_group": 1.015
-  },
-  {
-   "decl_id": "DCL1005074",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 141.3,
-   "kg_per_unit": 0.156,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.314
-  },
-  {
-   "decl_id": "DCL1005075",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 113.3,
-   "kg_per_unit": 0.169,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.746
-  },
-  {
-   "decl_id": "DCL1005198",
-   "line_no": 3,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 463.9,
-   "kg_per_unit": 0.215,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.404
-  },
-  {
-   "decl_id": "DCL1005429",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 105.1,
-   "kg_per_unit": 0.129,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.586
-  },
-  {
-   "decl_id": "DCL1005601",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 372.0,
-   "kg_per_unit": 0.232,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.754
-  },
-  {
-   "decl_id": "DCL1005689",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 136.7,
-   "kg_per_unit": 0.161,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.458
-  },
-  {
-   "decl_id": "DCL1005802",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 136.8,
-   "kg_per_unit": 0.162,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.49
-  },
-  {
-   "decl_id": "DCL1005802",
-   "line_no": 4,
-   "description": "Smartphones",
-   "usd_per_kg": 114.1,
-   "kg_per_unit": 0.141,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.265
-  },
-  {
-   "decl_id": "DCL1005805",
-   "line_no": 3,
-   "description": "Smartphones",
-   "usd_per_kg": 134.3,
-   "kg_per_unit": 0.137,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.265
-  },
-  {
-   "decl_id": "DCL1005805",
-   "line_no": 4,
-   "description": "Smartphones",
-   "usd_per_kg": 110.8,
-   "kg_per_unit": 0.126,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.643
-  },
-  {
-   "decl_id": "DCL1005815",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 176.0,
-   "kg_per_unit": 0.121,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.789
-  },
-  {
-   "decl_id": "DCL1005837",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 357.0,
-   "kg_per_unit": 0.159,
-   "group_k2": 2,
-   "distance_to_nearest_group": 1.58
-  },
-  {
-   "decl_id": "DCL1005888",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 108.3,
-   "kg_per_unit": 0.152,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.324
-  },
-  {
-   "decl_id": "DCL1005902",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 125.0,
-   "kg_per_unit": 0.143,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.161
-  },
-  {
-   "decl_id": "DCL1006225",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 151.5,
-   "kg_per_unit": 0.161,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.457
-  },
-  {
-   "decl_id": "DCL1006263",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 172.8,
-   "kg_per_unit": 0.132,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.477
-  },
-  {
-   "decl_id": "DCL1006340",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 157.3,
-   "kg_per_unit": 0.14,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.211
-  },
-  {
-   "decl_id": "DCL1006423",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 343.1,
-   "kg_per_unit": 0.123,
-   "group_k2": 1,
-   "distance_to_nearest_group": 1.702
-  },
-  {
-   "decl_id": "DCL1006423",
-   "line_no": 3,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 450.0,
-   "kg_per_unit": 0.246,
-   "group_k2": 2,
-   "distance_to_nearest_group": 1.111
-  },
-  {
-   "decl_id": "DCL1006442",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 486.4,
-   "kg_per_unit": 0.181,
-   "group_k2": 2,
-   "distance_to_nearest_group": 1.018
-  },
-  {
-   "decl_id": "DCL1006533",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 122.4,
-   "kg_per_unit": 0.122,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.718
-  },
-  {
-   "decl_id": "DCL1006551",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 402.6,
-   "kg_per_unit": 0.183,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.807
-  },
-  {
-   "decl_id": "DCL1006551",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 141.0,
-   "kg_per_unit": 0.124,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.668
-  },
-  {
-   "decl_id": "DCL1006566",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 149.8,
-   "kg_per_unit": 0.155,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.282
-  },
-  {
-   "decl_id": "DCL1006569",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 380.3,
-   "kg_per_unit": 0.21,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.284
-  },
-  {
-   "decl_id": "DCL1006605",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 151.7,
-   "kg_per_unit": 0.151,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.17
-  },
-  {
-   "decl_id": "DCL1006660",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 146.5,
-   "kg_per_unit": 0.144,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.054
-  },
-  {
-   "decl_id": "DCL1006662",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 130.9,
-   "kg_per_unit": 0.141,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.181
-  },
-  {
-   "decl_id": "DCL1006669",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 363.7,
-   "kg_per_unit": 0.2,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.507
-  },
-  {
-   "decl_id": "DCL1006704",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 178.4,
-   "kg_per_unit": 0.163,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.579
-  },
-  {
-   "decl_id": "DCL1006859",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 133.7,
-   "kg_per_unit": 0.137,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.259
-  },
-  {
-   "decl_id": "DCL1006948",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 389.4,
-   "kg_per_unit": 0.23,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.661
-  },
-  {
-   "decl_id": "DCL1006989",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 485.9,
-   "kg_per_unit": 0.24,
-   "group_k2": 2,
-   "distance_to_nearest_group": 1.056
-  },
-  {
-   "decl_id": "DCL1007032",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 143.5,
-   "kg_per_unit": 0.122,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.718
-  },
-  {
-   "decl_id": "DCL1007317",
-   "line_no": 1,
-   "description": "Smartphones",
+   "kg_per_unit": 0.225
+  },
+  {
+   "line_id": "L0167506",
+   "decl_id": "DCL0133679",
+   "description": "Smartphones, other",
+   "usd_per_kg": 120.0,
+   "kg_per_unit": 0.15
+  },
+  {
+   "line_id": "L0167642",
+   "decl_id": "DCL0133796",
+   "description": "GOODS",
+   "usd_per_kg": 396.4,
+   "kg_per_unit": 0.206
+  },
+  {
+   "line_id": "L0168624",
+   "decl_id": "DCL0134597",
+   "description": "Smartphones, other",
+   "usd_per_kg": 178.9,
+   "kg_per_unit": 0.164
+  },
+  {
+   "line_id": "L0169006",
+   "decl_id": "DCL0134911",
+   "description": "Smartphones, other",
+   "usd_per_kg": 184.3,
+   "kg_per_unit": 0.166
+  },
+  {
+   "line_id": "L0169033",
+   "decl_id": "DCL0134934",
+   "description": "VANTIS Smartphones, other 2000W",
+   "usd_per_kg": 387.5,
+   "kg_per_unit": 0.219
+  },
+  {
+   "line_id": "L0169131",
+   "decl_id": "DCL0135018",
+   "description": "Smartphones, other",
+   "usd_per_kg": 174.6,
+   "kg_per_unit": 0.164
+  },
+  {
+   "line_id": "L0169665",
+   "decl_id": "DCL0135438",
+   "description": "Smartphones, other",
+   "usd_per_kg": 174.4,
+   "kg_per_unit": 0.161
+  },
+  {
+   "line_id": "L0170276",
+   "decl_id": "DCL0135948",
+   "description": "Smartphones, other",
+   "usd_per_kg": 414.6,
+   "kg_per_unit": 0.213
+  },
+  {
+   "line_id": "L0170707",
+   "decl_id": "DCL0136306",
+   "description": "Smartphones, other",
+   "usd_per_kg": 185.4,
+   "kg_per_unit": 0.146
+  },
+  {
+   "line_id": "L0171169",
+   "decl_id": "DCL0136661",
+   "description": "Smartphones, other (电子产品)",
+   "usd_per_kg": 191.0,
+   "kg_per_unit": 0.162
+  },
+  {
+   "line_id": "L0171686",
+   "decl_id": "DCL0137095",
+   "description": "Smartphones C",
+   "usd_per_kg": 198.2,
+   "kg_per_unit": 0.153
+  },
+  {
+   "line_id": "L0172324",
+   "decl_id": "DCL0137611",
+   "description": "Smartphones, other",
+   "usd_per_kg": 186.5,
+   "kg_per_unit": 0.162
+  },
+  {
+   "line_id": "L0172495",
+   "decl_id": "DCL0137745",
+   "description": "Smartphones C",
+   "usd_per_kg": 187.2,
+   "kg_per_unit": 0.158
+  },
+  {
+   "line_id": "L0172619",
+   "decl_id": "DCL0137844",
+   "description": "Smartphones, other",
+   "usd_per_kg": 192.2,
+   "kg_per_unit": 0.167
+  },
+  {
+   "line_id": "L0172699",
+   "decl_id": "DCL0137909",
+   "description": "Smartphones, other",
+   "usd_per_kg": 431.6,
+   "kg_per_unit": 0.206
+  },
+  {
+   "line_id": "L0172700",
+   "decl_id": "DCL0137909",
+   "description": "Smartphones, other",
+   "usd_per_kg": 423.6,
+   "kg_per_unit": 0.203
+  },
+  {
+   "line_id": "L0173546",
+   "decl_id": "DCL0138603",
+   "description": "Smartphones, other (elektronik)",
+   "usd_per_kg": 181.9,
+   "kg_per_unit": 0.16
+  },
+  {
+   "line_id": "L0174136",
+   "decl_id": "DCL0139080",
+   "description": "SMARTPHONES C",
+   "usd_per_kg": 185.4,
+   "kg_per_unit": 0.163
+  },
+  {
+   "line_id": "L0174237",
+   "decl_id": "DCL0139161",
+   "description": "Smartphones, other",
+   "usd_per_kg": 187.4,
+   "kg_per_unit": 0.156
+  },
+  {
+   "line_id": "L0175765",
+   "decl_id": "DCL0140408",
+   "description": "Smartphones, other",
+   "usd_per_kg": 174.8,
+   "kg_per_unit": 0.153
+  },
+  {
+   "line_id": "L0175928",
+   "decl_id": "DCL0140543",
+   "description": "Smartphones, other",
+   "usd_per_kg": 421.8,
+   "kg_per_unit": 0.211
+  },
+  {
+   "line_id": "L0176804",
+   "decl_id": "DCL0141250",
+   "description": "Smartphones, other (电子产品)",
+   "usd_per_kg": 411.8,
+   "kg_per_unit": 0.203
+  },
+  {
+   "line_id": "L0177017",
+   "decl_id": "DCL0141420",
+   "description": "Smartphones, other",
+   "usd_per_kg": 445.8,
+   "kg_per_unit": 0.21
+  },
+  {
+   "line_id": "L0177197",
+   "decl_id": "DCL0141570",
+   "description": "Smartphones, other",
+   "usd_per_kg": 159.8,
+   "kg_per_unit": 0.158
+  },
+  {
+   "line_id": "L0177438",
+   "decl_id": "DCL0141762",
+   "description": "Smartphones C",
+   "usd_per_kg": 427.2,
+   "kg_per_unit": 0.214
+  },
+  {
+   "line_id": "L0177475",
+   "decl_id": "DCL0141795",
+   "description": "Smartphones, other (elektronik)",
+   "usd_per_kg": 186.3,
+   "kg_per_unit": 0.174
+  },
+  {
+   "line_id": "L0177659",
+   "decl_id": "DCL0141938",
+   "description": "Smartphones, other",
+   "usd_per_kg": 372.7,
+   "kg_per_unit": 0.201
+  },
+  {
+   "line_id": "L0178072",
+   "decl_id": "DCL0142267",
+   "description": "Smartphones, other",
+   "usd_per_kg": 423.7,
+   "kg_per_unit": 0.21
+  },
+  {
+   "line_id": "L0178697",
+   "decl_id": "DCL0142775",
+   "description": "Smartphones, other",
+   "usd_per_kg": 182.7,
+   "kg_per_unit": 0.159
+  },
+  {
+   "line_id": "L0178814",
+   "decl_id": "DCL0142861",
+   "description": "Smartphones, other",
+   "usd_per_kg": 181.2,
+   "kg_per_unit": 0.159
+  },
+  {
+   "line_id": "L0179057",
+   "decl_id": "DCL0143051",
+   "description": "Smartphones, bulk packed",
+   "usd_per_kg": 198.5,
+   "kg_per_unit": 0.161
+  },
+  {
+   "line_id": "L0179289",
+   "decl_id": "DCL0143228",
+   "description": "Smartphones, other",
+   "usd_per_kg": 422.1,
+   "kg_per_unit": 0.215
+  },
+  {
+   "line_id": "L0179453",
+   "decl_id": "DCL0143362",
+   "description": "Smartphones, other",
+   "usd_per_kg": 188.5,
+   "kg_per_unit": 0.167
+  },
+  {
+   "line_id": "L0179706",
+   "decl_id": "DCL0143563",
+   "description": "SOLBRIGHT Smartphones, other 6.1 INCH",
+   "usd_per_kg": 194.9,
+   "kg_per_unit": 0.159
+  },
+  {
+   "line_id": "L0180422",
+   "decl_id": "DCL0144138",
+   "description": "Smartphones, other",
+   "usd_per_kg": 171.3,
+   "kg_per_unit": 0.16
+  },
+  {
+   "line_id": "L0180752",
+   "decl_id": "DCL0144393",
+   "description": "Smartphones, other",
+   "usd_per_kg": 401.7,
+   "kg_per_unit": 0.21
+  },
+  {
+   "line_id": "L0180931",
+   "decl_id": "DCL0144535",
+   "description": "Smartphones, other",
+   "usd_per_kg": 182.6,
+   "kg_per_unit": 0.156
+  },
+  {
+   "line_id": "L0181405",
+   "decl_id": "DCL0144904",
+   "description": "Smartphones, other",
+   "usd_per_kg": 191.4,
+   "kg_per_unit": 0.158
+  },
+  {
+   "line_id": "L0181638",
+   "decl_id": "DCL0145089",
+   "description": "SMARTPHONES C",
+   "usd_per_kg": 397.5,
+   "kg_per_unit": 0.201
+  },
+  {
+   "line_id": "L0181685",
+   "decl_id": "DCL0145129",
+   "description": "Smartphones, other",
+   "usd_per_kg": 178.7,
+   "kg_per_unit": 0.156
+  },
+  {
+   "line_id": "L0181907",
+   "decl_id": "DCL0145311",
+   "description": "Smartphones, other",
+   "usd_per_kg": 185.9,
+   "kg_per_unit": 0.158
+  },
+  {
+   "line_id": "L0182150",
+   "decl_id": "DCL0145514",
+   "description": "Smartphones, other",
+   "usd_per_kg": 189.9,
+   "kg_per_unit": 0.16
+  },
+  {
+   "line_id": "L0182582",
+   "decl_id": "DCL0145875",
+   "description": "Smartphones, other",
+   "usd_per_kg": 403.2,
+   "kg_per_unit": 0.212
+  },
+  {
+   "line_id": "L0182825",
+   "decl_id": "DCL0146068",
+   "description": "Smartphones, other",
+   "usd_per_kg": 191.3,
+   "kg_per_unit": 0.166
+  },
+  {
+   "line_id": "L0182853",
+   "decl_id": "DCL0146091",
+   "description": "Photovoltaic cells assembled in modules, grade B",
    "usd_per_kg": 163.0,
-   "kg_per_unit": 0.152,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.251
+   "kg_per_unit": 0.159
   },
   {
-   "decl_id": "DCL1007341",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 151.6,
-   "kg_per_unit": 0.158,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.381
+   "line_id": "L0182920",
+   "decl_id": "DCL0146139",
+   "description": "Smartphones, other",
+   "usd_per_kg": 194.3,
+   "kg_per_unit": 0.16
   },
   {
-   "decl_id": "DCL1007386",
-   "line_no": 1,
-   "description": "Smartphones, premium model",
-   "usd_per_kg": 474.3,
-   "kg_per_unit": 0.198,
-   "group_k2": 2,
-   "distance_to_nearest_group": 0.565
+   "line_id": "L0182985",
+   "decl_id": "DCL0146195",
+   "description": "Smartphones, other",
+   "usd_per_kg": 423.4,
+   "kg_per_unit": 0.211
   },
   {
-   "decl_id": "DCL1007559",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 127.5,
-   "kg_per_unit": 0.166,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.612
+   "line_id": "L0183650",
+   "decl_id": "DCL0146737",
+   "description": "Smartphones, other",
+   "usd_per_kg": 163.2,
+   "kg_per_unit": 0.159
   },
   {
-   "decl_id": "DCL1007681",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 103.4,
-   "kg_per_unit": 0.121,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.795
+   "line_id": "L0183733",
+   "decl_id": "DCL0146800",
+   "description": "Smartphones, other (elektronik)",
+   "usd_per_kg": 191.2,
+   "kg_per_unit": 0.166
   },
   {
-   "decl_id": "DCL1007691",
-   "line_no": 2,
-   "description": "Smartphones",
-   "usd_per_kg": 179.0,
-   "kg_per_unit": 0.139,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.343
+   "line_id": "L0185320",
+   "decl_id": "DCL0148107",
+   "description": "Smartphones, other",
+   "usd_per_kg": 391.8,
+   "kg_per_unit": 0.205
   },
   {
-   "decl_id": "DCL1007706",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 132.1,
-   "kg_per_unit": 0.14,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.19
+   "line_id": "L0185321",
+   "decl_id": "DCL0148107",
+   "description": "SMARTPHONES C",
+   "usd_per_kg": 175.3,
+   "kg_per_unit": 0.161
   },
   {
-   "decl_id": "DCL1007783",
-   "line_no": 1,
-   "description": "Smartphones",
-   "usd_per_kg": 165.7,
-   "kg_per_unit": 0.151,
-   "group_k2": 1,
-   "distance_to_nearest_group": 0.24
+   "line_id": "L0185322",
+   "decl_id": "DCL0148108",
+   "description": "Smartphones, other",
+   "usd_per_kg": 419.3,
+   "kg_per_unit": 0.199
+  },
+  {
+   "line_id": "L0185340",
+   "decl_id": "DCL0148123",
+   "description": "Smartphones, other",
+   "usd_per_kg": 426.9,
+   "kg_per_unit": 0.218
+  },
+  {
+   "line_id": "L0185416",
+   "decl_id": "DCL0148186",
+   "description": "Smartphones, other",
+   "usd_per_kg": 404.3,
+   "kg_per_unit": 0.218
+  },
+  {
+   "line_id": "L0185613",
+   "decl_id": "DCL0148341",
+   "description": "Smartphones C",
+   "usd_per_kg": 175.0,
+   "kg_per_unit": 0.159
+  },
+  {
+   "line_id": "L0185763",
+   "decl_id": "DCL0148464",
+   "description": "Smartphones, other",
+   "usd_per_kg": 167.6,
+   "kg_per_unit": 0.163
+  },
+  {
+   "line_id": "L0185836",
+   "decl_id": "DCL0148519",
+   "description": "Smartphones, other (电子产品)",
+   "usd_per_kg": 434.8,
+   "kg_per_unit": 0.22
+  },
+  {
+   "line_id": "L0186096",
+   "decl_id": "DCL0148727",
+   "description": "Smartphones, other",
+   "usd_per_kg": 168.3,
+   "kg_per_unit": 0.152
+  },
+  {
+   "line_id": "L0186750",
+   "decl_id": "DCL0149237",
+   "description": "Smartphones, other",
+   "usd_per_kg": 445.8,
+   "kg_per_unit": 0.216
+  },
+  {
+   "line_id": "L0186771",
+   "decl_id": "DCL0149256",
+   "description": "SOLBRIGHT Smartphones, other 128GB",
+   "usd_per_kg": 155.0,
+   "kg_per_unit": 0.153
+  },
+  {
+   "line_id": "L0187214",
+   "decl_id": "DCL0149605",
+   "description": "Smartphones, other",
+   "usd_per_kg": 181.1,
+   "kg_per_unit": 0.167
+  },
+  {
+   "line_id": "L0187324",
+   "decl_id": "DCL0149700",
+   "description": "Smartphones, other",
+   "usd_per_kg": 195.1,
+   "kg_per_unit": 0.153
+  },
+  {
+   "line_id": "L0187358",
+   "decl_id": "DCL0149728",
+   "description": "Smartphones, other (电子产品)",
+   "usd_per_kg": 168.9,
+   "kg_per_unit": 0.164
+  },
+  {
+   "line_id": "L0188812",
+   "decl_id": "DCL0150894",
+   "description": "Smartphones, other",
+   "usd_per_kg": 391.3,
+   "kg_per_unit": 0.208
+  },
+  {
+   "line_id": "L0189372",
+   "decl_id": "DCL0151321",
+   "description": "Smartphones C",
+   "usd_per_kg": 176.3,
+   "kg_per_unit": 0.156
+  },
+  {
+   "line_id": "L0189650",
+   "decl_id": "DCL0151542",
+   "description": "Smartphones, other",
+   "usd_per_kg": 407.1,
+   "kg_per_unit": 0.2
+  },
+  {
+   "line_id": "L0190048",
+   "decl_id": "DCL0151856",
+   "description": "Smartphones, other",
+   "usd_per_kg": 192.1,
+   "kg_per_unit": 0.164
+  },
+  {
+   "line_id": "L0190239",
+   "decl_id": "DCL0152012",
+   "description": "Smartphones, other",
+   "usd_per_kg": 193.8,
+   "kg_per_unit": 0.155
+  },
+  {
+   "line_id": "L0190954",
+   "decl_id": "DCL0152610",
+   "description": "Smartphones, other",
+   "usd_per_kg": 415.1,
+   "kg_per_unit": 0.211
+  },
+  {
+   "line_id": "L0192203",
+   "decl_id": "DCL0153629",
+   "description": "Smartphones, other",
+   "usd_per_kg": 409.1,
+   "kg_per_unit": 0.216
+  },
+  {
+   "line_id": "L0192998",
+   "decl_id": "DCL0154264",
+   "description": "VANTIS Smartphones, other 128GB",
+   "usd_per_kg": 172.2,
+   "kg_per_unit": 0.16
+  },
+  {
+   "line_id": "L0193473",
+   "decl_id": "DCL0154632",
+   "description": "Smartphones, other",
+   "usd_per_kg": 192.0,
+   "kg_per_unit": 0.165
+  },
+  {
+   "line_id": "L0194812",
+   "decl_id": "DCL0155721",
+   "description": "Smartphones, other",
+   "usd_per_kg": 465.9,
+   "kg_per_unit": 0.209
+  },
+  {
+   "line_id": "L0196075",
+   "decl_id": "DCL0156730",
+   "description": "Smartphones, other",
+   "usd_per_kg": 147.9,
+   "kg_per_unit": 0.155
+  },
+  {
+   "line_id": "L0196137",
+   "decl_id": "DCL0156783",
+   "description": "Smartphones, other",
+   "usd_per_kg": 169.7,
+   "kg_per_unit": 0.166
+  },
+  {
+   "line_id": "L0196405",
+   "decl_id": "DCL0156997",
+   "description": "Smartphones, other",
+   "usd_per_kg": 438.7,
+   "kg_per_unit": 0.211
+  },
+  {
+   "line_id": "L0196613",
+   "decl_id": "DCL0157162",
+   "description": "Smartphones, other",
+   "usd_per_kg": 389.3,
+   "kg_per_unit": 0.205
+  },
+  {
+   "line_id": "L0197174",
+   "decl_id": "DCL0157606",
+   "description": "SMARTPHONES C",
+   "usd_per_kg": 169.0,
+   "kg_per_unit": 0.159
+  },
+  {
+   "line_id": "L0197441",
+   "decl_id": "DCL0157816",
+   "description": "Smartphones, other",
+   "usd_per_kg": 420.7,
+   "kg_per_unit": 0.221
+  },
+  {
+   "line_id": "L0198363",
+   "decl_id": "DCL0158555",
+   "description": "Smartphones, other",
+   "usd_per_kg": 175.8,
+   "kg_per_unit": 0.158
+  },
+  {
+   "line_id": "L0198673",
+   "decl_id": "DCL0158794",
+   "description": "Smartphones, other",
+   "usd_per_kg": 167.8,
+   "kg_per_unit": 0.166
+  },
+  {
+   "line_id": "L0199025",
+   "decl_id": "DCL0159072",
+   "description": "SMARTPHONES C",
+   "usd_per_kg": 172.9,
+   "kg_per_unit": 0.166
+  },
+  {
+   "line_id": "L0199026",
+   "decl_id": "DCL0159073",
+   "description": "Smartphones, other",
+   "usd_per_kg": 397.2,
+   "kg_per_unit": 0.209
+  },
+  {
+   "line_id": "L0199059",
+   "decl_id": "DCL0159102",
+   "description": "Smartphones, other",
+   "usd_per_kg": 174.7,
+   "kg_per_unit": 0.163
+  },
+  {
+   "line_id": "L0199156",
+   "decl_id": "DCL0159173",
+   "description": "Smartphones, other",
+   "usd_per_kg": 428.2,
+   "kg_per_unit": 0.227
+  },
+  {
+   "line_id": "L0199798",
+   "decl_id": "DCL0159681",
+   "description": "Smartphones, other (电子产品)",
+   "usd_per_kg": 163.0,
+   "kg_per_unit": 0.151
+  },
+  {
+   "line_id": "L0200070",
+   "decl_id": "DCL0159896",
+   "description": "Smartphones, other",
+   "usd_per_kg": 422.1,
+   "kg_per_unit": 0.21
+  },
+  {
+   "line_id": "L0200329",
+   "decl_id": "DCL0160093",
+   "description": "KIRO Smartphones, other 2000W",
+   "usd_per_kg": 374.4,
+   "kg_per_unit": 0.216
+  },
+  {
+   "line_id": "L0200599",
+   "decl_id": "DCL0160311",
+   "description": "Smartphones C",
+   "usd_per_kg": 402.5,
+   "kg_per_unit": 0.212
+  },
+  {
+   "line_id": "L0200863",
+   "decl_id": "DCL0160528",
+   "description": "Smartphones, other",
+   "usd_per_kg": 182.3,
+   "kg_per_unit": 0.152
+  },
+  {
+   "line_id": "L0201438",
+   "decl_id": "DCL0160997",
+   "description": "Smartphones, grade A",
+   "usd_per_kg": 465.3,
+   "kg_per_unit": 0.212
+  },
+  {
+   "line_id": "L0201834",
+   "decl_id": "DCL0161319",
+   "description": "SMARTPHONES C",
+   "usd_per_kg": 180.8,
+   "kg_per_unit": 0.155
+  },
+  {
+   "line_id": "L0202939",
+   "decl_id": "DCL0162178",
+   "description": "Smartphones, other",
+   "usd_per_kg": 188.3,
+   "kg_per_unit": 0.158
+  },
+  {
+   "line_id": "L0203682",
+   "decl_id": "DCL0162776",
+   "description": "Smartphones, other",
+   "usd_per_kg": 191.7,
+   "kg_per_unit": 0.166
+  },
+  {
+   "line_id": "L0204824",
+   "decl_id": "DCL0163706",
+   "description": "Smartphones, other",
+   "usd_per_kg": 183.2,
+   "kg_per_unit": 0.162
+  },
+  {
+   "line_id": "L0206744",
+   "decl_id": "DCL0165227",
+   "description": "Smartphones, other",
+   "usd_per_kg": 401.6,
+   "kg_per_unit": 0.214
+  },
+  {
+   "line_id": "L0207892",
+   "decl_id": "DCL0166120",
+   "description": "SOLBRIGHT Smartphones, other 48V 20AH",
+   "usd_per_kg": 167.8,
+   "kg_per_unit": 0.168
+  },
+  {
+   "line_id": "L0208185",
+   "decl_id": "DCL0166346",
+   "description": "Smartphones, other",
+   "usd_per_kg": 179.2,
+   "kg_per_unit": 0.149
+  },
+  {
+   "line_id": "L0208665",
+   "decl_id": "DCL0166732",
+   "description": "ARKON Smartphones, other 48V 20AH",
+   "usd_per_kg": 376.4,
+   "kg_per_unit": 0.204
+  },
+  {
+   "line_id": "L0209159",
+   "decl_id": "DCL0167129",
+   "description": "Smartphones, other",
+   "usd_per_kg": 419.0,
+   "kg_per_unit": 0.213
+  },
+  {
+   "line_id": "L0209556",
+   "decl_id": "DCL0167441",
+   "description": "Smartphones C",
+   "usd_per_kg": 177.9,
+   "kg_per_unit": 0.161
+  },
+  {
+   "line_id": "L0209558",
+   "decl_id": "DCL0167443",
+   "description": "Smartphones, other",
+   "usd_per_kg": 205.7,
+   "kg_per_unit": 0.163
+  },
+  {
+   "line_id": "L0209743",
+   "decl_id": "DCL0167600",
+   "description": "SAMPLES",
+   "usd_per_kg": 153.9,
+   "kg_per_unit": 0.167
+  },
+  {
+   "line_id": "L0209809",
+   "decl_id": "DCL0167647",
+   "description": "Smartphones, other",
+   "usd_per_kg": 174.2,
+   "kg_per_unit": 0.163
+  },
+  {
+   "line_id": "L0209929",
+   "decl_id": "DCL0167731",
+   "description": "Photovoltaic cells assembled in modules, other",
+   "usd_per_kg": 439.6,
+   "kg_per_unit": 0.208
+  },
+  {
+   "line_id": "L0210356",
+   "decl_id": "DCL0168069",
+   "description": "Smartphones, other",
+   "usd_per_kg": 178.0,
+   "kg_per_unit": 0.156
+  },
+  {
+   "line_id": "L0210815",
+   "decl_id": "DCL0168434",
+   "description": "Smartphones, other (elektronik)",
+   "usd_per_kg": 169.8,
+   "kg_per_unit": 0.161
+  },
+  {
+   "line_id": "L0210907",
+   "decl_id": "DCL0168506",
+   "description": "Smartphones, other",
+   "usd_per_kg": 182.2,
+   "kg_per_unit": 0.16
+  },
+  {
+   "line_id": "L0211068",
+   "decl_id": "DCL0168626",
+   "description": "KIRO Smartphones, other 5000MAH",
+   "usd_per_kg": 465.6,
+   "kg_per_unit": 0.217
+  },
+  {
+   "line_id": "L0211248",
+   "decl_id": "DCL0168768",
+   "description": "Smartphones, other",
+   "usd_per_kg": 480.7,
+   "kg_per_unit": 0.221
+  },
+  {
+   "line_id": "L0211396",
+   "decl_id": "DCL0168876",
+   "description": "Smartphones, other",
+   "usd_per_kg": 410.8,
+   "kg_per_unit": 0.213
+  },
+  {
+   "line_id": "L0211585",
+   "decl_id": "DCL0169031",
+   "description": "Smartphones, other",
+   "usd_per_kg": 160.7,
+   "kg_per_unit": 0.155
+  },
+  {
+   "line_id": "L0212999",
+   "decl_id": "DCL0170143",
+   "description": "Smartphones, other",
+   "usd_per_kg": 190.4,
+   "kg_per_unit": 0.154
+  },
+  {
+   "line_id": "L0213370",
+   "decl_id": "DCL0170430",
+   "description": "KIRO Smartphones, other 128GB",
+   "usd_per_kg": 189.2,
+   "kg_per_unit": 0.159
+  },
+  {
+   "line_id": "L0214208",
+   "decl_id": "DCL0171098",
+   "description": "Smartphones, other",
+   "usd_per_kg": 185.7,
+   "kg_per_unit": 0.166
+  },
+  {
+   "line_id": "L0214399",
+   "decl_id": "DCL0171243",
+   "description": "Smartphones, other",
+   "usd_per_kg": 173.7,
+   "kg_per_unit": 0.159
+  },
+  {
+   "line_id": "L0217351",
+   "decl_id": "DCL0173556",
+   "description": "Smartphones, other",
+   "usd_per_kg": 390.0,
+   "kg_per_unit": 0.205
+  },
+  {
+   "line_id": "L0217975",
+   "decl_id": "DCL0174055",
+   "description": "Smartphones C",
+   "usd_per_kg": 160.9,
+   "kg_per_unit": 0.165
+  },
+  {
+   "line_id": "L0218367",
+   "decl_id": "DCL0174364",
+   "description": "VANTIS Smartphones, other 128GB",
+   "usd_per_kg": 460.8,
+   "kg_per_unit": 0.209
+  },
+  {
+   "line_id": "L0218480",
+   "decl_id": "DCL0174451",
+   "description": "Smartphones, other (电子产品)",
+   "usd_per_kg": 422.0,
+   "kg_per_unit": 0.209
+  },
+  {
+   "line_id": "L0218806",
+   "decl_id": "DCL0174706",
+   "description": "Lithium-ion accumulators, grade A",
+   "usd_per_kg": 188.9,
+   "kg_per_unit": 0.163
+  },
+  {
+   "line_id": "L0219175",
+   "decl_id": "DCL0175001",
+   "description": "Smartphones, other",
+   "usd_per_kg": 388.7,
+   "kg_per_unit": 0.214
+  },
+  {
+   "line_id": "L0219520",
+   "decl_id": "DCL0175281",
+   "description": "SMARTPHONES C",
+   "usd_per_kg": 189.4,
+   "kg_per_unit": 0.155
+  },
+  {
+   "line_id": "L0220195",
+   "decl_id": "DCL0175811",
+   "description": "SMARTPHONES C",
+   "usd_per_kg": 389.9,
+   "kg_per_unit": 0.208
+  },
+  {
+   "line_id": "L0220697",
+   "decl_id": "DCL0176217",
+   "description": "Smartphones, other",
+   "usd_per_kg": 483.8,
+   "kg_per_unit": 0.218
+  },
+  {
+   "line_id": "L0220771",
+   "decl_id": "DCL0176273",
+   "description": "Smartphones, other",
+   "usd_per_kg": 180.8,
+   "kg_per_unit": 0.158
+  },
+  {
+   "line_id": "L0221416",
+   "decl_id": "DCL0176794",
+   "description": "Smartphones, other",
+   "usd_per_kg": 183.3,
+   "kg_per_unit": 0.163
+  },
+  {
+   "line_id": "L0221535",
+   "decl_id": "DCL0176891",
+   "description": "PARTS",
+   "usd_per_kg": 186.1,
+   "kg_per_unit": 0.15
+  },
+  {
+   "line_id": "L0221799",
+   "decl_id": "DCL0177102",
+   "description": "Smartphones, other",
+   "usd_per_kg": 444.9,
+   "kg_per_unit": 0.207
+  },
+  {
+   "line_id": "L0222106",
+   "decl_id": "DCL0177343",
+   "description": "Smartphones, other",
+   "usd_per_kg": 213.8,
+   "kg_per_unit": 0.152
+  },
+  {
+   "line_id": "L0223323",
+   "decl_id": "DCL0178314",
+   "description": "Smartphones, other",
+   "usd_per_kg": 405.6,
+   "kg_per_unit": 0.212
+  },
+  {
+   "line_id": "L0223944",
+   "decl_id": "DCL0178809",
+   "description": "Smartphones, other",
+   "usd_per_kg": 436.0,
+   "kg_per_unit": 0.209
+  },
+  {
+   "line_id": "L0224636",
+   "decl_id": "DCL0179364",
+   "description": "Smartphones, other",
+   "usd_per_kg": 448.2,
+   "kg_per_unit": 0.207
+  },
+  {
+   "line_id": "L0224741",
+   "decl_id": "DCL0179446",
+   "description": "Smartphones, other",
+   "usd_per_kg": 409.8,
+   "kg_per_unit": 0.21
+  },
+  {
+   "line_id": "L0224942",
+   "decl_id": "DCL0179608",
+   "description": "Smartphones, other",
+   "usd_per_kg": 434.8,
+   "kg_per_unit": 0.21
+  },
+  {
+   "line_id": "L0225042",
+   "decl_id": "DCL0179687",
+   "description": "Smartphones, other (电子产品)",
+   "usd_per_kg": 180.6,
+   "kg_per_unit": 0.159
+  },
+  {
+   "line_id": "L0225490",
+   "decl_id": "DCL0180045",
+   "description": "Smartphones, other",
+   "usd_per_kg": 191.6,
+   "kg_per_unit": 0.156
+  },
+  {
+   "line_id": "L0226256",
+   "decl_id": "DCL0180669",
+   "description": "SMARTPHONES C",
+   "usd_per_kg": 189.4,
+   "kg_per_unit": 0.165
+  },
+  {
+   "line_id": "L0226354",
+   "decl_id": "DCL0180747",
+   "description": "Smartphones, other",
+   "usd_per_kg": 166.4,
+   "kg_per_unit": 0.164
+  },
+  {
+   "line_id": "L0226492",
+   "decl_id": "DCL0180862",
+   "description": "Smartphones, other",
+   "usd_per_kg": 178.9,
+   "kg_per_unit": 0.167
+  },
+  {
+   "line_id": "L0226868",
+   "decl_id": "DCL0181171",
+   "description": "Smartphones, other",
+   "usd_per_kg": 175.9,
+   "kg_per_unit": 0.156
+  },
+  {
+   "line_id": "L0227016",
+   "decl_id": "DCL0181288",
+   "description": "Smartphones, other (电子产品)",
+   "usd_per_kg": 191.8,
+   "kg_per_unit": 0.162
+  },
+  {
+   "line_id": "L0227054",
+   "decl_id": "DCL0181319",
+   "description": "Smartphones, other",
+   "usd_per_kg": 188.5,
+   "kg_per_unit": 0.159
+  },
+  {
+   "line_id": "L0227333",
+   "decl_id": "DCL0181540",
+   "description": "Smartphones, other",
+   "usd_per_kg": 184.5,
+   "kg_per_unit": 0.156
+  },
+  {
+   "line_id": "L0227425",
+   "decl_id": "DCL0181616",
+   "description": "Smartphones, other (电子产品)",
+   "usd_per_kg": 413.5,
+   "kg_per_unit": 0.212
+  },
+  {
+   "line_id": "L0228505",
+   "decl_id": "DCL0182479",
+   "description": "Smartphones, other",
+   "usd_per_kg": 395.8,
+   "kg_per_unit": 0.21
+  },
+  {
+   "line_id": "L0228580",
+   "decl_id": "DCL0182537",
+   "description": "Smartphones, other (电子产品)",
+   "usd_per_kg": 452.2,
+   "kg_per_unit": 0.21
+  },
+  {
+   "line_id": "L0228867",
+   "decl_id": "DCL0182763",
+   "description": "Smartphones, other (电子产品)",
+   "usd_per_kg": 175.3,
+   "kg_per_unit": 0.155
+  },
+  {
+   "line_id": "L0229603",
+   "decl_id": "DCL0183350",
+   "description": "Smartphones, other",
+   "usd_per_kg": 168.2,
+   "kg_per_unit": 0.16
+  },
+  {
+   "line_id": "L0229806",
+   "decl_id": "DCL0183509",
+   "description": "SMARTPHONES C",
+   "usd_per_kg": 371.0,
+   "kg_per_unit": 0.21
+  },
+  {
+   "line_id": "L0230286",
+   "decl_id": "DCL0183895",
+   "description": "Smartphones C",
+   "usd_per_kg": 170.4,
+   "kg_per_unit": 0.165
+  },
+  {
+   "line_id": "L0230392",
+   "decl_id": "DCL0183978",
+   "description": "Smartphones C",
+   "usd_per_kg": 198.1,
+   "kg_per_unit": 0.16
+  },
+  {
+   "line_id": "L0230723",
+   "decl_id": "DCL0184248",
+   "description": "Smartphones, other (elektronik)",
+   "usd_per_kg": 210.2,
+   "kg_per_unit": 0.165
+  },
+  {
+   "line_id": "L0230792",
+   "decl_id": "DCL0184299",
+   "description": "Smartphones, other",
+   "usd_per_kg": 420.7,
+   "kg_per_unit": 0.208
+  },
+  {
+   "line_id": "L0231019",
+   "decl_id": "DCL0184477",
+   "description": "Smartphones C",
+   "usd_per_kg": 158.3,
+   "kg_per_unit": 0.161
+  },
+  {
+   "line_id": "L0231246",
+   "decl_id": "DCL0184656",
+   "description": "VANTIS Smartphones, other 2000W",
+   "usd_per_kg": 186.0,
+   "kg_per_unit": 0.164
+  },
+  {
+   "line_id": "L0231971",
+   "decl_id": "DCL0185240",
+   "description": "Smartphones, other",
+   "usd_per_kg": 166.6,
+   "kg_per_unit": 0.15
+  },
+  {
+   "line_id": "L0232402",
+   "decl_id": "DCL0185584",
+   "description": "PARTS",
+   "usd_per_kg": 176.6,
+   "kg_per_unit": 0.154
+  },
+  {
+   "line_id": "L0233986",
+   "decl_id": "DCL0186870",
+   "description": "SMARTPHONES C",
+   "usd_per_kg": 174.9,
+   "kg_per_unit": 0.158
+  },
+  {
+   "line_id": "L0234349",
+   "decl_id": "DCL0187166",
+   "description": "Smartphones, other",
+   "usd_per_kg": 386.4,
+   "kg_per_unit": 0.223
+  },
+  {
+   "line_id": "L0234351",
+   "decl_id": "DCL0187168",
+   "description": "Lithium-ion accumulators, bulk packed",
+   "usd_per_kg": 171.1,
+   "kg_per_unit": 0.16
+  },
+  {
+   "line_id": "L0234510",
+   "decl_id": "DCL0187297",
+   "description": "Smartphones, other",
+   "usd_per_kg": 199.4,
+   "kg_per_unit": 0.154
+  },
+  {
+   "line_id": "L0235029",
+   "decl_id": "DCL0187699",
+   "description": "NEXO Smartphones, other 48V 20AH",
+   "usd_per_kg": 169.4,
+   "kg_per_unit": 0.159
+  },
+  {
+   "line_id": "L0235122",
+   "decl_id": "DCL0187774",
+   "description": "Smartphones, grade B",
+   "usd_per_kg": 376.0,
+   "kg_per_unit": 0.223
+  },
+  {
+   "line_id": "L0235233",
+   "decl_id": "DCL0187856",
+   "description": "Other telephones for cellular networks, grade A",
+   "usd_per_kg": 192.2,
+   "kg_per_unit": 0.168
+  },
+  {
+   "line_id": "L0237726",
+   "decl_id": "DCL0189871",
+   "description": "Smartphones, other",
+   "usd_per_kg": 169.4,
+   "kg_per_unit": 0.147
+  },
+  {
+   "line_id": "L0237946",
+   "decl_id": "DCL0190053",
+   "description": "Other telephones for cellular networks, bulk packed",
+   "usd_per_kg": 423.3,
+   "kg_per_unit": 0.198
+  },
+  {
+   "line_id": "L0238181",
+   "decl_id": "DCL0190247",
+   "description": "Smartphones, other",
+   "usd_per_kg": 196.5,
+   "kg_per_unit": 0.161
+  },
+  {
+   "line_id": "L0238917",
+   "decl_id": "DCL0190854",
+   "description": "Smartphones, other",
+   "usd_per_kg": 191.2,
+   "kg_per_unit": 0.156
+  },
+  {
+   "line_id": "L0240494",
+   "decl_id": "DCL0192094",
+   "description": "Smartphones C",
+   "usd_per_kg": 193.4,
+   "kg_per_unit": 0.176
+  },
+  {
+   "line_id": "L0240498",
+   "decl_id": "DCL0192096",
+   "description": "Smartphones, other",
+   "usd_per_kg": 175.3,
+   "kg_per_unit": 0.164
+  },
+  {
+   "line_id": "L0240519",
+   "decl_id": "DCL0192112",
+   "description": "Smartphones, other",
+   "usd_per_kg": 440.7,
+   "kg_per_unit": 0.216
+  },
+  {
+   "line_id": "L0240523",
+   "decl_id": "DCL0192116",
+   "description": "SMARTPHONES C",
+   "usd_per_kg": 179.9,
+   "kg_per_unit": 0.154
+  },
+  {
+   "line_id": "L0240919",
+   "decl_id": "DCL0192442",
+   "description": "Smartphones, other",
+   "usd_per_kg": 164.2,
+   "kg_per_unit": 0.165
+  },
+  {
+   "line_id": "L0241534",
+   "decl_id": "DCL0192931",
+   "description": "Smartphones, other",
+   "usd_per_kg": 194.1,
+   "kg_per_unit": 0.17
+  },
+  {
+   "line_id": "L0241893",
+   "decl_id": "DCL0193214",
+   "description": "SOLBRIGHT Smartphones, other 128GB",
+   "usd_per_kg": 181.8,
+   "kg_per_unit": 0.152
+  },
+  {
+   "line_id": "L0242064",
+   "decl_id": "DCL0193358",
+   "description": "ARKON Smartphones, other 2000W",
+   "usd_per_kg": 177.7,
+   "kg_per_unit": 0.157
+  },
+  {
+   "line_id": "L0242380",
+   "decl_id": "DCL0193613",
+   "description": "Smartphones, other",
+   "usd_per_kg": 407.4,
+   "kg_per_unit": 0.215
+  },
+  {
+   "line_id": "L0243676",
+   "decl_id": "DCL0194692",
+   "description": "Smartphones, other",
+   "usd_per_kg": 459.9,
+   "kg_per_unit": 0.212
+  },
+  {
+   "line_id": "L0243911",
+   "decl_id": "DCL0194883",
+   "description": "Smartphones, other",
+   "usd_per_kg": 194.1,
+   "kg_per_unit": 0.167
+  },
+  {
+   "line_id": "L0243945",
+   "decl_id": "DCL0194909",
+   "description": "Smartphones, other (elektronik)",
+   "usd_per_kg": 420.8,
+   "kg_per_unit": 0.201
+  },
+  {
+   "line_id": "L0244843",
+   "decl_id": "DCL0195646",
+   "description": "Smartphones, other",
+   "usd_per_kg": 178.6,
+   "kg_per_unit": 0.165
+  },
+  {
+   "line_id": "L0245304",
+   "decl_id": "DCL0196033",
+   "description": "KIRO Smartphones, other 65W",
+   "usd_per_kg": 443.5,
+   "kg_per_unit": 0.22
+  },
+  {
+   "line_id": "L0245466",
+   "decl_id": "DCL0196159",
+   "description": "Smartphones, other",
+   "usd_per_kg": 198.0,
+   "kg_per_unit": 0.157
+  },
+  {
+   "line_id": "L0245538",
+   "decl_id": "DCL0196214",
+   "description": "Smartphones, other",
+   "usd_per_kg": 176.2,
+   "kg_per_unit": 0.163
+  },
+  {
+   "line_id": "L0245748",
+   "decl_id": "DCL0196385",
+   "description": "KIRO Smartphones, other 48V 20AH",
+   "usd_per_kg": 187.1,
+   "kg_per_unit": 0.156
+  },
+  {
+   "line_id": "L0245953",
+   "decl_id": "DCL0196551",
+   "description": "Smartphones, other",
+   "usd_per_kg": 173.7,
+   "kg_per_unit": 0.169
+  },
+  {
+   "line_id": "L0246163",
+   "decl_id": "DCL0196733",
+   "description": "Smartphones, other",
+   "usd_per_kg": 191.5,
+   "kg_per_unit": 0.151
+  },
+  {
+   "line_id": "L0246452",
+   "decl_id": "DCL0196975",
+   "description": "Smartphones, other",
+   "usd_per_kg": 201.2,
+   "kg_per_unit": 0.172
+  },
+  {
+   "line_id": "L0246605",
+   "decl_id": "DCL0197100",
+   "description": "KIRO Smartphones, other 2000W",
+   "usd_per_kg": 427.1,
+   "kg_per_unit": 0.196
+  },
+  {
+   "line_id": "L0247356",
+   "decl_id": "DCL0197724",
+   "description": "Smartphones, other",
+   "usd_per_kg": 396.6,
+   "kg_per_unit": 0.213
+  },
+  {
+   "line_id": "L0247480",
+   "decl_id": "DCL0197827",
+   "description": "KIRO Smartphones, other 5000MAH",
+   "usd_per_kg": 201.8,
+   "kg_per_unit": 0.164
+  },
+  {
+   "line_id": "L0247497",
+   "decl_id": "DCL0197844",
+   "description": "Smartphones, other",
+   "usd_per_kg": 167.6,
+   "kg_per_unit": 0.161
+  },
+  {
+   "line_id": "L0247666",
+   "decl_id": "DCL0197986",
+   "description": "SMARTPHONES C",
+   "usd_per_kg": 171.7,
+   "kg_per_unit": 0.14
+  },
+  {
+   "line_id": "L0247819",
+   "decl_id": "DCL0198117",
+   "description": "Smartphones, other",
+   "usd_per_kg": 394.8,
+   "kg_per_unit": 0.218
+  },
+  {
+   "line_id": "L0247853",
+   "decl_id": "DCL0198142",
+   "description": "Smartphones, other",
+   "usd_per_kg": 195.2,
+   "kg_per_unit": 0.162
+  },
+  {
+   "line_id": "L0248960",
+   "decl_id": "DCL0199056",
+   "description": "ARKON Smartphones, other 2000W",
+   "usd_per_kg": 171.7,
+   "kg_per_unit": 0.163
+  },
+  {
+   "line_id": "L0249962",
+   "decl_id": "DCL0199868",
+   "description": "Smartphones, other",
+   "usd_per_kg": 196.0,
+   "kg_per_unit": 0.168
+  },
+  {
+   "line_id": "L0250058",
+   "decl_id": "DCL0199949",
+   "description": "Smartphones, other",
+   "usd_per_kg": 426.8,
+   "kg_per_unit": 0.206
   }
  ]
 }

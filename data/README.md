@@ -1,365 +1,135 @@
-# Workshop data dictionary
+# Data dictionary (DATASET-v3)
 
-Synthetic data for the IMF customs workshop. Every record and name is generated; nothing describes a real trader.
-Money is in local currency units (LCU) unless the field says USD. Regenerate with `python data/generate.py --config data/config.yaml`.
+One generated world, seed 20261019, 1 October 2023 to 30 September 2026, home country HOM, LCU at a fixed 25 per USD. Real ISO codes for origins and partners, none a participating country. Every record is synthetic.
 
-## declarations
+Calibration line: random draw finds something on 1 to 8 lines in a hundred; this set is enriched on the 20 exercise lines only.
 
-One row per declaration line, 24 months (2024-10 to 2026-09).
+`outcome` is filled only where a control took place; an uncontrolled line carries null, never 'no finding'. Months 1-18 carry the legacy lanes and their control results; months 19-36 carry no lanes and only the random draw with its results.
+
+## Tables
+
+| Table | What it is |
+| --- | --- |
+| `declarations_h1.csv` | Months 1-18: every line, the legacy lane, and the control outcome wherever a control took place. |
+| `declarations_h2.csv` | Months 19-36: every line; no lanes; outcomes only on the random draw. |
+| `features_lines.csv` | The precomputed signals and scores for every line of both halves (see Features). |
+| `trader_features.csv` | One row per importer: value, lines, origins and exporters, price deviation, broker flagged share, tenure, amendment rate, exemption share, hit rate on months 1-18 where controlled, cluster. |
+| `importers.csv` | The importer register as customs holds it (no latent attribute). |
+| `brokers.csv` | Licensed brokers. |
+| `exporters.csv` | Foreign sellers. |
+| `consignees.csv` | Who receives the goods, and under whose importer code. |
+| `tariff.csv` | The 400 HS8 lines: duty, unit, usual weight per unit, producers, CIF/FOB wedge, the 2022 static reference price of the legacy rule R2. |
+| `offices.csv` | The 12 offices with their control capacity. |
+| `fx_rates.csv` | Fixed rates per month. |
+| `reference_prices.csv` | Median value per kg by code and origin over the 36 months. |
+| `accepted_history.csv` | 2B valuation: every home-use line of months 34-36 that was not a random draw with a finding, as declared, with accepted_on. |
+| `invoice_lines.csv` | 2B valuation: the five invoice lines of the exercise. |
+| `valuation_neighbours.csv` | For every accepted line of months 34-36 and the five invoice lines (query_id): the 30 nearest accepted lines of the same heading and origin by description embedding, with similarity. |
+| `mirror_trade.csv` | Partner exports (true FOB, from the world) against home imports (declared CIF) by partner, chapter and year, with the partner-side effects. |
+| `regional_unit_values.csv` | Stylised regional statistics: eight goods, ten importing countries (A = home), two rulers. |
+| `sector_regional.csv` | Stylised: ten chapters x ten countries, greyed under 70% weight coverage. |
+| `monthly_importer_uv.csv` | Monthly value per kg of the 50 largest importers' main code, with the reference median. |
+| `tax_registry.csv` | The tax administration's register (1,800 taxpayers). |
+| `vat_returns.csv` | 24 monthly periods per registered taxpayer; filed = 0 rows carry blank amounts. |
+| `importers_4b.csv` | The 25 importers of the 4B exercise. |
+| `match_example_600.csv` | The 600 importers of the match example (importer_id only). |
+| `licences.csv` | Relief licences of the exemption beneficiaries. |
+| `warehouse_stock.csv` | Warehouse stock accounts by operator and month. |
+| `transit.csv` | Transit movements. |
+| `parcels.csv` | Low-value parcels by consignee and month. |
+| `land_border_mirror.csv` | Imports at each land crossing against the neighbour's exports through it. |
+
+## declarations_h1 / declarations_h2
 
 | Field | Meaning |
 | --- | --- |
+| `line_id` | Line identifier (L + 7 digits); the key of every per-line table |
 | `decl_id` | Declaration number (DCL + 7 digits) |
 | `line_no` | Line number within the declaration |
-| `declaration_date` | Date the declaration was lodged |
+| `decl_date` | Date the declaration was lodged |
 | `month` | Year-month of the declaration |
-| `flow` | import, export or transit |
-| `procedure` | IM4 home use, IM7 warehouse, IM5 temporary, EX1 export, TR transit |
+| `period_month` | Month 1-36 of the window (1 = October 2023) |
 | `office` | Customs office (see offices) |
-| `trader_ref` | Customs' own trader code (always present) |
-| `trader_id` | Tax ID (TIN) as customs holds it; blank for some traders, one character off for a few |
+| `regime` | home_use, home_use_exempt, warehouse_in, warehouse_out, transit, temporary_admission, re_export |
+| `importer_id` | Customs' own importer code (IMP + 5 digits) |
+| `importer_name_customs` | Importer name as keyed on the declaration (a trading name for about 10%) |
+| `tin_customs` | Tax ID as customs holds it: blank for the informal importers, one character off for 6%, lent for a borrowed name |
+| `address_customs` | Address as keyed |
+| `phone_customs` | Phone as keyed |
+| `consignee_id` | Who receives the goods (see consignees) |
 | `broker_id` | Customs broker who lodged the line |
-| `exporter_id` | Foreign seller (imports and transit) |
-| `consignee_id` | Who receives the goods at home (imports) |
-| `ahtn8` | Declared tariff code (AHTN, 8 digits) |
-| `hs6` | First six digits of the declared code |
-| `description` | Goods description as typed by the declarant |
-| `origin_country` | Declared country of origin ('home' for exports) |
-| `shipping_country` | Country the goods were shipped from (or to, for exports) |
-| `preference_claim` | none, ATIGA or other preference claimed |
-| `certificate_ref` | Certificate of origin reference when a preference is claimed |
-| `invoice_currency` | Currency of the commercial invoice |
-| `invoice_value` | Invoice value in the invoice currency |
-| `fx_rate` | Local currency units (LCU) per unit of invoice currency that month |
-| `customs_value_lcu` | Customs value (CIF) in LCU |
-| `net_weight_kg` | Net weight in kilograms |
+| `exporter_id` | Foreign seller (blank on the valuation cells) |
+| `exporter_name` | Seller's name as declared |
+| `exporter_country` | Seller's country |
+| `origin` | Declared country of origin (ISO 3; never a participating country) |
+| `consignment_country` | Country the goods were shipped from (a hub for some lines) |
+| `hs8` | Declared tariff code (8 digits) |
+| `hs6` | First six digits |
+| `chapter` | First two digits |
+| `description` | Goods description as typed (abbreviations, brands, a second language, noise) |
 | `quantity` | Quantity in the declared unit |
-| `unit` | kg, tonnes, cartons, pallets or units |
-| `duty_rate` | Duty rate applied, in percent |
-| `duty_lcu` | Duty assessed in LCU |
-| `import_vat_lcu` | Import VAT: 10% of value plus duty (home use only) |
-| `relief_scheme` | Duty relief scheme used, if any |
-| `new_importer` | Importer registered with customs less than 12 months before the line |
-| `enriched_demo` | True on the 20 lines of the 1B exercise worksheet (deliberately rich in findings) |
-| `channel` | green, yellow or red (three legacy rules) |
-| `random_sample` | Drawn in the random sample before the rules ran |
-| `inspected` | Physically or documentarily inspected |
-| `inspection_outcome` | none or finding |
-| `finding_type` | Type of finding when one was recorded |
-| `duty_recovered_lcu` | Duty recovered after the finding |
-| `valuation_query` | none, raised or upheld |
+| `unit` | pieces, kg, litres, pairs or dozens (3% carry a wrong unit on purpose: only net_kg is comparable) |
+| `net_kg` | Net weight in kilograms |
+| `gross_kg` | Gross weight |
+| `fob_lcu` | FOB value in LCU |
+| `freight_lcu` | Freight |
+| `insurance_lcu` | Insurance (fob + freight + insurance = customs value) |
+| `customs_value_lcu` | Customs value (CIF) in LCU |
+| `invoice_currency` | Currency of the commercial invoice |
+| `invoice_value` | Invoice total in that currency, on the incoterm's basis |
+| `incoterm` | FOB, CIF, CFR or EXW |
+| `duty_rate` | Duty rate applied (percent; 0 outside home use and under an exemption; preference caps at 5) |
+| `duty_lcu` | Duty assessed |
+| `vat_lcu` | Import VAT: 10% of value plus duty, home use only |
+| `exemption_code` | Relief scheme (INV, DIP, AGR, EPZ) when the regime is home_use_exempt |
+| `preference_claim` | none or FTA |
+| `certificate_ref` | Certificate of origin reference when a preference is claimed |
+| `status` | accepted, amended, withdrawn or under_query |
+| `new_importer` | 1 when the importer's first line is within 12 months of the line date |
+| `importer_tenure_months` | Months since the importer's registration |
+| `enriched_demo` | 1 on the 20 lines of the 1B exercise (deliberately rich in findings) and nowhere else |
+| `lane` | Months 1-18: green, yellow or red from the five legacy rules; months 19-36: null (no lanes) |
+| `control_type` | Controls applied, or null when none took place |
+| `random_draw` | 1 when the line was in the random draw (RANDOM_SHARE, drawn before the rules, stratified by office and regime) |
+| `outcome` | finding or no_finding on every controlled line; null wherever no control took place (never 'no finding') |
+| `finding_type` | undervaluation, misclassification, origin, quantity, prohibited or documentary |
+| `duty_recovered_lcu` | Duty and VAT recovered after a finding (0 on no_finding; null without a control) |
+| `control_minutes` | Officer minutes spent on the control |
+| `officer_id` | Officer who controlled the line |
+| `override_flag` | 1 when the lane assignment was overridden by hand (months 1-18) |
+| `override_reason` | Why |
 | `release_hours` | Hours from lodgement to release |
-| `status` | accepted, amended, withdrawn or under query |
 
-## traders
-
-Importers and exporters as customs knows them.
+## features_lines (in addition to the line's keys, duty_rate, chapter, hs6, hs8, origin, consignment_country, regime, office, broker_id, random_draw, period_month, lane, control_type, outcome, finding_type, duty_recovered_lcu)
 
 | Field | Meaning |
 | --- | --- |
-| `trader_ref` | Customs' own trader code |
-| `trader_id` | TIN as customs holds it (blank or mistyped for some) |
-| `legal_name` | Registered legal name |
-| `trading_name` | Name used on documents (differs for about 30%) |
-| `address_id` | Address code |
-| `director_id` | Director code |
-| `director_name` | Director name (generated) |
-| `phone` | Phone number |
-| `default_broker_id` | Usual broker |
-| `registration_date` | Date registered with customs |
-| `sector` | Business sector (12) |
-| `size_band` | S, M or L |
-| `region` | Region of the head office |
-| `status` | active or suspended |
-| `vat_registered` | VAT registration as matched from the tax registry |
-| `declared_turnover_12m` | Sales declared to tax over the last 12 months (LCU) |
-| `consignee_count` | Consignees cleared under this trader |
+| `value_per_kg` | Customs value per kilogram (LCU) |
+| `peer_median_l1` | Median value per kg of the same code and origin over the 12 months ending at the line's month |
+| `peer_spread_l1` | Spread (1.4826 x MAD) at that level |
+| `peer_n_l1` | Lines at that level |
+| `peer_level_used` | First level with at least 30 lines: 1 code x origin, 2 code, 3 heading; 0 none |
+| `peer_median_used` | Median at the level used |
+| `peer_spread_used` | Spread at the level used (floor 2% of the median) |
+| `peer_n_used` | Lines at the level used |
+| `robust_z` | (value per kg - peer median) / spread, at the level used |
+| `share_of_median` | value per kg / peer median |
+| `code_drift_score` | Rise, over the trailing six months, of the share of the importer-broker pair's lines under the heading's cheapest code (0 when no rise) |
+| `text_code_disagreement` | How much better another code's template fits the description than the declared code's (character n-gram similarity; 0 when unreadable) |
+| `text_predicted_hs8` | The code whose template fits the description best |
+| `text_higher_duty` | 1 when that code carries a higher duty than the declared one |
+| `text_readable` | 1 when the description resembles any template |
+| `exporter_importers_12m` | Distinct importers behind the line's seller over the trailing 12 months |
+| `weight_per_unit_dev` | log(net kg per unit / usual kg per unit for the code); 0 for goods declared in kg |
+| `broker_flagged_share_h1` | Share of the broker's clients with a finding in months 1-18 |
+| `learned_score` | Gradient boosting trained on the months 1-18 controlled lines (label: outcome), scored on every line |
+| `learned_score_red_only` | The same model trained on red-lane lines only (the selection-bias chart) |
+| `oddness_score` | Isolation forest on the signals (no labels) |
+| `importer_cluster` | k-means (k = 4) cluster of the importer on trader_features (1 = quietest, 4 = riskiest) |
 
-## brokers
+## Generating rules in one paragraph each
 
-Licensed customs brokers.
-
-| Field | Meaning |
-| --- | --- |
-| `broker_id` | Broker code |
-| `name` | Broker name |
-| `licence_date` | Licence date |
-| `size_band` | S, M or L |
-
-## exporters
-
-Foreign sellers.
-
-| Field | Meaning |
-| --- | --- |
-| `exporter_id` | Exporter code |
-| `name` | Name (generated) |
-| `country` | Country of the seller |
-
-## consignees
-
-Who receives imported goods.
-
-| Field | Meaning |
-| --- | --- |
-| `consignee_id` | Consignee code |
-| `name` | Name |
-| `address_id` | Address code |
-| `trader_ref` | Trader that clears for this consignee |
-| `trader_id` | That trader's TIN as customs holds it |
-
-## tariff
-
-The 120 AHTN-8 codes used.
-
-| Field | Meaning |
-| --- | --- |
-| `ahtn8` | Tariff code |
-| `hs6` | 6-digit heading |
-| `chapter` | 2-digit chapter |
-| `description` | Description |
-| `abbreviation` | Common abbreviation |
-| `second_language_token` | Word often added in Thai or Vietnamese |
-| `base_usd_per_kg` | World reference value per kilo (USD) |
-| `duty_mfn` | MFN duty % |
-| `duty_atiga` | ATIGA preferential duty % |
-| `unit` | Usual trade unit |
-| `typical_shipment_kg` | Typical shipment weight |
-| `kg_per_unit` | Weight of one unit or carton |
-| `origin_producers` | Countries that produce the goods ('|'-separated) |
-| `duty_cliff_neighbour` | Neighbouring code with a lower duty |
-
-## reference_prices
-
-Value per kilo by code and origin over the 24 months.
-
-| Field | Meaning |
-| --- | --- |
-| `ahtn8` | Tariff code |
-| `origin` | Origin |
-| `median_unit_value_lcu_per_kg` | Median value per kg |
-| `p10` | 10th percentile |
-| `p90` | 90th percentile |
-| `n_lines` | Lines |
-
-## fx_rates
-
-Monthly exchange rates.
-
-| Field | Meaning |
-| --- | --- |
-| `month` | Year-month |
-| `currency` | Currency |
-| `lcu_per_unit` | LCU per unit |
-
-## offices
-
-Customs offices.
-
-| Field | Meaning |
-| --- | --- |
-| `office_id` | Office code |
-| `office_name` | Name |
-| `office_type` | seaport, airport, land border or dry port |
-
-## mirror_trade
-
-Home imports against partner exports by chapter, partner and year (USD).
-
-| Field | Meaning |
-| --- | --- |
-| `chapter` | Chapter |
-| `partner` | Partner country |
-| `year` | Year |
-| `partner_exports_usd` | Partner-reported exports to home (FOB); blank when not reported |
-| `home_imports_usd` | Home-recorded imports from the partner (CIF) |
-| `home_fob_usd` | Home imports at FOB |
-| `freight_usd` | Freight |
-| `insurance_usd` | Insurance |
-| `cif_fob_adj` | Shipping-and-insurance margin for the chapter |
-| `timing_usd` | Goods shipped in the year but recorded the next |
-| `hub_attributed_usd` | Partner-origin goods recorded under a hub |
-| `partner_weight_kg` | Partner-reported weight |
-| `home_weight_kg` | Home-recorded weight |
-| `reported_weight_flag` | 1 reported, 0 estimated from value |
-| `attribution` | origin or consignment basis of the home record |
-| `note` | Known explanation, when there is one |
-| `weight_ratio` | Home weight over partner weight |
-
-## tax_registry
-
-The tax administration's register.
-
-| Field | Meaning |
-| --- | --- |
-| `tin` | Taxpayer ID |
-| `legal_name` | Name as registered (may differ in form) |
-| `address_id` | Address code (blank for one) |
-| `director_id` | Director code |
-| `phone` | Phone |
-| `region` | Region |
-| `sector` | Sector |
-| `vat_registered` | Registered for VAT |
-| `registration_date` | Tax registration date |
-| `filing_status` | filer or non-filer |
-
-## vat_returns
-
-Monthly VAT returns.
-
-| Field | Meaning |
-| --- | --- |
-| `tin` | Taxpayer ID |
-| `period` | Year-month |
-| `sales_declared` | Sales declared |
-| `purchases_declared` | Purchases declared |
-| `import_vat_credit` | Import VAT claimed as credit |
-| `filed_date` | Date filed |
-
-## warehouse_stock
-
-Customs warehouse (IM7) stock accounts.
-
-| Field | Meaning |
-| --- | --- |
-| `operator_ref` | Warehouse operator (trader_ref) |
-| `period` | Year-month |
-| `opening_stock_lcu` | Opening stock |
-| `entered_lcu` | Value entered |
-| `exited_lcu` | Value exited |
-| `declared_stock_lcu` | Closing stock declared |
-
-## transit
-
-Transit movements.
-
-| Field | Meaning |
-| --- | --- |
-| `transit_id` | Movement ID |
-| `decl_id` | Transit declaration |
-| `operator_ref` | Transit operator (trader_ref) |
-| `entry_office` | Entry office |
-| `exit_office` | Exit office |
-| `opened_at` | Opened |
-| `closed_at` | Closed (blank if still open) |
-| `route_norm_hours` | Normal hours for the route |
-| `deadline_hours` | Deadline in hours |
-| `guarantee_lcu` | Guarantee lodged |
-
-## parcels
-
-Low-value parcels by consignee and month.
-
-| Field | Meaning |
-| --- | --- |
-| `consignee_id` | Consignee |
-| `month` | Year-month |
-| `consignments` | Parcels received |
-| `total_value_lcu` | Total value |
-| `max_value_lcu` | Largest single parcel (de minimis 2,000 LCU) |
-
-## licences
-
-Relief licences.
-
-| Field | Meaning |
-| --- | --- |
-| `beneficiary_ref` | Beneficiary (trader_ref) |
-| `scheme` | Relief scheme |
-| `licence_id` | Licence |
-| `licence_limit_lcu` | Value allowed per year |
-| `valid_from` | From |
-| `valid_to` | To |
-
-## land_border_mirror
-
-Imports at each land crossing against the neighbour's exports through it (LCU).
-
-| Field | Meaning |
-| --- | --- |
-| `crossing_office` | Land border office |
-| `neighbour` | Neighbouring country |
-| `month` | Year-month |
-| `home_imports_lcu` | Home-recorded imports |
-| `neighbour_exports_lcu` | Neighbour-recorded exports |
-
-## regional_unit_values
-
-Value per kilo paid by ten importing countries (anonymised A-J) for eight goods.
-
-| Field | Meaning |
-| --- | --- |
-| `year` | Year |
-| `commodity` | Goods |
-| `hs6` | Heading |
-| `importer` | Importing country (A = home) |
-| `exporter` | Exporting country |
-| `uv_usd_per_kg` | Value per kilo paid |
-| `uv_region_median` | Median of the ten importers |
-| `uv_ratio` | Ratio to the regional median |
-| `n_lines` | Lines behind the figure |
-| `weight_coverage` | Share of value with a reported weight |
-| `note` | Known explanation |
-
-## sector_regional
-
-Value-weighted ratio to the regional median by chapter and country.
-
-| Field | Meaning |
-| --- | --- |
-| `year` | Year |
-| `chapter` | Chapter |
-| `importer` | Country (A-J) |
-| `uv_ratio_to_region` | Ratio to the regional median |
-| `value_usd` | Trade value |
-| `weight_coverage` | Share of value with a reported weight |
-
-## accepted_history
-
-2B valuation track: 20,000 import lines accepted in the last 90 days (to 2026-09-30), as declared.
-
-| Field | Meaning |
-| --- | --- |
-| `line_id` | Accepted line (H + 5 digits) |
-| `accepted_on` | Date the declaration was accepted |
-| `description` | Goods description as typed |
-| `hs6` | Six-digit heading |
-| `origin` | Country of origin |
-| `incoterm` | FOB, CIF, CFR or EXW: where the price stops |
-| `currency` | Currency of the price |
-| `unit_price` | Price per unit in that currency and under that incoterm |
-| `quantity` | Quantity |
-| `unit` | units, cartons or kg |
-| `net_weight_kg` | Net weight in kilograms |
-
-## invoice_lines
-
-2B valuation track: the five invoice lines of the exercise.
-
-| Field | Meaning |
-| --- | --- |
-| `ref` | Line reference (V1 to V5) |
-| `invoice_date` | Invoice date |
-| `description` | Goods description |
-| `hs6` | Six-digit heading |
-| `origin` | Country of origin |
-| `incoterm` | Where the price stops |
-| `currency` | Invoice currency |
-| `unit_price` | Price per unit |
-| `quantity` | Quantity |
-| `unit` | Unit |
-| `discount` | Discount on the invoice (share of the price) |
-
-## monthly_trader_uv
-
-Monthly value per kilo for the 50 largest importers' main code, 36 months.
-
-| Field | Meaning |
-| --- | --- |
-| `trader_ref` | Trader |
-| `ahtn8` | Main code |
-| `month` | Year-month |
-| `uv_lcu_per_kg` | Value per kilo |
-| `n_lines` | Lines that month |
-| `ref_median` | Typical value per kilo for the code that month |
-
+- **Lines.** For each importer and month a Poisson count proportional to its size; the goods, origin, office and broker from the importer's own mixes; the true unit value from the code's distribution (lognormal within a cell, two grade clusters inside 40 codes, an exporter price level, a legitimate discount on 2% of lines, world price trends by chapter).
+- **The seeded anomalies.** A latent anomaly on about 3% of lines, drawn from the importer's type, the duty rate, the regime, the broker, the office and the chapter; its kind drawn from the importer's preference; 18% of them leave no signal. The declaration is written from the declared values; the truth never leaves `system/`.
+- **Controls.** Months 1-18: R1 new importer, R2 price below 70% of the static 2022 reference, R3 sensitive chapters at two offices, R4 preferential-origin claims from two origins, R5 the random draw before the rules, plus officer discretion; a control finds an anomaly with a probability that depends on the control type and the kind of anomaly (see calibration.md); a false finding on 0.5% of compliant controlled lines. Months 19-36: the random draw only, with a full control.
+- **Other tables.** The registry and the returns follow the importer types; the mirror set sums the world's true FOB on the partner side and the declared CIF on the home side (earlier years scaled back; partner-side effects seeded); the valuation history is the world's last three months; the regional rulers are stylised statistics.

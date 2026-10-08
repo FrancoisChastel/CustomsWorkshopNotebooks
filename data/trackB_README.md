@@ -1,0 +1,9 @@
+# 4B matching, track B: a real register, in the lab files only
+
+- `trackB_registry.csv` (3,000 rows) is the "tax registry" side: active private limited companies from two post towns outside London, sampled from the Companies House basic company data snapshot of 2026-10-01 (part 1 of 7). Columns: `reg_id, legal_name, address_line, post_town, postcode, incorporation_date, sic_text, company_number`.
+- `trackB_customs.csv` (3,200 rows) is the "customs importer file": the registry side perturbed with real-world rules (legal suffix dropped, previous name used, abbreviations, one typo, address-line variants), plus 150 importers with no counterpart and 50 second spellings of registry companies. No identifier and no phone on either side. Columns: `cust_id, importer_name, address_line, post_town, postcode`.
+- `match_scores.csv` is the deck recipe's output: for each `cust_id` the best registry candidate, the score (0 to 1), the band (exact at 0.90 and above, review from 0.70, no match below) and the four component similarities. It carries no truth column.
+- `trackB_gleif.csv` is the "with an identifier" demonstration: for the sampled companies that hold a Legal Entity Identifier, the join `entity.registeredAs = company_number` against the GLEIF API, queried on 2026-10-08.
+- Built by `data/build_4b_trackB.py` (deterministic, seed 20261019). The answer key lives in `data/system/answer_keys/4b_trackB.json` and is never distributed.
+- Licence: Companies House data is published under the Open Government Licence v3 (snapshot 2026-10-01, part 1 of 7, downloaded 2026-10-07); GLEIF data is CC0.
+- Rule for all workshop material: exercise text refers to rows by `reg_id` and `cust_id` only. No company name or address from these files is ever printed on a slide, in a pack or on the site; they stay in the lab files.

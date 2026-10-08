@@ -17,19 +17,22 @@ K = 30
 FLOOR = 0.85
 WINDOW_DAYS = 90
 ENOUGH = 25  # neighbours needed before a range can carry a question
-# Shipping and insurance as a share of FOB, by chapter (OECD margins; 6% elsewhere).
-CIF_FOB = {"17": 0.08, "24": 0.04, "39": 0.07, "52": 0.06, "61": 0.05, "72": 0.11, "85": 0.03, "87": 0.06}
+# Shipping and insurance as a share of FOB, by chapter (OECD margins; the tariff's cif_fob_wedge; 6% elsewhere).
+CIF_FOB = {"03": 0.09, "08": 0.12, "10": 0.22, "17": 0.08, "22": 0.10, "24": 0.04, "27": 0.28, "30": 0.03, "33": 0.05, "39": 0.07, "40": 0.06, "90": 0.03, "52": 0.06,
+           "61": 0.05, "64": 0.05, "72": 0.11, "84": 0.04, "85": 0.03, "87": 0.06, "94": 0.08}
 DEFAULT_CIF_FOB = 0.06
 
 
 def incoterm_factor(incoterm: str, chapter: str) -> float:
-    """Multiply a price quoted under `incoterm` by this to get the FOB price."""
+    """Multiply a price quoted under `incoterm` by this to get the FOB price (freight is 85% of the margin)."""
     margin = CIF_FOB.get(chapter, DEFAULT_CIF_FOB)
     return {"FOB": 1.0, "FCA": 1.0, "EXW": 1.03, "CFR": 1 / (1 + 0.85 * margin), "CIF": 1 / (1 + margin)}[incoterm]
 
 
 def usd_per_unit(fx: pd.DataFrame, month: str, currency: str) -> float:
     rates = fx[fx["month"] == month].set_index("currency")["lcu_per_unit"]
+    if rates.empty:  # a date past the table: the latest month's rates (they are fixed anyway)
+        rates = fx[fx["month"] == fx["month"].max()].set_index("currency")["lcu_per_unit"]
     return float(rates[currency] / rates["USD"])
 
 

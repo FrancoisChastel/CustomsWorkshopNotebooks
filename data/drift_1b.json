@@ -2,1652 +2,1106 @@
  "session": "1b",
  "series": [
   {
-   "importer": "T376252",
-   "ahtn8": "08106000",
+   "importer_id": "IMP00684",
+   "hs8": "61091002",
    "months": [
     {
-     "ahtn8": "08106000",
      "month": "2023-10",
-     "uv_lcu_per_kg": 272.85,
-     "band_median": null,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 318.6
+     "uv_lcu_per_kg": 231.1,
+     "n_lines": 4,
+     "ref_median": 231.1
     },
     {
-     "ahtn8": "08106000",
      "month": "2023-11",
-     "uv_lcu_per_kg": 261.81,
-     "band_median": 272.85,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 320.16
+     "uv_lcu_per_kg": 271.62,
+     "n_lines": 2,
+     "ref_median": 271.62
     },
     {
-     "ahtn8": "08106000",
      "month": "2023-12",
-     "uv_lcu_per_kg": 262.51,
-     "band_median": 267.33,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 321.56
+     "uv_lcu_per_kg": 225.51,
+     "n_lines": 3,
+     "ref_median": 247.58
     },
     {
-     "ahtn8": "08106000",
      "month": "2024-01",
-     "uv_lcu_per_kg": 261.03,
-     "band_median": 262.51,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 322.62
+     "uv_lcu_per_kg": 224.59,
+     "n_lines": 4,
+     "ref_median": 242.38
     },
     {
-     "ahtn8": "08106000",
      "month": "2024-02",
-     "uv_lcu_per_kg": 271.76,
-     "band_median": 262.16,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 323.24
+     "uv_lcu_per_kg": 242.02,
+     "n_lines": 4,
+     "ref_median": 238.78
     },
     {
-     "ahtn8": "08106000",
      "month": "2024-03",
-     "uv_lcu_per_kg": 278.67,
-     "band_median": 262.51,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 323.36
+     "uv_lcu_per_kg": 215.95,
+     "n_lines": 1,
+     "ref_median": 223.64
     },
     {
-     "ahtn8": "08106000",
      "month": "2024-04",
-     "uv_lcu_per_kg": 290.83,
-     "band_median": 267.14,
-     "band_lower": 227.06,
-     "below_band": false,
-     "ref_median": 322.95
+     "uv_lcu_per_kg": 245.89,
+     "n_lines": 8,
+     "ref_median": 239.97
     },
     {
-     "ahtn8": "08106000",
      "month": "2024-05",
-     "uv_lcu_per_kg": 302.05,
-     "band_median": 271.76,
-     "band_lower": 231.0,
-     "below_band": false,
-     "ref_median": 322.06
+     "uv_lcu_per_kg": 209.85,
+     "n_lines": 3,
+     "ref_median": 230.88
     },
     {
-     "ahtn8": "08106000",
      "month": "2024-06",
-     "uv_lcu_per_kg": 302.4,
-     "band_median": 272.3,
-     "band_lower": 231.46,
-     "below_band": false,
-     "ref_median": 320.79
+     "uv_lcu_per_kg": 236.48,
+     "n_lines": 2,
+     "ref_median": 237.64
     },
     {
-     "ahtn8": "08106000",
      "month": "2024-07",
-     "uv_lcu_per_kg": 297.72,
-     "band_median": 272.85,
-     "band_lower": 231.92,
-     "below_band": false,
-     "ref_median": 319.27
+     "uv_lcu_per_kg": 260.18,
+     "n_lines": 2,
+     "ref_median": 246.73
     },
     {
-     "ahtn8": "08106000",
      "month": "2024-08",
-     "uv_lcu_per_kg": 291.47,
-     "band_median": 275.76,
-     "band_lower": 222.61,
-     "below_band": false,
-     "ref_median": 317.69
+     "uv_lcu_per_kg": 259.5,
+     "n_lines": 2,
+     "ref_median": 229.39
     },
     {
-     "ahtn8": "08106000",
      "month": "2024-09",
-     "uv_lcu_per_kg": 282.37,
-     "band_median": 278.67,
-     "band_lower": 218.77,
-     "below_band": false,
-     "ref_median": 316.2
+     "uv_lcu_per_kg": 232.86,
+     "n_lines": 4,
+     "ref_median": 246.04
     },
     {
-     "ahtn8": "08106000",
      "month": "2024-10",
-     "uv_lcu_per_kg": 268.64,
-     "band_median": 280.52,
-     "band_lower": 228.35,
-     "below_band": false,
-     "ref_median": 264.13
+     "uv_lcu_per_kg": 241.56,
+     "n_lines": 4,
+     "ref_median": 236.55
     },
     {
-     "ahtn8": "08106000",
      "month": "2024-11",
-     "uv_lcu_per_kg": 260.02,
-     "band_median": 278.67,
-     "band_lower": 231.23,
-     "below_band": false,
-     "ref_median": 260.02
+     "uv_lcu_per_kg": 255.4,
+     "n_lines": 4,
+     "ref_median": 248.68
     },
     {
-     "ahtn8": "08106000",
      "month": "2024-12",
-     "uv_lcu_per_kg": 245.45,
-     "band_median": 275.76,
-     "band_lower": 222.61,
-     "below_band": false,
-     "ref_median": 250.79
+     "uv_lcu_per_kg": 243.11,
+     "n_lines": 5,
+     "ref_median": 240.93
     },
     {
-     "ahtn8": "08106000",
-     "month": "2025-01",
-     "uv_lcu_per_kg": 254.63,
-     "band_median": 272.85,
-     "band_lower": 229.04,
-     "below_band": false,
-     "ref_median": 256.76
-    },
-    {
-     "ahtn8": "08106000",
      "month": "2025-02",
-     "uv_lcu_per_kg": 260.87,
-     "band_median": 272.3,
-     "band_lower": 228.64,
-     "below_band": false,
-     "ref_median": 278.1
+     "uv_lcu_per_kg": 263.0,
+     "n_lines": 5,
+     "ref_median": 257.94
     },
     {
-     "ahtn8": "08106000",
      "month": "2025-03",
-     "uv_lcu_per_kg": 270.91,
-     "band_median": 271.76,
-     "band_lower": 231.0,
-     "below_band": false,
-     "ref_median": 270.91
+     "uv_lcu_per_kg": 228.76,
+     "n_lines": 8,
+     "ref_median": 229.57
     },
     {
-     "ahtn8": "08106000",
      "month": "2025-04",
-     "uv_lcu_per_kg": 286.08,
-     "band_median": 271.34,
-     "band_lower": 230.63,
-     "below_band": false,
-     "ref_median": 285.95
+     "uv_lcu_per_kg": 235.19,
+     "n_lines": 4,
+     "ref_median": 235.44
     },
     {
-     "ahtn8": "08106000",
      "month": "2025-05",
-     "uv_lcu_per_kg": 294.37,
-     "band_median": 271.76,
-     "band_lower": 231.0,
-     "below_band": false,
-     "ref_median": 292.33
+     "uv_lcu_per_kg": 260.57,
+     "n_lines": 3,
+     "ref_median": 247.63
     },
     {
-     "ahtn8": "08106000",
      "month": "2025-06",
-     "uv_lcu_per_kg": 303.44,
-     "band_median": 272.3,
-     "band_lower": 228.35,
-     "below_band": false,
-     "ref_median": 302.9
+     "uv_lcu_per_kg": 253.88,
+     "n_lines": 4,
+     "ref_median": 237.84
     },
     {
-     "ahtn8": "08106000",
      "month": "2025-07",
-     "uv_lcu_per_kg": 299.96,
-     "band_median": 272.85,
-     "band_lower": 225.3,
-     "below_band": false,
-     "ref_median": 297.72
+     "uv_lcu_per_kg": 247.64,
+     "n_lines": 6,
+     "ref_median": 239.82
     },
     {
-     "ahtn8": "08106000",
      "month": "2025-08",
-     "uv_lcu_per_kg": 301.0,
-     "band_median": 275.76,
-     "band_lower": 220.24,
-     "below_band": false,
-     "ref_median": 295.49
+     "uv_lcu_per_kg": 231.5,
+     "n_lines": 4,
+     "ref_median": 240.56
     },
     {
-     "ahtn8": "08106000",
      "month": "2025-09",
-     "uv_lcu_per_kg": 284.07,
-     "band_median": 278.67,
-     "band_lower": 216.18,
-     "below_band": false,
-     "ref_median": 292.47
+     "uv_lcu_per_kg": 232.48,
+     "n_lines": 7,
+     "ref_median": 236.29
     },
     {
-     "ahtn8": "08106000",
      "month": "2025-10",
-     "uv_lcu_per_kg": 272.75,
-     "band_median": 280.52,
-     "band_lower": 215.27,
-     "below_band": false,
-     "ref_median": 266.96
+     "uv_lcu_per_kg": 237.18,
+     "n_lines": 3,
+     "ref_median": 233.83
     },
     {
-     "ahtn8": "08106000",
      "month": "2025-11",
-     "uv_lcu_per_kg": 266.82,
-     "band_median": 278.67,
-     "band_lower": 218.77,
-     "below_band": false,
-     "ref_median": 274.99
+     "uv_lcu_per_kg": 216.28,
+     "n_lines": 1,
+     "ref_median": 223.28
     },
     {
-     "ahtn8": "08106000",
      "month": "2025-12",
-     "uv_lcu_per_kg": 264.49,
-     "band_median": 275.76,
-     "band_lower": 220.87,
-     "below_band": false,
-     "ref_median": 264.49
+     "uv_lcu_per_kg": 240.29,
+     "n_lines": 4,
+     "ref_median": 242.85
     },
     {
-     "ahtn8": "08106000",
      "month": "2026-01",
-     "uv_lcu_per_kg": 262.93,
-     "band_median": 272.85,
-     "band_lower": 228.45,
-     "below_band": false,
-     "ref_median": 274.72
+     "uv_lcu_per_kg": 157.01,
+     "n_lines": 3,
+     "ref_median": 222.47
     },
     {
-     "ahtn8": "08106000",
      "month": "2026-02",
-     "uv_lcu_per_kg": 267.46,
-     "band_median": 272.8,
-     "band_lower": 228.88,
-     "below_band": false,
-     "ref_median": 271.49
+     "uv_lcu_per_kg": 185.79,
+     "n_lines": 4,
+     "ref_median": 226.35
     },
     {
-     "ahtn8": "08106000",
      "month": "2026-03",
-     "uv_lcu_per_kg": 199.95,
-     "band_median": 272.75,
-     "band_lower": 229.31,
-     "below_band": true,
-     "ref_median": 209.86
+     "uv_lcu_per_kg": 162.12,
+     "n_lines": 3,
+     "ref_median": 233.21
     },
     {
-     "ahtn8": "08106000",
      "month": "2026-04",
-     "uv_lcu_per_kg": 200.72,
-     "band_median": 272.26,
-     "band_lower": 229.26,
-     "below_band": true,
-     "ref_median": 205.75
+     "uv_lcu_per_kg": 158.82,
+     "n_lines": 4,
+     "ref_median": 228.08
     },
     {
-     "ahtn8": "08106000",
      "month": "2026-05",
-     "uv_lcu_per_kg": 209.51,
-     "band_median": 271.76,
-     "band_lower": 228.25,
-     "below_band": true,
-     "ref_median": 209.51
+     "uv_lcu_per_kg": 160.24,
+     "n_lines": 4,
+     "ref_median": 223.21
     },
     {
-     "ahtn8": "08106000",
      "month": "2026-06",
-     "uv_lcu_per_kg": 200.6,
-     "band_median": 271.34,
-     "band_lower": 226.76,
-     "below_band": true,
-     "ref_median": 201.1
+     "uv_lcu_per_kg": 183.86,
+     "n_lines": 9,
+     "ref_median": 223.88
     },
     {
-     "ahtn8": "08106000",
      "month": "2026-07",
-     "uv_lcu_per_kg": 204.43,
-     "band_median": 270.91,
-     "band_lower": 222.13,
-     "below_band": true,
-     "ref_median": 213.23
+     "uv_lcu_per_kg": 161.56,
+     "n_lines": 2,
+     "ref_median": 233.56
     },
     {
-     "ahtn8": "08106000",
      "month": "2026-08",
-     "uv_lcu_per_kg": 206.71,
-     "band_median": 269.77,
-     "band_lower": 215.22,
-     "below_band": true,
-     "ref_median": 207.41
+     "uv_lcu_per_kg": 168.93,
+     "n_lines": 4,
+     "ref_median": 232.53
     },
     {
-     "ahtn8": "08106000",
      "month": "2026-09",
-     "uv_lcu_per_kg": 191.02,
-     "band_median": 268.64,
-     "band_lower": 211.45,
-     "below_band": true,
-     "ref_median": 197.93
+     "uv_lcu_per_kg": 167.75,
+     "n_lines": 5,
+     "ref_median": 226.16
     }
    ]
   },
   {
-   "importer": "T251410",
-   "ahtn8": "72139100",
+   "importer_id": "IMP00591",
+   "hs8": "85171302",
    "months": [
     {
-     "ahtn8": "72139100",
      "month": "2023-10",
-     "uv_lcu_per_kg": 64.97,
-     "band_median": null,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 65.84
+     "uv_lcu_per_kg": 5499.77,
+     "n_lines": 5,
+     "ref_median": 5953.88
     },
     {
-     "ahtn8": "72139100",
      "month": "2023-11",
-     "uv_lcu_per_kg": 68.06,
-     "band_median": 64.97,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 66.17
+     "uv_lcu_per_kg": 4971.84,
+     "n_lines": 7,
+     "ref_median": 5766.83
     },
     {
-     "ahtn8": "72139100",
      "month": "2023-12",
-     "uv_lcu_per_kg": 70.28,
-     "band_median": 66.52,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 66.45
+     "uv_lcu_per_kg": 4910.91,
+     "n_lines": 12,
+     "ref_median": 5765.18
     },
     {
-     "ahtn8": "72139100",
      "month": "2024-01",
-     "uv_lcu_per_kg": 70.1,
-     "band_median": 68.06,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 66.68
+     "uv_lcu_per_kg": 5226.59,
+     "n_lines": 6,
+     "ref_median": 5808.13
     },
     {
-     "ahtn8": "72139100",
      "month": "2024-02",
-     "uv_lcu_per_kg": 69.38,
-     "band_median": 69.08,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 66.8
+     "uv_lcu_per_kg": 5173.18,
+     "n_lines": 6,
+     "ref_median": 5978.09
     },
     {
-     "ahtn8": "72139100",
      "month": "2024-03",
-     "uv_lcu_per_kg": 69.35,
-     "band_median": 69.38,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 66.83
+     "uv_lcu_per_kg": 4968.8,
+     "n_lines": 14,
+     "ref_median": 5803.24
     },
     {
-     "ahtn8": "72139100",
      "month": "2024-04",
-     "uv_lcu_per_kg": 66.04,
-     "band_median": 69.36,
-     "band_lower": 58.96,
-     "below_band": false,
-     "ref_median": 66.74
+     "uv_lcu_per_kg": 4871.35,
+     "n_lines": 13,
+     "ref_median": 5587.0
     },
     {
-     "ahtn8": "72139100",
      "month": "2024-05",
-     "uv_lcu_per_kg": 63.51,
-     "band_median": 69.35,
-     "band_lower": 58.95,
-     "below_band": false,
-     "ref_median": 66.56
+     "uv_lcu_per_kg": 5027.4,
+     "n_lines": 11,
+     "ref_median": 5647.02
     },
     {
-     "ahtn8": "72139100",
      "month": "2024-06",
-     "uv_lcu_per_kg": 61.51,
-     "band_median": 68.7,
-     "band_lower": 58.4,
-     "below_band": false,
-     "ref_median": 66.3
+     "uv_lcu_per_kg": 4815.38,
+     "n_lines": 9,
+     "ref_median": 5665.85
     },
     {
-     "ahtn8": "72139100",
      "month": "2024-07",
-     "uv_lcu_per_kg": 60.75,
-     "band_median": 68.06,
-     "band_lower": 57.85,
-     "below_band": false,
-     "ref_median": 65.98
+     "uv_lcu_per_kg": 4699.96,
+     "n_lines": 10,
+     "ref_median": 5436.24
     },
     {
-     "ahtn8": "72139100",
      "month": "2024-08",
-     "uv_lcu_per_kg": 61.38,
-     "band_median": 67.05,
-     "band_lower": 56.99,
-     "below_band": false,
-     "ref_median": 65.66
+     "uv_lcu_per_kg": 4787.03,
+     "n_lines": 6,
+     "ref_median": 5500.9
     },
     {
-     "ahtn8": "72139100",
      "month": "2024-09",
-     "uv_lcu_per_kg": 63.3,
-     "band_median": 66.04,
-     "band_lower": 53.66,
-     "below_band": false,
-     "ref_median": 65.35
+     "uv_lcu_per_kg": 4887.15,
+     "n_lines": 5,
+     "ref_median": 5285.16
     },
     {
-     "ahtn8": "72139100",
      "month": "2024-10",
-     "uv_lcu_per_kg": 63.34,
-     "band_median": 65.5,
-     "band_lower": 51.2,
-     "below_band": false,
-     "ref_median": 63.78
+     "uv_lcu_per_kg": 4549.16,
+     "n_lines": 6,
+     "ref_median": 5599.29
     },
     {
-     "ahtn8": "72139100",
      "month": "2024-11",
-     "uv_lcu_per_kg": 68.09,
-     "band_median": 64.97,
-     "band_lower": 52.15,
-     "below_band": false,
-     "ref_median": 68.09
+     "uv_lcu_per_kg": 5005.39,
+     "n_lines": 7,
+     "ref_median": 5469.28
     },
     {
-     "ahtn8": "72139100",
      "month": "2024-12",
-     "uv_lcu_per_kg": 69.64,
-     "band_median": 65.5,
-     "band_lower": 53.59,
-     "below_band": false,
-     "ref_median": 69.86
+     "uv_lcu_per_kg": 4797.52,
+     "n_lines": 13,
+     "ref_median": 5263.7
     },
     {
-     "ahtn8": "72139100",
      "month": "2025-01",
-     "uv_lcu_per_kg": 69.05,
-     "band_median": 66.04,
-     "band_lower": 53.77,
-     "below_band": false,
-     "ref_median": 69.19
+     "uv_lcu_per_kg": 4744.57,
+     "n_lines": 7,
+     "ref_median": 5464.13
     },
     {
-     "ahtn8": "72139100",
      "month": "2025-02",
-     "uv_lcu_per_kg": 67.41,
-     "band_median": 67.05,
-     "band_lower": 56.6,
-     "below_band": false,
-     "ref_median": 67.53
+     "uv_lcu_per_kg": 4754.98,
+     "n_lines": 12,
+     "ref_median": 5286.71
     },
     {
-     "ahtn8": "72139100",
      "month": "2025-03",
-     "uv_lcu_per_kg": 67.8,
-     "band_median": 67.41,
-     "band_lower": 57.3,
-     "below_band": false,
-     "ref_median": 68.07
+     "uv_lcu_per_kg": 4558.33,
+     "n_lines": 7,
+     "ref_median": 5223.79
     },
     {
-     "ahtn8": "72139100",
      "month": "2025-04",
-     "uv_lcu_per_kg": 64.14,
-     "band_median": 67.6,
-     "band_lower": 57.46,
-     "below_band": false,
-     "ref_median": 64.14
+     "uv_lcu_per_kg": 4582.39,
+     "n_lines": 10,
+     "ref_median": 5316.53
     },
     {
-     "ahtn8": "72139100",
      "month": "2025-05",
-     "uv_lcu_per_kg": 64.47,
-     "band_median": 67.41,
-     "band_lower": 57.3,
-     "below_band": false,
-     "ref_median": 65.0
+     "uv_lcu_per_kg": 4519.39,
+     "n_lines": 7,
+     "ref_median": 5233.36
     },
     {
-     "ahtn8": "72139100",
      "month": "2025-06",
-     "uv_lcu_per_kg": 61.79,
-     "band_median": 66.72,
-     "band_lower": 56.72,
-     "below_band": false,
-     "ref_median": 61.81
+     "uv_lcu_per_kg": 4337.52,
+     "n_lines": 7,
+     "ref_median": 5077.84
     },
     {
-     "ahtn8": "72139100",
      "month": "2025-07",
-     "uv_lcu_per_kg": 59.78,
-     "band_median": 66.04,
-     "band_lower": 55.88,
-     "below_band": false,
-     "ref_median": 59.9
+     "uv_lcu_per_kg": 4428.29,
+     "n_lines": 5,
+     "ref_median": 5313.69
     },
     {
-     "ahtn8": "72139100",
      "month": "2025-08",
-     "uv_lcu_per_kg": 62.32,
-     "band_median": 65.5,
-     "band_lower": 54.14,
-     "below_band": false,
-     "ref_median": 62.4
+     "uv_lcu_per_kg": 4518.24,
+     "n_lines": 5,
+     "ref_median": 5102.45
     },
     {
-     "ahtn8": "72139100",
      "month": "2025-09",
-     "uv_lcu_per_kg": 63.86,
-     "band_median": 64.97,
-     "band_lower": 53.41,
-     "below_band": false,
-     "ref_median": 63.61
+     "uv_lcu_per_kg": 4484.26,
+     "n_lines": 12,
+     "ref_median": 5024.99
     },
     {
-     "ahtn8": "72139100",
      "month": "2025-10",
-     "uv_lcu_per_kg": 66.21,
-     "band_median": 64.72,
-     "band_lower": 53.06,
-     "below_band": false,
-     "ref_median": 66.71
+     "uv_lcu_per_kg": 4172.05,
+     "n_lines": 5,
+     "ref_median": 4963.06
     },
     {
-     "ahtn8": "72139100",
      "month": "2025-11",
-     "uv_lcu_per_kg": 70.28,
-     "band_median": 64.97,
-     "band_lower": 53.52,
-     "below_band": false,
-     "ref_median": 70.74
+     "uv_lcu_per_kg": 4405.07,
+     "n_lines": 10,
+     "ref_median": 5042.96
     },
     {
-     "ahtn8": "72139100",
      "month": "2025-12",
-     "uv_lcu_per_kg": 71.91,
-     "band_median": 65.5,
-     "band_lower": 54.81,
-     "below_band": false,
-     "ref_median": 72.09
+     "uv_lcu_per_kg": 4441.06,
+     "n_lines": 6,
+     "ref_median": 4931.86
     },
     {
-     "ahtn8": "72139100",
      "month": "2026-01",
-     "uv_lcu_per_kg": 69.47,
-     "band_median": 66.04,
-     "band_lower": 54.88,
-     "below_band": false,
-     "ref_median": 69.47
+     "uv_lcu_per_kg": 4285.4,
+     "n_lines": 8,
+     "ref_median": 5067.34
     },
     {
-     "ahtn8": "72139100",
      "month": "2026-02",
-     "uv_lcu_per_kg": 69.57,
-     "band_median": 66.12,
-     "band_lower": 54.73,
-     "below_band": false,
-     "ref_median": 69.85
+     "uv_lcu_per_kg": 4339.98,
+     "n_lines": 21,
+     "ref_median": 4921.56
     },
     {
-     "ahtn8": "72139100",
      "month": "2026-03",
-     "uv_lcu_per_kg": 46.2,
-     "band_median": 66.21,
-     "band_lower": 54.57,
-     "below_band": true,
-     "ref_median": 46.36
+     "uv_lcu_per_kg": 4325.72,
+     "n_lines": 15,
+     "ref_median": 4765.6
     },
     {
-     "ahtn8": "72139100",
      "month": "2026-04",
-     "uv_lcu_per_kg": 44.55,
-     "band_median": 66.12,
-     "band_lower": 54.12,
-     "below_band": true,
-     "ref_median": 44.65
+     "uv_lcu_per_kg": 4141.42,
+     "n_lines": 10,
+     "ref_median": 4935.62
     },
     {
-     "ahtn8": "72139100",
      "month": "2026-05",
-     "uv_lcu_per_kg": 42.27,
-     "band_median": 66.04,
-     "band_lower": 53.66,
-     "below_band": true,
-     "ref_median": 42.57
+     "uv_lcu_per_kg": 3994.02,
+     "n_lines": 7,
+     "ref_median": 4903.41
     },
     {
-     "ahtn8": "72139100",
      "month": "2026-06",
-     "uv_lcu_per_kg": 41.86,
-     "band_median": 65.5,
-     "band_lower": 51.49,
-     "below_band": true,
-     "ref_median": 41.9
+     "uv_lcu_per_kg": 4147.81,
+     "n_lines": 6,
+     "ref_median": 4791.71
     },
     {
-     "ahtn8": "72139100",
      "month": "2026-07",
-     "uv_lcu_per_kg": 39.5,
-     "band_median": 64.97,
-     "band_lower": 51.66,
-     "below_band": true,
-     "ref_median": 39.5
+     "uv_lcu_per_kg": 4082.18,
+     "n_lines": 11,
+     "ref_median": 4649.8
     },
     {
-     "ahtn8": "72139100",
      "month": "2026-08",
-     "uv_lcu_per_kg": 40.64,
-     "band_median": 64.72,
-     "band_lower": 51.12,
-     "below_band": true,
-     "ref_median": 40.64
+     "uv_lcu_per_kg": 4064.84,
+     "n_lines": 10,
+     "ref_median": 4961.65
     },
     {
-     "ahtn8": "72139100",
      "month": "2026-09",
-     "uv_lcu_per_kg": 42.1,
-     "band_median": 64.47,
-     "band_lower": 50.68,
-     "below_band": true,
-     "ref_median": 42.12
+     "uv_lcu_per_kg": 4003.61,
+     "n_lines": 5,
+     "ref_median": 4820.35
     }
    ]
   },
   {
-   "importer": "T773224",
-   "ahtn8": "72083900",
+   "importer_id": "IMP00926",
+   "hs8": "27101201",
    "months": [
     {
-     "ahtn8": "72083900",
      "month": "2023-10",
-     "uv_lcu_per_kg": 68.81,
-     "band_median": null,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 60.89
+     "uv_lcu_per_kg": 18.2,
+     "n_lines": 22,
+     "ref_median": 18.2
     },
     {
-     "ahtn8": "72083900",
      "month": "2023-11",
-     "uv_lcu_per_kg": 71.33,
-     "band_median": 68.81,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 61.19
+     "uv_lcu_per_kg": 18.09,
+     "n_lines": 29,
+     "ref_median": 18.7
     },
     {
-     "ahtn8": "72083900",
      "month": "2023-12",
-     "uv_lcu_per_kg": 74.54,
-     "band_median": 70.07,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 61.45
+     "uv_lcu_per_kg": 17.81,
+     "n_lines": 34,
+     "ref_median": 17.91
     },
     {
-     "ahtn8": "72083900",
      "month": "2024-01",
-     "uv_lcu_per_kg": 75.43,
-     "band_median": 71.33,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 61.66
+     "uv_lcu_per_kg": 17.22,
+     "n_lines": 35,
+     "ref_median": 17.59
     },
     {
-     "ahtn8": "72083900",
      "month": "2024-02",
-     "uv_lcu_per_kg": 72.48,
-     "band_median": 72.94,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 61.78
+     "uv_lcu_per_kg": 16.95,
+     "n_lines": 20,
+     "ref_median": 17.76
     },
     {
-     "ahtn8": "72083900",
      "month": "2024-03",
-     "uv_lcu_per_kg": 69.76,
-     "band_median": 72.48,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 61.8
+     "uv_lcu_per_kg": 17.48,
+     "n_lines": 31,
+     "ref_median": 17.48
     },
     {
-     "ahtn8": "72083900",
      "month": "2024-04",
-     "uv_lcu_per_kg": 67.98,
-     "band_median": 71.9,
-     "band_lower": 61.12,
-     "below_band": false,
-     "ref_median": 61.72
+     "uv_lcu_per_kg": 16.97,
+     "n_lines": 33,
+     "ref_median": 17.62
     },
     {
-     "ahtn8": "72083900",
      "month": "2024-05",
-     "uv_lcu_per_kg": 65.32,
-     "band_median": 71.33,
-     "band_lower": 60.63,
-     "below_band": false,
-     "ref_median": 61.55
+     "uv_lcu_per_kg": 16.37,
+     "n_lines": 22,
+     "ref_median": 16.82
     },
     {
-     "ahtn8": "72083900",
      "month": "2024-06",
-     "uv_lcu_per_kg": 64.08,
-     "band_median": 70.54,
-     "band_lower": 59.96,
-     "below_band": false,
-     "ref_median": 61.31
+     "uv_lcu_per_kg": 16.74,
+     "n_lines": 29,
+     "ref_median": 16.81
     },
     {
-     "ahtn8": "72083900",
      "month": "2024-07",
-     "uv_lcu_per_kg": 63.69,
-     "band_median": 69.76,
-     "band_lower": 59.3,
-     "below_band": false,
-     "ref_median": 61.02
+     "uv_lcu_per_kg": 16.48,
+     "n_lines": 31,
+     "ref_median": 16.69
     },
     {
-     "ahtn8": "72083900",
      "month": "2024-08",
-     "uv_lcu_per_kg": 64.59,
-     "band_median": 69.28,
-     "band_lower": 56.02,
-     "below_band": false,
-     "ref_median": 60.71
+     "uv_lcu_per_kg": 16.36,
+     "n_lines": 27,
+     "ref_median": 16.54
     },
     {
-     "ahtn8": "72083900",
      "month": "2024-09",
-     "uv_lcu_per_kg": 66.84,
-     "band_median": 68.81,
-     "band_lower": 55.21,
-     "below_band": false,
-     "ref_median": 60.43
+     "uv_lcu_per_kg": 16.15,
+     "n_lines": 41,
+     "ref_median": 16.14
     },
     {
-     "ahtn8": "72083900",
      "month": "2024-10",
-     "uv_lcu_per_kg": 67.82,
-     "band_median": 68.4,
-     "band_lower": 55.64,
-     "below_band": false,
-     "ref_median": 67.42
+     "uv_lcu_per_kg": 15.69,
+     "n_lines": 25,
+     "ref_median": 15.98
     },
     {
-     "ahtn8": "72083900",
      "month": "2024-11",
-     "uv_lcu_per_kg": 71.08,
-     "band_median": 67.98,
-     "band_lower": 55.56,
-     "below_band": false,
-     "ref_median": 70.14
+     "uv_lcu_per_kg": 15.2,
+     "n_lines": 20,
+     "ref_median": 16.09
     },
     {
-     "ahtn8": "72083900",
      "month": "2024-12",
-     "uv_lcu_per_kg": 70.25,
-     "band_median": 68.4,
-     "band_lower": 57.26,
-     "below_band": false,
-     "ref_median": 67.29
+     "uv_lcu_per_kg": 15.29,
+     "n_lines": 20,
+     "ref_median": 15.71
     },
     {
-     "ahtn8": "72083900",
      "month": "2025-01",
-     "uv_lcu_per_kg": 73.22,
-     "band_median": 68.81,
-     "band_lower": 58.49,
-     "below_band": false,
-     "ref_median": 72.71
+     "uv_lcu_per_kg": 15.69,
+     "n_lines": 28,
+     "ref_median": 16.36
     },
     {
-     "ahtn8": "72083900",
      "month": "2025-02",
-     "uv_lcu_per_kg": 71.0,
-     "band_median": 69.28,
-     "band_lower": 58.83,
-     "below_band": false,
-     "ref_median": 67.53
+     "uv_lcu_per_kg": 14.76,
+     "n_lines": 37,
+     "ref_median": 15.16
     },
     {
-     "ahtn8": "72083900",
      "month": "2025-03",
-     "uv_lcu_per_kg": 67.39,
-     "band_median": 69.76,
-     "band_lower": 59.3,
-     "below_band": false,
-     "ref_median": 67.39
+     "uv_lcu_per_kg": 15.49,
+     "n_lines": 36,
+     "ref_median": 15.54
     },
     {
-     "ahtn8": "72083900",
      "month": "2025-04",
-     "uv_lcu_per_kg": 66.31,
-     "band_median": 69.28,
-     "band_lower": 58.89,
-     "below_band": false,
-     "ref_median": 66.29
+     "uv_lcu_per_kg": 14.58,
+     "n_lines": 43,
+     "ref_median": 14.81
     },
     {
-     "ahtn8": "72083900",
      "month": "2025-05",
-     "uv_lcu_per_kg": 64.09,
-     "band_median": 68.81,
-     "band_lower": 58.49,
-     "below_band": false,
-     "ref_median": 63.28
+     "uv_lcu_per_kg": 14.71,
+     "n_lines": 37,
+     "ref_median": 15.0
     },
     {
-     "ahtn8": "72083900",
      "month": "2025-06",
-     "uv_lcu_per_kg": 62.38,
-     "band_median": 68.4,
-     "band_lower": 57.98,
-     "below_band": false,
-     "ref_median": 62.07
+     "uv_lcu_per_kg": 14.4,
+     "n_lines": 27,
+     "ref_median": 14.62
     },
     {
-     "ahtn8": "72083900",
      "month": "2025-07",
-     "uv_lcu_per_kg": 62.8,
-     "band_median": 67.98,
-     "band_lower": 56.49,
-     "below_band": false,
-     "ref_median": 62.8
+     "uv_lcu_per_kg": 14.25,
+     "n_lines": 27,
+     "ref_median": 14.48
     },
     {
-     "ahtn8": "72083900",
      "month": "2025-08",
-     "uv_lcu_per_kg": 63.99,
-     "band_median": 67.9,
-     "band_lower": 55.87,
-     "below_band": false,
-     "ref_median": 65.82
+     "uv_lcu_per_kg": 14.05,
+     "n_lines": 18,
+     "ref_median": 14.54
     },
     {
-     "ahtn8": "72083900",
      "month": "2025-09",
-     "uv_lcu_per_kg": 66.57,
-     "band_median": 67.82,
-     "band_lower": 55.74,
-     "below_band": false,
-     "ref_median": 66.44
+     "uv_lcu_per_kg": 14.06,
+     "n_lines": 22,
+     "ref_median": 14.24
     },
     {
-     "ahtn8": "72083900",
      "month": "2025-10",
-     "uv_lcu_per_kg": 70.62,
-     "band_median": 67.6,
-     "band_lower": 54.87,
-     "below_band": false,
-     "ref_median": 69.68
+     "uv_lcu_per_kg": 13.98,
+     "n_lines": 33,
+     "ref_median": 14.12
     },
     {
-     "ahtn8": "72083900",
      "month": "2025-11",
-     "uv_lcu_per_kg": 72.39,
-     "band_median": 67.82,
-     "band_lower": 55.85,
-     "below_band": false,
-     "ref_median": 71.94
+     "uv_lcu_per_kg": 14.12,
+     "n_lines": 22,
+     "ref_median": 14.12
     },
     {
-     "ahtn8": "72083900",
      "month": "2025-12",
-     "uv_lcu_per_kg": 73.33,
-     "band_median": 67.9,
-     "band_lower": 55.87,
-     "below_band": false,
-     "ref_median": 69.61
+     "uv_lcu_per_kg": 13.71,
+     "n_lines": 36,
+     "ref_median": 14.09
     },
     {
-     "ahtn8": "72083900",
      "month": "2026-01",
-     "uv_lcu_per_kg": 75.03,
-     "band_median": 67.98,
-     "band_lower": 55.56,
-     "below_band": false,
-     "ref_median": 67.0
+     "uv_lcu_per_kg": 13.26,
+     "n_lines": 35,
+     "ref_median": 13.57
     },
     {
-     "ahtn8": "72083900",
      "month": "2026-02",
-     "uv_lcu_per_kg": 72.46,
-     "band_median": 68.4,
-     "band_lower": 55.64,
-     "below_band": false,
-     "ref_median": 71.53
+     "uv_lcu_per_kg": 13.68,
+     "n_lines": 35,
+     "ref_median": 13.82
     },
     {
-     "ahtn8": "72083900",
      "month": "2026-03",
-     "uv_lcu_per_kg": 71.41,
-     "band_median": 68.81,
-     "band_lower": 55.54,
-     "below_band": false,
-     "ref_median": 71.41
+     "uv_lcu_per_kg": 13.37,
+     "n_lines": 34,
+     "ref_median": 13.49
     },
     {
-     "ahtn8": "72083900",
      "month": "2026-04",
-     "uv_lcu_per_kg": 64.93,
-     "band_median": 69.28,
-     "band_lower": 57.65,
-     "below_band": false,
-     "ref_median": 64.98
+     "uv_lcu_per_kg": 12.97,
+     "n_lines": 34,
+     "ref_median": 13.11
     },
     {
-     "ahtn8": "72083900",
      "month": "2026-05",
-     "uv_lcu_per_kg": 63.12,
-     "band_median": 68.81,
-     "band_lower": 55.54,
-     "below_band": false,
-     "ref_median": 63.12
+     "uv_lcu_per_kg": 12.72,
+     "n_lines": 30,
+     "ref_median": 12.88
     },
     {
-     "ahtn8": "72083900",
      "month": "2026-06",
-     "uv_lcu_per_kg": 62.33,
-     "band_median": 68.4,
-     "band_lower": 54.92,
-     "below_band": false,
-     "ref_median": 62.23
+     "uv_lcu_per_kg": 13.21,
+     "n_lines": 25,
+     "ref_median": 13.26
     },
     {
-     "ahtn8": "72083900",
      "month": "2026-07",
-     "uv_lcu_per_kg": 61.55,
-     "band_median": 67.98,
-     "band_lower": 55.27,
-     "below_band": false,
-     "ref_median": 62.33
+     "uv_lcu_per_kg": 13.05,
+     "n_lines": 38,
+     "ref_median": 13.32
     },
     {
-     "ahtn8": "72083900",
      "month": "2026-08",
-     "uv_lcu_per_kg": 63.89,
-     "band_median": 67.9,
-     "band_lower": 54.33,
-     "below_band": false,
-     "ref_median": 63.89
+     "uv_lcu_per_kg": 12.74,
+     "n_lines": 33,
+     "ref_median": 12.83
     },
     {
-     "ahtn8": "72083900",
      "month": "2026-09",
-     "uv_lcu_per_kg": 65.53,
-     "band_median": 67.82,
-     "band_lower": 53.99,
-     "below_band": false,
-     "ref_median": 66.07
+     "uv_lcu_per_kg": 12.19,
+     "n_lines": 30,
+     "ref_median": 12.3
     }
    ]
   },
   {
-   "importer": "T1145",
-   "ahtn8": "85414300",
+   "importer_id": "IMP00448",
+   "hs8": "27090001",
    "months": [
     {
-     "ahtn8": "85414300",
      "month": "2023-10",
-     "uv_lcu_per_kg": 403.28,
-     "band_median": null,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 405.92
+     "uv_lcu_per_kg": 15.94,
+     "n_lines": 11,
+     "ref_median": 15.85
     },
     {
-     "ahtn8": "85414300",
      "month": "2023-11",
-     "uv_lcu_per_kg": 382.41,
-     "band_median": 403.28,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 407.91
+     "uv_lcu_per_kg": 15.02,
+     "n_lines": 4,
+     "ref_median": 14.42
     },
     {
-     "ahtn8": "85414300",
      "month": "2023-12",
-     "uv_lcu_per_kg": 367.4,
-     "band_median": 392.84,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 409.69
+     "uv_lcu_per_kg": 15.26,
+     "n_lines": 10,
+     "ref_median": 14.9
     },
     {
-     "ahtn8": "85414300",
      "month": "2024-01",
-     "uv_lcu_per_kg": 376.26,
-     "band_median": 382.41,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 411.04
+     "uv_lcu_per_kg": 13.66,
+     "n_lines": 4,
+     "ref_median": 12.65
     },
     {
-     "ahtn8": "85414300",
      "month": "2024-02",
-     "uv_lcu_per_kg": 350.07,
-     "band_median": 379.34,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 411.84
+     "uv_lcu_per_kg": 14.8,
+     "n_lines": 12,
+     "ref_median": 14.67
     },
     {
-     "ahtn8": "85414300",
      "month": "2024-03",
-     "uv_lcu_per_kg": 342.09,
-     "band_median": 376.26,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 411.98
+     "uv_lcu_per_kg": 13.83,
+     "n_lines": 6,
+     "ref_median": 12.26
     },
     {
-     "ahtn8": "85414300",
      "month": "2024-04",
-     "uv_lcu_per_kg": 356.22,
-     "band_median": 371.83,
-     "band_lower": 311.9,
-     "below_band": false,
-     "ref_median": 411.46
+     "uv_lcu_per_kg": 14.14,
+     "n_lines": 7,
+     "ref_median": 14.13
     },
     {
-     "ahtn8": "85414300",
      "month": "2024-05",
-     "uv_lcu_per_kg": 358.62,
-     "band_median": 367.4,
-     "band_lower": 311.77,
-     "below_band": false,
-     "ref_median": 410.32
+     "uv_lcu_per_kg": 13.51,
+     "n_lines": 12,
+     "ref_median": 13.07
     },
     {
-     "ahtn8": "85414300",
      "month": "2024-06",
-     "uv_lcu_per_kg": 361.85,
-     "band_median": 363.01,
-     "band_lower": 308.56,
-     "below_band": false,
-     "ref_median": 408.7
+     "uv_lcu_per_kg": 14.05,
+     "n_lines": 5,
+     "ref_median": 12.76
     },
     {
-     "ahtn8": "85414300",
      "month": "2024-07",
-     "uv_lcu_per_kg": 389.8,
-     "band_median": 361.85,
-     "band_lower": 307.57,
-     "below_band": false,
-     "ref_median": 406.78
+     "uv_lcu_per_kg": 12.4,
+     "n_lines": 4,
+     "ref_median": 11.67
     },
     {
-     "ahtn8": "85414300",
      "month": "2024-08",
-     "uv_lcu_per_kg": 388.03,
-     "band_median": 364.62,
-     "band_lower": 309.93,
-     "below_band": false,
-     "ref_median": 404.76
+     "uv_lcu_per_kg": 13.93,
+     "n_lines": 9,
+     "ref_median": 13.86
     },
     {
-     "ahtn8": "85414300",
      "month": "2024-09",
-     "uv_lcu_per_kg": 393.4,
-     "band_median": 367.4,
-     "band_lower": 311.77,
-     "below_band": false,
-     "ref_median": 402.87
+     "uv_lcu_per_kg": 14.06,
+     "n_lines": 6,
+     "ref_median": 13.32
     },
     {
-     "ahtn8": "85414300",
      "month": "2024-10",
-     "uv_lcu_per_kg": 388.68,
-     "band_median": 371.83,
-     "band_lower": 312.88,
-     "below_band": false,
-     "ref_median": 389.02
+     "uv_lcu_per_kg": 12.98,
+     "n_lines": 9,
+     "ref_median": 12.9
     },
     {
-     "ahtn8": "85414300",
      "month": "2024-11",
-     "uv_lcu_per_kg": 373.53,
-     "band_median": 376.26,
-     "band_lower": 319.82,
-     "below_band": false,
-     "ref_median": 376.33
+     "uv_lcu_per_kg": 13.19,
+     "n_lines": 12,
+     "ref_median": 13.13
     },
     {
-     "ahtn8": "85414300",
      "month": "2024-12",
-     "uv_lcu_per_kg": 364.94,
-     "band_median": 374.9,
-     "band_lower": 318.66,
-     "below_band": false,
-     "ref_median": 366.91
+     "uv_lcu_per_kg": 12.78,
+     "n_lines": 7,
+     "ref_median": 12.55
     },
     {
-     "ahtn8": "85414300",
      "month": "2025-01",
-     "uv_lcu_per_kg": 354.8,
-     "band_median": 373.53,
-     "band_lower": 317.5,
-     "below_band": false,
-     "ref_median": 388.63
+     "uv_lcu_per_kg": 12.88,
+     "n_lines": 10,
+     "ref_median": 13.18
     },
     {
-     "ahtn8": "85414300",
      "month": "2025-02",
-     "uv_lcu_per_kg": 341.04,
-     "band_median": 370.46,
-     "band_lower": 314.9,
-     "below_band": false,
-     "ref_median": 343.8
+     "uv_lcu_per_kg": 12.97,
+     "n_lines": 14,
+     "ref_median": 12.23
     },
     {
-     "ahtn8": "85414300",
      "month": "2025-03",
-     "uv_lcu_per_kg": 330.8,
-     "band_median": 367.4,
-     "band_lower": 311.77,
-     "below_band": false,
-     "ref_median": 427.82
+     "uv_lcu_per_kg": 12.51,
+     "n_lines": 12,
+     "ref_median": 12.46
     },
     {
-     "ahtn8": "85414300",
      "month": "2025-04",
-     "uv_lcu_per_kg": 339.43,
-     "band_median": 366.17,
-     "band_lower": 306.24,
-     "below_band": false,
-     "ref_median": 345.94
+     "uv_lcu_per_kg": 12.19,
+     "n_lines": 23,
+     "ref_median": 12.06
     },
     {
-     "ahtn8": "85414300",
      "month": "2025-05",
-     "uv_lcu_per_kg": 358.42,
-     "band_median": 364.94,
-     "band_lower": 300.19,
-     "below_band": false,
-     "ref_median": 362.87
+     "uv_lcu_per_kg": 12.82,
+     "n_lines": 6,
+     "ref_median": 11.77
     },
     {
-     "ahtn8": "85414300",
      "month": "2025-06",
-     "uv_lcu_per_kg": 376.05,
-     "band_median": 363.4,
-     "band_lower": 303.46,
-     "below_band": false,
-     "ref_median": 376.75
+     "uv_lcu_per_kg": 11.88,
+     "n_lines": 16,
+     "ref_median": 11.74
     },
     {
-     "ahtn8": "85414300",
      "month": "2025-07",
-     "uv_lcu_per_kg": 394.03,
-     "band_median": 364.94,
-     "band_lower": 309.82,
-     "below_band": false,
-     "ref_median": 391.89
+     "uv_lcu_per_kg": 12.52,
+     "n_lines": 6,
+     "ref_median": 12.21
     },
     {
-     "ahtn8": "85414300",
      "month": "2025-08",
-     "uv_lcu_per_kg": 394.15,
-     "band_median": 366.17,
-     "band_lower": 306.24,
-     "below_band": false,
-     "ref_median": 387.49
+     "uv_lcu_per_kg": 12.55,
+     "n_lines": 6,
+     "ref_median": 12.33
     },
     {
-     "ahtn8": "85414300",
      "month": "2025-09",
-     "uv_lcu_per_kg": 397.29,
-     "band_median": 367.4,
-     "band_lower": 303.17,
-     "below_band": false,
-     "ref_median": 397.96
+     "uv_lcu_per_kg": 12.39,
+     "n_lines": 3,
+     "ref_median": 12.05
     },
     {
-     "ahtn8": "85414300",
      "month": "2025-10",
-     "uv_lcu_per_kg": 404.93,
-     "band_median": 370.46,
-     "band_lower": 304.16,
-     "below_band": false,
-     "ref_median": 406.82
+     "uv_lcu_per_kg": 11.41,
+     "n_lines": 9,
+     "ref_median": 11.4
     },
     {
-     "ahtn8": "85414300",
      "month": "2025-11",
-     "uv_lcu_per_kg": 385.18,
-     "band_median": 373.53,
-     "band_lower": 309.37,
-     "below_band": false,
-     "ref_median": 402.33
+     "uv_lcu_per_kg": 12.17,
+     "n_lines": 10,
+     "ref_median": 11.6
     },
     {
-     "ahtn8": "85414300",
      "month": "2025-12",
-     "uv_lcu_per_kg": 372.0,
-     "band_median": 374.79,
-     "band_lower": 310.04,
-     "below_band": false,
-     "ref_median": 372.78
+     "uv_lcu_per_kg": 10.93,
+     "n_lines": 9,
+     "ref_median": 10.9
     },
     {
-     "ahtn8": "85414300",
      "month": "2026-01",
-     "uv_lcu_per_kg": 367.9,
-     "band_median": 373.53,
-     "band_lower": 313.23,
-     "below_band": false,
-     "ref_median": 378.29
+     "uv_lcu_per_kg": 11.44,
+     "n_lines": 10,
+     "ref_median": 11.05
     },
     {
-     "ahtn8": "85414300",
      "month": "2026-02",
-     "uv_lcu_per_kg": 350.78,
-     "band_median": 372.76,
-     "band_lower": 312.61,
-     "below_band": false,
-     "ref_median": 351.19
+     "uv_lcu_per_kg": 10.99,
+     "n_lines": 11,
+     "ref_median": 10.69
     },
     {
-     "ahtn8": "85414300",
      "month": "2026-03",
-     "uv_lcu_per_kg": 343.09,
-     "band_median": 372.0,
-     "band_lower": 310.18,
-     "below_band": false,
-     "ref_median": 347.28
+     "uv_lcu_per_kg": 11.53,
+     "n_lines": 8,
+     "ref_median": 11.53
     },
     {
-     "ahtn8": "85414300",
      "month": "2026-04",
-     "uv_lcu_per_kg": 337.1,
-     "band_median": 369.95,
-     "band_lower": 301.73,
-     "below_band": false,
-     "ref_median": 339.64
+     "uv_lcu_per_kg": 11.75,
+     "n_lines": 10,
+     "ref_median": 11.23
     },
     {
-     "ahtn8": "85414300",
      "month": "2026-05",
-     "uv_lcu_per_kg": 353.54,
-     "band_median": 367.9,
-     "band_lower": 301.81,
-     "below_band": false,
-     "ref_median": 361.12
+     "uv_lcu_per_kg": 10.96,
+     "n_lines": 17,
+     "ref_median": 10.85
     },
     {
-     "ahtn8": "85414300",
      "month": "2026-06",
-     "uv_lcu_per_kg": 364.71,
-     "band_median": 367.65,
-     "band_lower": 302.58,
-     "below_band": false,
-     "ref_median": 374.2
+     "uv_lcu_per_kg": 10.85,
+     "n_lines": 11,
+     "ref_median": 10.82
     },
     {
-     "ahtn8": "85414300",
      "month": "2026-07",
-     "uv_lcu_per_kg": 373.46,
-     "band_median": 367.4,
-     "band_lower": 303.17,
-     "below_band": false,
-     "ref_median": 373.35
+     "uv_lcu_per_kg": 10.75,
+     "n_lines": 5,
+     "ref_median": 9.62
     },
     {
-     "ahtn8": "85414300",
      "month": "2026-08",
-     "uv_lcu_per_kg": 389.76,
-     "band_median": 367.65,
-     "band_lower": 303.9,
-     "below_band": false,
-     "ref_median": 389.76
+     "uv_lcu_per_kg": 10.68,
+     "n_lines": 5,
+     "ref_median": 9.64
     },
     {
-     "ahtn8": "85414300",
      "month": "2026-09",
-     "uv_lcu_per_kg": 390.23,
-     "band_median": 367.9,
-     "band_lower": 303.85,
-     "below_band": false,
-     "ref_median": 398.91
+     "uv_lcu_per_kg": 10.75,
+     "n_lines": 11,
+     "ref_median": 10.47
     }
    ]
   },
   {
-   "importer": "T552961",
-   "ahtn8": "17011400",
+   "importer_id": "IMP01142",
+   "hs8": "40111004",
    "months": [
     {
-     "ahtn8": "17011400",
      "month": "2023-10",
-     "uv_lcu_per_kg": 46.85,
-     "band_median": null,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 49.12
+     "uv_lcu_per_kg": 57.76,
+     "n_lines": 22,
+     "ref_median": 58.75
     },
     {
-     "ahtn8": "17011400",
      "month": "2023-11",
-     "uv_lcu_per_kg": 48.6,
-     "band_median": 46.85,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 49.36
+     "uv_lcu_per_kg": 56.81,
+     "n_lines": 26,
+     "ref_median": 59.58
     },
     {
-     "ahtn8": "17011400",
      "month": "2023-12",
-     "uv_lcu_per_kg": 50.99,
-     "band_median": 47.72,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 49.57
+     "uv_lcu_per_kg": 57.33,
+     "n_lines": 13,
+     "ref_median": 58.03
     },
     {
-     "ahtn8": "17011400",
      "month": "2024-01",
-     "uv_lcu_per_kg": 52.78,
-     "band_median": 48.6,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 49.74
+     "uv_lcu_per_kg": 56.97,
+     "n_lines": 19,
+     "ref_median": 58.18
     },
     {
-     "ahtn8": "17011400",
      "month": "2024-02",
-     "uv_lcu_per_kg": 55.36,
-     "band_median": 49.8,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 49.83
+     "uv_lcu_per_kg": 58.98,
+     "n_lines": 23,
+     "ref_median": 59.73
     },
     {
-     "ahtn8": "17011400",
      "month": "2024-03",
-     "uv_lcu_per_kg": 55.11,
-     "band_median": 50.99,
-     "band_lower": null,
-     "below_band": false,
-     "ref_median": 49.85
+     "uv_lcu_per_kg": 59.45,
+     "n_lines": 16,
+     "ref_median": 61.32
     },
     {
-     "ahtn8": "17011400",
      "month": "2024-04",
-     "uv_lcu_per_kg": 53.96,
-     "band_median": 51.89,
-     "band_lower": 39.82,
-     "below_band": false,
-     "ref_median": 49.79
+     "uv_lcu_per_kg": 56.56,
+     "n_lines": 21,
+     "ref_median": 58.53
     },
     {
-     "ahtn8": "17011400",
      "month": "2024-05",
-     "uv_lcu_per_kg": 53.87,
-     "band_median": 52.78,
-     "band_lower": 44.14,
-     "below_band": false,
-     "ref_median": 49.65
+     "uv_lcu_per_kg": 57.99,
+     "n_lines": 21,
+     "ref_median": 60.9
     },
     {
-     "ahtn8": "17011400",
      "month": "2024-06",
-     "uv_lcu_per_kg": 51.62,
-     "band_median": 53.32,
-     "band_lower": 45.33,
-     "below_band": false,
-     "ref_median": 49.45
+     "uv_lcu_per_kg": 57.08,
+     "n_lines": 14,
+     "ref_median": 58.42
     },
     {
-     "ahtn8": "17011400",
      "month": "2024-07",
-     "uv_lcu_per_kg": 49.18,
-     "band_median": 52.78,
-     "band_lower": 44.86,
-     "below_band": false,
-     "ref_median": 49.22
+     "uv_lcu_per_kg": 56.85,
+     "n_lines": 17,
+     "ref_median": 59.79
     },
     {
-     "ahtn8": "17011400",
      "month": "2024-08",
-     "uv_lcu_per_kg": 46.54,
-     "band_median": 52.2,
-     "band_lower": 43.55,
-     "below_band": false,
-     "ref_median": 48.98
+     "uv_lcu_per_kg": 56.87,
+     "n_lines": 17,
+     "ref_median": 59.3
     },
     {
-     "ahtn8": "17011400",
      "month": "2024-09",
-     "uv_lcu_per_kg": 46.73,
-     "band_median": 51.62,
-     "band_lower": 42.58,
-     "below_band": false,
-     "ref_median": 48.75
+     "uv_lcu_per_kg": 57.06,
+     "n_lines": 15,
+     "ref_median": 59.1
     },
     {
-     "ahtn8": "17011400",
      "month": "2024-10",
-     "uv_lcu_per_kg": 47.08,
-     "band_median": 51.3,
-     "band_lower": 41.37,
-     "below_band": false,
-     "ref_median": 47.31
+     "uv_lcu_per_kg": 58.24,
+     "n_lines": 22,
+     "ref_median": 59.2
     },
     {
-     "ahtn8": "17011400",
      "month": "2024-11",
-     "uv_lcu_per_kg": 47.35,
-     "band_median": 50.99,
-     "band_lower": 39.98,
-     "below_band": false,
-     "ref_median": 46.88
+     "uv_lcu_per_kg": 57.52,
+     "n_lines": 22,
+     "ref_median": 58.5
     },
     {
-     "ahtn8": "17011400",
      "month": "2024-12",
-     "uv_lcu_per_kg": 49.74,
-     "band_median": 50.08,
-     "band_lower": 38.52,
-     "below_band": false,
-     "ref_median": 49.74
+     "uv_lcu_per_kg": 58.39,
+     "n_lines": 23,
+     "ref_median": 59.31
     },
     {
-     "ahtn8": "17011400",
      "month": "2025-01",
-     "uv_lcu_per_kg": 48.32,
-     "band_median": 49.74,
-     "band_lower": 39.03,
-     "below_band": false,
-     "ref_median": 47.48
+     "uv_lcu_per_kg": 58.34,
+     "n_lines": 18,
+     "ref_median": 58.79
     },
     {
-     "ahtn8": "17011400",
      "month": "2025-02",
-     "uv_lcu_per_kg": 53.45,
-     "band_median": 49.46,
-     "band_lower": 40.21,
-     "below_band": false,
-     "ref_median": 50.35
+     "uv_lcu_per_kg": 56.47,
+     "n_lines": 28,
+     "ref_median": 58.08
     },
     {
-     "ahtn8": "17011400",
      "month": "2025-03",
-     "uv_lcu_per_kg": 53.8,
-     "band_median": 49.74,
-     "band_lower": 39.03,
-     "below_band": false,
-     "ref_median": 53.8
+     "uv_lcu_per_kg": 56.97,
+     "n_lines": 18,
+     "ref_median": 57.27
     },
     {
-     "ahtn8": "17011400",
      "month": "2025-04",
-     "uv_lcu_per_kg": 55.09,
-     "band_median": 50.36,
-     "band_lower": 38.56,
-     "below_band": false,
-     "ref_median": 48.83
+     "uv_lcu_per_kg": 57.96,
+     "n_lines": 14,
+     "ref_median": 58.35
     },
     {
-     "ahtn8": "17011400",
      "month": "2025-05",
-     "uv_lcu_per_kg": 53.62,
-     "band_median": 50.99,
-     "band_lower": 40.32,
-     "below_band": false,
-     "ref_median": 53.62
+     "uv_lcu_per_kg": 57.94,
+     "n_lines": 14,
+     "ref_median": 60.46
     },
     {
-     "ahtn8": "17011400",
      "month": "2025-06",
-     "uv_lcu_per_kg": 51.48,
-     "band_median": 51.3,
-     "band_lower": 41.37,
-     "below_band": false,
-     "ref_median": 51.48
+     "uv_lcu_per_kg": 58.35,
+     "n_lines": 20,
+     "ref_median": 57.64
     },
     {
-     "ahtn8": "17011400",
      "month": "2025-07",
-     "uv_lcu_per_kg": 48.88,
-     "band_median": 51.48,
-     "band_lower": 42.29,
-     "below_band": false,
-     "ref_median": 48.34
+     "uv_lcu_per_kg": 58.05,
+     "n_lines": 23,
+     "ref_median": 59.37
     },
     {
-     "ahtn8": "17011400",
      "month": "2025-08",
-     "uv_lcu_per_kg": 48.3,
-     "band_median": 51.24,
-     "band_lower": 41.47,
-     "below_band": false,
-     "ref_median": 48.3
+     "uv_lcu_per_kg": 58.49,
+     "n_lines": 19,
+     "ref_median": 57.46
     },
     {
-     "ahtn8": "17011400",
      "month": "2025-09",
-     "uv_lcu_per_kg": 47.74,
-     "band_median": 50.99,
-     "band_lower": 41.02,
-     "below_band": false,
-     "ref_median": 45.9
+     "uv_lcu_per_kg": 58.96,
+     "n_lines": 16,
+     "ref_median": 58.96
     },
     {
-     "ahtn8": "17011400",
      "month": "2025-10",
-     "uv_lcu_per_kg": 48.45,
-     "band_median": 50.36,
-     "band_lower": 39.06,
-     "below_band": false,
-     "ref_median": 48.54
+     "uv_lcu_per_kg": 53.5,
+     "n_lines": 10,
+     "ref_median": 56.72
     },
     {
-     "ahtn8": "17011400",
      "month": "2025-11",
-     "uv_lcu_per_kg": 47.22,
-     "band_median": 49.74,
-     "band_lower": 39.88,
-     "below_band": false,
-     "ref_median": 46.59
+     "uv_lcu_per_kg": 57.42,
+     "n_lines": 22,
+     "ref_median": 57.92
     },
     {
-     "ahtn8": "17011400",
      "month": "2025-12",
-     "uv_lcu_per_kg": 49.84,
-     "band_median": 49.46,
-     "band_lower": 40.9,
-     "below_band": false,
-     "ref_median": 49.69
+     "uv_lcu_per_kg": 57.74,
+     "n_lines": 19,
+     "ref_median": 58.57
     },
     {
-     "ahtn8": "17011400",
      "month": "2026-01",
-     "uv_lcu_per_kg": 55.12,
-     "band_median": 49.74,
-     "band_lower": 40.4,
-     "below_band": false,
-     "ref_median": 55.81
+     "uv_lcu_per_kg": 56.75,
+     "n_lines": 20,
+     "ref_median": 57.58
     },
     {
-     "ahtn8": "17011400",
      "month": "2026-02",
-     "uv_lcu_per_kg": 52.92,
-     "band_median": 49.79,
-     "band_lower": 40.0,
-     "below_band": false,
-     "ref_median": 52.92
+     "uv_lcu_per_kg": 56.96,
+     "n_lines": 16,
+     "ref_median": 58.96
     },
     {
-     "ahtn8": "17011400",
      "month": "2026-03",
-     "uv_lcu_per_kg": 54.3,
-     "band_median": 49.84,
-     "band_lower": 39.61,
-     "below_band": false,
-     "ref_median": 54.3
+     "uv_lcu_per_kg": 57.94,
+     "n_lines": 20,
+     "ref_median": 58.84
     },
     {
-     "ahtn8": "17011400",
      "month": "2026-04",
-     "uv_lcu_per_kg": 54.43,
-     "band_median": 50.42,
-     "band_lower": 39.11,
-     "below_band": false,
-     "ref_median": 52.41
+     "uv_lcu_per_kg": 58.28,
+     "n_lines": 27,
+     "ref_median": 58.8
     },
     {
-     "ahtn8": "17011400",
      "month": "2026-05",
-     "uv_lcu_per_kg": 53.67,
-     "band_median": 50.99,
-     "band_lower": 40.57,
-     "below_band": false,
-     "ref_median": 53.35
+     "uv_lcu_per_kg": 57.78,
+     "n_lines": 29,
+     "ref_median": 58.06
     },
     {
-     "ahtn8": "17011400",
      "month": "2026-06",
-     "uv_lcu_per_kg": 50.02,
-     "band_median": 51.24,
-     "band_lower": 41.02,
-     "below_band": false,
-     "ref_median": 49.45
+     "uv_lcu_per_kg": 56.98,
+     "n_lines": 18,
+     "ref_median": 59.48
     },
     {
-     "ahtn8": "17011400",
      "month": "2026-07",
-     "uv_lcu_per_kg": 49.91,
-     "band_median": 50.99,
-     "band_lower": 41.02,
-     "below_band": false,
-     "ref_median": 49.41
+     "uv_lcu_per_kg": 59.13,
+     "n_lines": 14,
+     "ref_median": 59.53
     },
     {
-     "ahtn8": "17011400",
      "month": "2026-08",
-     "uv_lcu_per_kg": 46.89,
-     "band_median": 50.5,
-     "band_lower": 39.27,
-     "below_band": false,
-     "ref_median": 47.06
+     "uv_lcu_per_kg": 58.17,
+     "n_lines": 12,
+     "ref_median": 60.95
     },
     {
-     "ahtn8": "17011400",
      "month": "2026-09",
-     "uv_lcu_per_kg": 46.46,
-     "band_median": 50.02,
-     "band_lower": 39.27,
-     "below_band": false,
-     "ref_median": 46.46
+     "uv_lcu_per_kg": 57.6,
+     "n_lines": 9,
+     "ref_median": 58.87
     }
    ]
   }

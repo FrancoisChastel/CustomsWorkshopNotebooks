@@ -1,0 +1,26 @@
+ref,importer_id,tin_customs,importer_name,trading_name,address_line,district,phone,director_name,broker_id,sector,consignees,import_value_12m_lcu,import_vat_paid_12m_lcu
+I01,IMP00519,T103629,"Ocean Electronics Co., Ltd",Ocean Centre,222 Mill Road,Coastal,0817809823,Somchai Rahman,BRK021,Fuel and chemicals,2,1575767095.0,158126210.0
+I02,IMP00753,T105264,Phoenix Glow Limited,Phoenix Glow Limited,248 Industrial Estate,South,0496195011,Tomas Tanaka,BRK017,Textiles and apparel,1,198517610.0,22342540.0
+I03,IMP00892,T106240,Delta Fruits Holdings Ltd,Delta Fruits Holdings Ltd,340 Industrial Estate,West,0459640429,Joseph Rahman,BRK027,General trading,3,670751171.0,72311996.0
+I04,IMP00340,T102376,Great Wall Steel Enterprises,Great Wall Steel Enterprises,43 Riverside,Capital,0913214249,Elena Haddad,BRK015,Fuel and chemicals,1,3995312304.0,417531907.0
+I05,IMP00999,T106987,Carrick Electronics Group Ltd,Carrick Electronics Group Ltd,375 Industrial Estate,Coastal,0719832200,Farid Okafor,BRK035,Electronics,2,1888375522.0,193098621.0
+I06,IMP01037,T107258,Carrick Agro Enterprises,Carrick Agro Enterprises,18 Market Street,West,0545102251,Kenji Haddad,BRK010,Medical devices,1,1616621003.0,164134161.0
+I07,IMP00306,T102141,Cobalt Mobile & Sons,Cobalt Mobile & Sons,314 Industrial Estate,South,0965281846,Elena Haddad,BRK061,Furniture and household,2,856551097.0,97704721.0
+I08,IMP00147,,Central Imports International Ltd,Central Imports International Ltd,350 Garden Lane,Coastal,0471338762,Kenji Haddad,BRK042,Pharmaceuticals,1,84199793.0,8419979.0
+I09,IMP00721,,Phoenix Imports Partners Ltd,Phoenix Imports Partners Ltd,171 Garden Lane,Coastal,0887356246,Nadia Chen,BRK080,General trading,1,56062432.0,5886555.0
+I10,IMP00448,T103130,Global Electronics International Ltd,Global Electronics International Ltd,296 Temple Street,Capital,0941933516,Amina Al-Sayed,BRK046,Fuel and chemicals,1,7762320112.0,776232011.0
+I11,IMP00005,T100033,Central Foods Limited,Central Foods Limited,24 Harbour Road,East,0401520138,Farid Ibrahim,BRK033,Steel and construction,1,6314110.0,674556.0
+I12,IMP00156,,"Ocean Medical Co., Ltd","Ocean Medical Co., Ltd",362 Temple Street,Coastal,0482336020,Hassan Tanaka,BRK010,Tobacco and beverages,1,351886535.0,45558695.0
+I13,IMP00950,,Central Enterprises Co.,Central Enterprises Co.,191 Garden Lane,South,0946646378,Hassan Kowalski,BRK041,Tobacco and beverages,1,1162107176.0,148779827.0
+I14,IMP01242,T108692,"Royal Agro Co., Ltd",Royal Depot,191 Bazaar Lane,South,0382439044,Somchai Silva,BRK039,Electronics,1,243297240.0,25488147.0
+I15,IMP00011,T100070,Silk Road Steel Co.,Silk Road Steel Co.,346 Market Street,North,0519965779,Farid Haddad,BRK015,Pharmaceuticals,3,117205576.0,11758657.0
+I16,IMP01089,T107617,Carrick Trading & Sons,Carrick Trading & Sons,172 Airport Road,North,0803847861,Ingrid Sato,BRK037,Machinery,3,349828492.0,36119722.0
+I17,IMP01481,,Ocean Industries Holdings Ltd,Ocean Industries Holdings Ltd,323 Station Road,South,0924121092,Joseph Tanaka,BRK036,Steel and construction,1,118088950.0,12844252.0
+I18,IMP01142,T107992,Arden Living Co.,Arden Living Co.,144 Riverside,West,0894167333,Samuel Kowalski,BRK045,Fuel and chemicals,1,4710467701.0,478248142.0
+I19,IMP01310,T109167,Pacific Living Co.,Pacific Living Co.,329 Riverside,West,0346234502,Aisha Reyes,BRK069,Textiles and apparel,3,1573399441.0,176252560.0
+I20,IMP00490,T103425,Ocean Trading International Ltd,Ocean Trading International Ltd,115 Harbour Road,East,0731410108,Nadia Al-Sayed,BRK060,Machinery,1,797101476.0,83970112.0
+I21,IMP00063,T100440,"Metro Motors Co., Ltd","Metro Motors Co., Ltd",215 Bazaar Lane,West,0929915234,Ingrid Al-Sayed,BRK038,Vehicles and parts,1,4076407666.0,495867730.0
+I22,IMP00926,T106477,Metro Steel Partners Ltd,Metro Steel Partners Ltd,358 Market Street,Coastal,0402667378,Amina Bauer,BRK014,Fuel and chemicals,2,12194676790.0,1266790372.0
+I23,IMP00643,T104498,Aldergate Agro Holdings Ltd,Aldergate Agro Holdings Ltd,340 Garden Lane,Coastal,0612702458,Daniel Osei,BRK044,Pharmaceuticals,3,1431980503.0,143278206.0
+I24,IMP00067,T100466,Pacific Enterprises Holdings Ltd,Pacific Enterprises Holdings Ltd,356 Station Road,East,0254736740,Farid Sato,BRK021,Fuel and chemicals,4,1256798207.0,125748448.0
+I25,IMP00288,T102011,Arden Fruits Enterprises,Arden Fruits Enterprises,360 Harbour Road,South,0225352118,Mei Okafor,BRK016,Cosmetics and personal care,3,90624459.0,11334756.0

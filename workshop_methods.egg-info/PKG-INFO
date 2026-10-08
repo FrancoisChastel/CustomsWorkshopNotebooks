@@ -18,20 +18,20 @@ Requires-Dist: pyarrow>=12; extra == "parquet"
 Material for the customs breakouts of the workshop **Data Driven Domestic Revenue Mobilization**
 (Bangkok, 19–22 October 2026), organised by the IMF Fiscal Affairs Department.
 
-Everything here is synthetic. Every trader, declaration and name is generated, and nothing
+Everything here is synthetic. Every importer, declaration and name is generated, and nothing
 describes a real company or person. Answers and facilitator notes are not in this repository.
 
 ## Notebooks
 
 Open a notebook in Google Colab, then *Runtime › Run all*. Nothing to install: the first cell loads the
-data and the methods of release `data-v6`.
+data and the methods of release `data-v7`.
 
 | Session | Notebook |
 | --- | --- |
-| Breakout 1B · Targeting: from signals to a score | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v6/notebooks/1b_targeting.ipynb) |
-| Plenary 8 · Three customs questions, three numbers | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v6/notebooks/p8_quick_diagnostics.ipynb) |
-| Breakout 2B · Trade and the border | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v6/notebooks/2b_trade_border.ipynb) |
-| Breakout 4B · Informality: matching customs and tax | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v6/notebooks/4b_informality.ipynb) |
+| Breakout 1B · Targeting: from signals to a score | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v7/notebooks/1b_targeting.ipynb) |
+| Plenary 8 · Six questions, six numbers | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v7/notebooks/p8_quick_diagnostics.ipynb) |
+| Breakout 2B · Trade and the border | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v7/notebooks/2b_trade_border.ipynb) |
+| Breakout 4B · Customs and tax together | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v7/notebooks/4b_informality.ipynb) |
 
 The exercises end with a reveal that only the facilitator can open.
 
@@ -40,8 +40,15 @@ The exercises end with a reveal that only the facilitator can open.
 | Folder | Contents |
 | --- | --- |
 | `notebooks/` | The four Colab notebooks |
-| `data/` | The 20 workshop tables (CSV and Parquet), the session worksheets (JSON) and the data dictionary ([data/README.md](data/README.md)) |
+| `data/` | One generated world (DATASET-v3): 250,000 declaration lines over 36 months in two halves, the precomputed signals and scores, the importer register, the tax side, the trade tables, the valuation track, the real-register matching files, the session worksheets (JSON), the Excel sample workbook, and the data dictionary ([data/README.md](data/README.md)) with its calibration lines |
 | `workshop_methods/` | The methods used in the sessions, as a small Python package |
+
+Two halves of time: `declarations_h1.csv` (months 1–18) carries the legacy lanes and their control
+outcomes; `declarations_h2.csv` (months 19–36) carries no lanes and only the random draw with its
+outcomes. An empty `outcome` means no control took place, never "no finding". Nothing heavy runs in
+Colab: the signals, the learned score, the oddness score, the clusters, the valuation neighbours and
+the match scores are precomputed in `features_lines.csv`, `trader_features.csv`,
+`valuation_neighbours.csv` and `match_scores.csv`.
 
 ## Use it in Python or Google Colab
 
@@ -50,19 +57,22 @@ The exercises end with a reveal that only the facilitator can open.
 %cd CustomsWorkshopNotebooks
 !pip install -q .
 
-from workshop_methods.data import load_tables
+from workshop_methods.data import load_tables, load_declarations
 tables = load_tables("data")
-tables["declarations"].head()
+lines = load_declarations("data")   # both halves in one frame
 ```
 
 Without cloning, `load_tables("https://raw.githubusercontent.com/FrancoisChastel/CustomsWorkshopNotebooks/main/data")`
-reads the CSV files over HTTPS.
+reads the CSV files over HTTPS (the large line files are release assets: see the release page).
 
-Keep the code columns as text when you read a CSV yourself (`ahtn8`, `hs6`, `chapter`, `month`,
-`period`, `trader_id`, `tin`): `load_tables` does this for you.
+Keep the code columns as text when you read a CSV yourself (`hs8`, `hs6`, `chapter`, `month`,
+`period`, `tin`): `load_tables` does this for you.
+
+Calibration line, printed under every rate: random draw finds something on 1 to 8 lines in a hundred;
+this set is enriched on the 20 exercise lines only.
 
 ## Data versions
 
 The tables are generated from one seed, so the same version always holds the same numbers. Each
-release (`data-v1`, `data-v2`, …) is fixed. The workshop laptops download its `workshop-data.zip`
-(CSV, worksheets and dictionary) when the workshop kit is set up.
+release (`data-v1`, …, `data-v7`) is fixed. The workshop laptops download its `workshop-data.zip`
+(CSV, worksheets, workbook and dictionary) when the workshop kit is set up.

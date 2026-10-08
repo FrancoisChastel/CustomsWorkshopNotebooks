@@ -6,481 +6,481 @@
    "chapter": "03",
    "importer": "Country A",
    "uv_ratio_to_region": 0.74,
-   "weight_coverage": 0.4
+   "reported_weight_share": 0.4
   },
   {
    "chapter": "03",
    "importer": "Country B",
-   "uv_ratio_to_region": 1.01,
-   "weight_coverage": 0.85
+   "uv_ratio_to_region": 1.0,
+   "reported_weight_share": 0.95
   },
   {
    "chapter": "03",
    "importer": "Country C",
-   "uv_ratio_to_region": 0.94,
-   "weight_coverage": 0.84
+   "uv_ratio_to_region": 0.88,
+   "reported_weight_share": 0.92
   },
   {
    "chapter": "03",
    "importer": "Country D",
-   "uv_ratio_to_region": 1.05,
-   "weight_coverage": 0.82
+   "uv_ratio_to_region": 1.06,
+   "reported_weight_share": 0.84
   },
   {
    "chapter": "03",
    "importer": "Country E",
-   "uv_ratio_to_region": 0.94,
-   "weight_coverage": 0.82
+   "uv_ratio_to_region": 0.93,
+   "reported_weight_share": 0.91
   },
   {
    "chapter": "03",
    "importer": "Country F",
    "uv_ratio_to_region": 1.0,
-   "weight_coverage": 0.87
+   "reported_weight_share": 0.94
   },
   {
    "chapter": "03",
    "importer": "Country G",
-   "uv_ratio_to_region": 1.1,
-   "weight_coverage": 0.78
+   "uv_ratio_to_region": 1.03,
+   "reported_weight_share": 0.97
   },
   {
    "chapter": "03",
    "importer": "Country H",
-   "uv_ratio_to_region": 1.02,
-   "weight_coverage": 0.84
+   "uv_ratio_to_region": 1.08,
+   "reported_weight_share": 0.87
   },
   {
    "chapter": "03",
    "importer": "Country I",
    "uv_ratio_to_region": 1.03,
-   "weight_coverage": 0.81
+   "reported_weight_share": 0.89
   },
   {
    "chapter": "03",
    "importer": "Country J",
-   "uv_ratio_to_region": 1.09,
-   "weight_coverage": 0.85
+   "uv_ratio_to_region": 0.92,
+   "reported_weight_share": 0.95
   },
   {
    "chapter": "10",
    "importer": "Country A",
-   "uv_ratio_to_region": 1.03,
-   "weight_coverage": 0.8
+   "uv_ratio_to_region": 1.01,
+   "reported_weight_share": 0.72
   },
   {
    "chapter": "10",
    "importer": "Country B",
-   "uv_ratio_to_region": 1.08,
-   "weight_coverage": 0.94
+   "uv_ratio_to_region": 0.99,
+   "reported_weight_share": 0.83
   },
   {
    "chapter": "10",
    "importer": "Country C",
-   "uv_ratio_to_region": 0.98,
-   "weight_coverage": 0.76
+   "uv_ratio_to_region": 1.05,
+   "reported_weight_share": 0.67
   },
   {
    "chapter": "10",
    "importer": "Country D",
-   "uv_ratio_to_region": 1.0,
-   "weight_coverage": 0.95
+   "uv_ratio_to_region": 1.14,
+   "reported_weight_share": 0.85
   },
   {
    "chapter": "10",
    "importer": "Country E",
-   "uv_ratio_to_region": 0.94,
-   "weight_coverage": 0.97
+   "uv_ratio_to_region": 0.96,
+   "reported_weight_share": 0.65
   },
   {
    "chapter": "10",
    "importer": "Country F",
-   "uv_ratio_to_region": 1.05,
-   "weight_coverage": 0.76
+   "uv_ratio_to_region": 0.89,
+   "reported_weight_share": 0.84
   },
   {
    "chapter": "10",
    "importer": "Country G",
-   "uv_ratio_to_region": 1.1,
-   "weight_coverage": 0.96
+   "uv_ratio_to_region": 1.13,
+   "reported_weight_share": 0.94
   },
   {
    "chapter": "10",
    "importer": "Country H",
-   "uv_ratio_to_region": 1.06,
-   "weight_coverage": 0.82
+   "uv_ratio_to_region": 1.01,
+   "reported_weight_share": 0.84
   },
   {
    "chapter": "10",
    "importer": "Country I",
-   "uv_ratio_to_region": 1.12,
-   "weight_coverage": 0.8
+   "uv_ratio_to_region": 1.03,
+   "reported_weight_share": 0.61
   },
   {
    "chapter": "10",
    "importer": "Country J",
-   "uv_ratio_to_region": 0.93,
-   "weight_coverage": 0.94
+   "uv_ratio_to_region": 0.91,
+   "reported_weight_share": 0.93
   },
   {
    "chapter": "17",
    "importer": "Country A",
    "uv_ratio_to_region": 0.57,
-   "weight_coverage": 0.77
+   "reported_weight_share": 0.72
   },
   {
    "chapter": "17",
    "importer": "Country B",
-   "uv_ratio_to_region": 1.06,
-   "weight_coverage": 0.79
-  },
-  {
-   "chapter": "17",
-   "importer": "Country C",
-   "uv_ratio_to_region": 0.86,
-   "weight_coverage": 0.88
-  },
-  {
-   "chapter": "17",
-   "importer": "Country D",
-   "uv_ratio_to_region": 1.06,
-   "weight_coverage": 0.85
-  },
-  {
-   "chapter": "17",
-   "importer": "Country E",
-   "uv_ratio_to_region": 0.89,
-   "weight_coverage": 0.95
-  },
-  {
-   "chapter": "17",
-   "importer": "Country F",
-   "uv_ratio_to_region": 0.96,
-   "weight_coverage": 0.88
-  },
-  {
-   "chapter": "17",
-   "importer": "Country G",
-   "uv_ratio_to_region": 0.97,
-   "weight_coverage": 0.83
-  },
-  {
-   "chapter": "17",
-   "importer": "Country H",
-   "uv_ratio_to_region": 0.88,
-   "weight_coverage": 0.92
-  },
-  {
-   "chapter": "17",
-   "importer": "Country I",
-   "uv_ratio_to_region": 1.02,
-   "weight_coverage": 0.97
-  },
-  {
-   "chapter": "17",
-   "importer": "Country J",
-   "uv_ratio_to_region": 0.89,
-   "weight_coverage": 0.81
-  },
-  {
-   "chapter": "24",
-   "importer": "Country A",
-   "uv_ratio_to_region": 0.91,
-   "weight_coverage": 0.76
-  },
-  {
-   "chapter": "24",
-   "importer": "Country B",
-   "uv_ratio_to_region": 0.97,
-   "weight_coverage": 0.97
-  },
-  {
-   "chapter": "24",
-   "importer": "Country C",
    "uv_ratio_to_region": 1.07,
-   "weight_coverage": 0.82
+   "reported_weight_share": 0.95
+  },
+  {
+   "chapter": "17",
+   "importer": "Country C",
+   "uv_ratio_to_region": 1.1,
+   "reported_weight_share": 0.9
+  },
+  {
+   "chapter": "17",
+   "importer": "Country D",
+   "uv_ratio_to_region": 0.89,
+   "reported_weight_share": 0.84
+  },
+  {
+   "chapter": "17",
+   "importer": "Country E",
+   "uv_ratio_to_region": 0.97,
+   "reported_weight_share": 0.87
+  },
+  {
+   "chapter": "17",
+   "importer": "Country F",
+   "uv_ratio_to_region": 1.06,
+   "reported_weight_share": 0.71
+  },
+  {
+   "chapter": "17",
+   "importer": "Country G",
+   "uv_ratio_to_region": 1.04,
+   "reported_weight_share": 0.95
+  },
+  {
+   "chapter": "17",
+   "importer": "Country H",
+   "uv_ratio_to_region": 0.93,
+   "reported_weight_share": 0.71
+  },
+  {
+   "chapter": "17",
+   "importer": "Country I",
+   "uv_ratio_to_region": 1.06,
+   "reported_weight_share": 0.82
+  },
+  {
+   "chapter": "17",
+   "importer": "Country J",
+   "uv_ratio_to_region": 0.99,
+   "reported_weight_share": 0.97
+  },
+  {
+   "chapter": "24",
+   "importer": "Country A",
+   "uv_ratio_to_region": 1.11,
+   "reported_weight_share": 0.63
+  },
+  {
+   "chapter": "24",
+   "importer": "Country B",
+   "uv_ratio_to_region": 0.86,
+   "reported_weight_share": 0.76
+  },
+  {
+   "chapter": "24",
+   "importer": "Country C",
+   "uv_ratio_to_region": 1.13,
+   "reported_weight_share": 0.71
   },
   {
    "chapter": "24",
    "importer": "Country D",
-   "uv_ratio_to_region": 1.06,
-   "weight_coverage": 0.9
+   "uv_ratio_to_region": 0.96,
+   "reported_weight_share": 0.83
   },
   {
    "chapter": "24",
    "importer": "Country E",
-   "uv_ratio_to_region": 0.97,
-   "weight_coverage": 0.89
+   "uv_ratio_to_region": 0.96,
+   "reported_weight_share": 0.92
   },
   {
    "chapter": "24",
    "importer": "Country F",
-   "uv_ratio_to_region": 0.98,
-   "weight_coverage": 0.87
+   "uv_ratio_to_region": 0.94,
+   "reported_weight_share": 0.87
   },
   {
    "chapter": "24",
    "importer": "Country G",
-   "uv_ratio_to_region": 1.08,
-   "weight_coverage": 0.91
+   "uv_ratio_to_region": 0.98,
+   "reported_weight_share": 0.85
   },
   {
    "chapter": "24",
    "importer": "Country H",
-   "uv_ratio_to_region": 1.08,
-   "weight_coverage": 0.76
+   "uv_ratio_to_region": 0.98,
+   "reported_weight_share": 0.6
   },
   {
    "chapter": "24",
    "importer": "Country I",
-   "uv_ratio_to_region": 1.08,
-   "weight_coverage": 0.82
+   "uv_ratio_to_region": 1.05,
+   "reported_weight_share": 0.85
   },
   {
    "chapter": "24",
    "importer": "Country J",
-   "uv_ratio_to_region": 1.02,
-   "weight_coverage": 0.89
+   "uv_ratio_to_region": 0.89,
+   "reported_weight_share": 0.83
   },
   {
    "chapter": "27",
    "importer": "Country A",
-   "uv_ratio_to_region": 0.99,
-   "weight_coverage": 0.91
+   "uv_ratio_to_region": 1.04,
+   "reported_weight_share": 0.84
   },
   {
    "chapter": "27",
    "importer": "Country B",
-   "uv_ratio_to_region": 0.87,
-   "weight_coverage": 0.82
+   "uv_ratio_to_region": 0.99,
+   "reported_weight_share": 0.95
   },
   {
    "chapter": "27",
    "importer": "Country C",
    "uv_ratio_to_region": 0.66,
-   "weight_coverage": 0.96
+   "reported_weight_share": 0.62
   },
   {
    "chapter": "27",
    "importer": "Country D",
-   "uv_ratio_to_region": 1.1,
-   "weight_coverage": 0.87
+   "uv_ratio_to_region": 0.86,
+   "reported_weight_share": 0.72
   },
   {
    "chapter": "27",
    "importer": "Country E",
-   "uv_ratio_to_region": 0.94,
-   "weight_coverage": 0.85
-  },
-  {
-   "chapter": "27",
-   "importer": "Country F",
-   "uv_ratio_to_region": 0.97,
-   "weight_coverage": 0.82
-  },
-  {
-   "chapter": "27",
-   "importer": "Country G",
-   "uv_ratio_to_region": 0.92,
-   "weight_coverage": 0.9
-  },
-  {
-   "chapter": "27",
-   "importer": "Country H",
-   "uv_ratio_to_region": 0.98,
-   "weight_coverage": 0.82
-  },
-  {
-   "chapter": "27",
-   "importer": "Country I",
-   "uv_ratio_to_region": 1.14,
-   "weight_coverage": 0.83
-  },
-  {
-   "chapter": "27",
-   "importer": "Country J",
-   "uv_ratio_to_region": 0.94,
-   "weight_coverage": 0.84
-  },
-  {
-   "chapter": "39",
-   "importer": "Country A",
-   "uv_ratio_to_region": 1.04,
-   "weight_coverage": 0.93
-  },
-  {
-   "chapter": "39",
-   "importer": "Country B",
-   "uv_ratio_to_region": 1.11,
-   "weight_coverage": 0.89
-  },
-  {
-   "chapter": "39",
-   "importer": "Country C",
-   "uv_ratio_to_region": 1.12,
-   "weight_coverage": 0.97
-  },
-  {
-   "chapter": "39",
-   "importer": "Country D",
    "uv_ratio_to_region": 1.0,
-   "weight_coverage": 0.97
+   "reported_weight_share": 0.9
+  },
+  {
+   "chapter": "27",
+   "importer": "Country F",
+   "uv_ratio_to_region": 0.88,
+   "reported_weight_share": 0.82
+  },
+  {
+   "chapter": "27",
+   "importer": "Country G",
+   "uv_ratio_to_region": 1.08,
+   "reported_weight_share": 0.86
+  },
+  {
+   "chapter": "27",
+   "importer": "Country H",
+   "uv_ratio_to_region": 1.02,
+   "reported_weight_share": 0.7
+  },
+  {
+   "chapter": "27",
+   "importer": "Country I",
+   "uv_ratio_to_region": 0.9,
+   "reported_weight_share": 0.83
+  },
+  {
+   "chapter": "27",
+   "importer": "Country J",
+   "uv_ratio_to_region": 0.94,
+   "reported_weight_share": 0.68
+  },
+  {
+   "chapter": "33",
+   "importer": "Country A",
+   "uv_ratio_to_region": 0.96,
+   "reported_weight_share": 0.8
+  },
+  {
+   "chapter": "33",
+   "importer": "Country B",
+   "uv_ratio_to_region": 0.97,
+   "reported_weight_share": 0.84
+  },
+  {
+   "chapter": "33",
+   "importer": "Country C",
+   "uv_ratio_to_region": 1.13,
+   "reported_weight_share": 0.78
+  },
+  {
+   "chapter": "33",
+   "importer": "Country D",
+   "uv_ratio_to_region": 1.04,
+   "reported_weight_share": 0.78
+  },
+  {
+   "chapter": "33",
+   "importer": "Country E",
+   "uv_ratio_to_region": 1.04,
+   "reported_weight_share": 0.89
+  },
+  {
+   "chapter": "33",
+   "importer": "Country F",
+   "uv_ratio_to_region": 0.97,
+   "reported_weight_share": 0.81
+  },
+  {
+   "chapter": "33",
+   "importer": "Country G",
+   "uv_ratio_to_region": 0.94,
+   "reported_weight_share": 0.91
+  },
+  {
+   "chapter": "33",
+   "importer": "Country H",
+   "uv_ratio_to_region": 0.97,
+   "reported_weight_share": 0.68
+  },
+  {
+   "chapter": "33",
+   "importer": "Country I",
+   "uv_ratio_to_region": 1.02,
+   "reported_weight_share": 0.94
+  },
+  {
+   "chapter": "33",
+   "importer": "Country J",
+   "uv_ratio_to_region": 1.08,
+   "reported_weight_share": 0.68
+  },
+  {
+   "chapter": "39",
+   "importer": "Country A",
+   "uv_ratio_to_region": 1.08,
+   "reported_weight_share": 0.96
+  },
+  {
+   "chapter": "39",
+   "importer": "Country B",
+   "uv_ratio_to_region": 0.98,
+   "reported_weight_share": 0.71
+  },
+  {
+   "chapter": "39",
+   "importer": "Country C",
+   "uv_ratio_to_region": 1.05,
+   "reported_weight_share": 0.8
+  },
+  {
+   "chapter": "39",
+   "importer": "Country D",
+   "uv_ratio_to_region": 0.93,
+   "reported_weight_share": 0.78
   },
   {
    "chapter": "39",
    "importer": "Country E",
-   "uv_ratio_to_region": 1.12,
-   "weight_coverage": 0.77
+   "uv_ratio_to_region": 1.01,
+   "reported_weight_share": 0.73
   },
   {
    "chapter": "39",
    "importer": "Country F",
-   "uv_ratio_to_region": 0.96,
-   "weight_coverage": 0.83
+   "uv_ratio_to_region": 1.11,
+   "reported_weight_share": 0.9
   },
   {
    "chapter": "39",
    "importer": "Country G",
-   "uv_ratio_to_region": 1.06,
-   "weight_coverage": 0.96
+   "uv_ratio_to_region": 1.05,
+   "reported_weight_share": 0.73
   },
   {
    "chapter": "39",
    "importer": "Country H",
-   "uv_ratio_to_region": 0.94,
-   "weight_coverage": 0.85
+   "uv_ratio_to_region": 1.05,
+   "reported_weight_share": 0.9
   },
   {
    "chapter": "39",
    "importer": "Country I",
-   "uv_ratio_to_region": 0.92,
-   "weight_coverage": 0.75
+   "uv_ratio_to_region": 0.99,
+   "reported_weight_share": 0.79
   },
   {
    "chapter": "39",
    "importer": "Country J",
-   "uv_ratio_to_region": 0.91,
-   "weight_coverage": 0.78
+   "uv_ratio_to_region": 0.94,
+   "reported_weight_share": 0.67
   },
   {
    "chapter": "52",
    "importer": "Country A",
-   "uv_ratio_to_region": 1.07,
-   "weight_coverage": 0.91
+   "uv_ratio_to_region": 0.9,
+   "reported_weight_share": 0.76
   },
   {
    "chapter": "52",
    "importer": "Country B",
-   "uv_ratio_to_region": 0.93,
-   "weight_coverage": 0.9
+   "uv_ratio_to_region": 0.95,
+   "reported_weight_share": 0.74
   },
   {
    "chapter": "52",
    "importer": "Country C",
-   "uv_ratio_to_region": 0.97,
-   "weight_coverage": 0.76
+   "uv_ratio_to_region": 0.94,
+   "reported_weight_share": 0.69
   },
   {
    "chapter": "52",
    "importer": "Country D",
-   "uv_ratio_to_region": 1.05,
-   "weight_coverage": 0.88
+   "uv_ratio_to_region": 0.93,
+   "reported_weight_share": 0.9
   },
   {
    "chapter": "52",
    "importer": "Country E",
-   "uv_ratio_to_region": 0.97,
-   "weight_coverage": 0.97
+   "uv_ratio_to_region": 1.0,
+   "reported_weight_share": 0.69
   },
   {
    "chapter": "52",
    "importer": "Country F",
    "uv_ratio_to_region": 0.62,
-   "weight_coverage": 0.78
+   "reported_weight_share": 0.9
   },
   {
    "chapter": "52",
    "importer": "Country G",
-   "uv_ratio_to_region": 1.08,
-   "weight_coverage": 0.79
+   "uv_ratio_to_region": 0.98,
+   "reported_weight_share": 0.82
   },
   {
    "chapter": "52",
    "importer": "Country H",
-   "uv_ratio_to_region": 0.89,
-   "weight_coverage": 0.82
+   "uv_ratio_to_region": 1.01,
+   "reported_weight_share": 0.66
   },
   {
    "chapter": "52",
    "importer": "Country I",
-   "uv_ratio_to_region": 0.99,
-   "weight_coverage": 0.84
+   "uv_ratio_to_region": 1.0,
+   "reported_weight_share": 0.88
   },
   {
    "chapter": "52",
    "importer": "Country J",
    "uv_ratio_to_region": 1.04,
-   "weight_coverage": 0.78
-  },
-  {
-   "chapter": "85",
-   "importer": "Country A",
-   "uv_ratio_to_region": 0.55,
-   "weight_coverage": 0.94
-  },
-  {
-   "chapter": "85",
-   "importer": "Country B",
-   "uv_ratio_to_region": 1.06,
-   "weight_coverage": 0.85
-  },
-  {
-   "chapter": "85",
-   "importer": "Country C",
-   "uv_ratio_to_region": 0.95,
-   "weight_coverage": 0.78
-  },
-  {
-   "chapter": "85",
-   "importer": "Country D",
-   "uv_ratio_to_region": 0.88,
-   "weight_coverage": 0.9
-  },
-  {
-   "chapter": "85",
-   "importer": "Country E",
-   "uv_ratio_to_region": 1.08,
-   "weight_coverage": 0.83
-  },
-  {
-   "chapter": "85",
-   "importer": "Country F",
-   "uv_ratio_to_region": 0.92,
-   "weight_coverage": 0.91
-  },
-  {
-   "chapter": "85",
-   "importer": "Country G",
-   "uv_ratio_to_region": 0.9,
-   "weight_coverage": 0.83
-  },
-  {
-   "chapter": "85",
-   "importer": "Country H",
-   "uv_ratio_to_region": 0.98,
-   "weight_coverage": 0.95
-  },
-  {
-   "chapter": "85",
-   "importer": "Country I",
-   "uv_ratio_to_region": 1.06,
-   "weight_coverage": 0.96
-  },
-  {
-   "chapter": "85",
-   "importer": "Country J",
-   "uv_ratio_to_region": 1.09,
-   "weight_coverage": 0.79
+   "reported_weight_share": 0.94
   }
  ]
 }

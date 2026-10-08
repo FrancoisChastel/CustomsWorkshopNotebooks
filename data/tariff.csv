@@ -1,121 +1,401 @@
-ahtn8,hs6,chapter,description,abbreviation,second_language_token,base_usd_per_kg,duty_mfn,duty_atiga,unit,typical_shipment_kg,kg_per_unit,origin_producers,duty_cliff_neighbour
-08039000,080390,08,Fresh bananas,Bananas fresh,chuối,0.8,10,0,cartons,18000.0,18.0,India|Thailand|Viet Nam|Indonesia|Malaysia,
-08045010,080450,08,Fresh mangoes,Mangoes,มะม่วง,1.5,15,0,cartons,9000.0,5.0,India|Thailand|Viet Nam|Indonesia|Australia,
-08051020,080510,08,Fresh oranges,Oranges,cam,1.0,10,0,kg,15000.0,,China|Australia|United States|Viet Nam,
-08052100,080521,08,Fresh mandarins,Mandarins,quýt,1.3,10,0,kg,12000.0,,China|Japan|Korea|Australia,
-08061000,080610,08,Fresh grapes,Grapes,nho,2.5,15,0,cartons,8000.0,8.2,China|India|Australia|United States,
-08081000,080810,08,Fresh apples,Apples,táo,1.4,10,0,cartons,16000.0,18.0,China|Japan|Korea|Australia|United States,
-08083000,080830,08,Fresh pears,Pears,lê,1.4,10,0,cartons,12000.0,15.0,China|Japan|Korea,
-08106000,081060,08,Fresh durians,Durian,ทุเรียน,3.0,20,0,kg,10000.0,,Thailand|Malaysia|Viet Nam|Indonesia,
-08109020,081090,08,Fresh longans,Longans,nhãn,2.2,20,0,kg,9000.0,,Thailand|Viet Nam|China,
-08041000,080410,08,Dried dates,Dates dried,chà là,2.0,5,0,kg,6000.0,,United Arab Emirates|India,
-17011400,170114,17,Raw cane sugar,Raw sugar,đường thô,0.45,5,5,tonnes,250000.0,,Thailand|India|Australia|Indonesia,
-17019910,170199,17,Refined white sugar,Refined sugar,đường tinh luyện,0.62,20,5,tonnes,120000.0,,Thailand|India|Australia|China|Malaysia|Indonesia,17011400
-17019990,170199,17,"Other refined sugar, in packs",Sugar pkd,น้ำตาล,0.8,20,5,cartons,15000.0,25.0,Thailand|Malaysia|India,
-17023020,170230,17,Glucose syrup,Glucose syr.,xi-rô glucose,0.8,10,5,kg,20000.0,,China|Thailand|Korea,
-17031000,170310,17,Cane molasses,Molasses,rỉ đường,0.15,5,5,tonnes,300000.0,,Thailand|India|Indonesia,
-17049010,170490,17,"Sugar confectionery, sweets",Sweets,kẹo,3.0,25,5,cartons,6000.0,12.0,China|Malaysia|Thailand|Germany|Indonesia,17023020
-17041000,170410,17,Chewing gum,Chew. gum,kẹo cao su,5.0,25,5,cartons,3000.0,10.0,China|Thailand|United States,
-17021100,170211,17,Lactose,Lactose,lactose,2.0,5,5,kg,8000.0,,Germany|United States|Australia,
-17029040,170290,17,Maltodextrin,Maltodex.,maltodextrin,0.9,10,5,kg,20000.0,,China|Thailand|Indonesia,
-17019100,170191,17,Cane sugar with added flavouring,Flav. sugar,đường hương,0.9,20,5,cartons,10000.0,20.0,Thailand|Malaysia,
-24011010,240110,24,"Unmanufactured tobacco, not stemmed",Tobacco leaf,lá thuốc lá,4.0,10,5,kg,18000.0,,China|India|Indonesia|Thailand|United States,
-24013000,240130,24,Tobacco refuse and stems,Tob. stems,cọng thuốc lá,1.0,5,5,kg,15000.0,,China|India|Indonesia,
-24021000,240210,24,Cigars and cheroots,Cigars,xì gà,40.0,30,5,cartons,600.0,6.0,Indonesia|Germany|United States,
-24022090,240220,24,Cigarettes containing tobacco,Cigarettes,thuốc lá điếu,25.0,30,5,cartons,4000.0,10.0,China|Indonesia|Japan|Korea|Malaysia|Viet Nam,24039100
-24031100,240311,24,Water-pipe tobacco,Shisha tob.,thuốc lá tẩu,20.0,30,5,cartons,1500.0,8.0,United Arab Emirates|India,
-24039100,240391,24,Homogenised or reconstituted tobacco,Recon. tobacco,thuốc lá tái chế,8.0,10,5,kg,8000.0,,China|Germany|Indonesia,
-24041100,240411,24,Heated tobacco products,Heated tob.,thuốc lá nung,35.0,30,5,cartons,1200.0,6.0,Japan|Korea|Indonesia,24039100
-24049100,240491,24,Nicotine pouches,Nic. pouches,túi nicotine,30.0,25,5,cartons,800.0,5.0,Germany|United States,
-24039990,240399,24,Other manufactured tobacco,Tob. other,thuốc lá khác,15.0,25,5,kg,2000.0,,China|India|Indonesia,
-24012020,240120,24,"Tobacco, partly stemmed",Tob. stemmed,thuốc lá tách cọng,4.5,10,5,kg,12000.0,,China|India|Thailand,
-33012900,330129,33,Essential oils,Ess. oils,tinh dầu,30.0,5,0,kg,600.0,,India|China|Indonesia|Viet Nam,
-33030000,330300,33,Perfumes and toilet waters,Perfume,nước hoa,45.0,25,0,cartons,900.0,6.0,Germany|United States|Singapore|United Arab Emirates|Japan,33012900
-33041000,330410,33,Lip make-up preparations,Lipstick,son môi,40.0,20,0,cartons,500.0,4.0,Korea|Japan|China|Germany,
-33042000,330420,33,Eye make-up preparations,Eye make-up,trang điểm mắt,40.0,20,0,cartons,500.0,4.0,Korea|Japan|China,
-33049100,330491,33,Make-up powders,Powders,phấn,20.0,20,0,cartons,800.0,5.0,Korea|Japan|China|Thailand,
-33049930,330499,33,Skin-care creams and lotions,Skin cream,kem dưỡng da,25.0,20,0,cartons,1200.0,6.0,Korea|Japan|Thailand|Germany|United States,
-33049990,330499,33,Other beauty preparations,Beauty prep,mỹ phẩm,22.0,20,0,cartons,1000.0,6.0,Korea|Japan|China|Thailand,
-33051000,330510,33,Shampoos,Shampoo,dầu gội,3.5,15,0,cartons,6000.0,12.0,Thailand|Indonesia|Malaysia|China,
-33061000,330610,33,Toothpaste,Toothpaste,kem đánh răng,4.0,10,0,cartons,5000.0,10.0,Thailand|Indonesia|India|China,
-33072000,330720,33,Deodorants,Deodorant,lăn khử mùi,6.0,15,0,cartons,3000.0,8.0,Thailand|Indonesia|Germany,
-39011000,390110,39,Polyethylene granules,PE granules,hạt nhựa PE,1.3,5,0,tonnes,40000.0,,Korea|Singapore|Thailand|Malaysia|United Arab Emirates|China,
-39021000,390210,39,Polypropylene granules,PP granules,hạt nhựa PP,1.2,5,0,tonnes,40000.0,,Korea|Singapore|Thailand|Malaysia|China|India,
-39041000,390410,39,PVC resin,PVC,nhựa PVC,1.1,5,0,tonnes,35000.0,,China|Japan|Korea|Thailand|Indonesia,
-39076100,390761,39,PET resin,PET,nhựa PET,1.2,5,0,tonnes,35000.0,,China|Korea|Thailand|Indonesia|India,
-39201090,392010,39,Plastic sheets and film,Plas. sheet,tấm nhựa,2.5,10,0,kg,15000.0,,China|Korea|Thailand|Malaysia|Japan,
-39232199,392321,39,Plastic bags,Plas. bags,túi nhựa,2.0,20,0,cartons,8000.0,20.0,China|Viet Nam|Thailand|Malaysia,39201090
-39233090,392330,39,Plastic bottles,Plas. bottles,chai nhựa,2.8,15,0,cartons,6000.0,10.0,China|Thailand|Viet Nam,
-39241090,392410,39,Plastic tableware,Plas. tableware,đồ ăn nhựa,3.5,20,0,cartons,4000.0,8.0,China|Thailand|Viet Nam,39201090
-39181011,391810,39,Vinyl floor coverings,Vinyl floor,sàn nhựa,2.2,15,0,kg,18000.0,,China|Korea|Viet Nam,
-39172329,391723,39,Plastic pipes of PVC,PVC pipes,ống nhựa,2.4,15,0,kg,12000.0,,China|Thailand|Malaysia|India,
-52010000,520100,52,"Raw cotton, not carded",Raw cotton,bông thô,1.8,0,0,tonnes,80000.0,,India|Australia|United States|China,
-52051200,520512,52,"Cotton yarn, single",Ctn yarn,sợi bông,3.2,5,0,kg,20000.0,,India|China|Viet Nam|Indonesia|Thailand,
-52094200,520942,52,Woven denim fabric,Denim,vải denim,5.5,10,0,kg,15000.0,,China|India|Viet Nam|Indonesia,
-52083200,520832,52,Dyed cotton fabric,Ctn fabric dyed,vải bông nhuộm,6.0,10,0,kg,10000.0,,China|India|Viet Nam|Thailand|Korea,
-52085200,520852,52,Printed cotton fabric,Ctn fabric prt,vải in hoa,6.5,10,0,kg,8000.0,,China|India|Indonesia|Thailand,
-52041100,520411,52,Cotton sewing thread,Sewing thread,chỉ may,7.0,5,0,kg,3000.0,,China|India|Viet Nam|Germany,
-52081100,520811,52,Unbleached cotton fabric,Ctn fabric unbl.,vải mộc,4.0,10,0,kg,15000.0,,China|India|Indonesia,
-52103100,521031,52,Dyed cotton blend fabric,Ctn blend dyed,vải pha,5.8,10,0,kg,9000.0,,China|Korea|India,
-52062200,520622,52,Cotton blend yarn,Blend yarn,sợi pha,3.0,5,0,kg,15000.0,,India|Viet Nam|Indonesia|China,
-52121300,521213,52,"Woven cotton fabric, dyed, light",Ctn woven lt,vải dệt,6.2,10,0,kg,7000.0,,China|Japan|Korea,
-61091010,610910,61,"Cotton T-shirts, knitted",Ctn T-shirts,áo thun,12.0,25,0,units,3000.0,0.18,China|Viet Nam|India|Indonesia|Thailand,61112000
-61102000,611020,61,"Cotton sweaters, knitted",Sweaters,áo len,15.0,25,0,units,2500.0,0.45,China|Viet Nam|Indonesia,61112000
-61034200,610342,61,"Men's cotton trousers, knitted",Men trousers,quần nam,14.0,25,0,units,2500.0,0.4,China|Viet Nam|India|Indonesia,
-61044200,610442,61,"Women's cotton dresses, knitted",Wmn dresses,váy nữ,18.0,25,0,units,2000.0,0.3,China|Viet Nam|Thailand|India,61112000
-61112000,611120,61,"Babies' cotton garments, knitted",Baby garments,quần áo trẻ em,16.0,10,0,units,1500.0,0.12,China|Viet Nam|India|Thailand,
-61159500,611595,61,Cotton socks,Socks,tất,10.0,20,0,units,1500.0,0.05,China|Viet Nam|Korea|Indonesia,
-61103000,611030,61,Synthetic-fibre jerseys,Synth jerseys,áo nỉ,13.0,25,0,units,2500.0,0.35,China|Viet Nam|Indonesia,
-61169300,611693,61,Synthetic-fibre gloves,Gloves,găng tay,9.0,20,0,units,1200.0,0.06,China|Viet Nam|Malaysia|Indonesia,
-61121200,611212,61,Synthetic track suits,Track suits,bộ thể thao,14.0,25,0,units,2000.0,0.55,China|Viet Nam|Indonesia,61112000
-61082100,610821,61,Cotton briefs and panties,Underwear,đồ lót,12.0,25,0,units,1200.0,0.05,China|Viet Nam|Thailand|India,
-72142000,721420,72,"Steel bars, hot-rolled, deformed",Steel bars,thép thanh,0.65,15,0,tonnes,200000.0,,China|Japan|Korea|Viet Nam|Malaysia|Indonesia,72083900
-72083900,720839,72,Hot-rolled steel coil,HR coil,thép cuộn cán nóng,0.6,5,0,tonnes,250000.0,,China|Japan|Korea|India|Viet Nam,
-72091700,720917,72,Cold-rolled steel coil,CR coil,thép cán nguội,0.75,10,0,tonnes,150000.0,,China|Japan|Korea|Viet Nam,
-72104910,721049,72,Galvanised steel sheet,GI sheet,tôn mạ kẽm,0.85,10,0,tonnes,120000.0,,China|Korea|Viet Nam|Japan|India,
-72139100,721391,72,Steel wire rod,Wire rod,thép dây,0.62,10,0,tonnes,150000.0,,China|Japan|Korea|Malaysia|Indonesia,
-72193300,721933,72,"Stainless steel flat, cold-rolled, 1-3 mm",S.S. flat,inox cán,2.6,10,0,tonnes,40000.0,,China|Japan|Korea|Indonesia|Germany,
-72193400,721934,72,"Stainless steel sheet, cold-rolled, 0.5-1 mm",S.S. sheet,thép không gỉ,2.6,10,0,tonnes,35000.0,,China|Japan|Korea|Indonesia,
-72161000,721610,72,Steel angles and sections,Angles,thép hình,0.7,10,0,tonnes,100000.0,,China|Japan|Korea|Viet Nam,
-72021100,720211,72,Ferro-manganese,FeMn,ferro mangan,1.5,0,0,tonnes,50000.0,,China|India|Malaysia|Australia,
-72044900,720449,72,Ferrous waste and scrap,Scrap,thép phế liệu,0.35,0,0,tonnes,300000.0,,China|India|Japan|Korea|Singapore|Malaysia|Thailand|Viet Nam|Indonesia|United Arab Emirates|Australia|United States|Germany,
-85171300,851713,85,Smartphones,Smartphones,điện thoại thông minh,300.0,5,0,units,400.0,0.18,China|Korea|Viet Nam|India,
-85171400,851714,85,Other mobile telephones,Feature phones,điện thoại di động,60.0,5,0,units,600.0,0.1,China|Viet Nam|India,
-85076090,850760,85,Lithium-ion batteries,Li-ion batt.,pin lithium,15.0,15,0,units,3000.0,0.05,China|Korea|Japan|Viet Nam|Malaysia,
-85414300,854143,85,Solar panels,PV panels,tấm pin mặt trời,4.0,0,0,units,20000.0,22.0,China|Viet Nam|Malaysia|Thailand|India,
-85395200,853952,85,LED lamps,LED lamps,đèn LED,8.0,20,0,cartons,4000.0,8.0,China|Viet Nam|Thailand|Malaysia,85395290
-85287292,852872,85,Colour television sets,TV sets,tivi,12.0,25,0,units,6000.0,12.0,China|Korea|Viet Nam|Malaysia|Thailand,
-85183010,851830,85,Headphones and earphones,Headphones,tai nghe,40.0,20,0,units,800.0,0.2,China|Viet Nam|Korea|Malaysia,
-85044019,850440,85,Static converters and chargers,Chargers,bộ sạc,20.0,15,0,units,1500.0,0.15,China|Viet Nam|Malaysia|Thailand,
-85444294,854442,85,Insulated cables with connectors,Cables w/ conn.,cáp điện,6.0,15,0,kg,6000.0,,China|Viet Nam|Thailand|Malaysia|Korea,
-85395290,853952,85,LED modules and parts of lamps,LED modules,linh kiện đèn LED,9.0,0,0,cartons,3000.0,6.0,China|Viet Nam|Malaysia,
-87032361,870323,87,"Passenger cars, petrol, 1.5-3.0 litre",Pass. cars,ô tô con,14.0,30,5,units,14000.0,1400.0,Japan|Korea|Thailand|Germany|China|Indonesia,87082999
-87038090,870380,87,Electric passenger cars,EV cars,ô tô điện,20.0,15,5,units,9000.0,1800.0,China|Korea|Germany|United States,
-87112092,871120,87,"Motorcycles, 50-250 cc",Motorcycles,xe máy,6.0,30,5,units,6000.0,110.0,Thailand|Viet Nam|Indonesia|Japan|India|China,87082999
-87082999,870829,87,Car body parts,Body parts,phụ tùng thân xe,5.0,10,5,kg,8000.0,,Japan|Thailand|China|Korea|Germany,
-87084092,870840,87,Gearboxes for cars,Gearboxes,hộp số,6.0,10,5,units,5000.0,45.0,Japan|Thailand|Korea|Germany,
-87083029,870830,87,Brakes and parts,Brakes,phanh,7.0,10,5,kg,4000.0,,Japan|Thailand|China|Korea,
-87120030,871200,87,Bicycles,Bicycles,xe đạp,8.0,20,5,units,3000.0,14.0,China|Viet Nam|Indonesia|Malaysia,
-87163999,871639,87,Trailers for goods,Trailers,rơ moóc,3.0,15,5,units,12000.0,2500.0,China|Japan|Australia,
-87042129,870421,87,"Light trucks, diesel",Lt trucks,xe tải nhẹ,6.0,30,5,units,10000.0,2500.0,Japan|Thailand|Korea|China|India,
-87087095,870870,87,Road wheels and parts,Wheels,bánh xe,5.0,10,5,kg,6000.0,,China|Japan|Thailand|Indonesia,
-90015000,900150,90,"Spectacle lenses, other materials",Spec. lenses,tròng kính,60.0,5,0,units,200.0,0.02,China|Japan|Korea|Thailand|Germany,
-90041000,900410,90,Sunglasses,Sunglasses,kính râm,35.0,20,0,units,300.0,0.05,China|Japan|Germany|United States,90015000
-90189030,901890,90,Medical instruments,Med. instr.,dụng cụ y tế,80.0,0,0,kg,300.0,,Germany|United States|Japan|China|Malaysia,
-90183110,901831,90,Syringes,Syringes,bơm tiêm,10.0,0,0,cartons,2000.0,5.0,China|India|Malaysia|Korea|Germany,
-90251110,902511,90,Clinical thermometers,Thermometers,nhiệt kế,15.0,5,0,units,300.0,0.05,China|Germany|Japan,
-90221400,902214,90,Medical X-ray apparatus,X-ray app.,máy X quang,90.0,0,0,units,600.0,300.0,Germany|Japan|Korea|United States|China,
-90011010,900110,90,Optical fibres,Opt. fibres,sợi quang,40.0,5,0,kg,500.0,,China|Japan|Korea|United States,
-90181900,901819,90,Blood pressure monitors,BP monitors,máy đo huyết áp,40.0,0,0,units,400.0,0.4,China|Japan|Germany|Viet Nam,
-90013000,900130,90,Contact lenses,Contact lenses,kính áp tròng,300.0,5,0,units,50.0,0.01,Korea|Japan|Singapore|United States,
-90158090,901580,90,Surveying instruments,Survey instr.,thiết bị khảo sát,90.0,5,0,units,200.0,6.0,Japan|Germany|China|United States,
-94036090,940360,94,Wooden furniture,Wood furniture,nội thất gỗ,3.5,25,0,units,8000.0,30.0,Viet Nam|China|Malaysia|Indonesia|Thailand,94069090
-94013000,940130,94,Swivel office chairs,Office chairs,ghế văn phòng,5.0,20,0,units,4000.0,14.0,China|Viet Nam|Malaysia,
-94042100,940421,94,Mattresses of cellular plastics,Mattresses,nệm,3.0,20,0,units,6000.0,18.0,China|Viet Nam|Thailand|Malaysia,
-94051190,940511,94,Ceiling lamps,Ceiling lamps,đèn trần,10.0,20,0,units,3000.0,2.5,China|Viet Nam|Germany,85395290
-94017100,940171,94,Upholstered seats with metal frames,Metal seats,ghế khung kim loại,4.5,20,0,units,5000.0,16.0,China|Viet Nam|Malaysia,
-94034000,940340,94,Kitchen furniture,Kitchen furn.,nội thất bếp,4.0,25,0,units,6000.0,40.0,China|Viet Nam|Malaysia|Germany,94069090
-94037090,940370,94,Plastic furniture,Plastic furn.,đồ nhựa,3.5,20,0,units,4000.0,4.0,China|Viet Nam|Thailand,
-94069090,940690,94,Prefabricated buildings,Prefab bldg,nhà lắp ghép,2.0,10,0,units,20000.0,3000.0,China|Korea|Malaysia,
-94016100,940161,94,Upholstered seats with wooden frames,Sofas,sofa,5.0,25,0,units,5000.0,45.0,China|Viet Nam|Malaysia|Indonesia,
-94049090,940490,94,Bedding articles,Bedding,chăn ga,6.0,20,0,units,3000.0,1.5,China|Viet Nam|India|Thailand,
+hs8,hs6,chapter,description,heading,abbreviation,second_language_zh,second_language_id,base_usd_per_kg,duty_mfn,unit,kg_per_unit,typical_shipment_kg,origin_producers,cif_fob_wedge,vat_rate,sensitive_flag,duty_cliff_neighbour,static_reference_2022
+03034301,030343,03,"Frozen skipjack tuna, grade A",Frozen skipjack tuna,Frz tuna A,冷冻鱼,ikan beku,2.4,10,kg,,18000,IDN|PHL|TWN|KOR|JPN,0.09,10.0,0,03034304,2.628
+03034302,030343,03,"Frozen skipjack tuna, grade B",Frozen skipjack tuna,Frz tuna B,冷冻鱼,ikan beku,1.92,10,kg,,18000,IDN|PHL|TWN|KOR|JPN,0.09,10.0,0,,2.1024
+03034303,030343,03,"Frozen skipjack tuna, other",Frozen skipjack tuna,Frz tuna C,冷冻鱼,ikan beku,1.44,10,kg,,18000,IDN|PHL|TWN|KOR|JPN,0.09,10.0,0,,1.5768
+03034304,030343,03,"Frozen skipjack tuna, bulk packed",Frozen skipjack tuna,Frz tuna X,冷冻鱼,ikan beku,1.68,2,kg,,18000,IDN|PHL|TWN|KOR|JPN,0.09,10.0,0,,1.8396
+03061701,030617,03,"Frozen shrimps and prawns, grade A",Frozen shrimps and prawns,Frz shrimp A,冷冻鱼,ikan beku,7.5,10,kg,,12000,IND|IDN|ARG|CHN,0.09,10.0,0,03061704,8.2125
+03061702,030617,03,"Frozen shrimps and prawns, grade B",Frozen shrimps and prawns,Frz shrimp B,冷冻鱼,ikan beku,6.0,10,kg,,12000,IND|IDN|ARG|CHN,0.09,10.0,0,,6.57
+03061703,030617,03,"Frozen shrimps and prawns, other",Frozen shrimps and prawns,Frz shrimp C,冷冻鱼,ikan beku,4.5,10,kg,,12000,IND|IDN|ARG|CHN,0.09,10.0,0,,4.9275
+03061704,030617,03,"Frozen shrimps and prawns, bulk packed",Frozen shrimps and prawns,Frz shrimp X,冷冻鱼,ikan beku,5.25,2,kg,,12000,IND|IDN|ARG|CHN,0.09,10.0,0,,5.7488
+03038901,030389,03,"Frozen fish, other, grade A","Frozen fish, other",Frz fish nes A,冷冻鱼,ikan beku,2.1,10,kg,,15000,CHN|IDN|IND|KOR|NZL,0.09,10.0,0,03038904,2.2995
+03038902,030389,03,"Frozen fish, other, grade B","Frozen fish, other",Frz fish nes B,冷冻鱼,ikan beku,1.68,10,kg,,15000,CHN|IDN|IND|KOR|NZL,0.09,10.0,0,,1.8396
+03038903,030389,03,"Frozen fish, other, other","Frozen fish, other",Frz fish nes C,冷冻鱼,ikan beku,1.26,10,kg,,15000,CHN|IDN|IND|KOR|NZL,0.09,10.0,0,,1.3797
+03038904,030389,03,"Frozen fish, other, bulk packed","Frozen fish, other",Frz fish nes X,冷冻鱼,ikan beku,1.47,2,kg,,15000,CHN|IDN|IND|KOR|NZL,0.09,10.0,0,,1.6096
+03055901,030559,03,"Dried fish, grade A",Dried fish,Dried fish A,冷冻鱼,ikan beku,5.8,15,kg,,4000,IDN|PHL|KOR|JPN,0.09,10.0,0,03055904,6.351
+03055902,030559,03,"Dried fish, grade B",Dried fish,Dried fish B,冷冻鱼,ikan beku,4.64,15,kg,,4000,IDN|PHL|KOR|JPN,0.09,10.0,0,,5.0808
+03055903,030559,03,"Dried fish, other",Dried fish,Dried fish C,冷冻鱼,ikan beku,3.48,15,kg,,4000,IDN|PHL|KOR|JPN,0.09,10.0,0,,3.8106
+03055904,030559,03,"Dried fish, bulk packed",Dried fish,Dried fish X,冷冻鱼,ikan beku,4.06,7,kg,,4000,IDN|PHL|KOR|JPN,0.09,10.0,0,,4.4457
+03079101,030791,03,"Frozen squid and cuttlefish, grade A",Frozen squid and cuttlefish,Frz squid A,冷冻鱼,ikan beku,4.2,10,kg,,9000,CHN|IDN|ARG|IND,0.09,10.0,0,03079104,4.599
+03079102,030791,03,"Frozen squid and cuttlefish, grade B",Frozen squid and cuttlefish,Frz squid B,冷冻鱼,ikan beku,3.36,10,kg,,9000,CHN|IDN|ARG|IND,0.09,10.0,0,,3.6792
+03079103,030791,03,"Frozen squid and cuttlefish, other",Frozen squid and cuttlefish,Frz squid C,冷冻鱼,ikan beku,2.52,10,kg,,9000,CHN|IDN|ARG|IND,0.09,10.0,0,,2.7594
+03079104,030791,03,"Frozen squid and cuttlefish, bulk packed",Frozen squid and cuttlefish,Frz squid X,冷冻鱼,ikan beku,2.94,2,kg,,9000,CHN|IDN|ARG|IND,0.09,10.0,0,,3.2193
+08039001,080390,08,"Fresh bananas, grade A",Fresh bananas,Bananas A,新鲜水果,buah segar,0.8,10,kg,,18000,PHL|IDN|IND|MYS,0.12,10.0,0,08039004,0.876
+08039002,080390,08,"Fresh bananas, grade B",Fresh bananas,Bananas B,新鲜水果,buah segar,0.64,10,kg,,18000,PHL|IDN|IND|MYS,0.12,10.0,0,,0.7008
+08039003,080390,08,"Fresh bananas, other",Fresh bananas,Bananas C,新鲜水果,buah segar,0.48,10,kg,,18000,PHL|IDN|IND|MYS,0.12,10.0,0,,0.5256
+08039004,080390,08,"Fresh bananas, bulk packed",Fresh bananas,Bananas X,新鲜水果,buah segar,0.56,2,kg,,18000,PHL|IDN|IND|MYS,0.12,10.0,0,,0.6132
+08051001,080510,08,"Fresh oranges, grade A",Fresh oranges,Oranges A,新鲜水果,buah segar,1.1,15,kg,,16000,EGY|ZAF|AUS|TUR|USA,0.12,10.0,0,08051004,1.2045
+08051002,080510,08,"Fresh oranges, grade B",Fresh oranges,Oranges B,新鲜水果,buah segar,0.88,15,kg,,16000,EGY|ZAF|AUS|TUR|USA,0.12,10.0,0,,0.9636
+08051003,080510,08,"Fresh oranges, other",Fresh oranges,Oranges C,新鲜水果,buah segar,0.66,15,kg,,16000,EGY|ZAF|AUS|TUR|USA,0.12,10.0,0,,0.7227
+08051004,080510,08,"Fresh oranges, bulk packed",Fresh oranges,Oranges X,新鲜水果,buah segar,0.77,7,kg,,16000,EGY|ZAF|AUS|TUR|USA,0.12,10.0,0,,0.8432
+08061001,080610,08,"Fresh grapes, grade A",Fresh grapes,Grapes A,新鲜水果,buah segar,2.6,15,kg,,10000,AUS|ZAF|USA|IND|CHN,0.12,10.0,0,08061004,2.847
+08061002,080610,08,"Fresh grapes, grade B",Fresh grapes,Grapes B,新鲜水果,buah segar,2.08,15,kg,,10000,AUS|ZAF|USA|IND|CHN,0.12,10.0,0,,2.2776
+08061003,080610,08,"Fresh grapes, other",Fresh grapes,Grapes C,新鲜水果,buah segar,1.56,15,kg,,10000,AUS|ZAF|USA|IND|CHN,0.12,10.0,0,,1.7082
+08061004,080610,08,"Fresh grapes, bulk packed",Fresh grapes,Grapes X,新鲜水果,buah segar,1.82,7,kg,,10000,AUS|ZAF|USA|IND|CHN,0.12,10.0,0,,1.9929
+08081001,080810,08,"Fresh apples, grade A",Fresh apples,Apples A,新鲜水果,buah segar,1.3,10,kg,,15000,CHN|NZL|USA|ZAF|ITA,0.12,10.0,0,08081004,1.4235
+08081002,080810,08,"Fresh apples, grade B",Fresh apples,Apples B,新鲜水果,buah segar,1.04,10,kg,,15000,CHN|NZL|USA|ZAF|ITA,0.12,10.0,0,,1.1388
+08081003,080810,08,"Fresh apples, other",Fresh apples,Apples C,新鲜水果,buah segar,0.78,10,kg,,15000,CHN|NZL|USA|ZAF|ITA,0.12,10.0,0,,0.8541
+08081004,080810,08,"Fresh apples, bulk packed",Fresh apples,Apples X,新鲜水果,buah segar,0.91,2,kg,,15000,CHN|NZL|USA|ZAF|ITA,0.12,10.0,0,,0.9964
+08109001,081090,08,"Other fresh fruit, grade A",Other fresh fruit,Fruit nes A,新鲜水果,buah segar,2.2,10,kg,,8000,CHN|IDN|MYS|AUS|PHL,0.12,10.0,0,08109004,2.409
+08109002,081090,08,"Other fresh fruit, grade B",Other fresh fruit,Fruit nes B,新鲜水果,buah segar,1.76,10,kg,,8000,CHN|IDN|MYS|AUS|PHL,0.12,10.0,0,,1.9272
+08109003,081090,08,"Other fresh fruit, other",Other fresh fruit,Fruit nes C,新鲜水果,buah segar,1.32,10,kg,,8000,CHN|IDN|MYS|AUS|PHL,0.12,10.0,0,,1.4454
+08109004,081090,08,"Other fresh fruit, bulk packed",Other fresh fruit,Fruit nes X,新鲜水果,buah segar,1.54,2,kg,,8000,CHN|IDN|MYS|AUS|PHL,0.12,10.0,0,,1.6863
+10063001,100630,10,"Semi-milled or wholly milled rice, grade A",Semi-milled or wholly milled rice,Rice milled A,大米,beras,0.55,5,kg,,25000,IND|PAK|CHN|USA,0.22,10.0,0,10063004,0.6023
+10063002,100630,10,"Semi-milled or wholly milled rice, grade B",Semi-milled or wholly milled rice,Rice milled B,大米,beras,0.44,5,kg,,25000,IND|PAK|CHN|USA,0.22,10.0,0,,0.4818
+10063003,100630,10,"Semi-milled or wholly milled rice, other",Semi-milled or wholly milled rice,Rice milled C,大米,beras,0.33,5,kg,,25000,IND|PAK|CHN|USA,0.22,10.0,0,,0.3614
+10063004,100630,10,"Semi-milled or wholly milled rice, bulk packed",Semi-milled or wholly milled rice,Rice milled X,大米,beras,0.385,0,kg,,25000,IND|PAK|CHN|USA,0.22,10.0,0,,0.4216
+10019901,100199,10,"Wheat, other, grade A","Wheat, other",Wheat A,大米,beras,0.32,0,kg,,25000,AUS|USA|CAN|RUS|ARG,0.22,10.0,0,,0.3504
+10019902,100199,10,"Wheat, other, grade B","Wheat, other",Wheat B,大米,beras,0.256,0,kg,,25000,AUS|USA|CAN|RUS|ARG,0.22,10.0,0,,0.2803
+10019903,100199,10,"Wheat, other, other","Wheat, other",Wheat C,大米,beras,0.192,0,kg,,25000,AUS|USA|CAN|RUS|ARG,0.22,10.0,0,,0.2102
+10019904,100199,10,"Wheat, other, bulk packed","Wheat, other",Wheat X,大米,beras,0.224,0,kg,,25000,AUS|USA|CAN|RUS|ARG,0.22,10.0,0,,0.2453
+10059001,100590,10,"Maize (corn), other, grade A","Maize (corn), other",Maize A,大米,beras,0.28,0,kg,,25000,ARG|BRA|USA|ZAF,0.22,10.0,0,,0.3066
+10059002,100590,10,"Maize (corn), other, grade B","Maize (corn), other",Maize B,大米,beras,0.224,0,kg,,25000,ARG|BRA|USA|ZAF,0.22,10.0,0,,0.2453
+10059003,100590,10,"Maize (corn), other, other","Maize (corn), other",Maize C,大米,beras,0.168,0,kg,,25000,ARG|BRA|USA|ZAF,0.22,10.0,0,,0.184
+10059004,100590,10,"Maize (corn), other, bulk packed","Maize (corn), other",Maize X,大米,beras,0.196,0,kg,,25000,ARG|BRA|USA|ZAF,0.22,10.0,0,,0.2146
+10061001,100610,10,"Rice in the husk, grade A",Rice in the husk,Paddy A,大米,beras,0.38,5,kg,,25000,IND|PAK|CHN,0.22,10.0,0,10061004,0.4161
+10061002,100610,10,"Rice in the husk, grade B",Rice in the husk,Paddy B,大米,beras,0.304,5,kg,,25000,IND|PAK|CHN,0.22,10.0,0,,0.3329
+10061003,100610,10,"Rice in the husk, other",Rice in the husk,Paddy C,大米,beras,0.228,5,kg,,25000,IND|PAK|CHN,0.22,10.0,0,,0.2497
+10061004,100610,10,"Rice in the husk, bulk packed",Rice in the husk,Paddy X,大米,beras,0.266,0,kg,,25000,IND|PAK|CHN,0.22,10.0,0,,0.2913
+10064001,100640,10,"Broken rice, grade A",Broken rice,Broken rice A,大米,beras,0.42,5,kg,,25000,IND|PAK|CHN,0.22,10.0,0,10064004,0.4599
+10064002,100640,10,"Broken rice, grade B",Broken rice,Broken rice B,大米,beras,0.336,5,kg,,25000,IND|PAK|CHN,0.22,10.0,0,,0.3679
+10064003,100640,10,"Broken rice, other",Broken rice,Broken rice C,大米,beras,0.252,5,kg,,25000,IND|PAK|CHN,0.22,10.0,0,,0.2759
+10064004,100640,10,"Broken rice, bulk packed",Broken rice,Broken rice X,大米,beras,0.294,0,kg,,25000,IND|PAK|CHN,0.22,10.0,0,,0.3219
+17011401,170114,17,"Raw cane sugar, grade A",Raw cane sugar,Raw sugar A,食糖,gula,0.48,20,kg,,25000,BRA|IND|AUS|ZAF,0.08,10.0,0,17011404,0.5256
+17011402,170114,17,"Raw cane sugar, grade B",Raw cane sugar,Raw sugar B,食糖,gula,0.384,20,kg,,25000,BRA|IND|AUS|ZAF,0.08,10.0,0,,0.4205
+17011403,170114,17,"Raw cane sugar, other",Raw cane sugar,Raw sugar C,食糖,gula,0.288,20,kg,,25000,BRA|IND|AUS|ZAF,0.08,10.0,0,,0.3154
+17011404,170114,17,"Raw cane sugar, bulk packed",Raw cane sugar,Raw sugar X,食糖,gula,0.336,12,kg,,25000,BRA|IND|AUS|ZAF,0.08,10.0,0,,0.3679
+17019901,170199,17,"Refined sugar, grade A",Refined sugar,Ref sugar A,食糖,gula,0.62,20,kg,,25000,IND|BRA|CHN|MYS|KOR,0.08,10.0,1,17019904,0.6789
+17019902,170199,17,"Refined sugar, grade B",Refined sugar,Ref sugar B,食糖,gula,0.496,20,kg,,25000,IND|BRA|CHN|MYS|KOR,0.08,10.0,1,,0.5431
+17019903,170199,17,"Refined sugar, other",Refined sugar,Ref sugar C,食糖,gula,0.372,20,kg,,25000,IND|BRA|CHN|MYS|KOR,0.08,10.0,1,,0.4073
+17019904,170199,17,"Refined sugar, bulk packed",Refined sugar,Ref sugar X,食糖,gula,0.434,12,kg,,25000,IND|BRA|CHN|MYS|KOR,0.08,10.0,1,,0.4752
+17023001,170230,17,"Glucose and glucose syrup, grade A",Glucose and glucose syrup,Glucose A,食糖,gula,0.9,10,kg,,20000,CHN|USA|DEU|FRA,0.08,10.0,0,17023004,0.9855
+17023002,170230,17,"Glucose and glucose syrup, grade B",Glucose and glucose syrup,Glucose B,食糖,gula,0.72,10,kg,,20000,CHN|USA|DEU|FRA,0.08,10.0,0,,0.7884
+17023003,170230,17,"Glucose and glucose syrup, other",Glucose and glucose syrup,Glucose C,食糖,gula,0.54,10,kg,,20000,CHN|USA|DEU|FRA,0.08,10.0,0,,0.5913
+17023004,170230,17,"Glucose and glucose syrup, bulk packed",Glucose and glucose syrup,Glucose X,食糖,gula,0.63,2,kg,,20000,CHN|USA|DEU|FRA,0.08,10.0,0,,0.6898
+17031001,170310,17,"Cane molasses, grade A",Cane molasses,Molasses A,食糖,gula,0.2,5,kg,,25000,IND|BRA|IDN|PAK,0.08,10.0,0,17031004,0.219
+17031002,170310,17,"Cane molasses, grade B",Cane molasses,Molasses B,食糖,gula,0.16,5,kg,,25000,IND|BRA|IDN|PAK,0.08,10.0,0,,0.1752
+17031003,170310,17,"Cane molasses, other",Cane molasses,Molasses C,食糖,gula,0.12,5,kg,,25000,IND|BRA|IDN|PAK,0.08,10.0,0,,0.1314
+17031004,170310,17,"Cane molasses, bulk packed",Cane molasses,Molasses X,食糖,gula,0.14,0,kg,,25000,IND|BRA|IDN|PAK,0.08,10.0,0,,0.1533
+17049001,170490,17,"Sugar confectionery, grade A",Sugar confectionery,Confectionery A,食糖,gula,3.8,25,kg,,6000,CHN|DEU|TUR|MYS|IDN,0.08,10.0,0,17049004,4.161
+17049002,170490,17,"Sugar confectionery, grade B",Sugar confectionery,Confectionery B,食糖,gula,3.04,25,kg,,6000,CHN|DEU|TUR|MYS|IDN,0.08,10.0,0,,3.3288
+17049003,170490,17,"Sugar confectionery, other",Sugar confectionery,Confectionery C,食糖,gula,2.28,25,kg,,6000,CHN|DEU|TUR|MYS|IDN,0.08,10.0,0,,2.4966
+17049004,170490,17,"Sugar confectionery, bulk packed",Sugar confectionery,Confectionery X,食糖,gula,2.66,17,kg,,6000,CHN|DEU|TUR|MYS|IDN,0.08,10.0,0,,2.9127
+22021001,220210,22,"Flavoured waters and soft drinks, grade A",Flavoured waters and soft drinks,Soft drinks A,饮料,minuman,0.7,25,litres,1.0,15000,MYS|CHN|SGP|IDN,0.1,10.0,1,22021004,0.7665
+22021002,220210,22,"Flavoured waters and soft drinks, grade B",Flavoured waters and soft drinks,Soft drinks B,饮料,minuman,0.56,25,litres,1.0,15000,MYS|CHN|SGP|IDN,0.1,10.0,1,,0.6132
+22021003,220210,22,"Flavoured waters and soft drinks, other",Flavoured waters and soft drinks,Soft drinks C,饮料,minuman,0.42,25,litres,1.0,15000,MYS|CHN|SGP|IDN,0.1,10.0,1,,0.4599
+22021004,220210,22,"Flavoured waters and soft drinks, bulk packed",Flavoured waters and soft drinks,Soft drinks X,饮料,minuman,0.49,17,litres,1.0,15000,MYS|CHN|SGP|IDN,0.1,10.0,1,,0.5366
+22030001,220300,22,"Beer made from malt, grade A",Beer made from malt,Beer A,饮料,minuman,1.1,30,litres,1.0,15000,DEU|NLD|BEL|CHN|SGP,0.1,10.0,1,22030004,1.2045
+22030002,220300,22,"Beer made from malt, grade B",Beer made from malt,Beer B,饮料,minuman,0.88,30,litres,1.0,15000,DEU|NLD|BEL|CHN|SGP,0.1,10.0,1,,0.9636
+22030003,220300,22,"Beer made from malt, other",Beer made from malt,Beer C,饮料,minuman,0.66,30,litres,1.0,15000,DEU|NLD|BEL|CHN|SGP,0.1,10.0,1,,0.7227
+22030004,220300,22,"Beer made from malt, bulk packed",Beer made from malt,Beer X,饮料,minuman,0.77,22,litres,1.0,15000,DEU|NLD|BEL|CHN|SGP,0.1,10.0,1,,0.8432
+22042101,220421,22,"Wine in containers of 2 l or less, grade A",Wine in containers of 2 l or less,Wine A,饮料,minuman,5.5,30,litres,1.0,8000,FRA|ITA|AUS|ESP|ZAF,0.1,10.0,1,22042104,6.0225
+22042102,220421,22,"Wine in containers of 2 l or less, grade B",Wine in containers of 2 l or less,Wine B,饮料,minuman,4.4,30,litres,1.0,8000,FRA|ITA|AUS|ESP|ZAF,0.1,10.0,1,,4.818
+22042103,220421,22,"Wine in containers of 2 l or less, other",Wine in containers of 2 l or less,Wine C,饮料,minuman,3.3,30,litres,1.0,8000,FRA|ITA|AUS|ESP|ZAF,0.1,10.0,1,,3.6135
+22042104,220421,22,"Wine in containers of 2 l or less, bulk packed",Wine in containers of 2 l or less,Wine X,饮料,minuman,3.85,22,litres,1.0,8000,FRA|ITA|AUS|ESP|ZAF,0.1,10.0,1,,4.2158
+22083001,220830,22,"Whiskies, grade A",Whiskies,Whisky A,饮料,minuman,14.0,30,litres,1.0,5000,GBR|USA|IND|JPN,0.1,10.0,1,22083004,15.33
+22083002,220830,22,"Whiskies, grade B",Whiskies,Whisky B,饮料,minuman,11.2,30,litres,1.0,5000,GBR|USA|IND|JPN,0.1,10.0,1,,12.264
+22083003,220830,22,"Whiskies, other",Whiskies,Whisky C,饮料,minuman,8.4,30,litres,1.0,5000,GBR|USA|IND|JPN,0.1,10.0,1,,9.198
+22083004,220830,22,"Whiskies, bulk packed",Whiskies,Whisky X,饮料,minuman,9.8,22,litres,1.0,5000,GBR|USA|IND|JPN,0.1,10.0,1,,10.731
+22011001,220110,22,"Mineral and aerated waters, grade A",Mineral and aerated waters,Water A,饮料,minuman,0.35,20,litres,1.0,18000,FRA|ITA|MYS|SGP,0.1,10.0,1,22011004,0.3832
+22011002,220110,22,"Mineral and aerated waters, grade B",Mineral and aerated waters,Water B,饮料,minuman,0.28,20,litres,1.0,18000,FRA|ITA|MYS|SGP,0.1,10.0,1,,0.3066
+22011003,220110,22,"Mineral and aerated waters, other",Mineral and aerated waters,Water C,饮料,minuman,0.21,20,litres,1.0,18000,FRA|ITA|MYS|SGP,0.1,10.0,1,,0.23
+22011004,220110,22,"Mineral and aerated waters, bulk packed",Mineral and aerated waters,Water X,饮料,minuman,0.245,12,litres,1.0,18000,FRA|ITA|MYS|SGP,0.1,10.0,1,,0.2683
+24011001,240110,24,"Unmanufactured tobacco, not stemmed, grade A","Unmanufactured tobacco, not stemmed",Tobacco leaf A,烟草,tembakau,4.5,25,kg,,10000,BRA|IND|IDN|USA,0.04,10.0,1,24011004,4.9275
+24011002,240110,24,"Unmanufactured tobacco, not stemmed, grade B","Unmanufactured tobacco, not stemmed",Tobacco leaf B,烟草,tembakau,3.6,25,kg,,10000,BRA|IND|IDN|USA,0.04,10.0,1,,3.942
+24011003,240110,24,"Unmanufactured tobacco, not stemmed, other","Unmanufactured tobacco, not stemmed",Tobacco leaf C,烟草,tembakau,2.7,25,kg,,10000,BRA|IND|IDN|USA,0.04,10.0,1,,2.9565
+24011004,240110,24,"Unmanufactured tobacco, not stemmed, bulk packed","Unmanufactured tobacco, not stemmed",Tobacco leaf X,烟草,tembakau,3.15,17,kg,,10000,BRA|IND|IDN|USA,0.04,10.0,1,,3.4492
+24022001,240220,24,"Cigarettes containing tobacco, grade A",Cigarettes containing tobacco,Cigarettes A,烟草,tembakau,25.0,30,pieces,0.001,4000,CHN|IDN|KOR|DEU|USA,0.04,10.0,1,24022004,27.375
+24022002,240220,24,"Cigarettes containing tobacco, grade B",Cigarettes containing tobacco,Cigarettes B,烟草,tembakau,20.0,30,pieces,0.001,4000,CHN|IDN|KOR|DEU|USA,0.04,10.0,1,,21.9
+24022003,240220,24,"Cigarettes containing tobacco, other",Cigarettes containing tobacco,Cigarettes C,烟草,tembakau,15.0,30,pieces,0.001,4000,CHN|IDN|KOR|DEU|USA,0.04,10.0,1,,16.425
+24022004,240220,24,"Cigarettes containing tobacco, bulk packed",Cigarettes containing tobacco,Cigarettes X,烟草,tembakau,17.5,22,pieces,0.001,4000,CHN|IDN|KOR|DEU|USA,0.04,10.0,1,,19.1625
+24021001,240210,24,"Cigars and cheroots, grade A",Cigars and cheroots,Cigars A,烟草,tembakau,40.0,30,pieces,0.012,1500,IDN|DEU|USA,0.04,10.0,1,24021004,43.8
+24021002,240210,24,"Cigars and cheroots, grade B",Cigars and cheroots,Cigars B,烟草,tembakau,32.0,30,pieces,0.012,1500,IDN|DEU|USA,0.04,10.0,1,,35.04
+24021003,240210,24,"Cigars and cheroots, other",Cigars and cheroots,Cigars C,烟草,tembakau,24.0,30,pieces,0.012,1500,IDN|DEU|USA,0.04,10.0,1,,26.28
+24021004,240210,24,"Cigars and cheroots, bulk packed",Cigars and cheroots,Cigars X,烟草,tembakau,28.0,22,pieces,0.012,1500,IDN|DEU|USA,0.04,10.0,1,,30.66
+24031101,240311,24,"Water-pipe tobacco, grade A",Water-pipe tobacco,Shisha A,烟草,tembakau,12.0,30,kg,,3000,ARE|EGY|TUR|SAU,0.04,10.0,1,24031104,13.14
+24031102,240311,24,"Water-pipe tobacco, grade B",Water-pipe tobacco,Shisha B,烟草,tembakau,9.6,30,kg,,3000,ARE|EGY|TUR|SAU,0.04,10.0,1,,10.512
+24031103,240311,24,"Water-pipe tobacco, other",Water-pipe tobacco,Shisha C,烟草,tembakau,7.2,30,kg,,3000,ARE|EGY|TUR|SAU,0.04,10.0,1,,7.884
+24031104,240311,24,"Water-pipe tobacco, bulk packed",Water-pipe tobacco,Shisha X,烟草,tembakau,8.4,22,kg,,3000,ARE|EGY|TUR|SAU,0.04,10.0,1,,9.198
+24041101,240411,24,"Heated tobacco products, grade A",Heated tobacco products,Heated tob A,烟草,tembakau,35.0,30,pieces,0.0012,2500,JPN|KOR|IDN|CHE,0.04,10.0,1,24041104,38.325
+24041102,240411,24,"Heated tobacco products, grade B",Heated tobacco products,Heated tob B,烟草,tembakau,28.0,30,pieces,0.0012,2500,JPN|KOR|IDN|CHE,0.04,10.0,1,,30.66
+24041103,240411,24,"Heated tobacco products, other",Heated tobacco products,Heated tob C,烟草,tembakau,21.0,30,pieces,0.0012,2500,JPN|KOR|IDN|CHE,0.04,10.0,1,,22.995
+24041104,240411,24,"Heated tobacco products, bulk packed",Heated tobacco products,Heated tob X,烟草,tembakau,24.5,22,pieces,0.0012,2500,JPN|KOR|IDN|CHE,0.04,10.0,1,,26.8275
+27101901,271019,27,"Diesel and other medium oils, grade A",Diesel and other medium oils,Diesel A,燃料油,bahan bakar,0.75,5,litres,0.84,2000000,SGP|MYS|ARE|SAU|KOR|IND,0.28,10.0,0,27101904,0.8212
+27101902,271019,27,"Diesel and other medium oils, grade B",Diesel and other medium oils,Diesel B,燃料油,bahan bakar,0.6,5,litres,0.84,2000000,SGP|MYS|ARE|SAU|KOR|IND,0.28,10.0,0,,0.657
+27101903,271019,27,"Diesel and other medium oils, other",Diesel and other medium oils,Diesel C,燃料油,bahan bakar,0.45,5,litres,0.84,2000000,SGP|MYS|ARE|SAU|KOR|IND,0.28,10.0,0,,0.4928
+27101904,271019,27,"Diesel and other medium oils, bulk packed",Diesel and other medium oils,Diesel X,燃料油,bahan bakar,0.525,0,litres,0.84,2000000,SGP|MYS|ARE|SAU|KOR|IND,0.28,10.0,0,,0.5749
+27101201,271012,27,"Motor spirit (gasoline), grade A",Motor spirit (gasoline),Gasoline A,燃料油,bahan bakar,0.8,5,litres,0.74,1500000,SGP|MYS|KOR|ARE|IND,0.28,10.0,0,27101204,0.876
+27101202,271012,27,"Motor spirit (gasoline), grade B",Motor spirit (gasoline),Gasoline B,燃料油,bahan bakar,0.64,5,litres,0.74,1500000,SGP|MYS|KOR|ARE|IND,0.28,10.0,0,,0.7008
+27101203,271012,27,"Motor spirit (gasoline), other",Motor spirit (gasoline),Gasoline C,燃料油,bahan bakar,0.48,5,litres,0.74,1500000,SGP|MYS|KOR|ARE|IND,0.28,10.0,0,,0.5256
+27101204,271012,27,"Motor spirit (gasoline), bulk packed",Motor spirit (gasoline),Gasoline X,燃料油,bahan bakar,0.56,0,litres,0.74,1500000,SGP|MYS|KOR|ARE|IND,0.28,10.0,0,,0.6132
+27111201,271112,27,"Liquefied propane, grade A",Liquefied propane,LPG A,燃料油,bahan bakar,0.6,0,kg,,800000,SAU|ARE|QAT|USA,0.28,10.0,0,,0.657
+27111202,271112,27,"Liquefied propane, grade B",Liquefied propane,LPG B,燃料油,bahan bakar,0.48,0,kg,,800000,SAU|ARE|QAT|USA,0.28,10.0,0,,0.5256
+27111203,271112,27,"Liquefied propane, other",Liquefied propane,LPG C,燃料油,bahan bakar,0.36,0,kg,,800000,SAU|ARE|QAT|USA,0.28,10.0,0,,0.3942
+27111204,271112,27,"Liquefied propane, bulk packed",Liquefied propane,LPG X,燃料油,bahan bakar,0.42,0,kg,,800000,SAU|ARE|QAT|USA,0.28,10.0,0,,0.4599
+27090001,270900,27,"Crude petroleum oils, grade A",Crude petroleum oils,Crude A,燃料油,bahan bakar,0.55,0,kg,,5000000,SAU|ARE|QAT|RUS|NGA,0.28,10.0,0,,0.6023
+27090002,270900,27,"Crude petroleum oils, grade B",Crude petroleum oils,Crude B,燃料油,bahan bakar,0.44,0,kg,,5000000,SAU|ARE|QAT|RUS|NGA,0.28,10.0,0,,0.4818
+27090003,270900,27,"Crude petroleum oils, other",Crude petroleum oils,Crude C,燃料油,bahan bakar,0.33,0,kg,,5000000,SAU|ARE|QAT|RUS|NGA,0.28,10.0,0,,0.3614
+27090004,270900,27,"Crude petroleum oils, bulk packed",Crude petroleum oils,Crude X,燃料油,bahan bakar,0.385,0,kg,,5000000,SAU|ARE|QAT|RUS|NGA,0.28,10.0,0,,0.4216
+27132001,271320,27,"Petroleum bitumen, grade A",Petroleum bitumen,Bitumen A,燃料油,bahan bakar,0.45,5,kg,,500000,SGP|ARE|KOR,0.28,10.0,0,27132004,0.4928
+27132002,271320,27,"Petroleum bitumen, grade B",Petroleum bitumen,Bitumen B,燃料油,bahan bakar,0.36,5,kg,,500000,SGP|ARE|KOR,0.28,10.0,0,,0.3942
+27132003,271320,27,"Petroleum bitumen, other",Petroleum bitumen,Bitumen C,燃料油,bahan bakar,0.27,5,kg,,500000,SGP|ARE|KOR,0.28,10.0,0,,0.2957
+27132004,271320,27,"Petroleum bitumen, bulk packed",Petroleum bitumen,Bitumen X,燃料油,bahan bakar,0.315,0,kg,,500000,SGP|ARE|KOR,0.28,10.0,0,,0.3449
+30049001,300490,30,"Medicaments, other, in doses, grade A","Medicaments, other, in doses",Medicines A,药品,obat,85.0,0,kg,,800,IND|DEU|CHE|USA|FRA|CHN,0.03,10.0,0,,93.075
+30049002,300490,30,"Medicaments, other, in doses, grade B","Medicaments, other, in doses",Medicines B,药品,obat,68.0,0,kg,,800,IND|DEU|CHE|USA|FRA|CHN,0.03,10.0,0,,74.46
+30049003,300490,30,"Medicaments, other, in doses, other","Medicaments, other, in doses",Medicines C,药品,obat,51.0,0,kg,,800,IND|DEU|CHE|USA|FRA|CHN,0.03,10.0,0,,55.845
+30049004,300490,30,"Medicaments, other, in doses, bulk packed","Medicaments, other, in doses",Medicines X,药品,obat,59.5,0,kg,,800,IND|DEU|CHE|USA|FRA|CHN,0.03,10.0,0,,65.1525
+30042001,300420,30,"Antibiotic medicaments, grade A",Antibiotic medicaments,Antibiotics A,药品,obat,120.0,0,kg,,600,IND|CHN|DEU|ITA,0.03,10.0,0,,131.4
+30042002,300420,30,"Antibiotic medicaments, grade B",Antibiotic medicaments,Antibiotics B,药品,obat,96.0,0,kg,,600,IND|CHN|DEU|ITA,0.03,10.0,0,,105.12
+30042003,300420,30,"Antibiotic medicaments, other",Antibiotic medicaments,Antibiotics C,药品,obat,72.0,0,kg,,600,IND|CHN|DEU|ITA,0.03,10.0,0,,78.84
+30042004,300420,30,"Antibiotic medicaments, bulk packed",Antibiotic medicaments,Antibiotics X,药品,obat,84.0,0,kg,,600,IND|CHN|DEU|ITA,0.03,10.0,0,,91.98
+30021501,300215,30,"Immunological products in doses, grade A",Immunological products in doses,Immunologicals A,药品,obat,900.0,0,kg,,120,CHE|DEU|USA|BEL|IND,0.03,10.0,0,,985.5
+30021502,300215,30,"Immunological products in doses, grade B",Immunological products in doses,Immunologicals B,药品,obat,720.0,0,kg,,120,CHE|DEU|USA|BEL|IND,0.03,10.0,0,,788.4
+30021503,300215,30,"Immunological products in doses, other",Immunological products in doses,Immunologicals C,药品,obat,540.0,0,kg,,120,CHE|DEU|USA|BEL|IND,0.03,10.0,0,,591.3
+30021504,300215,30,"Immunological products in doses, bulk packed",Immunological products in doses,Immunologicals X,药品,obat,630.0,0,kg,,120,CHE|DEU|USA|BEL|IND,0.03,10.0,0,,689.85
+30051001,300510,30,"Adhesive dressings, grade A",Adhesive dressings,Dressings A,药品,obat,18.0,5,kg,,2000,CHN|IND|DEU|USA,0.03,10.0,0,30051004,19.71
+30051002,300510,30,"Adhesive dressings, grade B",Adhesive dressings,Dressings B,药品,obat,14.4,5,kg,,2000,CHN|IND|DEU|USA,0.03,10.0,0,,15.768
+30051003,300510,30,"Adhesive dressings, other",Adhesive dressings,Dressings C,药品,obat,10.8,5,kg,,2000,CHN|IND|DEU|USA,0.03,10.0,0,,11.826
+30051004,300510,30,"Adhesive dressings, bulk packed",Adhesive dressings,Dressings X,药品,obat,12.6,0,kg,,2000,CHN|IND|DEU|USA,0.03,10.0,0,,13.797
+30067001,300670,30,"Gel preparations for medical use, grade A",Gel preparations for medical use,Medical gels A,药品,obat,22.0,5,kg,,1500,CHN|USA|DEU|KOR,0.03,10.0,0,30067004,24.09
+30067002,300670,30,"Gel preparations for medical use, grade B",Gel preparations for medical use,Medical gels B,药品,obat,17.6,5,kg,,1500,CHN|USA|DEU|KOR,0.03,10.0,0,,19.272
+30067003,300670,30,"Gel preparations for medical use, other",Gel preparations for medical use,Medical gels C,药品,obat,13.2,5,kg,,1500,CHN|USA|DEU|KOR,0.03,10.0,0,,14.454
+30067004,300670,30,"Gel preparations for medical use, bulk packed",Gel preparations for medical use,Medical gels X,药品,obat,15.4,0,kg,,1500,CHN|USA|DEU|KOR,0.03,10.0,0,,16.863
+33041001,330410,33,"Lip make-up preparations, grade A",Lip make-up preparations,Lip make-up A,化妆品,kosmetik,40.0,25,pieces,0.03,1200,KOR|JPN|CHN|FRA|USA,0.05,10.0,0,33041004,43.8
+33041002,330410,33,"Lip make-up preparations, grade B",Lip make-up preparations,Lip make-up B,化妆品,kosmetik,32.0,25,pieces,0.03,1200,KOR|JPN|CHN|FRA|USA,0.05,10.0,0,,35.04
+33041003,330410,33,"Lip make-up preparations, other",Lip make-up preparations,Lip make-up C,化妆品,kosmetik,24.0,25,pieces,0.03,1200,KOR|JPN|CHN|FRA|USA,0.05,10.0,0,,26.28
+33041004,330410,33,"Lip make-up preparations, bulk packed",Lip make-up preparations,Lip make-up X,化妆品,kosmetik,28.0,17,pieces,0.03,1200,KOR|JPN|CHN|FRA|USA,0.05,10.0,0,,30.66
+33042001,330420,33,"Eye make-up preparations, grade A",Eye make-up preparations,Eye make-up A,化妆品,kosmetik,40.0,25,pieces,0.025,1200,KOR|JPN|CHN|FRA,0.05,10.0,0,33042004,43.8
+33042002,330420,33,"Eye make-up preparations, grade B",Eye make-up preparations,Eye make-up B,化妆品,kosmetik,32.0,25,pieces,0.025,1200,KOR|JPN|CHN|FRA,0.05,10.0,0,,35.04
+33042003,330420,33,"Eye make-up preparations, other",Eye make-up preparations,Eye make-up C,化妆品,kosmetik,24.0,25,pieces,0.025,1200,KOR|JPN|CHN|FRA,0.05,10.0,0,,26.28
+33042004,330420,33,"Eye make-up preparations, bulk packed",Eye make-up preparations,Eye make-up X,化妆品,kosmetik,28.0,17,pieces,0.025,1200,KOR|JPN|CHN|FRA,0.05,10.0,0,,30.66
+33049901,330499,33,"Other beauty preparations, grade A",Other beauty preparations,Beauty prep A,化妆品,kosmetik,22.0,25,pieces,0.12,3000,KOR|JPN|CHN|FRA|USA|ITA,0.05,10.0,0,33049904,24.09
+33049902,330499,33,"Other beauty preparations, grade B",Other beauty preparations,Beauty prep B,化妆品,kosmetik,17.6,25,pieces,0.12,3000,KOR|JPN|CHN|FRA|USA|ITA,0.05,10.0,0,,19.272
+33049903,330499,33,"Other beauty preparations, other",Other beauty preparations,Beauty prep C,化妆品,kosmetik,13.2,25,pieces,0.12,3000,KOR|JPN|CHN|FRA|USA|ITA,0.05,10.0,0,,14.454
+33049904,330499,33,"Other beauty preparations, bulk packed",Other beauty preparations,Beauty prep X,化妆品,kosmetik,15.4,17,pieces,0.12,3000,KOR|JPN|CHN|FRA|USA|ITA,0.05,10.0,0,,16.863
+33051001,330510,33,"Shampoos, grade A",Shampoos,Shampoo A,化妆品,kosmetik,3.5,20,pieces,0.4,12000,IDN|MYS|CHN|JPN|USA,0.05,10.0,0,33051004,3.8325
+33051002,330510,33,"Shampoos, grade B",Shampoos,Shampoo B,化妆品,kosmetik,2.8,20,pieces,0.4,12000,IDN|MYS|CHN|JPN|USA,0.05,10.0,0,,3.066
+33051003,330510,33,"Shampoos, other",Shampoos,Shampoo C,化妆品,kosmetik,2.1,20,pieces,0.4,12000,IDN|MYS|CHN|JPN|USA,0.05,10.0,0,,2.2995
+33051004,330510,33,"Shampoos, bulk packed",Shampoos,Shampoo X,化妆品,kosmetik,2.45,12,pieces,0.4,12000,IDN|MYS|CHN|JPN|USA,0.05,10.0,0,,2.6828
+33061001,330610,33,"Dentifrices, grade A",Dentifrices,Toothpaste A,化妆品,kosmetik,4.0,20,pieces,0.12,10000,IDN|IND|CHN|USA|DEU,0.05,10.0,0,33061004,4.38
+33061002,330610,33,"Dentifrices, grade B",Dentifrices,Toothpaste B,化妆品,kosmetik,3.2,20,pieces,0.12,10000,IDN|IND|CHN|USA|DEU,0.05,10.0,0,,3.504
+33061003,330610,33,"Dentifrices, other",Dentifrices,Toothpaste C,化妆品,kosmetik,2.4,20,pieces,0.12,10000,IDN|IND|CHN|USA|DEU,0.05,10.0,0,,2.628
+33061004,330610,33,"Dentifrices, bulk packed",Dentifrices,Toothpaste X,化妆品,kosmetik,2.8,12,pieces,0.12,10000,IDN|IND|CHN|USA|DEU,0.05,10.0,0,,3.066
+39011001,390110,39,"Polyethylene, specific gravity < 0.94, grade A","Polyethylene, specific gravity < 0.94",LDPE A,塑料制品,barang plastik,1.3,5,kg,,25000,SAU|ARE|KOR|SGP|USA|CHN,0.07,10.0,0,39011004,1.4235
+39011002,390110,39,"Polyethylene, specific gravity < 0.94, grade B","Polyethylene, specific gravity < 0.94",LDPE B,塑料制品,barang plastik,1.04,5,kg,,25000,SAU|ARE|KOR|SGP|USA|CHN,0.07,10.0,0,,1.1388
+39011003,390110,39,"Polyethylene, specific gravity < 0.94, other","Polyethylene, specific gravity < 0.94",LDPE C,塑料制品,barang plastik,0.78,5,kg,,25000,SAU|ARE|KOR|SGP|USA|CHN,0.07,10.0,0,,0.8541
+39011004,390110,39,"Polyethylene, specific gravity < 0.94, bulk packed","Polyethylene, specific gravity < 0.94",LDPE X,塑料制品,barang plastik,0.91,0,kg,,25000,SAU|ARE|KOR|SGP|USA|CHN,0.07,10.0,0,,0.9964
+39021001,390210,39,"Polypropylene, grade A",Polypropylene,PP A,塑料制品,barang plastik,1.25,5,kg,,25000,SAU|KOR|SGP|IND|CHN,0.07,10.0,0,39021004,1.3688
+39021002,390210,39,"Polypropylene, grade B",Polypropylene,PP B,塑料制品,barang plastik,1.0,5,kg,,25000,SAU|KOR|SGP|IND|CHN,0.07,10.0,0,,1.095
+39021003,390210,39,"Polypropylene, other",Polypropylene,PP C,塑料制品,barang plastik,0.75,5,kg,,25000,SAU|KOR|SGP|IND|CHN,0.07,10.0,0,,0.8212
+39021004,390210,39,"Polypropylene, bulk packed",Polypropylene,PP X,塑料制品,barang plastik,0.875,0,kg,,25000,SAU|KOR|SGP|IND|CHN,0.07,10.0,0,,0.9581
+39076001,390760,39,"Poly(ethylene terephthalate), grade A",Poly(ethylene terephthalate),PET resin A,塑料制品,barang plastik,1.1,5,kg,,25000,CHN|IND|KOR|TWN|IDN,0.07,10.0,0,39076004,1.2045
+39076002,390760,39,"Poly(ethylene terephthalate), grade B",Poly(ethylene terephthalate),PET resin B,塑料制品,barang plastik,0.88,5,kg,,25000,CHN|IND|KOR|TWN|IDN,0.07,10.0,0,,0.9636
+39076003,390760,39,"Poly(ethylene terephthalate), other",Poly(ethylene terephthalate),PET resin C,塑料制品,barang plastik,0.66,5,kg,,25000,CHN|IND|KOR|TWN|IDN,0.07,10.0,0,,0.7227
+39076004,390760,39,"Poly(ethylene terephthalate), bulk packed",Poly(ethylene terephthalate),PET resin X,塑料制品,barang plastik,0.77,0,kg,,25000,CHN|IND|KOR|TWN|IDN,0.07,10.0,0,,0.8432
+39201001,392010,39,"Plates and film of polymers of ethylene, grade A",Plates and film of polymers of ethylene,PE film A,塑料制品,barang plastik,2.1,15,kg,,12000,CHN|MYS|KOR|IDN|TUR,0.07,10.0,0,39201004,2.2995
+39201002,392010,39,"Plates and film of polymers of ethylene, grade B",Plates and film of polymers of ethylene,PE film B,塑料制品,barang plastik,1.68,15,kg,,12000,CHN|MYS|KOR|IDN|TUR,0.07,10.0,0,,1.8396
+39201003,392010,39,"Plates and film of polymers of ethylene, other",Plates and film of polymers of ethylene,PE film C,塑料制品,barang plastik,1.26,15,kg,,12000,CHN|MYS|KOR|IDN|TUR,0.07,10.0,0,,1.3797
+39201004,392010,39,"Plates and film of polymers of ethylene, bulk packed",Plates and film of polymers of ethylene,PE film X,塑料制品,barang plastik,1.47,7,kg,,12000,CHN|MYS|KOR|IDN|TUR,0.07,10.0,0,,1.6096
+39241001,392410,39,"Tableware and kitchenware of plastics, grade A",Tableware and kitchenware of plastics,Plastic tableware A,塑料制品,barang plastik,3.6,25,kg,,6000,CHN|MYS|IDN|TUR|IND,0.07,10.0,0,39241004,3.942
+39241002,392410,39,"Tableware and kitchenware of plastics, grade B",Tableware and kitchenware of plastics,Plastic tableware B,塑料制品,barang plastik,2.88,25,kg,,6000,CHN|MYS|IDN|TUR|IND,0.07,10.0,0,,3.1536
+39241003,392410,39,"Tableware and kitchenware of plastics, other",Tableware and kitchenware of plastics,Plastic tableware C,塑料制品,barang plastik,2.16,25,kg,,6000,CHN|MYS|IDN|TUR|IND,0.07,10.0,0,,2.3652
+39241004,392410,39,"Tableware and kitchenware of plastics, bulk packed",Tableware and kitchenware of plastics,Plastic tableware X,塑料制品,barang plastik,2.52,17,kg,,6000,CHN|MYS|IDN|TUR|IND,0.07,10.0,0,,2.7594
+40111001,401110,40,"New pneumatic tyres for cars, grade A",New pneumatic tyres for cars,Car tyres A,橡胶制品,barang karet,3.4,20,pieces,9.0,15000,CHN|IDN|KOR|JPN|IND|DEU,0.06,10.0,0,40111004,3.723
+40111002,401110,40,"New pneumatic tyres for cars, grade B",New pneumatic tyres for cars,Car tyres B,橡胶制品,barang karet,2.72,20,pieces,9.0,15000,CHN|IDN|KOR|JPN|IND|DEU,0.06,10.0,0,,2.9784
+40111003,401110,40,"New pneumatic tyres for cars, other",New pneumatic tyres for cars,Car tyres C,橡胶制品,barang karet,2.04,20,pieces,9.0,15000,CHN|IDN|KOR|JPN|IND|DEU,0.06,10.0,0,,2.2338
+40111004,401110,40,"New pneumatic tyres for cars, bulk packed",New pneumatic tyres for cars,Car tyres X,橡胶制品,barang karet,2.38,12,pieces,9.0,15000,CHN|IDN|KOR|JPN|IND|DEU,0.06,10.0,0,,2.6061
+40112001,401120,40,"New pneumatic tyres for buses and lorries, grade A",New pneumatic tyres for buses and lorries,Truck tyres A,橡胶制品,barang karet,3.0,20,pieces,55.0,20000,CHN|IND|IDN|JPN,0.06,10.0,0,40112004,3.285
+40112002,401120,40,"New pneumatic tyres for buses and lorries, grade B",New pneumatic tyres for buses and lorries,Truck tyres B,橡胶制品,barang karet,2.4,20,pieces,55.0,20000,CHN|IND|IDN|JPN,0.06,10.0,0,,2.628
+40112003,401120,40,"New pneumatic tyres for buses and lorries, other",New pneumatic tyres for buses and lorries,Truck tyres C,橡胶制品,barang karet,1.8,20,pieces,55.0,20000,CHN|IND|IDN|JPN,0.06,10.0,0,,1.971
+40112004,401120,40,"New pneumatic tyres for buses and lorries, bulk packed",New pneumatic tyres for buses and lorries,Truck tyres X,橡胶制品,barang karet,2.1,12,pieces,55.0,20000,CHN|IND|IDN|JPN,0.06,10.0,0,,2.2995
+40012201,400122,40,"Technically specified natural rubber, grade A",Technically specified natural rubber,TSNR A,橡胶制品,barang karet,1.6,0,kg,,20000,IDN|MYS,0.06,10.0,0,,1.752
+40012202,400122,40,"Technically specified natural rubber, grade B",Technically specified natural rubber,TSNR B,橡胶制品,barang karet,1.28,0,kg,,20000,IDN|MYS,0.06,10.0,0,,1.4016
+40012203,400122,40,"Technically specified natural rubber, other",Technically specified natural rubber,TSNR C,橡胶制品,barang karet,0.96,0,kg,,20000,IDN|MYS,0.06,10.0,0,,1.0512
+40012204,400122,40,"Technically specified natural rubber, bulk packed",Technically specified natural rubber,TSNR X,橡胶制品,barang karet,1.12,0,kg,,20000,IDN|MYS,0.06,10.0,0,,1.2264
+40151901,401519,40,"Rubber gloves, other, grade A","Rubber gloves, other",Gloves A,橡胶制品,barang karet,9.0,15,pairs,0.012,6000,MYS|IDN|CHN,0.06,10.0,0,40151904,9.855
+40151902,401519,40,"Rubber gloves, other, grade B","Rubber gloves, other",Gloves B,橡胶制品,barang karet,7.2,15,pairs,0.012,6000,MYS|IDN|CHN,0.06,10.0,0,,7.884
+40151903,401519,40,"Rubber gloves, other, other","Rubber gloves, other",Gloves C,橡胶制品,barang karet,5.4,15,pairs,0.012,6000,MYS|IDN|CHN,0.06,10.0,0,,5.913
+40151904,401519,40,"Rubber gloves, other, bulk packed","Rubber gloves, other",Gloves X,橡胶制品,barang karet,6.3,7,pairs,0.012,6000,MYS|IDN|CHN,0.06,10.0,0,,6.8985
+40169901,401699,40,"Other articles of vulcanised rubber, grade A",Other articles of vulcanised rubber,Rubber art nes A,橡胶制品,barang karet,4.5,15,kg,,5000,CHN|IND|JPN|DEU|KOR,0.06,10.0,0,40169904,4.9275
+40169902,401699,40,"Other articles of vulcanised rubber, grade B",Other articles of vulcanised rubber,Rubber art nes B,橡胶制品,barang karet,3.6,15,kg,,5000,CHN|IND|JPN|DEU|KOR,0.06,10.0,0,,3.942
+40169903,401699,40,"Other articles of vulcanised rubber, other",Other articles of vulcanised rubber,Rubber art nes C,橡胶制品,barang karet,2.7,15,kg,,5000,CHN|IND|JPN|DEU|KOR,0.06,10.0,0,,2.9565
+40169904,401699,40,"Other articles of vulcanised rubber, bulk packed",Other articles of vulcanised rubber,Rubber art nes X,橡胶制品,barang karet,3.15,7,kg,,5000,CHN|IND|JPN|DEU|KOR,0.06,10.0,0,,3.4492
+90181901,901819,90,"Blood pressure monitors and other electro-diagnostic apparatus, grade A",Blood pressure monitors and other electro-diagnostic apparatus,BP monitor A,医疗器械,alat medis,95.0,0,pieces,0.35,800,CHN|JPN|DEU|USA|KOR,0.03,10.0,0,,104.025
+90181902,901819,90,"Blood pressure monitors and other electro-diagnostic apparatus, grade B",Blood pressure monitors and other electro-diagnostic apparatus,BP monitor B,医疗器械,alat medis,76.0,0,pieces,0.35,800,CHN|JPN|DEU|USA|KOR,0.03,10.0,0,,83.22
+90181903,901819,90,"Blood pressure monitors and other electro-diagnostic apparatus, other",Blood pressure monitors and other electro-diagnostic apparatus,BP monitor C,医疗器械,alat medis,57.0,0,pieces,0.35,800,CHN|JPN|DEU|USA|KOR,0.03,10.0,0,,62.415
+90181904,901819,90,"Blood pressure monitors and other electro-diagnostic apparatus, bulk packed",Blood pressure monitors and other electro-diagnostic apparatus,BP monitor X,医疗器械,alat medis,66.5,0,pieces,0.35,800,CHN|JPN|DEU|USA|KOR,0.03,10.0,0,,72.8175
+90221401,902214,90,"X-ray apparatus for medical or dental use, grade A",X-ray apparatus for medical or dental use,Medical X-ray A,医疗器械,alat medis,420.0,0,pieces,25.0,600,DEU|JPN|USA|CHN|KOR|ITA,0.03,10.0,0,,459.9
+90221402,902214,90,"X-ray apparatus for medical or dental use, grade B",X-ray apparatus for medical or dental use,Medical X-ray B,医疗器械,alat medis,336.0,0,pieces,25.0,600,DEU|JPN|USA|CHN|KOR|ITA,0.03,10.0,0,,367.92
+90221403,902214,90,"X-ray apparatus for medical or dental use, other",X-ray apparatus for medical or dental use,Medical X-ray C,医疗器械,alat medis,252.0,0,pieces,25.0,600,DEU|JPN|USA|CHN|KOR|ITA,0.03,10.0,0,,275.94
+90221404,902214,90,"X-ray apparatus for medical or dental use, bulk packed",X-ray apparatus for medical or dental use,Medical X-ray X,医疗器械,alat medis,294.0,0,pieces,25.0,600,DEU|JPN|USA|CHN|KOR|ITA,0.03,10.0,0,,321.93
+90189001,901890,90,"Instruments and appliances for medical use, other, grade A","Instruments and appliances for medical use, other",Medical instr nes A,医疗器械,alat medis,60.0,0,kg,,800,CHN|DEU|USA|JPN|IND,0.03,10.0,0,,65.7
+90189002,901890,90,"Instruments and appliances for medical use, other, grade B","Instruments and appliances for medical use, other",Medical instr nes B,医疗器械,alat medis,48.0,0,kg,,800,CHN|DEU|USA|JPN|IND,0.03,10.0,0,,52.56
+90189003,901890,90,"Instruments and appliances for medical use, other, other","Instruments and appliances for medical use, other",Medical instr nes C,医疗器械,alat medis,36.0,0,kg,,800,CHN|DEU|USA|JPN|IND,0.03,10.0,0,,39.42
+90189004,901890,90,"Instruments and appliances for medical use, other, bulk packed","Instruments and appliances for medical use, other",Medical instr nes X,医疗器械,alat medis,42.0,0,kg,,800,CHN|DEU|USA|JPN|IND,0.03,10.0,0,,45.99
+90049001,900490,90,"Spectacles and sunglasses, other, grade A","Spectacles and sunglasses, other",Sunglasses A,医疗器械,alat medis,45.0,15,pieces,0.04,500,CHN|ITA|KOR|TWN,0.03,10.0,0,90049004,49.275
+90049002,900490,90,"Spectacles and sunglasses, other, grade B","Spectacles and sunglasses, other",Sunglasses B,医疗器械,alat medis,36.0,15,pieces,0.04,500,CHN|ITA|KOR|TWN,0.03,10.0,0,,39.42
+90049003,900490,90,"Spectacles and sunglasses, other, other","Spectacles and sunglasses, other",Sunglasses C,医疗器械,alat medis,27.0,15,pieces,0.04,500,CHN|ITA|KOR|TWN,0.03,10.0,0,,29.565
+90049004,900490,90,"Spectacles and sunglasses, other, bulk packed","Spectacles and sunglasses, other",Sunglasses X,医疗器械,alat medis,31.5,7,pieces,0.04,500,CHN|ITA|KOR|TWN,0.03,10.0,0,,34.4925
+90273001,902730,90,"Spectrometers and spectrographs, grade A",Spectrometers and spectrographs,Spectrometers A,医疗器械,alat medis,900.0,0,kg,,150,DEU|USA|JPN|CHE|GBR,0.03,10.0,0,,985.5
+90273002,902730,90,"Spectrometers and spectrographs, grade B",Spectrometers and spectrographs,Spectrometers B,医疗器械,alat medis,720.0,0,kg,,150,DEU|USA|JPN|CHE|GBR,0.03,10.0,0,,788.4
+90273003,902730,90,"Spectrometers and spectrographs, other",Spectrometers and spectrographs,Spectrometers C,医疗器械,alat medis,540.0,0,kg,,150,DEU|USA|JPN|CHE|GBR,0.03,10.0,0,,591.3
+90273004,902730,90,"Spectrometers and spectrographs, bulk packed",Spectrometers and spectrographs,Spectrometers X,医疗器械,alat medis,630.0,0,kg,,150,DEU|USA|JPN|CHE|GBR,0.03,10.0,0,,689.85
+52010001,520100,52,"Cotton, not carded or combed, grade A","Cotton, not carded or combed",Raw cotton A,棉织物,kain katun,1.9,0,kg,,20000,USA|IND|BRA|AUS|PAK,0.06,10.0,0,,2.0805
+52010002,520100,52,"Cotton, not carded or combed, grade B","Cotton, not carded or combed",Raw cotton B,棉织物,kain katun,1.52,0,kg,,20000,USA|IND|BRA|AUS|PAK,0.06,10.0,0,,1.6644
+52010003,520100,52,"Cotton, not carded or combed, other","Cotton, not carded or combed",Raw cotton C,棉织物,kain katun,1.14,0,kg,,20000,USA|IND|BRA|AUS|PAK,0.06,10.0,0,,1.2483
+52010004,520100,52,"Cotton, not carded or combed, bulk packed","Cotton, not carded or combed",Raw cotton X,棉织物,kain katun,1.33,0,kg,,20000,USA|IND|BRA|AUS|PAK,0.06,10.0,0,,1.4564
+52051201,520512,52,"Cotton yarn, single, > 14 but <= 43 metric, grade A","Cotton yarn, single, > 14 but <= 43 metric",Cotton yarn A,棉织物,kain katun,3.2,5,kg,,15000,IND|PAK|CHN|IDN|TUR,0.06,10.0,0,52051204,3.504
+52051202,520512,52,"Cotton yarn, single, > 14 but <= 43 metric, grade B","Cotton yarn, single, > 14 but <= 43 metric",Cotton yarn B,棉织物,kain katun,2.56,5,kg,,15000,IND|PAK|CHN|IDN|TUR,0.06,10.0,0,,2.8032
+52051203,520512,52,"Cotton yarn, single, > 14 but <= 43 metric, other","Cotton yarn, single, > 14 but <= 43 metric",Cotton yarn C,棉织物,kain katun,1.92,5,kg,,15000,IND|PAK|CHN|IDN|TUR,0.06,10.0,0,,2.1024
+52051204,520512,52,"Cotton yarn, single, > 14 but <= 43 metric, bulk packed","Cotton yarn, single, > 14 but <= 43 metric",Cotton yarn X,棉织物,kain katun,2.24,0,kg,,15000,IND|PAK|CHN|IDN|TUR,0.06,10.0,0,,2.4528
+52081101,520811,52,"Unbleached cotton fabric, plain weave, <= 100 g/m2, grade A","Unbleached cotton fabric, plain weave, <= 100 g/m2",Unbl cotton fabric A,棉织物,kain katun,4.8,10,kg,,8000,CHN|IND|PAK|IDN,0.06,10.0,0,52081104,5.256
+52081102,520811,52,"Unbleached cotton fabric, plain weave, <= 100 g/m2, grade B","Unbleached cotton fabric, plain weave, <= 100 g/m2",Unbl cotton fabric B,棉织物,kain katun,3.84,10,kg,,8000,CHN|IND|PAK|IDN,0.06,10.0,0,,4.2048
+52081103,520811,52,"Unbleached cotton fabric, plain weave, <= 100 g/m2, other","Unbleached cotton fabric, plain weave, <= 100 g/m2",Unbl cotton fabric C,棉织物,kain katun,2.88,10,kg,,8000,CHN|IND|PAK|IDN,0.06,10.0,0,,3.1536
+52081104,520811,52,"Unbleached cotton fabric, plain weave, <= 100 g/m2, bulk packed","Unbleached cotton fabric, plain weave, <= 100 g/m2",Unbl cotton fabric X,棉织物,kain katun,3.36,2,kg,,8000,CHN|IND|PAK|IDN,0.06,10.0,0,,3.6792
+52085201,520852,52,"Printed cotton fabric, plain weave, > 100 g/m2, grade A","Printed cotton fabric, plain weave, > 100 g/m2",Printed cotton A,棉织物,kain katun,7.5,15,kg,,6000,CHN|IND|KOR|TUR|IDN,0.06,10.0,0,52085204,8.2125
+52085202,520852,52,"Printed cotton fabric, plain weave, > 100 g/m2, grade B","Printed cotton fabric, plain weave, > 100 g/m2",Printed cotton B,棉织物,kain katun,6.0,15,kg,,6000,CHN|IND|KOR|TUR|IDN,0.06,10.0,0,,6.57
+52085203,520852,52,"Printed cotton fabric, plain weave, > 100 g/m2, other","Printed cotton fabric, plain weave, > 100 g/m2",Printed cotton C,棉织物,kain katun,4.5,15,kg,,6000,CHN|IND|KOR|TUR|IDN,0.06,10.0,0,,4.9275
+52085204,520852,52,"Printed cotton fabric, plain weave, > 100 g/m2, bulk packed","Printed cotton fabric, plain weave, > 100 g/m2",Printed cotton X,棉织物,kain katun,5.25,7,kg,,6000,CHN|IND|KOR|TUR|IDN,0.06,10.0,0,,5.7488
+52103101,521031,52,"Dyed cotton fabric mixed with man-made fibres, grade A",Dyed cotton fabric mixed with man-made fibres,Dyed cotton mix A,棉织物,kain katun,6.2,15,kg,,6000,CHN|IND|PAK|KOR,0.06,10.0,0,52103104,6.789
+52103102,521031,52,"Dyed cotton fabric mixed with man-made fibres, grade B",Dyed cotton fabric mixed with man-made fibres,Dyed cotton mix B,棉织物,kain katun,4.96,15,kg,,6000,CHN|IND|PAK|KOR,0.06,10.0,0,,5.4312
+52103103,521031,52,"Dyed cotton fabric mixed with man-made fibres, other",Dyed cotton fabric mixed with man-made fibres,Dyed cotton mix C,棉织物,kain katun,3.72,15,kg,,6000,CHN|IND|PAK|KOR,0.06,10.0,0,,4.0734
+52103104,521031,52,"Dyed cotton fabric mixed with man-made fibres, bulk packed",Dyed cotton fabric mixed with man-made fibres,Dyed cotton mix X,棉织物,kain katun,4.34,7,kg,,6000,CHN|IND|PAK|KOR,0.06,10.0,0,,4.7523
+61091001,610910,61,"T-shirts and singlets of cotton, knitted, grade A","T-shirts and singlets of cotton, knitted",Cotton t-shirts A,针织服装,pakaian rajut,14.0,25,pieces,0.18,3000,CHN|IND|TUR|IDN|PAK|MYS,0.05,10.0,0,61091004,15.33
+61091002,610910,61,"T-shirts and singlets of cotton, knitted, grade B","T-shirts and singlets of cotton, knitted",Cotton t-shirts B,针织服装,pakaian rajut,11.2,25,pieces,0.18,3000,CHN|IND|TUR|IDN|PAK|MYS,0.05,10.0,0,,12.264
+61091003,610910,61,"T-shirts and singlets of cotton, knitted, other","T-shirts and singlets of cotton, knitted",Cotton t-shirts C,针织服装,pakaian rajut,8.4,25,pieces,0.18,3000,CHN|IND|TUR|IDN|PAK|MYS,0.05,10.0,0,,9.198
+61091004,610910,61,"T-shirts and singlets of cotton, knitted, bulk packed","T-shirts and singlets of cotton, knitted",Cotton t-shirts X,针织服装,pakaian rajut,9.8,17,pieces,0.18,3000,CHN|IND|TUR|IDN|PAK|MYS,0.05,10.0,0,,10.731
+61102001,611020,61,"Jerseys and pullovers of cotton, knitted, grade A","Jerseys and pullovers of cotton, knitted",Cotton pullovers A,针织服装,pakaian rajut,18.0,25,pieces,0.4,3000,CHN|TUR|IND|IDN|ITA,0.05,10.0,0,61102004,19.71
+61102002,611020,61,"Jerseys and pullovers of cotton, knitted, grade B","Jerseys and pullovers of cotton, knitted",Cotton pullovers B,针织服装,pakaian rajut,14.4,25,pieces,0.4,3000,CHN|TUR|IND|IDN|ITA,0.05,10.0,0,,15.768
+61102003,611020,61,"Jerseys and pullovers of cotton, knitted, other","Jerseys and pullovers of cotton, knitted",Cotton pullovers C,针织服装,pakaian rajut,10.8,25,pieces,0.4,3000,CHN|TUR|IND|IDN|ITA,0.05,10.0,0,,11.826
+61102004,611020,61,"Jerseys and pullovers of cotton, knitted, bulk packed","Jerseys and pullovers of cotton, knitted",Cotton pullovers X,针织服装,pakaian rajut,12.6,17,pieces,0.4,3000,CHN|TUR|IND|IDN|ITA,0.05,10.0,0,,13.797
+61103001,611030,61,"Jerseys and pullovers of man-made fibres, knitted, grade A","Jerseys and pullovers of man-made fibres, knitted",MMF pullovers A,针织服装,pakaian rajut,15.0,25,pieces,0.35,3000,CHN|IDN|TUR|IND,0.05,10.0,0,61103004,16.425
+61103002,611030,61,"Jerseys and pullovers of man-made fibres, knitted, grade B","Jerseys and pullovers of man-made fibres, knitted",MMF pullovers B,针织服装,pakaian rajut,12.0,25,pieces,0.35,3000,CHN|IDN|TUR|IND,0.05,10.0,0,,13.14
+61103003,611030,61,"Jerseys and pullovers of man-made fibres, knitted, other","Jerseys and pullovers of man-made fibres, knitted",MMF pullovers C,针织服装,pakaian rajut,9.0,25,pieces,0.35,3000,CHN|IDN|TUR|IND,0.05,10.0,0,,9.855
+61103004,611030,61,"Jerseys and pullovers of man-made fibres, knitted, bulk packed","Jerseys and pullovers of man-made fibres, knitted",MMF pullovers X,针织服装,pakaian rajut,10.5,17,pieces,0.35,3000,CHN|IDN|TUR|IND,0.05,10.0,0,,11.4975
+61112001,611120,61,"Babies' garments of cotton, knitted, grade A","Babies' garments of cotton, knitted",Baby garments A,针织服装,pakaian rajut,16.0,20,pieces,0.08,2000,CHN|IND|TUR|IDN,0.05,10.0,0,61112004,17.52
+61112002,611120,61,"Babies' garments of cotton, knitted, grade B","Babies' garments of cotton, knitted",Baby garments B,针织服装,pakaian rajut,12.8,20,pieces,0.08,2000,CHN|IND|TUR|IDN,0.05,10.0,0,,14.016
+61112003,611120,61,"Babies' garments of cotton, knitted, other","Babies' garments of cotton, knitted",Baby garments C,针织服装,pakaian rajut,9.6,20,pieces,0.08,2000,CHN|IND|TUR|IDN,0.05,10.0,0,,10.512
+61112004,611120,61,"Babies' garments of cotton, knitted, bulk packed","Babies' garments of cotton, knitted",Baby garments X,针织服装,pakaian rajut,11.2,12,pieces,0.08,2000,CHN|IND|TUR|IDN,0.05,10.0,0,,12.264
+61046201,610462,61,"Women's trousers of cotton, knitted, grade A","Women's trousers of cotton, knitted",Women's cotton trousers A,针织服装,pakaian rajut,17.0,25,pieces,0.35,3000,CHN|TUR|IND|IDN|PAK,0.05,10.0,0,61046204,18.615
+61046202,610462,61,"Women's trousers of cotton, knitted, grade B","Women's trousers of cotton, knitted",Women's cotton trousers B,针织服装,pakaian rajut,13.6,25,pieces,0.35,3000,CHN|TUR|IND|IDN|PAK,0.05,10.0,0,,14.892
+61046203,610462,61,"Women's trousers of cotton, knitted, other","Women's trousers of cotton, knitted",Women's cotton trousers C,针织服装,pakaian rajut,10.2,25,pieces,0.35,3000,CHN|TUR|IND|IDN|PAK,0.05,10.0,0,,11.169
+61046204,610462,61,"Women's trousers of cotton, knitted, bulk packed","Women's trousers of cotton, knitted",Women's cotton trousers X,针织服装,pakaian rajut,11.9,17,pieces,0.35,3000,CHN|TUR|IND|IDN|PAK,0.05,10.0,0,,13.0305
+64039901,640399,64,"Footwear with leather uppers, other, grade A","Footwear with leather uppers, other",Leather shoes A,鞋,sepatu,32.0,25,pairs,0.8,3000,CHN|IDN|IND|ITA|TUR|PHL,0.05,10.0,0,64039904,35.04
+64039902,640399,64,"Footwear with leather uppers, other, grade B","Footwear with leather uppers, other",Leather shoes B,鞋,sepatu,25.6,25,pairs,0.8,3000,CHN|IDN|IND|ITA|TUR|PHL,0.05,10.0,0,,28.032
+64039903,640399,64,"Footwear with leather uppers, other, other","Footwear with leather uppers, other",Leather shoes C,鞋,sepatu,19.2,25,pairs,0.8,3000,CHN|IDN|IND|ITA|TUR|PHL,0.05,10.0,0,,21.024
+64039904,640399,64,"Footwear with leather uppers, other, bulk packed","Footwear with leather uppers, other",Leather shoes X,鞋,sepatu,22.4,17,pairs,0.8,3000,CHN|IDN|IND|ITA|TUR|PHL,0.05,10.0,0,,24.528
+64029901,640299,64,"Footwear with rubber or plastic uppers, other, grade A","Footwear with rubber or plastic uppers, other",Plastic shoes A,鞋,sepatu,11.0,25,pairs,0.6,4000,CHN|IDN|MYS|IND,0.05,10.0,0,64029904,12.045
+64029902,640299,64,"Footwear with rubber or plastic uppers, other, grade B","Footwear with rubber or plastic uppers, other",Plastic shoes B,鞋,sepatu,8.8,25,pairs,0.6,4000,CHN|IDN|MYS|IND,0.05,10.0,0,,9.636
+64029903,640299,64,"Footwear with rubber or plastic uppers, other, other","Footwear with rubber or plastic uppers, other",Plastic shoes C,鞋,sepatu,6.6,25,pairs,0.6,4000,CHN|IDN|MYS|IND,0.05,10.0,0,,7.227
+64029904,640299,64,"Footwear with rubber or plastic uppers, other, bulk packed","Footwear with rubber or plastic uppers, other",Plastic shoes X,鞋,sepatu,7.7,17,pairs,0.6,4000,CHN|IDN|MYS|IND,0.05,10.0,0,,8.4315
+64041101,640411,64,"Sports footwear with textile uppers, grade A",Sports footwear with textile uppers,Sports shoes A,鞋,sepatu,28.0,25,pairs,0.7,3000,CHN|IDN|IND|PHL|KOR,0.05,10.0,0,64041104,30.66
+64041102,640411,64,"Sports footwear with textile uppers, grade B",Sports footwear with textile uppers,Sports shoes B,鞋,sepatu,22.4,25,pairs,0.7,3000,CHN|IDN|IND|PHL|KOR,0.05,10.0,0,,24.528
+64041103,640411,64,"Sports footwear with textile uppers, other",Sports footwear with textile uppers,Sports shoes C,鞋,sepatu,16.8,25,pairs,0.7,3000,CHN|IDN|IND|PHL|KOR,0.05,10.0,0,,18.396
+64041104,640411,64,"Sports footwear with textile uppers, bulk packed",Sports footwear with textile uppers,Sports shoes X,鞋,sepatu,19.6,17,pairs,0.7,3000,CHN|IDN|IND|PHL|KOR,0.05,10.0,0,,21.462
+64022001,640220,64,"Footwear with straps or thongs, grade A",Footwear with straps or thongs,Flip-flops A,鞋,sepatu,5.0,20,pairs,0.3,5000,CHN|IDN|MYS|BRA,0.05,10.0,0,64022004,5.475
+64022002,640220,64,"Footwear with straps or thongs, grade B",Footwear with straps or thongs,Flip-flops B,鞋,sepatu,4.0,20,pairs,0.3,5000,CHN|IDN|MYS|BRA,0.05,10.0,0,,4.38
+64022003,640220,64,"Footwear with straps or thongs, other",Footwear with straps or thongs,Flip-flops C,鞋,sepatu,3.0,20,pairs,0.3,5000,CHN|IDN|MYS|BRA,0.05,10.0,0,,3.285
+64022004,640220,64,"Footwear with straps or thongs, bulk packed",Footwear with straps or thongs,Flip-flops X,鞋,sepatu,3.5,12,pairs,0.3,5000,CHN|IDN|MYS|BRA,0.05,10.0,0,,3.8325
+64061001,640610,64,"Uppers and parts thereof, grade A",Uppers and parts thereof,Shoe uppers A,鞋,sepatu,20.0,10,kg,,3000,CHN|IDN|IND|ITA,0.05,10.0,0,64061004,21.9
+64061002,640610,64,"Uppers and parts thereof, grade B",Uppers and parts thereof,Shoe uppers B,鞋,sepatu,16.0,10,kg,,3000,CHN|IDN|IND|ITA,0.05,10.0,0,,17.52
+64061003,640610,64,"Uppers and parts thereof, other",Uppers and parts thereof,Shoe uppers C,鞋,sepatu,12.0,10,kg,,3000,CHN|IDN|IND|ITA,0.05,10.0,0,,13.14
+64061004,640610,64,"Uppers and parts thereof, bulk packed",Uppers and parts thereof,Shoe uppers X,鞋,sepatu,14.0,2,kg,,3000,CHN|IDN|IND|ITA,0.05,10.0,0,,15.33
+72083901,720839,72,"Hot-rolled flat steel, coils, < 3 mm, grade A","Hot-rolled flat steel, coils, < 3 mm",HR coil A,钢材,baja,0.72,10,kg,,500000,CHN|JPN|KOR|IND|TWN|RUS,0.11,10.0,0,72083904,0.7884
+72083902,720839,72,"Hot-rolled flat steel, coils, < 3 mm, grade B","Hot-rolled flat steel, coils, < 3 mm",HR coil B,钢材,baja,0.576,10,kg,,500000,CHN|JPN|KOR|IND|TWN|RUS,0.11,10.0,0,,0.6307
+72083903,720839,72,"Hot-rolled flat steel, coils, < 3 mm, other","Hot-rolled flat steel, coils, < 3 mm",HR coil C,钢材,baja,0.432,10,kg,,500000,CHN|JPN|KOR|IND|TWN|RUS,0.11,10.0,0,,0.473
+72083904,720839,72,"Hot-rolled flat steel, coils, < 3 mm, bulk packed","Hot-rolled flat steel, coils, < 3 mm",HR coil X,钢材,baja,0.504,2,kg,,500000,CHN|JPN|KOR|IND|TWN|RUS,0.11,10.0,0,,0.5519
+72142001,721420,72,"Bars and rods of iron, hot-rolled, ribbed, grade A","Bars and rods of iron, hot-rolled, ribbed",Steel bars A,钢材,baja,0.68,15,kg,,300000,CHN|TUR|MYS|IND|RUS,0.11,10.0,0,72142004,0.7446
+72142002,721420,72,"Bars and rods of iron, hot-rolled, ribbed, grade B","Bars and rods of iron, hot-rolled, ribbed",Steel bars B,钢材,baja,0.544,15,kg,,300000,CHN|TUR|MYS|IND|RUS,0.11,10.0,0,,0.5957
+72142003,721420,72,"Bars and rods of iron, hot-rolled, ribbed, other","Bars and rods of iron, hot-rolled, ribbed",Steel bars C,钢材,baja,0.408,15,kg,,300000,CHN|TUR|MYS|IND|RUS,0.11,10.0,0,,0.4468
+72142004,721420,72,"Bars and rods of iron, hot-rolled, ribbed, bulk packed","Bars and rods of iron, hot-rolled, ribbed",Steel bars X,钢材,baja,0.476,7,kg,,300000,CHN|TUR|MYS|IND|RUS,0.11,10.0,0,,0.5212
+72104901,721049,72,"Flat steel, zinc coated, other, grade A","Flat steel, zinc coated, other",Galvanised sheet A,钢材,baja,0.95,10,kg,,200000,CHN|KOR|JPN|IND|TWN,0.11,10.0,0,72104904,1.0402
+72104902,721049,72,"Flat steel, zinc coated, other, grade B","Flat steel, zinc coated, other",Galvanised sheet B,钢材,baja,0.76,10,kg,,200000,CHN|KOR|JPN|IND|TWN,0.11,10.0,0,,0.8322
+72104903,721049,72,"Flat steel, zinc coated, other, other","Flat steel, zinc coated, other",Galvanised sheet C,钢材,baja,0.57,10,kg,,200000,CHN|KOR|JPN|IND|TWN,0.11,10.0,0,,0.6242
+72104904,721049,72,"Flat steel, zinc coated, other, bulk packed","Flat steel, zinc coated, other",Galvanised sheet X,钢材,baja,0.665,2,kg,,200000,CHN|KOR|JPN|IND|TWN,0.11,10.0,0,,0.7282
+72193301,721933,72,"Stainless steel sheet, cold-rolled, 1-3 mm, grade A","Stainless steel sheet, cold-rolled, 1-3 mm",S.S. sheet A,钢材,baja,3.1,10,kg,,60000,CHN|IND|KOR|TWN|IDN|JPN,0.11,10.0,0,72193304,3.3945
+72193302,721933,72,"Stainless steel sheet, cold-rolled, 1-3 mm, grade B","Stainless steel sheet, cold-rolled, 1-3 mm",S.S. sheet B,钢材,baja,2.48,10,kg,,60000,CHN|IND|KOR|TWN|IDN|JPN,0.11,10.0,0,,2.7156
+72193303,721933,72,"Stainless steel sheet, cold-rolled, 1-3 mm, other","Stainless steel sheet, cold-rolled, 1-3 mm",S.S. sheet C,钢材,baja,1.86,10,kg,,60000,CHN|IND|KOR|TWN|IDN|JPN,0.11,10.0,0,,2.0367
+72193304,721933,72,"Stainless steel sheet, cold-rolled, 1-3 mm, bulk packed","Stainless steel sheet, cold-rolled, 1-3 mm",S.S. sheet X,钢材,baja,2.17,2,kg,,60000,CHN|IND|KOR|TWN|IDN|JPN,0.11,10.0,0,,2.3762
+72139101,721391,72,"Wire rod of iron or steel, < 14 mm, grade A","Wire rod of iron or steel, < 14 mm",Wire rod A,钢材,baja,0.7,10,kg,,300000,CHN|IND|MYS|TUR|JPN,0.11,10.0,0,72139104,0.7665
+72139102,721391,72,"Wire rod of iron or steel, < 14 mm, grade B","Wire rod of iron or steel, < 14 mm",Wire rod B,钢材,baja,0.56,10,kg,,300000,CHN|IND|MYS|TUR|JPN,0.11,10.0,0,,0.6132
+72139103,721391,72,"Wire rod of iron or steel, < 14 mm, other","Wire rod of iron or steel, < 14 mm",Wire rod C,钢材,baja,0.42,10,kg,,300000,CHN|IND|MYS|TUR|JPN,0.11,10.0,0,,0.4599
+72139104,721391,72,"Wire rod of iron or steel, < 14 mm, bulk packed","Wire rod of iron or steel, < 14 mm",Wire rod X,钢材,baja,0.49,2,kg,,300000,CHN|IND|MYS|TUR|JPN,0.11,10.0,0,,0.5366
+84151001,841510,84,"Air conditioners, window or wall type, grade A","Air conditioners, window or wall type",Air conditioners A,机械,mesin,9.5,20,pieces,38.0,12000,CHN|MYS|JPN|KOR|IND,0.04,10.0,0,84151004,10.4025
+84151002,841510,84,"Air conditioners, window or wall type, grade B","Air conditioners, window or wall type",Air conditioners B,机械,mesin,7.6,20,pieces,38.0,12000,CHN|MYS|JPN|KOR|IND,0.04,10.0,0,,8.322
+84151003,841510,84,"Air conditioners, window or wall type, other","Air conditioners, window or wall type",Air conditioners C,机械,mesin,5.7,20,pieces,38.0,12000,CHN|MYS|JPN|KOR|IND,0.04,10.0,0,,6.2415
+84151004,841510,84,"Air conditioners, window or wall type, bulk packed","Air conditioners, window or wall type",Air conditioners X,机械,mesin,6.65,12,pieces,38.0,12000,CHN|MYS|JPN|KOR|IND,0.04,10.0,0,,7.2818
+84182101,841821,84,"Compression-type household refrigerators, grade A",Compression-type household refrigerators,Refrigerators A,机械,mesin,6.5,20,pieces,55.0,15000,CHN|KOR|IDN|TUR|MYS,0.04,10.0,0,84182104,7.1175
+84182102,841821,84,"Compression-type household refrigerators, grade B",Compression-type household refrigerators,Refrigerators B,机械,mesin,5.2,20,pieces,55.0,15000,CHN|KOR|IDN|TUR|MYS,0.04,10.0,0,,5.694
+84182103,841821,84,"Compression-type household refrigerators, other",Compression-type household refrigerators,Refrigerators C,机械,mesin,3.9,20,pieces,55.0,15000,CHN|KOR|IDN|TUR|MYS,0.04,10.0,0,,4.2705
+84182104,841821,84,"Compression-type household refrigerators, bulk packed",Compression-type household refrigerators,Refrigerators X,机械,mesin,4.55,12,pieces,55.0,15000,CHN|KOR|IDN|TUR|MYS,0.04,10.0,0,,4.9822
+84713001,847130,84,"Portable computers, grade A",Portable computers,Laptops A,机械,mesin,180.0,0,pieces,1.8,1500,CHN|TWN|USA|KOR|JPN,0.04,10.0,0,,197.1
+84713002,847130,84,"Portable computers, grade B",Portable computers,Laptops B,机械,mesin,144.0,0,pieces,1.8,1500,CHN|TWN|USA|KOR|JPN,0.04,10.0,0,,157.68
+84713003,847130,84,"Portable computers, other",Portable computers,Laptops C,机械,mesin,108.0,0,pieces,1.8,1500,CHN|TWN|USA|KOR|JPN,0.04,10.0,0,,118.26
+84713004,847130,84,"Portable computers, bulk packed",Portable computers,Laptops X,机械,mesin,126.0,0,pieces,1.8,1500,CHN|TWN|USA|KOR|JPN,0.04,10.0,0,,137.97
+84314901,843149,84,"Parts of machinery of 84.26, 84.29 or 84.30, grade A","Parts of machinery of 84.26, 84.29 or 84.30",Machinery parts A,机械,mesin,12.0,5,kg,,5000,CHN|JPN|KOR|DEU|USA,0.04,10.0,0,84314904,13.14
+84314902,843149,84,"Parts of machinery of 84.26, 84.29 or 84.30, grade B","Parts of machinery of 84.26, 84.29 or 84.30",Machinery parts B,机械,mesin,9.6,5,kg,,5000,CHN|JPN|KOR|DEU|USA,0.04,10.0,0,,10.512
+84314903,843149,84,"Parts of machinery of 84.26, 84.29 or 84.30, other","Parts of machinery of 84.26, 84.29 or 84.30",Machinery parts C,机械,mesin,7.2,5,kg,,5000,CHN|JPN|KOR|DEU|USA,0.04,10.0,0,,7.884
+84314904,843149,84,"Parts of machinery of 84.26, 84.29 or 84.30, bulk packed","Parts of machinery of 84.26, 84.29 or 84.30",Machinery parts X,机械,mesin,8.4,0,kg,,5000,CHN|JPN|KOR|DEU|USA,0.04,10.0,0,,9.198
+84501101,845011,84,"Fully automatic washing machines, grade A",Fully automatic washing machines,Washing machines A,机械,mesin,5.8,20,pieces,60.0,15000,CHN|KOR|TUR|IDN|JPN,0.04,10.0,0,84501104,6.351
+84501102,845011,84,"Fully automatic washing machines, grade B",Fully automatic washing machines,Washing machines B,机械,mesin,4.64,20,pieces,60.0,15000,CHN|KOR|TUR|IDN|JPN,0.04,10.0,0,,5.0808
+84501103,845011,84,"Fully automatic washing machines, other",Fully automatic washing machines,Washing machines C,机械,mesin,3.48,20,pieces,60.0,15000,CHN|KOR|TUR|IDN|JPN,0.04,10.0,0,,3.8106
+84501104,845011,84,"Fully automatic washing machines, bulk packed",Fully automatic washing machines,Washing machines X,机械,mesin,4.06,12,pieces,60.0,15000,CHN|KOR|TUR|IDN|JPN,0.04,10.0,0,,4.4457
+85171301,851713,85,"Smartphones, grade A",Smartphones,Smartphones A,电子产品,elektronik,300.0,5,pieces,0.18,400,CHN|KOR|IND|IDN|TWN,0.03,10.0,1,85171304,328.5
+85171302,851713,85,"Smartphones, grade B",Smartphones,Smartphones B,电子产品,elektronik,240.0,5,pieces,0.18,400,CHN|KOR|IND|IDN|TWN,0.03,10.0,1,,262.8
+85171303,851713,85,"Smartphones, other",Smartphones,Smartphones C,电子产品,elektronik,180.0,5,pieces,0.18,400,CHN|KOR|IND|IDN|TWN,0.03,10.0,1,,197.1
+85171304,851713,85,"Smartphones, bulk packed",Smartphones,Smartphones X,电子产品,elektronik,210.0,0,pieces,0.18,400,CHN|KOR|IND|IDN|TWN,0.03,10.0,1,,229.95
+85171401,851714,85,"Other telephones for cellular networks, grade A",Other telephones for cellular networks,Feature phones A,电子产品,elektronik,60.0,5,pieces,0.1,600,CHN|IND|IDN,0.03,10.0,1,85171404,65.7
+85171402,851714,85,"Other telephones for cellular networks, grade B",Other telephones for cellular networks,Feature phones B,电子产品,elektronik,48.0,5,pieces,0.1,600,CHN|IND|IDN,0.03,10.0,1,,52.56
+85171403,851714,85,"Other telephones for cellular networks, other",Other telephones for cellular networks,Feature phones C,电子产品,elektronik,36.0,5,pieces,0.1,600,CHN|IND|IDN,0.03,10.0,1,,39.42
+85171404,851714,85,"Other telephones for cellular networks, bulk packed",Other telephones for cellular networks,Feature phones X,电子产品,elektronik,42.0,0,pieces,0.1,600,CHN|IND|IDN,0.03,10.0,1,,45.99
+85395201,853952,85,"Light-emitting diode (LED) lamps, grade A",Light-emitting diode (LED) lamps,LED lamps A,电子产品,elektronik,14.0,20,pieces,0.12,2500,CHN|IDN|MYS|IND|KOR,0.03,10.0,1,85395204,15.33
+85395202,853952,85,"Light-emitting diode (LED) lamps, grade B",Light-emitting diode (LED) lamps,LED lamps B,电子产品,elektronik,11.2,20,pieces,0.12,2500,CHN|IDN|MYS|IND|KOR,0.03,10.0,1,,12.264
+85395203,853952,85,"Light-emitting diode (LED) lamps, other",Light-emitting diode (LED) lamps,LED lamps C,电子产品,elektronik,8.4,20,pieces,0.12,2500,CHN|IDN|MYS|IND|KOR,0.03,10.0,1,,9.198
+85395204,853952,85,"Light-emitting diode (LED) lamps, bulk packed",Light-emitting diode (LED) lamps,LED lamps X,电子产品,elektronik,9.8,12,pieces,0.12,2500,CHN|IDN|MYS|IND|KOR,0.03,10.0,1,,10.731
+85414301,854143,85,"Photovoltaic cells assembled in modules, grade A",Photovoltaic cells assembled in modules,Solar panels A,电子产品,elektronik,4.0,0,pieces,22.0,20000,CHN|MYS|IND|KOR|SGP,0.03,10.0,1,,4.38
+85414302,854143,85,"Photovoltaic cells assembled in modules, grade B",Photovoltaic cells assembled in modules,Solar panels B,电子产品,elektronik,3.2,0,pieces,22.0,20000,CHN|MYS|IND|KOR|SGP,0.03,10.0,1,,3.504
+85414303,854143,85,"Photovoltaic cells assembled in modules, other",Photovoltaic cells assembled in modules,Solar panels C,电子产品,elektronik,2.4,0,pieces,22.0,20000,CHN|MYS|IND|KOR|SGP,0.03,10.0,1,,2.628
+85414304,854143,85,"Photovoltaic cells assembled in modules, bulk packed",Photovoltaic cells assembled in modules,Solar panels X,电子产品,elektronik,2.8,0,pieces,22.0,20000,CHN|MYS|IND|KOR|SGP,0.03,10.0,1,,3.066
+85076001,850760,85,"Lithium-ion accumulators, grade A",Lithium-ion accumulators,Li-ion batteries A,电子产品,elektronik,24.0,10,pieces,1.2,4000,CHN|KOR|JPN|IDN|DEU,0.03,10.0,1,85076004,26.28
+85076002,850760,85,"Lithium-ion accumulators, grade B",Lithium-ion accumulators,Li-ion batteries B,电子产品,elektronik,19.2,10,pieces,1.2,4000,CHN|KOR|JPN|IDN|DEU,0.03,10.0,1,,21.024
+85076003,850760,85,"Lithium-ion accumulators, other",Lithium-ion accumulators,Li-ion batteries C,电子产品,elektronik,14.4,10,pieces,1.2,4000,CHN|KOR|JPN|IDN|DEU,0.03,10.0,1,,15.768
+85076004,850760,85,"Lithium-ion accumulators, bulk packed",Lithium-ion accumulators,Li-ion batteries X,电子产品,elektronik,16.8,2,pieces,1.2,4000,CHN|KOR|JPN|IDN|DEU,0.03,10.0,1,,18.396
+87032301,870323,87,"Cars, spark-ignition, 1,500-3,000 cc, grade A","Cars, spark-ignition, 1,500-3,000 cc",Cars 1.5-3.0 l A,汽车零件,suku cadang mobil,10.5,30,pieces,1450.0,60000,JPN|KOR|DEU|IND|IDN|CHN,0.06,10.0,1,87032304,11.4975
+87032302,870323,87,"Cars, spark-ignition, 1,500-3,000 cc, grade B","Cars, spark-ignition, 1,500-3,000 cc",Cars 1.5-3.0 l B,汽车零件,suku cadang mobil,8.4,30,pieces,1450.0,60000,JPN|KOR|DEU|IND|IDN|CHN,0.06,10.0,1,,9.198
+87032303,870323,87,"Cars, spark-ignition, 1,500-3,000 cc, other","Cars, spark-ignition, 1,500-3,000 cc",Cars 1.5-3.0 l C,汽车零件,suku cadang mobil,6.3,30,pieces,1450.0,60000,JPN|KOR|DEU|IND|IDN|CHN,0.06,10.0,1,,6.8985
+87032304,870323,87,"Cars, spark-ignition, 1,500-3,000 cc, bulk packed","Cars, spark-ignition, 1,500-3,000 cc",Cars 1.5-3.0 l X,汽车零件,suku cadang mobil,7.35,22,pieces,1450.0,60000,JPN|KOR|DEU|IND|IDN|CHN,0.06,10.0,1,,8.0482
+87089901,870899,87,"Other parts and accessories of motor vehicles, grade A",Other parts and accessories of motor vehicles,Vehicle parts A,汽车零件,suku cadang mobil,7.5,15,kg,,5000,JPN|CHN|KOR|DEU|IND|IDN,0.06,10.0,1,87089904,8.2125
+87089902,870899,87,"Other parts and accessories of motor vehicles, grade B",Other parts and accessories of motor vehicles,Vehicle parts B,汽车零件,suku cadang mobil,6.0,15,kg,,5000,JPN|CHN|KOR|DEU|IND|IDN,0.06,10.0,1,,6.57
+87089903,870899,87,"Other parts and accessories of motor vehicles, other",Other parts and accessories of motor vehicles,Vehicle parts C,汽车零件,suku cadang mobil,4.5,15,kg,,5000,JPN|CHN|KOR|DEU|IND|IDN,0.06,10.0,1,,4.9275
+87089904,870899,87,"Other parts and accessories of motor vehicles, bulk packed",Other parts and accessories of motor vehicles,Vehicle parts X,汽车零件,suku cadang mobil,5.25,7,kg,,5000,JPN|CHN|KOR|DEU|IND|IDN,0.06,10.0,1,,5.7488
+87112001,871120,87,"Motorcycles, 50-250 cc, grade A","Motorcycles, 50-250 cc",Motorcycles A,汽车零件,suku cadang mobil,5.2,30,pieces,120.0,15000,IND|CHN|IDN|JPN,0.06,10.0,1,87112004,5.694
+87112002,871120,87,"Motorcycles, 50-250 cc, grade B","Motorcycles, 50-250 cc",Motorcycles B,汽车零件,suku cadang mobil,4.16,30,pieces,120.0,15000,IND|CHN|IDN|JPN,0.06,10.0,1,,4.5552
+87112003,871120,87,"Motorcycles, 50-250 cc, other","Motorcycles, 50-250 cc",Motorcycles C,汽车零件,suku cadang mobil,3.12,30,pieces,120.0,15000,IND|CHN|IDN|JPN,0.06,10.0,1,,3.4164
+87112004,871120,87,"Motorcycles, 50-250 cc, bulk packed","Motorcycles, 50-250 cc",Motorcycles X,汽车零件,suku cadang mobil,3.64,22,pieces,120.0,15000,IND|CHN|IDN|JPN,0.06,10.0,1,,3.9858
+87120001,871200,87,"Bicycles, grade A",Bicycles,Bicycles A,汽车零件,suku cadang mobil,8.0,25,pieces,14.0,6000,CHN|IDN|MYS|TWN|IND,0.06,10.0,1,87120004,8.76
+87120002,871200,87,"Bicycles, grade B",Bicycles,Bicycles B,汽车零件,suku cadang mobil,6.4,25,pieces,14.0,6000,CHN|IDN|MYS|TWN|IND,0.06,10.0,1,,7.008
+87120003,871200,87,"Bicycles, other",Bicycles,Bicycles C,汽车零件,suku cadang mobil,4.8,25,pieces,14.0,6000,CHN|IDN|MYS|TWN|IND,0.06,10.0,1,,5.256
+87120004,871200,87,"Bicycles, bulk packed",Bicycles,Bicycles X,汽车零件,suku cadang mobil,5.6,17,pieces,14.0,6000,CHN|IDN|MYS|TWN|IND,0.06,10.0,1,,6.132
+87087001,870870,87,"Road wheels and parts for motor vehicles, grade A",Road wheels and parts for motor vehicles,Road wheels A,汽车零件,suku cadang mobil,6.0,15,kg,,5000,CHN|JPN|IND|KOR|TUR,0.06,10.0,1,87087004,6.57
+87087002,870870,87,"Road wheels and parts for motor vehicles, grade B",Road wheels and parts for motor vehicles,Road wheels B,汽车零件,suku cadang mobil,4.8,15,kg,,5000,CHN|JPN|IND|KOR|TUR,0.06,10.0,1,,5.256
+87087003,870870,87,"Road wheels and parts for motor vehicles, other",Road wheels and parts for motor vehicles,Road wheels C,汽车零件,suku cadang mobil,3.6,15,kg,,5000,CHN|JPN|IND|KOR|TUR,0.06,10.0,1,,3.942
+87087004,870870,87,"Road wheels and parts for motor vehicles, bulk packed",Road wheels and parts for motor vehicles,Road wheels X,汽车零件,suku cadang mobil,4.2,7,kg,,5000,CHN|JPN|IND|KOR|TUR,0.06,10.0,1,,4.599
+94016101,940161,94,"Upholstered seats with wooden frames, grade A",Upholstered seats with wooden frames,Upholstered seats A,家具,perabot,5.5,25,pieces,18.0,8000,CHN|IDN|MYS|ITA|POL,0.08,10.0,0,94016104,6.0225
+94016102,940161,94,"Upholstered seats with wooden frames, grade B",Upholstered seats with wooden frames,Upholstered seats B,家具,perabot,4.4,25,pieces,18.0,8000,CHN|IDN|MYS|ITA|POL,0.08,10.0,0,,4.818
+94016103,940161,94,"Upholstered seats with wooden frames, other",Upholstered seats with wooden frames,Upholstered seats C,家具,perabot,3.3,25,pieces,18.0,8000,CHN|IDN|MYS|ITA|POL,0.08,10.0,0,,3.6135
+94016104,940161,94,"Upholstered seats with wooden frames, bulk packed",Upholstered seats with wooden frames,Upholstered seats X,家具,perabot,3.85,17,pieces,18.0,8000,CHN|IDN|MYS|ITA|POL,0.08,10.0,0,,4.2158
+94036001,940360,94,"Other wooden furniture, grade A",Other wooden furniture,Wooden furniture A,家具,perabot,3.5,25,pieces,30.0,10000,CHN|MYS|IDN|POL|ITA,0.08,10.0,0,94036004,3.8325
+94036002,940360,94,"Other wooden furniture, grade B",Other wooden furniture,Wooden furniture B,家具,perabot,2.8,25,pieces,30.0,10000,CHN|MYS|IDN|POL|ITA,0.08,10.0,0,,3.066
+94036003,940360,94,"Other wooden furniture, other",Other wooden furniture,Wooden furniture C,家具,perabot,2.1,25,pieces,30.0,10000,CHN|MYS|IDN|POL|ITA,0.08,10.0,0,,2.2995
+94036004,940360,94,"Other wooden furniture, bulk packed",Other wooden furniture,Wooden furniture X,家具,perabot,2.45,17,pieces,30.0,10000,CHN|MYS|IDN|POL|ITA,0.08,10.0,0,,2.6828
+94032001,940320,94,"Other metal furniture, grade A",Other metal furniture,Metal furniture A,家具,perabot,3.2,25,pieces,25.0,10000,CHN|MYS|TUR|IND,0.08,10.0,0,94032004,3.504
+94032002,940320,94,"Other metal furniture, grade B",Other metal furniture,Metal furniture B,家具,perabot,2.56,25,pieces,25.0,10000,CHN|MYS|TUR|IND,0.08,10.0,0,,2.8032
+94032003,940320,94,"Other metal furniture, other",Other metal furniture,Metal furniture C,家具,perabot,1.92,25,pieces,25.0,10000,CHN|MYS|TUR|IND,0.08,10.0,0,,2.1024
+94032004,940320,94,"Other metal furniture, bulk packed",Other metal furniture,Metal furniture X,家具,perabot,2.24,17,pieces,25.0,10000,CHN|MYS|TUR|IND,0.08,10.0,0,,2.4528
+94054001,940540,94,"Other electric lamps and lighting fittings, grade A",Other electric lamps and lighting fittings,Lighting fittings A,家具,perabot,9.0,20,pieces,1.5,3000,CHN|IDN|TUR|DEU,0.08,10.0,0,94054004,9.855
+94054002,940540,94,"Other electric lamps and lighting fittings, grade B",Other electric lamps and lighting fittings,Lighting fittings B,家具,perabot,7.2,20,pieces,1.5,3000,CHN|IDN|TUR|DEU,0.08,10.0,0,,7.884
+94054003,940540,94,"Other electric lamps and lighting fittings, other",Other electric lamps and lighting fittings,Lighting fittings C,家具,perabot,5.4,20,pieces,1.5,3000,CHN|IDN|TUR|DEU,0.08,10.0,0,,5.913
+94054004,940540,94,"Other electric lamps and lighting fittings, bulk packed",Other electric lamps and lighting fittings,Lighting fittings X,家具,perabot,6.3,12,pieces,1.5,3000,CHN|IDN|TUR|DEU,0.08,10.0,0,,6.8985
+94042901,940429,94,"Mattresses of other materials, grade A",Mattresses of other materials,Mattresses A,家具,perabot,3.8,25,pieces,25.0,8000,CHN|MYS|IDN|TUR,0.08,10.0,0,94042904,4.161
+94042902,940429,94,"Mattresses of other materials, grade B",Mattresses of other materials,Mattresses B,家具,perabot,3.04,25,pieces,25.0,8000,CHN|MYS|IDN|TUR,0.08,10.0,0,,3.3288
+94042903,940429,94,"Mattresses of other materials, other",Mattresses of other materials,Mattresses C,家具,perabot,2.28,25,pieces,25.0,8000,CHN|MYS|IDN|TUR,0.08,10.0,0,,2.4966
+94042904,940429,94,"Mattresses of other materials, bulk packed",Mattresses of other materials,Mattresses X,家具,perabot,2.66,17,pieces,25.0,8000,CHN|MYS|IDN|TUR,0.08,10.0,0,,2.9127

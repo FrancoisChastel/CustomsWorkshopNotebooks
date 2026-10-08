@@ -1,41 +1,81 @@
 broker_id,name,licence_date,size_band
-B101,Swift Summit Customs Brokerage,2017-03-03,S
-B102,Harbour Evergreen Customs Brokerage,2016-10-23,M
-B103,Gateway Silver Customs Brokerage,2015-12-17,S
-B104,Clearway Lucky Customs Brokerage,2022-09-30,S
-B105,Anchor Lakeside Customs Brokerage,2011-03-31,S
-B106,Frontier Bright Customs Brokerage,2019-07-09,S
-B107,Compass Lantern Customs Brokerage,2020-06-14,S
-B108,Bridge Bamboo Customs Brokerage,2017-02-02,M
-B109,Keystone Summit Customs Brokerage,2010-01-13,S
-B110,Pioneer Orchid Customs Brokerage,2023-05-10,M
-B111,Swift Lucky Customs Brokerage,2019-10-19,L
-B112,Harbour Pacific Customs Brokerage,2010-02-21,S
-B113,Gateway Royal Customs Brokerage,2013-09-02,S
-B114,Clearway Green Valley Customs Brokerage,2012-02-18,S
-B115,Anchor Blue River Customs Brokerage,2023-07-11,L
-B116,Frontier Saffron Customs Brokerage,2021-04-16,M
-B117,Compass Star Customs Brokerage,2010-04-18,M
-B118,Bridge Summit Customs Brokerage,2011-05-19,S
-B119,Keystone Twin Rivers Customs Brokerage,2011-05-14,M
-B120,Pioneer Lakeside Customs Brokerage,2008-08-25,L
-B121,Swift Pacific Customs Brokerage,2023-11-08,S
-B122,Harbour Green Valley Customs Brokerage,2008-01-01,M
-B123,Gateway Summit Customs Brokerage,2012-06-27,S
-B124,Clearway Prime Customs Brokerage,2015-09-19,S
-B125,Anchor Green Valley Customs Brokerage,2016-08-23,S
-B126,Frontier Crystal Customs Brokerage,2014-02-01,M
-B127,Compass Sunrise Customs Brokerage,2012-12-24,S
-B128,Bridge Pacific Customs Brokerage,2023-12-19,M
-B129,Keystone Pearl Customs Brokerage,2017-05-31,M
-B130,Pioneer Silver Customs Brokerage,2017-05-26,S
-B131,Swift Prime Customs Brokerage,2019-12-03,M
-B132,Harbour Silk Road Customs Brokerage,2017-02-17,M
-B133,Gateway Saffron Customs Brokerage,2020-09-07,M
-B134,Clearway Twin Rivers Customs Brokerage,2023-05-28,M
-B135,Anchor Lucky Customs Brokerage,2016-04-02,S
-B136,Frontier Saffron Customs Brokerage,2012-08-09,S
-B137,Compass Evergreen Customs Brokerage,2021-11-10,S
-B138,Bridge Summit Customs Brokerage,2010-07-12,S
-B139,Keystone Evergreen Customs Brokerage,2009-05-30,S
-B140,Pioneer Lakeside Customs Brokerage,2014-12-03,S
+BRK001,Coral Customs Agents Ltd,2012-11-06,L
+BRK002,Golden Customs Clearing Ltd,2016-02-18,M
+BRK003,Golden Customs Clearing Ltd,2017-02-18,S
+BRK004,Twin Rivers Customs Agents Ltd,2020-12-22,S
+BRK005,Twin Rivers Customs Brokers Ltd,2008-12-07,S
+BRK006,Dunmore Customs Forwarding Ltd,2011-11-09,S
+BRK007,Orchid Customs Clearing Ltd,2024-01-24,L
+BRK008,Inverness Customs Clearing Ltd,2009-12-31,M
+BRK009,Great Wall Customs Forwarding Ltd,2011-11-09,M
+BRK010,Pacific Customs Agents Ltd,2009-01-07,M
+BRK011,Northern Customs Clearing Ltd,2023-11-18,S
+BRK012,Cobalt Customs Agents Ltd,2009-06-25,S
+BRK013,Saffron Customs Brokers Ltd,2009-11-05,S
+BRK014,Carrick Customs Clearing Ltd,2012-10-12,M
+BRK015,Central Customs Agents Ltd,2020-11-07,S
+BRK016,Arden Customs Brokers Ltd,2011-01-02,S
+BRK017,Royal Customs Clearing Ltd,2023-12-22,M
+BRK018,Green Valley Customs Brokers Ltd,2013-10-15,M
+BRK019,Eastern Customs Brokers Ltd,2008-07-23,M
+BRK020,Pacific Customs Clearing Ltd,2012-10-24,M
+BRK021,Prime Customs Clearing Ltd,2020-03-26,M
+BRK022,Dunmore Customs Clearing Ltd,2014-03-24,S
+BRK023,Delta Customs Clearing Ltd,2012-12-12,S
+BRK024,Lotus Customs Forwarding Ltd,2012-08-28,S
+BRK025,Star Customs Agents Ltd,2019-08-28,M
+BRK026,Twin Rivers Customs Clearing Ltd,2023-09-11,M
+BRK027,Royal Customs Agents Ltd,2019-04-24,S
+BRK028,Blue Ocean Customs Clearing Ltd,2008-01-01,S
+BRK029,Green Valley Customs Agents Ltd,2008-01-14,M
+BRK030,Delta Customs Brokers Ltd,2008-06-06,M
+BRK031,Aldergate Customs Clearing Ltd,2018-03-24,M
+BRK032,Silk Road Customs Forwarding Ltd,2011-05-09,M
+BRK033,Phoenix Customs Forwarding Ltd,2019-02-11,L
+BRK034,Jade Customs Forwarding Ltd,2019-04-24,S
+BRK035,Ocean Customs Clearing Ltd,2018-07-03,M
+BRK036,Green Valley Customs Forwarding Ltd,2022-10-20,S
+BRK037,Sunrise Customs Forwarding Ltd,2013-07-05,S
+BRK038,Royal Customs Clearing Ltd,2015-03-17,S
+BRK039,Phoenix Customs Clearing Ltd,2016-12-06,S
+BRK040,Meridian Customs Forwarding Ltd,2016-01-03,S
+BRK041,Dunmore Customs Forwarding Ltd,2019-10-29,M
+BRK042,Prime Customs Clearing Ltd,2011-05-03,S
+BRK043,Global Customs Agents Ltd,2014-12-27,M
+BRK044,Inverness Customs Brokers Ltd,2020-06-13,L
+BRK045,Twin Rivers Customs Clearing Ltd,2015-05-08,L
+BRK046,Twin Rivers Customs Brokers Ltd,2019-01-15,S
+BRK047,Dunmore Customs Agents Ltd,2013-08-14,S
+BRK048,Harmony Customs Brokers Ltd,2022-05-29,S
+BRK049,Jade Customs Brokers Ltd,2013-08-16,S
+BRK050,Orchid Customs Brokers Ltd,2016-05-01,S
+BRK051,Dunmore Customs Clearing Ltd,2008-09-01,M
+BRK052,Blue Ocean Customs Brokers Ltd,2023-01-02,S
+BRK053,Green Valley Customs Agents Ltd,2010-12-07,L
+BRK054,Delta Customs Brokers Ltd,2011-05-19,S
+BRK055,Crown Customs Clearing Ltd,2012-03-21,M
+BRK056,Blue Ocean Customs Clearing Ltd,2023-03-01,M
+BRK057,Phoenix Customs Brokers Ltd,2012-02-28,S
+BRK058,Silver Customs Clearing Ltd,2008-04-28,S
+BRK059,Global Customs Forwarding Ltd,2008-06-12,M
+BRK060,Jade Customs Brokers Ltd,2012-04-17,M
+BRK061,Orchid Customs Forwarding Ltd,2019-10-01,S
+BRK062,Jade Customs Forwarding Ltd,2009-01-05,M
+BRK063,Carrick Customs Clearing Ltd,2011-04-26,S
+BRK064,Great Wall Customs Agents Ltd,2021-07-06,L
+BRK065,Jade Customs Clearing Ltd,2018-01-01,S
+BRK066,Cobalt Customs Agents Ltd,2019-12-30,M
+BRK067,Carrick Customs Brokers Ltd,2011-10-12,S
+BRK068,Blue Ocean Customs Forwarding Ltd,2020-12-23,S
+BRK069,Golden Customs Clearing Ltd,2022-08-15,S
+BRK070,Twin Rivers Customs Agents Ltd,2022-06-10,M
+BRK071,Crown Customs Brokers Ltd,2015-01-01,M
+BRK072,Lotus Customs Agents Ltd,2008-08-28,L
+BRK073,Inverness Customs Brokers Ltd,2012-12-29,L
+BRK074,Central Customs Forwarding Ltd,2012-01-10,S
+BRK075,Jade Customs Forwarding Ltd,2011-08-15,S
+BRK076,Crown Customs Agents Ltd,2021-11-11,S
+BRK077,Northern Customs Brokers Ltd,2009-03-22,S
+BRK078,Inverness Customs Agents Ltd,2017-10-12,S
+BRK079,Twin Rivers Customs Clearing Ltd,2023-09-25,M
+BRK080,Silver Customs Brokers Ltd,2013-01-02,S

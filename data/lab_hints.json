@@ -1,26 +1,34 @@
 {
  "1b.look.units": {
-  "topic": "check that the weight agrees with the quantity and its unit",
+  "topic": "check that the quantity, its unit and the weight agree before any price",
   "hints": [
    "Compare what the quantity says with what the scale says.",
    "Work out the weight each line should have from its quantity and unit, then divide the declared weight by it.",
-   "Filter unit = tonnes and look for net_weight_kg more than five times quantity x 1,000."
+   "Join the tariff on hs8, compare unit with the code's unit, and look at net_kg / (quantity x kg_per_unit)."
+  ]
+ },
+ "1b.look.data_clean": {
+  "topic": "check the six fields that decide whether anything downstream can be computed",
+  "hints": [
+   "Six fields decide whether the rest is computable.",
+   "Count blanks and impossible values in each of the six fields.",
+   "tin_customs blank share; unit against tariff; description near-empty; outcome null share by half."
   ]
  },
  "1b.signals.peer_group": {
-  "topic": "compare with the typical value for the same goods from the same origin; widen the group when it has too few lines",
+  "topic": "compare with the typical value for the same goods from the same origin over the last 12 months; widen the group when it has too few lines",
   "hints": [
    "Some goods and origins are too rare to have a fair comparison group.",
    "For each line count the peers at each level and note the first level with enough lines.",
-   "For each worksheet line compute ratio_to_peers at level 1 and at level 3; look for a line with no level-1 peers that is clearly low at level 3."
+   "Use peer_level_used and peer_n_used; the deck's cell is the phone code from the biggest origin over the last twelve months."
   ]
  },
  "1b.signals.price": {
   "topic": "compare value per kilo with the typical value for the same goods and origin, using the median not the average",
   "hints": [
    "Look for importers who are low again and again, not once.",
-   "Compute each line's ratio to the typical value and the share of each importer's lines below a cut-off.",
-   "Share of lines with ratio_to_peers under 0.70 per trader_id, among lines that have peers (15 lines or more), sorted descending."
+   "Compute each line's distance from the typical value and the share of each importer's lines beyond the cut.",
+   "Share of lines with robust_z below minus three per importer_id, among importers with fifteen lines or more; read the discount importer as the decoy."
   ]
  },
  "1b.signals.tenure": {
@@ -28,31 +36,31 @@
   "hints": [
    "Newcomers that grow very fast deserve a second look.",
    "Compute months since registration and the 12-month import value for every importer.",
-   "Filter months_registered < 12 and sort by import_value_12m."
+   "Filter tenure_months below twelve and sort by value_12m_lcu."
   ]
  },
  "1b.signals.code_drift": {
-  "topic": "watch the share of an importer's lines that move to a cheaper neighbouring code, quarter after quarter",
+  "topic": "watch the share of an importer's lines that move to the cheapest code of a heading, month after month",
   "hints": [
-   "Some importers change their habits slowly.",
-   "For each importer, compare this quarter's share of lines under cheaper neighbouring codes with the four quarters before.",
-   "Use tariff.duty_cliff_neighbour; sort traders by trend_points, then check change_points (this quarter minus the previous four)."
+   "Some importers change their habits slowly, and a broker can be the hand that moves them.",
+   "For each importer and broker, compare the recent share of lines under the cheapest code with the share before.",
+   "Sort importer-broker pairs by code_drift_score; the pair that tops the list did it over the first half's second quarter."
   ]
  },
  "1b.signals.description": {
   "topic": "read the goods description and ask which code it really sounds like",
   "hints": [
    "The words on the declaration can disagree with the code.",
-   "Train a reader on descriptions and codes, then score each line for 'sounds like a dearer code'.",
-   "Sort by p_higher_duty_code; read the top 20 descriptions against their declared codes. Descriptions too vague to read ('parts', 'goods') score 0 and are a list of their own."
+   "Score each line for 'sounds like another code' and read the top lines against their declared codes.",
+   "Sort by text_code_disagreement with text_higher_duty; then group the disagreements by office to see the data-quality office."
   ]
  },
  "1b.signals.origin": {
-  "topic": "check that the claimed origin actually makes the goods, and how many importers each seller serves",
+  "topic": "check that the claimed origin makes the goods, and how many importers each seller serves",
   "hints": [
    "A preference needs an origin that can make the goods.",
    "Flag preference claims from origins that do not produce the goods, then count importers per seller.",
-   "Compare origin_country with tariff.origin_producers; group the doubtful claims by exporter_id."
+   "Compare origin with tariff.origin_producers; group the doubtful claims by exporter_id; watch exporter_importers_12m."
   ]
  },
  "1b.signals.history": {
@@ -60,15 +68,15 @@
   "hints": [
    "How often does an importer change its mind?",
    "Compute the share of each importer's lines amended or withdrawn.",
-   "Leave out lines amended after an inspection finding; group by trader_id; share of status in (amended, withdrawn); sort descending."
+   "Leave out lines amended after a finding; group by importer_id; sort."
   ]
  },
  "1b.ladder.rule": {
-  "topic": "rule: inspect the lines in the bottom 10% of value against peers",
+  "topic": "rule: inspect the lines priced below the old reference",
   "hints": [
    "The simplest rule is a price cut-off.",
-   "Rank the twenty lines by how far below peers they sit.",
-   "Sort by signal_price; look at the top eight."
+   "Write the rule, count what it flags, and read the outcome only on the random draw.",
+   "Apply R2 to months 19-36 random lines; precision falls below 15%: the reference is stale."
   ]
  },
  "1b.ladder.distance": {
@@ -76,23 +84,31 @@
   "hints": [
    "A line can be normal for everyone else and odd for this importer.",
    "Compute the distance of each line from the importer's own typical value for the same goods.",
-   "Own-history z for lines from April 2026 against the same importer's earlier lines in the same code; keep lines at 0.8-1.25 of peers and sort by z, lowest first."
+   "Own-history z for lines from month twenty-nine against the same importer's earlier lines in the same code; keep lines near the peer median and sort by z, lowest first."
   ]
  },
  "1b.ladder.oddness": {
-  "topic": "an oddness score that looks at all signals together, with the three that drove each line",
+  "topic": "an oddness score that looks at all signals together",
   "hints": [
    "A line that is a little odd on two counts can matter more than one very odd on one.",
-   "Score all signals together and read the three reasons for the top lines.",
-   "Score the three signals together against all import lines; among the top three, look for a line with two moderate signals rather than one strong one."
+   "Score all signals together and read the top lines.",
+   "Sort by oddness_score; compare with the single-signal rankings."
   ]
  },
  "1b.ladder.learning": {
   "topic": "a score learned from past inspection results",
   "hints": [
    "A model only learns from the lines someone chose to inspect.",
-   "Train on inspected lines, compare hit rates at the same budget, then retrain without the random sample.",
-   "Compare hit_rate_at_budget for rules, random and the model; repeat without random_sample rows."
+   "Train on controlled lines, compare hit rates at the same budget on the random draw, then retrain on red-lane lines only.",
+   "Use learned_score and learned_score_red_only on random_draw = 1 lines of months 19-36; top 5% by each; read the hit rate."
+  ]
+ },
+ "1b.ladder.expiry": {
+  "topic": "watch a rule's hit rate month by month after it was written",
+  "hints": [
+   "A rule ages.",
+   "Compute the hit rate of the rule for each month of the second half, on the random draw only.",
+   "Group random-draw lines by period_month; compare months nineteen to twenty-four with thirty-one to thirty-six."
   ]
  },
  "1b.newidea.clustering": {
@@ -108,15 +124,15 @@
   "hints": [
    "An importer can drift while its peers stay put.",
    "Build each importer's band from its earlier months and flag months below it.",
-   "Find the first month below the band from 2026 on; overlay the reference median to tell an importer's drop from a market's drop."
+   "Find the first month below the band in the last year; overlay the reference median to tell an importer's drop from a market's drop."
   ]
  },
  "1b.exercise": {
-  "topic": "weigh the three signals, rank the twenty lines, pick five with a reason each",
+  "topic": "weigh the signals, rank the twenty lines, pick five with a reason each",
   "hints": [
    "Not every low price is a finding.",
-   "Weigh price, description and origin, then check each pick for a units or own-history explanation.",
-   "Price alone catches two decoys; add description and origin weight, then drop the unit error and the discount."
+   "Weigh price, description, weight and origin, then check each pick for a units or own-history explanation.",
+   "Price alone catches the two decoys; add description and weight, then drop the wrong unit and the discount."
   ]
  },
  "2b.valuation.neighbours": {
@@ -132,39 +148,39 @@
   "hints": [
    "The partner's books are a second witness.",
    "Add shipping-and-insurance to the partner's exports, then add back timing and hub goods to what home recorded.",
-   "Chapter 17, Thailand, 2025: 120.0 x 1.08 = 129.6; 70.0 + 6.0 + 12.0 = 88.0."
+   "Chapter thirty-nine from the first partner, latest year: the wedge is eight percent."
   ]
  },
  "2b.mirror.regional_uv": {
-  "topic": "compare the price Country A pays with the regional median for the same goods from the same seller",
+  "topic": "compare the price Country A pays with the regional median for the same goods from the same seller, on two rulers",
   "hints": [
    "Neighbours buy the same goods from the same sellers.",
-   "Divide Country A's value per kilo by the median of the ten importers for the same goods, seller and year.",
-   "uv_ratio for importer = Country A below 0.70; check weight_coverage."
+   "Divide Country A's value per kilo by the median of the ten importers for the same goods, seller and year, on each ruler.",
+   "uv_ratio for importer = Country A below the threshold; check reported_weight_share."
   ]
  },
  "2b.mirror.sector_heatmap": {
   "topic": "read the chapter-by-country map: a column is one country's audit map, a row a sector worth a regional conversation",
   "hints": [
    "A map of the region shows where to look first.",
-   "Colour each chapter-country cell by its ratio to the regional median and read Country A's column.",
-   "In Country A's column list the chapters below 0.70; in each row count the countries below 0.70."
+   "Colour each chapter-country cell by its ratio to the regional median and read Country A's column, skipping the greyed cells.",
+   "In Country A's column list the chapters below the threshold; in each row count the countries below it."
   ]
  },
  "2b.series.shapes": {
-  "topic": "read each corridor's five years: always low, getting worse, one bad year, or normal",
+  "topic": "read each corridor's eight years: always low, one bad year, new, or normal",
   "hints": [
    "A gap has a shape.",
-   "Plot the adjusted ratio over five years for each corridor and apply three simple rules.",
-   "persistent: all years below 0.80; growing: falling and ends below 0.80; spike: one year 0.30 below the others."
+   "Plot the adjusted ratio over the years for each corridor and apply the simple rules.",
+   "persistent: every year below 0.80; spike: one year far below the others; new: zero before the last two years."
   ]
  },
  "2b.segments": {
-  "topic": "group traders by value and compliance, then add who their broker serves",
+  "topic": "group importers by their signals, then read the control record of each group",
   "hints": [
-   "A clean record can hide a risky intermediary.",
-   "Segment traders on value and compliance, then add the broker's flagged-client share and see who moves.",
-   "Rank the 100 largest importers by risk with and without the broker signal; list who enters the top ten."
+   "A clean record can hide a risky group.",
+   "Segment importers on the trader signals, then read the hit rate of each segment on the first half.",
+   "Use importer_cluster; read hit_rate_h1 by cluster; the top cluster is small and mostly one type."
   ]
  },
  "2b.brokers.scorecard": {
@@ -172,7 +188,7 @@
   "hints": [
    "Brokers concentrate risk.",
    "For each broker, compute the share of its clients that had a finding.",
-   "Sort by flagged_client_share among brokers with at least 5 clients."
+   "Sort by broker_flagged_share_h1 among brokers with at least five clients."
   ]
  },
  "2b.network.hub": {
@@ -204,7 +220,7 @@
   "hints": [
    "Many small parcels can be one big shipment.",
    "Count each consignee's parcels per month and their largest value.",
-   "consignments >= 6 and max_value_lcu >= 1,800."
+   "consignments at least six and max_value_lcu at least 1,800."
   ]
  },
  "2b.exercise": {
@@ -212,7 +228,7 @@
   "hints": [
    "Most gaps have a known explanation.",
    "Apply shipping and insurance, timing and hubs, then read the notes and weight flags before binning.",
-   "Investigate only the pairs below 0.80 after shipping, timing and hubs that no note explains; tick a regional chapter only when Country A is below 0.70 with weight coverage of 0.70 or more."
+   "Investigate only the pairs below 0.80 after shipping, timing and hubs that no note explains; tick a regional chapter only when Country A is below the threshold with the weight coverage to trust."
   ]
  },
  "4b.match.exact": {
@@ -231,20 +247,28 @@
    "Compare found and wrong at 95, 85 and 70."
   ]
  },
+ "4b.match.trackB": {
+  "topic": "match the customs importer file to a real register; show the weights the data gave you, the dial you chose and why, and the three pairs you are least sure of",
+  "hints": [
+   "Clean both sides the same way.",
+   "A missing field is not a zero.",
+   "The sample sets the dial, not the weights."
+  ]
+ },
  "4b.buckets": {
   "topic": "sort each importer into unregistered, not filing, under-reporting or consistent",
   "hints": [
    "Each bucket calls for a different agency.",
    "Check registration, then missing returns, then sales against imports times the sector mark-up.",
-   "sales_12m < imports_12m x 1.25 means under-reporting; missing recent returns means not filing."
+   "sales below imports times 1.25 means under-reporting; two missing returns in the last six means not filing."
   ]
  },
  "4b.network.borrowed_names": {
-  "topic": "find tax IDs that clear for many consignees at one address",
+  "topic": "find tax IDs that several importers share at one address",
   "hints": [
    "A name can be borrowed.",
-   "Count consignees per TIN and address; look at shared brokers.",
-   "Group consignees by trader and address; six or more."
+   "Count importers per TIN and address; look at shared brokers, phones and directors.",
+   "Group importers by tin and address_line; six or more; read the broker and the lender's returns."
   ]
  },
  "4b.patterns.split_parcels": {
@@ -252,7 +276,7 @@
   "hints": [
    "Small parcels can add up.",
    "Count parcels per consignee per month near the limit.",
-   "consignments >= 6, max near 2,000."
+   "consignments at least six, max near the limit."
   ]
  },
  "4b.patterns.land_border": {
@@ -260,7 +284,7 @@
   "hints": [
    "The neighbour counts the same trucks.",
    "Divide home imports by the neighbour's exports, crossing by crossing, month by month.",
-   "Plot home imports / neighbour exports by crossing and month, and fit a trend for each crossing."
+   "Plot the ratio by crossing and month, and fit a trend for each crossing."
   ]
  },
  "4b.patterns.cash_sector": {
@@ -276,23 +300,23 @@
   "hints": [
    "A hub can relabel origin.",
    "Flag preference claims from non-producing origins and group by seller.",
-   "Group doubtful ATIGA claims by exporter_id."
+   "Group doubtful claims by exporter_id."
   ]
  },
  "4b.patterns.borrowed_names": {
-  "topic": "one TIN, many consignees, one address",
+  "topic": "one TIN, many importers, one address",
   "hints": [
-   "Count who clears for whom.",
-   "Group consignees by clearing TIN and address.",
-   "Six or more consignees at one address."
+   "Count who clears under whose number.",
+   "Group importers by TIN and address.",
+   "Six or more importers at one address."
   ]
  },
  "4b.exercise": {
-  "topic": "bucket each of the 25 importers, choose the action and the lead, find the two networks",
+  "topic": "track A: bucket each of the 25 importers, choose the action and the lead, find the two networks; track B: match the real register and set the dial",
   "hints": [
    "Start from what the registry and the returns say.",
    "Match, then registration, filing, and sales against imports; then look at shared addresses and brokers.",
-   "Under-reporting includes the two network leads and the one-digit TIN trap."
+   "Under-reporting includes the two lenders and the one-digit TIN trap."
   ]
  }
 }

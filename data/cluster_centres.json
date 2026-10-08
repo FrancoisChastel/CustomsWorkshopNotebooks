@@ -1,0 +1,61 @@
+{
+ "features": [
+  "hit_rate_h1",
+  "mean_learned_score",
+  "median_share_of_median",
+  "log_value_12m",
+  "tin_blank",
+  "mean_weight_dev"
+ ],
+ "centres": {
+  "2": {
+   "hit_rate_h1": 0.024,
+   "mean_learned_score": 0.031,
+   "median_share_of_median": 1.01,
+   "log_value_12m": 17.336,
+   "tin_blank": -0.0,
+   "mean_weight_dev": 0.052
+  },
+  "1": {
+   "hit_rate_h1": 0.0,
+   "mean_learned_score": 0.022,
+   "median_share_of_median": 1.063,
+   "log_value_12m": 0.0,
+   "tin_blank": -0.0,
+   "mean_weight_dev": 0.013
+  },
+  "3": {
+   "hit_rate_h1": 0.138,
+   "mean_learned_score": 0.077,
+   "median_share_of_median": 1.032,
+   "log_value_12m": 11.543,
+   "tin_blank": 1.0,
+   "mean_weight_dev": 0.029
+  },
+  "4": {
+   "hit_rate_h1": 0.639,
+   "mean_learned_score": 0.27,
+   "median_share_of_median": 0.925,
+   "log_value_12m": 14.563,
+   "tin_blank": 0.141,
+   "mean_weight_dev": 0.031
+  }
+ },
+ "silhouette": 0.553,
+ "scaler_mean": {
+  "hit_rate_h1": 0.0544,
+  "mean_learned_score": 0.0433,
+  "median_share_of_median": 1.0131,
+  "log_value_12m": 15.1137,
+  "tin_blank": 0.066,
+  "mean_weight_dev": 0.046
+ },
+ "scaler_scale": {
+  "hit_rate_h1": 0.159,
+  "mean_learned_score": 0.0654,
+  "median_share_of_median": 0.2016,
+  "log_value_12m": 5.9612,
+  "tin_blank": 0.2483,
+  "mean_weight_dev": 0.0991
+ }
+}

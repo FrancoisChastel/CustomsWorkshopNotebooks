@@ -1,7 +1,13 @@
-office_id,office_name,office_type
-OFF1,North Seaport,seaport
-OFF2,South Seaport,seaport
-OFF3,Capital Airport,airport
-OFF4,East Land Border,land border
-OFF5,West Land Border,land border
-OFF6,Inland Dry Port,dry port
+office_id,office_name,office_type,capacity_minutes_per_day
+PORT1,North Seaport,seaport,6600
+PORT2,South Seaport,seaport,4300
+PORT3,Container Terminal,seaport,3000
+AIR1,Capital Airport,airport,3500
+AIR2,Regional Airport,airport,1300
+LAND1,East Land Border,land border,1800
+LAND2,West Land Border,land border,1300
+LAND3,North Crossing,land border,1000
+LAND4,River Crossing,land border,800
+LAND5,Mountain Pass,land border,800
+LAND6,South Crossing,land border,500
+LAND7,Rail Terminal,land border,500
