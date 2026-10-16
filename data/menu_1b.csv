@@ -1,0 +1,25 @@
+id,label,sql_where,robust_z_threshold,period,flagged,share_of_traffic,controlled,hits,hit_rate,random_hit_rate,lift,duty_per_inspection,new_to_book,burden_on_compliant,queue_beyond_budget
+m01,Price more than three spreads below today's peers,robust_z < -3,-3.0,h1,3965,0.0319,2259,780,0.3453,0.0311,11.1,46117.0,0.515,0.264,0.0
+m02,Price more than two and a half spreads below today's peers,robust_z < -2.5,-2.5,h1,5145,0.0413,2858,946,0.331,0.0311,10.64,42967.0,0.531,0.292,0.0
+m03,Price more than two spreads below today's peers,robust_z < -2,-2.0,h1,7355,0.0591,4033,1178,0.2921,0.0311,9.39,35822.0,0.541,0.313,63.0
+m04,Three spreads below peers on dutiable goods (10% or more),robust_z < -3 AND duty_rate >= 10,-3.0,h1,1285,0.0103,790,405,0.5127,0.0311,16.47,81003.0,0.455,0.138,0.0
+m05,Price below 70% of today's typical value,share_of_median < 0.70,,h1,7024,0.0564,4034,1523,0.3775,0.0311,12.13,47508.0,0.502,0.32,45.0
+m06,Price below 60% of today's typical value,share_of_median < 0.60,,h1,4452,0.0358,2626,1251,0.4764,0.0311,15.31,62528.0,0.476,0.269,0.0
+m07,New importer with a price two spreads below peers,new_importer = 1 AND robust_z < -2,-2.0,h1,88,0.0007,88,9,0.1023,0.0311,3.29,7890.0,0.0,0.432,0.0
+m08,New importer (the old R1),new_importer = 1,,h1,1374,0.011,1361,28,0.0206,0.0311,0.66,1058.0,0.0,0.401,0.0
+m09,Less than six months old and below 80% of the typical value,importer_tenure_months < 6 AND share_of_median < 0.8,,h1,135,0.0011,134,7,0.0522,0.0311,1.68,3323.0,0.0,0.511,0.0
+m10,Description fits a dearer code much better than the declared one,text_code_disagreement > 0.5,,h1,5615,0.0451,1665,95,0.0571,0.0311,1.83,5881.0,0.824,0.323,0.0
+m11,"Description fits a dearer code, on goods at 15% duty or more",text_code_disagreement > 0.4 AND duty_rate >= 15,,h1,1545,0.0124,432,35,0.081,0.0311,2.6,10700.0,0.854,0.394,0.0
+m12,Importer-broker pair drifting to the heading's cheapest code,code_drift_score > 0.3,,h1,57,0.0005,24,14,0.5833,0.0311,18.75,39381.0,0.912,0.474,0.0
+m13,A seller behind eight or more importers,exporter_importers_12m >= 8,,h1,108983,0.8758,30576,2134,0.0698,0.0311,2.24,7055.0,0.847,0.362,5709.0
+m14,"A seller behind five or more importers, price two spreads below",exporter_importers_12m >= 5 AND robust_z < -2,-2.0,h1,7091,0.057,3878,1129,0.2911,0.0311,9.36,34884.0,0.541,0.31,48.0
+m15,Weight per unit far from the usual for the code,weight_per_unit_dev < -0.5 OR weight_per_unit_dev > 0.5,,h1,1888,0.0152,579,93,0.1606,0.0311,5.16,9273.0,0.825,0.353,0.0
+m16,A broker whose clients were often found (over 30%),broker_flagged_share_h1 > 0.3,,h1,124434,1.0,34478,2529,0.0734,0.0311,2.36,7565.0,0.851,0.363,6567.0
+m17,"A broker often found, and a price two spreads below",broker_flagged_share_h1 > 0.25 AND robust_z < -2,-2.0,h1,7355,0.0591,4033,1178,0.2921,0.0311,9.39,35822.0,0.541,0.313,63.0
+m18,"Shipped from a hub, price a spread and a half below","consignment_country IN ('SGP', 'ARE', 'HKG') AND robust_z < -1.5",-1.5,h1,751,0.006,317,33,0.1041,0.0311,3.35,7746.0,0.69,0.269,0.0
+m19,"Goods from the two preferential origins, below 80% of the typical value","origin IN ('MYS', 'IDN') AND share_of_median < 0.8",,h1,2278,0.0183,1156,145,0.1254,0.0311,4.03,14834.0,0.573,0.415,0.0
+m20,"Sensitive chapters, price two spreads below","chapter IN ('22', '24', '85', '87') AND robust_z < -2",-2.0,h1,3233,0.026,1645,406,0.2468,0.0311,7.93,40591.0,0.587,0.331,0.0
+m21,High duty (20% or more) and a price below 75% of the typical value,duty_rate >= 20 AND share_of_median < 0.75,,h1,2184,0.0176,1243,554,0.4457,0.0311,14.32,91305.0,0.518,0.313,0.0
+m22,Odd on every signal at once (oddness score in the top 3%),oddness_score > 0.556,,h1,3619,0.0291,1081,171,0.1582,0.0311,5.08,16417.0,0.835,0.385,0.0
+m23,The learned score's top band (top 3%),learned_score > 0.193,,h1,4249,0.0341,2998,2022,0.6744,0.0311,21.67,77805.0,0.382,0.144,0.0
+m24,Riskiest importer segment with a price two spreads below,importer_cluster = 4 AND robust_z < -2,-2.0,h1,850,0.0068,807,625,0.7745,0.0311,24.89,63346.0,0.087,0.001,0.0

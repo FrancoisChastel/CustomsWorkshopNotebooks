@@ -13,7 +13,7 @@
    "mean_learned_score": 0.031,
    "median_share_of_median": 1.01,
    "log_value_12m": 17.336,
-   "tin_blank": -0.0,
+   "tin_blank": 0.0,
    "mean_weight_dev": 0.052
   },
   "1": {
@@ -21,7 +21,7 @@
    "mean_learned_score": 0.022,
    "median_share_of_median": 1.063,
    "log_value_12m": 0.0,
-   "tin_blank": -0.0,
+   "tin_blank": 0.0,
    "mean_weight_dev": 0.013
   },
   "3": {

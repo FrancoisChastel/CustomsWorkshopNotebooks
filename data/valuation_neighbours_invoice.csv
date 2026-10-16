@@ -1,0 +1,135 @@
+query_id,rank,line_id,similarity,above_floor,unit_price_usd_fob,unit_price,currency,incoterm,quantity,unit,accepted_on,hs8,origin,description,days_before
+V1,1,L0250114,0.995,1,118.29,118.29,USD,FOB,23.0,pieces,2026-07-13,87120001,CHN,"Mountain bicycle, 27.5 inch, aluminium frame",79
+V1,2,L0250132,0.995,1,110.51,117.14,USD,CIF,33.0,pieces,2026-07-14,87120001,CHN,"Mountain bicycle, 27.5 inch, aluminium frame",78
+V1,3,L0250120,0.995,1,134.17,130.26,USD,EXW,74.0,pieces,2026-08-07,87120001,CHN,"Mountain bicycle, 27.5 inch, aluminium frame",54
+V1,4,L0250108,0.995,1,114.8,114.8,USD,FOB,30.0,pieces,2026-09-09,87120001,CHN,"Mountain bicycle, 27.5 inch, aluminium frame",21
+V1,5,L0250126,0.995,1,129.66,129.66,USD,FOB,80.0,pieces,2026-09-23,87120001,CHN,"Mountain bicycle, 27.5 inch, aluminium frame",7
+V1,6,L0250125,0.98,1,118.32,114.87,USD,EXW,47.0,pieces,2026-07-16,87120001,CHN,"Aluminium frame mountain bicycle, 26 inches",76
+V1,7,L0250119,0.98,1,111.12,117.79,USD,CIF,27.0,pieces,2026-07-25,87120001,CHN,"Aluminium frame mountain bicycle, 26 inches",67
+V1,8,L0250113,0.98,1,112.29,112.29,USD,FOB,114.0,pieces,2026-07-29,87120001,CHN,"Aluminium frame mountain bicycle, 26 inches",63
+V1,9,L0250131,0.98,1,107.33,113.77,USD,CIF,67.0,pieces,2026-08-12,87120001,CHN,"Aluminium frame mountain bicycle, 26 inches",49
+V1,10,L0250107,0.98,1,122.49,118.92,USD,EXW,42.0,pieces,2026-09-26,87120001,CHN,"Aluminium frame mountain bicycle, 26 inches",4
+V1,11,L0250116,0.953,1,112.26,112.26,USD,FOB,91.0,pieces,2026-07-15,87120001,CHN,Mountain bike 26 inch aluminium frame,77
+V1,12,L0250104,0.953,1,110.27,110.27,USD,FOB,31.0,pieces,2026-07-28,87120001,CHN,Mountain bike 26 inch aluminium frame,64
+V1,13,L0250110,0.953,1,108.06,114.54,USD,CIF,29.0,pieces,2026-07-29,87120001,CHN,Mountain bike 26 inch aluminium frame,63
+V1,14,L0250134,0.953,1,110.55,116.19,USD,CFR,26.0,pieces,2026-08-19,87120001,CHN,Mountain bike 26 inch aluminium frame,42
+V1,15,L0250122,0.953,1,114.9,120.76,USD,CFR,14.0,pieces,2026-08-30,87120001,CHN,Mountain bike 26 inch aluminium frame,31
+V1,16,L0250128,0.953,1,112.17,112.17,USD,FOB,53.0,pieces,2026-09-17,87120001,CHN,Mountain bike 26 inch aluminium frame,13
+V1,17,L0250133,0.948,1,85.58,85.58,USD,FOB,81.0,pieces,2026-07-21,87120001,CHN,Mountain bicycle 26 inch steel frame,71
+V1,18,L0250127,0.948,1,93.38,98.98,USD,CIF,50.0,pieces,2026-07-25,87120001,CHN,Mountain bicycle 26 inch steel frame,67
+V1,19,L0250115,0.948,1,84.47,89.54,USD,CIF,120.0,pieces,2026-07-26,87120001,CHN,Mountain bicycle 26 inch steel frame,66
+V1,20,L0250109,0.948,1,85.93,85.93,USD,FOB,33.0,pieces,2026-09-08,87120001,CHN,Mountain bicycle 26 inch steel frame,22
+V1,21,L0250121,0.948,1,78.88,83.61,USD,CIF,17.0,pieces,2026-09-28,87120001,CHN,Mountain bicycle 26 inch steel frame,2
+V1,22,L0250135,0.946,1,103.44,109.65,USD,CIF,148.0,pieces,2026-07-17,87120001,CHN,"Mountain bicycle 26"" aluminum frame",75
+V1,23,L0250105,0.946,1,102.59,102.59,USD,FOB,91.0,pieces,2026-07-31,87120001,CHN,"Mountain bicycle 26"" aluminum frame",61
+V1,24,L0250117,0.946,1,116.94,123.96,USD,CIF,62.0,pieces,2026-08-08,87120001,CHN,"Mountain bicycle 26"" aluminum frame",53
+V1,25,L0250129,0.946,1,109.13,115.68,USD,CIF,37.0,pieces,2026-08-09,87120001,CHN,"Mountain bicycle 26"" aluminum frame",52
+V1,26,L0250111,0.946,1,114.14,114.14,USD,FOB,48.0,pieces,2026-08-30,87120001,CHN,"Mountain bicycle 26"" aluminum frame",31
+V1,27,L0250123,0.946,1,110.52,110.52,USD,FOB,37.0,pieces,2026-09-07,87120001,CHN,"Mountain bicycle 26"" aluminum frame",23
+V1,28,L0250106,0.916,1,105.95,105.95,USD,FOB,106.0,pieces,2026-07-08,87120001,CHN,MTB bicycle 26 inch alloy frame,84
+V1,29,L0250124,0.916,1,99.2,104.26,USD,CFR,104.0,pieces,2026-08-28,87120001,CHN,MTB bicycle 26 inch alloy frame,33
+V1,30,L0250130,0.916,1,105.1,102.04,USD,EXW,55.0,pieces,2026-08-30,87120001,CHN,MTB bicycle 26 inch alloy frame,31
+V2,1,L0250158,0.992,1,73.0,75.19,USD,CIF,276.0,pieces,2026-07-20,85414301,CHN,Monocrystalline solar panel 400W,72
+V2,2,L0250157,0.992,1,72.0,69.9,USD,EXW,142.0,pieces,2026-07-22,85414301,CHN,Monocrystalline solar panel 400W,70
+V2,3,L0250156,0.992,1,71.0,71.0,USD,FOB,538.0,pieces,2026-08-15,85414301,CHN,Monocrystalline solar panel 400W,46
+V2,4,L0250170,0.971,1,93.0,90.29,USD,EXW,658.0,pieces,2026-07-07,85414301,CHN,Monocrystalline solar panel 410 W,85
+V2,5,L0250169,0.971,1,90.0,92.3,USD,CFR,135.0,pieces,2026-09-05,85414301,CHN,Monocrystalline solar panel 410 W,25
+V2,6,L0250159,0.968,1,74.0,74.0,USD,FOB,343.0,pieces,2026-07-21,85414301,CHN,"Solar panel, monocrystalline, 400 W",71
+V2,7,L0250160,0.968,1,75.0,75.0,USD,FOB,220.0,pieces,2026-08-30,85414301,CHN,"Solar panel, monocrystalline, 400 W",31
+V2,8,L0250163,0.96,1,79.0,81.37,USD,CIF,360.0,pieces,2026-07-18,85414301,CHN,Mono solar panel 400 W,74
+V2,9,L0250162,0.96,1,78.0,80.34,USD,CIF,643.0,pieces,2026-08-15,85414301,CHN,Mono solar panel 400 W,46
+V2,10,L0250161,0.96,1,76.0,78.28,USD,CIF,182.0,pieces,2026-09-10,85414301,CHN,Mono solar panel 400 W,20
+V2,11,L0250164,0.938,1,80.0,82.04,USD,CFR,177.0,pieces,2026-07-18,85414301,CHN,Monocrystalline solar module 400 W,74
+V2,12,L0250165,0.938,1,82.1,84.56,USD,CIF,129.0,pieces,2026-08-06,85414301,CHN,Monocrystalline solar module 400 W,55
+V2,13,L0250168,0.934,1,87.0,84.47,USD,EXW,338.0,pieces,2026-07-06,85414301,CHN,Monocrystalline photovoltaic panel 400 W,86
+V2,14,L0250167,0.934,1,85.0,82.52,USD,EXW,374.0,pieces,2026-07-17,85414301,CHN,Monocrystalline photovoltaic panel 400 W,75
+V2,15,L0250166,0.934,1,83.9,86.42,USD,CIF,216.0,pieces,2026-08-01,85414301,CHN,Monocrystalline photovoltaic panel 400 W,60
+V2,16,L0250155,0.895,1,70.0,72.1,USD,CIF,545.0,pieces,2026-09-13,85414301,CHN,单晶太阳能电池板 400W,17
+V2,17,L0250154,0.895,1,68.0,70.04,USD,CIF,208.0,pieces,2026-09-20,85414301,CHN,单晶太阳能电池板 400W,10
+V2,18,L0250149,0.891,1,60.0,61.8,USD,CIF,262.0,pieces,2026-09-02,85414301,CHN,Polycrystalline solar panel 300 W,28
+V2,19,L0250150,0.891,1,62.0,63.58,USD,CFR,413.0,pieces,2026-09-02,85414301,CHN,Polycrystalline solar panel 300 W,28
+V2,20,L0250152,0.87,1,65.9,67.88,USD,CIF,222.0,pieces,2026-09-13,85414301,CHN,Solar panel 400W monocrystalline silicon,17
+V2,21,L0250151,0.87,1,64.0,64.0,USD,FOB,164.0,pieces,2026-09-21,85414301,CHN,Solar panel 400W monocrystalline silicon,9
+V2,22,L0250153,0.87,1,66.1,66.1,USD,FOB,376.0,pieces,2026-09-23,85414301,CHN,Solar panel 400W monocrystalline silicon,7
+V2,23,L0250171,0.866,1,96.0,96.0,USD,FOB,492.0,pieces,2026-09-12,85414301,CHN,Solar panel 550 W bifacial,18
+V2,24,L0250172,0.866,1,100.0,103.0,USD,CIF,248.0,pieces,2026-09-12,85414301,CHN,Solar panel 550 W bifacial,18
+V2,25,L0250147,0.859,1,55.0,56.65,USD,CIF,225.0,pieces,2026-08-09,85414301,CHN,Flexible solar panel 100 W,52
+V2,26,L0250146,0.859,1,52.0,53.56,USD,CIF,513.0,pieces,2026-08-26,85414301,CHN,Flexible solar panel 100 W,35
+V2,27,L0250148,0.859,1,58.0,59.74,USD,CIF,284.0,pieces,2026-09-14,85414301,CHN,Flexible solar panel 100 W,16
+V2,28,L0250176,0.812,0,34.12,34.99,USD,CFR,174.0,pieces,2026-07-08,85414301,CHN,Portable folding solar panel 60 W,84
+V2,29,L0250175,0.812,0,32.82,33.8,USD,CIF,308.0,pieces,2026-07-09,85414301,CHN,Portable folding solar panel 60 W,83
+V2,30,L0250174,0.812,0,30.81,30.81,USD,FOB,198.0,pieces,2026-08-02,85414301,CHN,Portable folding solar panel 60 W,59
+V3,1,L0250179,0.988,1,27.8,27.8,USD,FOB,161.0,pieces,2026-07-06,94036001,MYS,"Dining chair, rubber wood",86
+V3,2,L0250195,0.988,1,25.29,24.55,USD,EXW,226.0,pieces,2026-07-31,94036001,MYS,"Dining chair, rubber wood",61
+V3,3,L0250187,0.988,1,27.39,27.39,USD,FOB,216.0,pieces,2026-08-10,94036001,MYS,"Dining chair, rubber wood",51
+V3,4,L0250203,0.988,1,27.29,27.29,USD,FOB,238.0,pieces,2026-08-13,94036001,MYS,"Dining chair, rubber wood",48
+V3,5,L0250188,0.968,1,26.11,28.2,USD,CIF,208.0,pieces,2026-08-05,94036001,MYS,Rubberwood dining chair,56
+V3,6,L0250196,0.968,1,32.68,35.29,USD,CIF,136.0,pieces,2026-08-25,94036001,MYS,Rubberwood dining chair,36
+V3,7,L0250180,0.968,1,28.73,31.03,USD,CIF,278.0,pieces,2026-09-13,94036001,MYS,Rubberwood dining chair,17
+V3,8,L0250204,0.968,1,31.76,31.76,USD,FOB,46.0,pieces,2026-09-29,94036001,MYS,Rubberwood dining chair,1
+V3,9,L0250189,0.945,1,26.24,26.24,USD,FOB,202.0,pieces,2026-07-19,94036001,MYS,Wooden dining chairs of rubberwood,73
+V3,10,L0250181,0.945,1,27.41,27.41,USD,FOB,166.0,pieces,2026-08-04,94036001,MYS,Wooden dining chairs of rubberwood,57
+V3,11,L0250197,0.945,1,30.38,29.5,USD,EXW,98.0,pieces,2026-09-04,94036001,MYS,Wooden dining chairs of rubberwood,26
+V3,12,L0250205,0.945,1,27.21,29.06,USD,CFR,131.0,pieces,2026-09-24,94036001,MYS,Wooden dining chairs of rubberwood,6
+V3,13,L0250206,0.928,1,32.99,35.63,USD,CIF,103.0,pieces,2026-07-09,94036001,MYS,"Dining chair, solid rubberwood, natural finish",83
+V3,14,L0250190,0.928,1,28.21,30.47,USD,CIF,169.0,pieces,2026-07-19,94036001,MYS,"Dining chair, solid rubberwood, natural finish",73
+V3,15,L0250182,0.928,1,29.13,31.46,USD,CIF,212.0,pieces,2026-09-01,94036001,MYS,"Dining chair, solid rubberwood, natural finish",29
+V3,16,L0250198,0.928,1,28.71,28.71,USD,FOB,150.0,pieces,2026-09-09,94036001,MYS,"Dining chair, solid rubberwood, natural finish",21
+V3,17,L0250199,0.917,1,41.47,44.79,USD,CIF,124.0,pieces,2026-07-14,94036001,MYS,"Wooden dining chair, oak",78
+V3,18,L0250207,0.917,1,43.91,43.91,USD,FOB,417.0,pieces,2026-09-01,94036001,MYS,"Wooden dining chair, oak",29
+V3,19,L0250183,0.917,1,39.29,42.43,USD,CIF,157.0,pieces,2026-09-05,94036001,MYS,"Wooden dining chair, oak",25
+V3,20,L0250191,0.917,1,42.09,42.09,USD,FOB,160.0,pieces,2026-09-08,94036001,MYS,"Wooden dining chair, oak",22
+V3,21,L0250192,0.883,1,9.04,8.78,USD,EXW,139.0,pieces,2026-07-12,94036001,MYS,Plastic dining chair,80
+V3,22,L0250200,0.883,1,9.96,9.96,USD,FOB,180.0,pieces,2026-08-04,94036001,MYS,Plastic dining chair,57
+V3,23,L0250184,0.883,1,9.34,9.34,USD,FOB,89.0,pieces,2026-08-10,94036001,MYS,Plastic dining chair,51
+V3,24,L0250208,0.883,1,7.86,7.86,USD,FOB,164.0,pieces,2026-08-25,94036001,MYS,Plastic dining chair,36
+V3,25,L0250201,0.869,1,60.45,65.29,USD,CIF,192.0,pieces,2026-08-19,94036001,MYS,"Wooden dining table, rubberwood",42
+V3,26,L0250185,0.869,1,60.39,60.39,USD,FOB,99.0,pieces,2026-09-21,94036001,MYS,"Wooden dining table, rubberwood",9
+V3,27,L0250193,0.869,1,58.96,58.96,USD,FOB,152.0,pieces,2026-09-30,94036001,MYS,"Wooden dining table, rubberwood",0
+V3,28,L0250186,0.855,1,36.95,36.95,USD,FOB,115.0,pieces,2026-07-26,94036001,MYS,"Upholstered dining chair, wooden legs",66
+V3,29,L0250202,0.855,1,34.4,34.4,USD,FOB,39.0,pieces,2026-09-19,94036001,MYS,"Upholstered dining chair, wooden legs",11
+V3,30,L0250194,0.855,1,38.48,38.48,USD,FOB,184.0,pieces,2026-09-20,94036001,MYS,"Upholstered dining chair, wooden legs",10
+V4,1,L0250214,0.984,1,16.3,16.79,USD,CIF,1796.0,pieces,2026-07-06,90181901,CHN,Automatic upper arm blood pressure monitor,86
+V4,2,L0250218,0.984,1,18.11,18.11,USD,FOB,1091.0,pieces,2026-07-23,90181901,CHN,Automatic upper arm blood pressure monitor,69
+V4,3,L0250210,0.984,1,16.33,114.89,CNY,EXW,678.0,pieces,2026-08-04,90181901,CHN,Automatic upper arm blood pressure monitor,57
+V4,4,L0250230,0.984,1,16.44,16.44,USD,FOB,618.0,pieces,2026-08-06,90181901,CHN,Automatic upper arm blood pressure monitor,55
+V4,5,L0250226,0.984,1,15.36,14.91,USD,EXW,1315.0,pieces,2026-08-21,90181901,CHN,Automatic upper arm blood pressure monitor,40
+V4,6,L0250234,0.984,1,15.59,16.06,USD,CIF,1202.0,pieces,2026-09-09,90181901,CHN,Automatic upper arm blood pressure monitor,21
+V4,7,L0250222,0.984,1,15.0,15.0,USD,FOB,533.0,pieces,2026-09-14,90181901,CHN,Automatic upper arm blood pressure monitor,16
+V4,8,L0250211,0.969,1,15.99,112.49,CNY,EXW,740.0,pieces,2026-07-31,90181901,CHN,"Blood pressure monitor, upper arm, automatic",61
+V4,9,L0250223,0.969,1,13.69,102.18,CNY,CIF,1015.0,pieces,2026-08-03,90181901,CHN,"Blood pressure monitor, upper arm, automatic",58
+V4,10,L0250219,0.969,1,14.42,14.79,USD,CFR,692.0,pieces,2026-08-04,90181901,CHN,"Blood pressure monitor, upper arm, automatic",57
+V4,11,L0250235,0.969,1,15.47,15.47,USD,FOB,317.0,pieces,2026-08-13,90181901,CHN,"Blood pressure monitor, upper arm, automatic",48
+V4,12,L0250215,0.969,1,18.36,137.03,CNY,CIF,1236.0,pieces,2026-08-23,90181901,CHN,"Blood pressure monitor, upper arm, automatic",38
+V4,13,L0250231,0.969,1,16.69,120.94,CNY,FOB,1085.0,pieces,2026-09-02,90181901,CHN,"Blood pressure monitor, upper arm, automatic",28
+V4,14,L0250227,0.969,1,15.63,116.66,CNY,CIF,973.0,pieces,2026-09-24,90181901,CHN,"Blood pressure monitor, upper arm, automatic",6
+V4,15,L0250216,0.927,1,15.75,114.13,CNY,FOB,953.0,pieces,2026-08-19,90181901,CHN,Digital blood pressure monitor (upper arm),42
+V4,16,L0250220,0.927,1,17.11,123.99,CNY,FOB,1840.0,pieces,2026-08-21,90181901,CHN,Digital blood pressure monitor (upper arm),40
+V4,17,L0250212,0.927,1,15.63,113.26,CNY,FOB,661.0,pieces,2026-08-29,90181901,CHN,Digital blood pressure monitor (upper arm),32
+V4,18,L0250224,0.927,1,17.38,129.72,CNY,CIF,442.0,pieces,2026-08-29,90181901,CHN,Digital blood pressure monitor (upper arm),32
+V4,19,L0250228,0.927,1,14.28,100.46,CNY,EXW,737.0,pieces,2026-09-12,90181901,CHN,Digital blood pressure monitor (upper arm),18
+V4,20,L0250232,0.927,1,14.57,14.15,USD,EXW,627.0,pieces,2026-09-20,90181901,CHN,Digital blood pressure monitor (upper arm),10
+V4,21,L0250229,0.901,1,12.9,12.9,USD,FOB,720.0,pieces,2026-08-05,90181901,CHN,"Wrist blood pressure monitor, automatic",56
+V4,22,L0250213,0.901,1,12.34,86.82,CNY,EXW,922.0,pieces,2026-08-07,90181901,CHN,"Wrist blood pressure monitor, automatic",54
+V4,23,L0250217,0.901,1,9.82,9.82,USD,FOB,793.0,pieces,2026-08-15,90181901,CHN,"Wrist blood pressure monitor, automatic",46
+V4,24,L0250225,0.901,1,11.4,11.4,USD,FOB,456.0,pieces,2026-09-07,90181901,CHN,"Wrist blood pressure monitor, automatic",23
+V4,25,L0250221,0.901,1,11.59,83.99,CNY,FOB,1349.0,pieces,2026-09-18,90181901,CHN,"Wrist blood pressure monitor, automatic",12
+V4,26,L0250233,0.901,1,10.12,75.2,CNY,CFR,1246.0,pieces,2026-09-23,90181901,CHN,"Wrist blood pressure monitor, automatic",7
+V4,27,L0250237,0.831,0,21.53,21.53,USD,FOB,711.0,pieces,2026-07-15,90181901,CHN,Upper-arm blood pressure monitor with Bluetooth,77
+V4,28,L0250236,0.831,0,19.89,19.89,USD,FOB,666.0,pieces,2026-07-20,90181901,CHN,Upper-arm blood pressure monitor with Bluetooth,72
+V4,29,L0250238,0.831,0,19.49,141.23,CNY,FOB,1097.0,pieces,2026-08-24,90181901,CHN,Upper-arm blood pressure monitor with Bluetooth,37
+V4,30,L0250240,0.756,0,14.71,109.79,CNY,CIF,2047.0,pieces,2026-07-20,90181901,CHN,Upper arm automatic BP monitor,72
+V5,1,L0250247,0.976,1,7971.83,7971.83,USD,FOB,1.0,pieces,2026-08-23,90221401,DEU,Handheld dental X-ray unit,38
+V5,2,L0250248,0.969,1,8460.25,7804.66,EUR,FOB,1.0,pieces,2026-08-18,90221401,DEU,"Dental X-ray unit, portable",43
+V5,3,L0250246,0.958,1,8833.6,8356.88,EUR,CFR,1.0,pieces,2026-09-27,90221401,DEU,Portable dental x-ray device,3
+V5,4,L0250249,0.861,1,22868.06,22202.0,USD,EXW,1.0,pieces,2026-09-18,90221401,DEU,Panoramic dental X-ray system,12
+V5,5,L0250250,0.751,0,8595.65,8853.52,USD,CIF,1.0,pieces,2026-09-15,90221401,DEU,Tragbares Dental-Röntgengerät,15
+V5,6,L0250251,0.71,0,55182.13,56837.59,USD,CIF,1.0,pieces,2026-09-09,90221401,DEU,"Medical X-ray apparatus, fixed",21
+V5,7,L0250254,0.682,0,1840.53,1697.91,EUR,FOB,1.0,pieces,2026-07-09,90221401,DEU,X-ray tube,83
+V5,8,L0250252,0.682,0,2099.41,1994.83,EUR,CIF,1.0,pieces,2026-08-03,90221401,DEU,X-ray tube,58
+V5,9,L0250253,0.682,0,2302.41,2302.41,USD,FOB,1.0,pieces,2026-09-03,90221401,DEU,X-ray tube,27
+V5,10,L0250255,0.512,0,29031.17,29031.17,USD,FOB,1.0,pieces,2026-08-09,90221401,DEU,Mobile radiography unit,52
+V5,11,L0250256,0.512,0,31128.45,29448.55,EUR,CFR,1.0,pieces,2026-08-22,90221401,DEU,Mobile radiography unit,39
+V5,12,L0250259,0.503,0,10061.07,9559.87,EUR,CIF,1.0,pieces,2026-07-20,90221401,DEU,Dental chair unit,72
+V5,13,L0250257,0.503,0,10835.71,10295.92,EUR,CIF,1.0,pieces,2026-08-05,90221401,DEU,Dental chair unit,56
+V5,14,L0250258,0.503,0,10292.27,9779.56,EUR,CIF,1.0,pieces,2026-08-08,90221401,DEU,Dental chair unit,53

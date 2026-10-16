@@ -7,3 +7,5 @@
 - Built by `data/build_4b_trackB.py` (deterministic, seed 20261019). The answer key lives in `data/system/answer_keys/4b_trackB.json` and is never distributed.
 - Licence: Companies House data is published under the Open Government Licence v3 (snapshot 2026-10-01, part 1 of 7, downloaded 2026-10-07); GLEIF data is CC0.
 - Rule for all workshop material: exercise text refers to rows by `reg_id` and `cust_id` only. No company name or address from these files is ever printed on a slide, in a pack or on the site; they stay in the lab files.
+
+`trackB_labelled_sample.csv` (ADD-J): 300 of the recipe's best-candidate pairs, 100 per band, each with the label a clerk would give after checking (1 = the candidate is the true counterpart, 0 = it is not). The sample sets the dial: precision and recall at each threshold are read on it (`workshop_methods.sprints.trackb_curve`), never on the whole file.

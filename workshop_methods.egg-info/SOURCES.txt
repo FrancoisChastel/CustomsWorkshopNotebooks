@@ -5,11 +5,14 @@ workshop_methods/border.py
 workshop_methods/data.py
 workshop_methods/informality.py
 workshop_methods/ladder.py
+workshop_methods/lock_fields.json
+workshop_methods/lockbook.py
 workshop_methods/newideas.py
 workshop_methods/notebook.py
 workshop_methods/peer.py
 workshop_methods/quick_queries.py
 workshop_methods/signals.py
+workshop_methods/sprints.py
 workshop_methods/trade.py
 workshop_methods/valuation.py
 workshop_methods.egg-info/PKG-INFO

@@ -1,0 +1,206 @@
+{
+  "1b-1": {
+    "title": "Audit the rule book",
+    "says": "What the data says: the four rows of R1 to R4 on months 19–36 (share of traffic, hit rate on the random draw, lift, duty per inspection, new to the book)",
+    "decide": [
+      {
+        "key": "rules",
+        "label": "Keep, revise or retire each rule, with the number that decided",
+        "kind": "table",
+        "required": true,
+        "rows": ["R1", "R2", "R3", "R4"],
+        "columns": [
+          { "key": "decision", "label": "Decision", "kind": "choice", "options": ["keep", "revise", "retire"], "required": true },
+          { "key": "number", "label": "The number that decided", "kind": "choice", "options": ["share of traffic", "hit rate", "lift", "duty per inspection", "new to the book"], "required": true },
+          { "key": "note", "label": "Note (80 characters)", "kind": "text", "max": 80, "required": false }
+        ]
+      }
+    ],
+    "signs": [
+      { "key": "owner", "label": "Who owns the rule book review", "required": true },
+      { "key": "control", "label": "The control type R4 keeps", "required": false },
+      { "key": "cost", "label": "What retiring R3 costs (a mandatory control if the law requires it)", "required": true }
+    ]
+  },
+  "1b-2": {
+    "title": "Write the hypothesis",
+    "says": "What the data says: the rule's share of traffic and hit rate on months 1–18",
+    "decide": [
+      { "key": "hypothesis", "label": "Hypothesis, in plain words", "kind": "text", "max": 400, "required": true },
+      { "key": "rule_where", "label": "The rule as a WHERE clause", "kind": "text", "max": 1000, "required": true },
+      { "key": "control_type", "label": "Control type", "kind": "choice", "options": ["documentary", "physical", "scanner", "valuation", "documentary+physical"], "required": true },
+      { "key": "share_of_traffic", "label": "Share of traffic (at most 0.05)", "kind": "number", "min": 0, "max": 0.05, "required": true },
+      { "key": "expiry_months", "label": "Expiry (months)", "kind": "number", "min": 1, "max": 36, "required": true },
+      { "key": "control_group", "label": "Control group", "kind": "text", "max": 200, "required": true },
+      { "key": "success", "label": "Success criterion", "kind": "text", "max": 200, "required": true },
+      { "key": "owner", "label": "Owner (pre-filled with your group)", "kind": "text", "max": 120, "required": false }
+    ],
+    "signs": [
+      { "key": "owner", "label": "Who owns the card", "required": true },
+      { "key": "control", "label": "The control type the card calls", "required": false },
+      { "key": "cost", "label": "What the control costs per line, in one line", "required": true }
+    ]
+  },
+  "1b-3": {
+    "title": "Test and decide",
+    "says": "What the data says: the six tiles on months 19–36 and the overlap with R1–R4",
+    "decide": [
+      { "key": "decision", "label": "Decision", "kind": "choice", "options": ["adopt for a quarter", "revise once", "reject"], "required": true },
+      { "key": "hit_rate", "label": "Hit rate on the random draw", "kind": "number", "min": 0, "max": 1, "required": true },
+      { "key": "lift", "label": "Lift", "kind": "number", "min": 0, "max": 100, "required": true },
+      { "key": "revision_used", "label": "Revision used", "kind": "choice", "options": ["yes", "no"], "required": true },
+      { "key": "success_met", "label": "Success criterion met", "kind": "choice", "options": ["yes", "no"], "required": true }
+    ],
+    "signs": [
+      { "key": "owner", "label": "Who runs it next quarter", "required": true },
+      { "key": "control", "label": "The control type", "required": false },
+      { "key": "cost", "label": "The queue cost, in one line", "required": true }
+    ]
+  },
+  "2b-1": {
+    "title": "Macro: the corridor",
+    "says": "What the data says: the residual table (24 corridors after shipping, timing and the hub)",
+    "decide": [
+      {
+        "key": "corridors",
+        "label": "A bin per corridor, and a first check for every investigate",
+        "kind": "table",
+        "required": true,
+        "rows": ["CHN-17", "CHN-33", "CHN-39", "CHN-52", "CHN-61", "CHN-72", "CHN-85", "CHN-87", "MYS-17", "MYS-33", "MYS-39", "MYS-52", "MYS-61", "MYS-72", "MYS-85", "MYS-87", "IND-17", "IND-33", "IND-39", "IND-52", "IND-61", "IND-72", "IND-85", "IND-87"],
+        "columns": [
+          { "key": "bin", "label": "Bin", "kind": "choice", "options": ["explained", "investigate", "needs better data"], "required": true },
+          { "key": "first_check", "label": "First check (required for investigate)", "kind": "text", "max": 120, "required": false, "requiredWhen": { "bin": "investigate" } }
+        ]
+      },
+      { "key": "corridor", "label": "The corridor to descend into", "kind": "text", "max": 40, "required": true }
+    ],
+    "signs": [
+      { "key": "owner", "label": "Who asks the partner's statistics office about the hub corridor", "required": true },
+      { "key": "control", "label": "The first check on the named corridor", "required": false },
+      { "key": "cost", "label": "What a wrong bin costs, in one line", "required": true }
+    ]
+  },
+  "2b-2": {
+    "title": "Micro: the importers",
+    "says": "What the data says: the ranked importer table with its six fingerprints",
+    "decide": [
+      {
+        "key": "five",
+        "label": "Five importers with a reason code each",
+        "kind": "table",
+        "required": true,
+        "rows": ["1", "2", "3", "4", "5"],
+        "columns": [
+          { "key": "importer_id", "label": "Importer id", "kind": "text", "max": 20, "required": true },
+          { "key": "code", "label": "Reason code", "kind": "choice", "options": ["new", "broker", "bunching", "alternating", "office", "price"], "required": true }
+        ]
+      },
+      { "key": "never_open", "label": "The one never to open", "kind": "text", "max": 20, "required": true },
+      { "key": "reason", "label": "Why it is never opened", "kind": "text", "max": 200, "required": true }
+    ],
+    "signs": [
+      { "key": "owner", "label": "Who opens the files", "required": true },
+      { "key": "control", "label": "The control type", "required": false },
+      { "key": "cost", "label": "What a wrong pick costs the honest importer", "required": true }
+    ]
+  },
+  "2b-3": {
+    "title": "Document: the invoice line",
+    "says": "What the data says: the range of the 30 neighbours and the invoice's perimeter",
+    "decide": [
+      { "key": "decision", "label": "Decision", "kind": "choice", "options": ["question", "indicator", "nothing"], "required": true },
+      { "key": "field", "label": "The field that decided", "kind": "text", "max": 80, "required": true },
+      { "key": "first_sentence", "label": "The first sentence of the question to the importer", "kind": "text", "max": 300, "required": true }
+    ],
+    "signs": [
+      { "key": "owner", "label": "Who sends the question", "required": true },
+      { "key": "control", "label": "The procedural step", "required": false },
+      { "key": "cost", "label": "That the range is never a value, in one line", "required": true }
+    ]
+  },
+  "4b-1": {
+    "title": "Match",
+    "says": "What the data says: the scored table of the 25 pairs (Track B: the curve from the sample)",
+    "decide": [
+      {
+        "key": "pairs",
+        "label": "Status and confidence for each of the 25",
+        "kind": "table",
+        "required": true,
+        "rows": ["I01", "I02", "I03", "I04", "I05", "I06", "I07", "I08", "I09", "I10", "I11", "I12", "I13", "I14", "I15", "I16", "I17", "I18", "I19", "I20", "I21", "I22", "I23", "I24", "I25"],
+        "columns": [
+          { "key": "status", "label": "Status", "kind": "choice", "options": ["link", "review", "no link"], "required": true },
+          { "key": "confidence", "label": "Confidence", "kind": "number", "min": 0, "max": 1, "required": true }
+        ]
+      },
+      { "key": "trackb_dial", "label": "Track B: the dial", "kind": "number", "min": 0, "max": 1, "required": false },
+      { "key": "trackb_rows", "label": "Track B: the three least-sure pairs, by row number", "kind": "text", "max": 80, "required": false },
+      { "key": "trackb_why", "label": "Track B: why, in one line", "kind": "text", "max": 200, "required": false }
+    ],
+    "signs": [
+      { "key": "owner", "label": "Who reviews the middle band", "required": true },
+      { "key": "control", "label": "The review step", "required": false },
+      { "key": "cost", "label": "What a wrong link costs (a letter to the wrong taxpayer)", "required": true }
+    ]
+  },
+  "4b-2": {
+    "title": "Buckets",
+    "says": "What the data says: the two totals (import value and count per bucket)",
+    "decide": [
+      {
+        "key": "importers",
+        "label": "Bucket, action and lead per importer",
+        "kind": "table",
+        "required": true,
+        "rows": ["I01", "I02", "I03", "I04", "I05", "I06", "I07", "I08", "I09", "I10", "I11", "I12", "I13", "I14", "I15", "I16", "I17", "I18", "I19", "I20", "I21", "I22", "I23", "I24", "I25"],
+        "columns": [
+          { "key": "bucket", "label": "Bucket", "kind": "choice", "options": ["unregistered", "not filing", "under-reporting", "consistent"], "required": true },
+          { "key": "action", "label": "Action", "kind": "choice", "options": ["registration letter", "stop-filer case", "desk audit", "none"], "required": true },
+          { "key": "lead", "label": "Lead", "kind": "choice", "options": ["tax", "customs", "joint"], "required": true }
+        ]
+      },
+      { "key": "value_per_bucket", "label": "Import value per bucket, the two totals", "kind": "text", "max": 300, "required": true }
+    ],
+    "signs": [
+      { "key": "owner", "label": "Who acts first", "required": true },
+      { "key": "control", "label": "Which actions are possible today", "required": false },
+      { "key": "cost", "label": "Which need a new step (identifier, legal basis, return flow)", "required": true }
+    ]
+  },
+  "4b-3": {
+    "title": "Networks",
+    "says": "What the data says: the four counts per importer",
+    "decide": [
+      { "key": "cluster_1", "label": "First cluster (importer ids)", "kind": "text", "max": 200, "required": true },
+      { "key": "cluster_1_why", "label": "What gave it away", "kind": "text", "max": 200, "required": true },
+      { "key": "cluster_2", "label": "Second cluster (importer ids)", "kind": "text", "max": 200, "required": true },
+      { "key": "cluster_2_why", "label": "What gave it away", "kind": "text", "max": 200, "required": true },
+      { "key": "decoy", "label": "The decoy", "kind": "text", "max": 40, "required": true },
+      { "key": "decoy_field", "label": "The registry field that clears it", "kind": "text", "max": 120, "required": true }
+    ],
+    "signs": [
+      { "key": "owner", "label": "Who treats the cluster as the case", "required": true },
+      { "key": "control", "label": "The first action on the cluster", "required": false },
+      { "key": "cost", "label": "What opening the decoy would have cost", "required": true }
+    ]
+  },
+  "4b-4": {
+    "title": "The joint action",
+    "says": "What the data says: the population (importers and import value) from lock 2",
+    "decide": [
+      { "key": "bucket", "label": "The bucket", "kind": "choice", "options": ["unregistered", "not filing", "under-reporting", "consistent"], "required": true },
+      { "key": "population", "label": "The population: importers and import value", "kind": "text", "max": 200, "required": true },
+      { "key": "leads", "label": "Who leads, with a named owner in each agency", "kind": "text", "max": 200, "required": true },
+      { "key": "window", "label": "The window", "kind": "text", "max": 120, "required": true },
+      { "key": "window_number", "label": "The number read at the end of the window", "kind": "text", "max": 200, "required": true },
+      { "key": "governance", "label": "The governance item missing today", "kind": "choice", "options": ["sets budgets and the random share", "approves hypotheses with expiry dates", "reviews measures", "owns overrides", "the data-sharing instrument", "the identifier rule"], "required": true },
+      { "key": "first_step", "label": "The first step before the end of the month", "kind": "text", "max": 200, "required": true },
+      { "key": "middle_band", "label": "Optional: who reviews the middle band of the match, under which legal basis", "kind": "text", "max": 200, "required": false }
+    ],
+    "signs": [
+      { "key": "owner", "label": "The two names (one per administration)", "required": true },
+      { "key": "control", "label": "The lead agency", "required": false },
+      { "key": "cost", "label": "The window, as a date", "required": true }
+    ]
+  }
+}

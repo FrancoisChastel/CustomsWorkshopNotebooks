@@ -15,3 +15,6 @@ parquet = ["pyarrow>=12"]  # the tables also ship as CSV, which is all the lapto
 
 [tool.setuptools]
 packages = ["workshop_methods"]
+
+[tool.setuptools.package-data]
+workshop_methods = ["lock_fields.json"]  # the lock schema of the sprint workbooks (hosted/hub/sprints/locks.json), for the Lock sheet

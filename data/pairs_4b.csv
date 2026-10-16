@@ -1,0 +1,26 @@
+ref,importer_id,importer_name,tin_customs,exact_status,best_tin,registry_name,name_sim,address_sim,director_sim,phone_match,missing,confidence,band
+I01,IMP00519,"Ocean Electronics Co., Ltd",T103629,matched,T103629,"Ocean Electronics Co., Ltd",1.0,1.0,1.0,1,,1.0,link
+I02,IMP00753,Phoenix Glow Limited,T105264,matched,T105264,Phoenix Glow Limited,1.0,1.0,1.0,1,,1.0,link
+I03,IMP00892,Delta Fruits Holdings Ltd,T106240,matched,T106240,Delta Fruits Holdings Ltd,1.0,1.0,1.0,1,,1.0,link
+I04,IMP00340,Great Wall Steel Enterprises,T102376,matched,T102376,Great Wall Steel Enterprises,1.0,1.0,1.0,1,,1.0,link
+I05,IMP00999,Carrick Electronics Group Ltd,T106987,matched,T106987,Carrick Electronics Group Ltd,1.0,1.0,1.0,1,,1.0,link
+I06,IMP01037,Carrick Agro Enterprises,T107258,matched,T107258,Carrick Agro Enterprises ,1.0,1.0,1.0,1,,1.0,link
+I07,IMP00306,Cobalt Mobile & Sons,T102141,matched,T102141,COBALT MOBILE & SONS,1.0,1.0,1.0,1,,1.0,link
+I08,IMP00147,Central Imports International Ltd,,blank TIN,T102182,Central Enterprises Ltd,1.0,0.615,0.345,0,,0.688,no link
+I09,IMP00721,Phoenix Imports Partners Ltd,,blank TIN,T514418,Phoenix Holdings International Ltd,1.0,0.417,0.4,0,,0.645,no link
+I10,IMP00448,Global Electronics International Ltd,T103130,matched,T103130,Global Electronics International Limited,1.0,,1.0,1,address,1.0,link
+I11,IMP00005,Central Foods Limited,T100033,matched,T100033,Central Foods Limited,1.0,1.0,1.0,1,,1.0,link
+I12,IMP00156,"Ocean Medical Co., Ltd",,blank TIN,T109212,Ocean Enterprises Holdings Ltd,1.0,0.846,0.32,0,,0.75,review
+I13,IMP00950,Central Enterprises Co.,,blank TIN,T110150,Central Textiles International Ltd,1.0,0.846,0.4,0,,0.774,review
+I14,IMP01242,"Royal Agro Co., Ltd",T108692,matched,T108692,"Royal Agro Co., Ltd",1.0,1.0,1.0,1,,1.0,link
+I15,IMP00011,Silk Road Steel Co.,T100070,matched,T100070,Silk Road Steel Co.,1.0,1.0,1.0,1,,1.0,link
+I16,IMP01089,Carrick Trading & Sons,T107617,matched,T107617,Carrick Trading & Sons,1.0,1.0,1.0,1,,1.0,link
+I17,IMP01481,Ocean Industries Holdings Ltd,,blank TIN,T106372,Ocean Industries Enterprises,1.0,0.857,0.4,0,,0.777,review
+I18,IMP01142,Arden Living Co.,T107992,matched,T107992,Arden Living Co.,1.0,1.0,1.0,1,,1.0,link
+I19,IMP01310,Pacific Living Co.,T109167,matched,T109167,Pacific Living Co.,1.0,1.0,1.0,1,,1.0,link
+I20,IMP00490,Ocean Trading International Ltd,T103425,matched,T103425,Ocean Trading International Ltd,1.0,1.0,1.0,1,,1.0,link
+I21,IMP00063,"Metro Motors Co., Ltd",T100440,matched,T100440,"Metro Motors Co., Ltd",1.0,1.0,1.0,1,,1.0,link
+I22,IMP00926,Metro Steel Partners Ltd,T106477,matched,T106477,Metro Steel Partners Ltd,1.0,1.0,1.0,1,,1.0,link
+I23,IMP00643,Aldergate Agro Holdings Ltd,T104498,matched,T104498,Aldergate Agro Holdings Ltd,1.0,1.0,1.0,1,,1.0,link
+I24,IMP00067,Pacific Enterprises Holdings Ltd,T100466,matched,T100466,Pacific Enterprises Holdings Ltd,1.0,1.0,1.0,1,,1.0,link
+I25,IMP00288,Arden Fruits Enterprises,T102011,TIN one character off,T102015,ARDEN FRUITS ENTERPRISES,1.0,1.0,1.0,1,,1.0,link
