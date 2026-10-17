@@ -45,7 +45,8 @@ Calibration line: random draw finds something on 1 to 8 lines in a hundred; this
 | `network_counts.csv` | 4B sprint 3. The four counts per importer: the consignees (every party clearing under its tax ID: the other names declaring under it, plus its consignee records), the addresses and the brokers behind them, and turnover declared over imports. The flag fires at 8 or more consignees, one address and turnover under 20%. |
 | `rulebook_numbers.csv` | 1B sprint 1. The five old rules R1-R5 on each half of the data: share of traffic, hit rate (on the random draw for months 19-36), lift against the random draw, duty recovered per inspection, new to the book (flags no other rule raises), burden on compliant traders, the queue beyond a 5% budget, and the hit rate quarter by quarter. |
 | `menu_1b.csv` | 1B sprint 2. Twenty-four starting rules on the fields the evaluator accepts, in plain words and as a condition, scored on months 1-18: share of traffic, hit rate on the controlled lines they flag, lift against the random draw of months 1-18, new to the book. A starting point, never an answer: the honest test comes after the lock. |
-| `sample_1b.csv` | 1B sprint 2. 25,000 lines for the Excel Sample sheet: value per kilo, the typical value of the peers, the spread, the distance from normal (the z, log and linear), the peer level used; the deck's worked line is flagged (deck_example = 1). |
+| `sample_1b.csv` | 1B sprint 2. 25,000 lines for the Excel Sample sheet: value per kilo, the typical value of the peers, the spread, the distance from normal (the z, log and linear), the peer level used, the five recipe columns; the deck's worked line is flagged (deck_example = 1). |
+| `recipe_steps_1b.csv` | 1B sprint 2. Three or four settings of the one choice each recipe leaves open (recipes 2 to 5), as a condition, with their numbers on the random draw of months 1-18 only: share of traffic, random-draw lines flagged, findings, hit rate and lift against that draw. The months 19-36 test comes after the lock. |
 
 ## declarations_h1 / declarations_h2
 
@@ -134,6 +135,13 @@ Calibration line: random draw finds something on 1 to 8 lines in a hundred; this
 | `learned_score_red_only` | The same model trained on red-lane lines only (the selection-bias chart) |
 | `oddness_score` | Isolation forest on the signals (no labels) |
 | `importer_cluster` | k-means (k = 4) cluster of the importer on trader_features (1 = quietest, 4 = riskiest) |
+| `desc_clean` | The description as the recipes read it: without the text in brackets, without all-capital brand words (when the text has lower-case letters), without words that contain a digit (sizes), lower-cased, single spaces |
+| `usual_code` | Usual code for this description: the code most often declared with the same cleaned description in months 1-18 (8 digits; empty when the description never appears in months 1-18) |
+| `usual_code_duty` | The duty (MFN, %) of the usual code |
+| `duty_mfn` | The duty (MFN, %) of the declared code, from the tariff; equals duty_rate outside relief and preference |
+| `kg_per_unit_ratio` | Kilos per unit against the code's usual: net kg / quantity, divided by the median of the same for that code over months 1-18; empty for goods declared in kilos |
+| `desc_chapters` | Chapters this description is used under: the number of different chapters declared with the same cleaned description in months 1-18 |
+| `value_vs_invoice` | Declared value against invoice x rate: the declared value on the incoterm's basis (FOB or EXW: fob_lcu; CFR: fob_lcu + freight_lcu; CIF: customs_value_lcu) divided by (invoice_value x the month's lcu_per_unit), minus 1. 0.05 means the declared value is 5% above the invoice |
 
 ## Generating rules in one paragraph each
 

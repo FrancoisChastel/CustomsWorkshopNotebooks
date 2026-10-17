@@ -1,0 +1,17 @@
+recipe,recipe_name,knob,knob_value,sql_where,h1_share_of_traffic,h1_random_lines,h1_findings,h1_hit_rate,h1_lift
+2,description,usual code dearer than the declared one by at least,1.0,usual_code_duty - duty_mfn >= 1,0.022,276,52,0.1884,6.05
+2,description,usual code dearer than the declared one by at least,5.0,usual_code_duty - duty_mfn >= 5,0.0204,259,52,0.2008,6.45
+2,description,usual code dearer than the declared one by at least,10.0,usual_code_duty - duty_mfn >= 10,0.0064,83,12,0.1446,4.65
+2,description,usual code dearer than the declared one by at least,15.0,usual_code_duty - duty_mfn >= 15,0.0038,53,6,0.1132,3.64
+3,kilos per unit,kilos per unit above this multiple of the code's usual,1.1,kg_per_unit_ratio > 1.1,0.0129,163,20,0.1227,3.94
+3,kilos per unit,kilos per unit above this multiple of the code's usual,1.25,kg_per_unit_ratio > 1.25,0.0126,161,19,0.118,3.79
+3,kilos per unit,kilos per unit above this multiple of the code's usual,1.5,kg_per_unit_ratio > 1.5,0.0013,18,15,0.8333,26.78
+3,kilos per unit,kilos per unit above this multiple of the code's usual,2.0,kg_per_unit_ratio > 2.0,0.001,13,11,0.8462,27.19
+4,generic description,"description used under at least 5 chapters, duty at least",0.0,desc_chapters >= 5 AND duty_mfn >= 0,0.0307,379,28,0.0739,2.37
+4,generic description,"description used under at least 5 chapters, duty at least",10.0,desc_chapters >= 5 AND duty_mfn >= 10,0.0144,181,21,0.116,3.73
+4,generic description,"description used under at least 5 chapters, duty at least",20.0,desc_chapters >= 5 AND duty_mfn >= 20,0.008,104,16,0.1538,4.94
+4,generic description,"description used under at least 5 chapters, duty at least",25.0,desc_chapters >= 5 AND duty_mfn >= 25,0.0056,74,14,0.1892,6.08
+5,invoice,declared value differs from invoice x rate by more than,0.01,ABS(value_vs_invoice) > 0.01,0.0824,1062,59,0.0556,1.79
+5,invoice,declared value differs from invoice x rate by more than,0.02,ABS(value_vs_invoice) > 0.02,0.0824,1062,59,0.0556,1.79
+5,invoice,declared value differs from invoice x rate by more than,0.05,ABS(value_vs_invoice) > 0.05,0.0014,20,19,0.95,30.53
+5,invoice,declared value differs from invoice x rate by more than,0.1,ABS(value_vs_invoice) > 0.1,0.0009,11,10,0.9091,29.21
