@@ -357,12 +357,15 @@
             "label": "Reason code",
             "kind": "choice",
             "options": [
+              "price",
+              "two price levels",
+              "seller",
               "new",
               "broker",
-              "bunching",
-              "alternating",
               "office",
-              "price"
+              "shared address",
+              "bunching",
+              "alternating"
             ],
             "required": true
           }

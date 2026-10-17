@@ -144,11 +144,11 @@
   ]
  },
  "2b.mirror.bridge": {
-  "topic": "start from the partner's exports, add shipping and insurance, subtract each known explanation; what is left is worth a query",
+  "topic": "start from the partner's exports, take out each known explanation, and read what is left as a share of what we should see, year after year",
   "hints": [
    "The partner's books are a second witness.",
-   "Add shipping-and-insurance to the partner's exports, then add back timing and hub goods to what home recorded.",
-   "Chapter thirty-nine from the first partner, latest year: the wedge is eight percent."
+   "Put both sides on FOB, add back timing and hub goods to what home recorded, divide by the partner's exports, and do it for every year.",
+   "Read what is left as a share of what we should see, count the years below 0.85, and keep the weight ratio beside it."
   ]
  },
  "2b.mirror.regional_uv": {

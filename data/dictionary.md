@@ -13,7 +13,7 @@ Calibration line: random draw finds something on 1 to 8 lines in a hundred; this
 | `declarations_h1.csv` | Months 1-18: every line, the legacy lane, and the control outcome wherever a control took place. |
 | `declarations_h2.csv` | Months 19-36: every line; no lanes; outcomes only on the random draw. |
 | `features_lines.csv` | The precomputed signals and scores for every line of both halves (see Features). |
-| `trader_features.csv` | One row per importer: value, lines, origins and exporters, price deviation, broker flagged share, tenure, amendment rate, exemption share, hit rate on months 1-18 where controlled, cluster. |
+| `trader_features.csv` | One row per importer: value, lines, origins and exporters, price deviation, broker flagged share, tenure, amendment rate, exemption share, hit rate on months 1-18 where controlled, cluster; and the six 2B trader columns of months 1-18 (see below). |
 | `importers.csv` | The importer register as customs holds it (no latent attribute). |
 | `brokers.csv` | Licensed brokers. |
 | `exporters.csv` | Foreign sellers. |
@@ -23,7 +23,7 @@ Calibration line: random draw finds something on 1 to 8 lines in a hundred; this
 | `fx_rates.csv` | Fixed rates per month. |
 | `reference_prices.csv` | Median value per kg by code and origin over the 36 months. |
 | `accepted_history.csv` | 2B valuation: every home-use line of months 34-36 that was not a random draw with a finding, as declared, with accepted_on. |
-| `invoice_lines.csv` | 2B valuation: the five invoice lines of the exercise. |
+| `invoice_lines.csv` | 2B valuation: the five invoice lines of the method (V1-V5) and C1, the invoice behind one declaration line of the corridor sprint 3 reads (a synthetic invoice: EXW, a 12% discount). |
 | `valuation_neighbours.csv` | For every accepted line of months 34-36 and the five invoice lines (query_id): the 30 nearest accepted lines of the same heading and origin by description embedding, with similarity. |
 | `mirror_trade.csv` | Partner exports (true FOB, from the world) against home imports (declared CIF) by partner, chapter and year, with the partner-side effects. |
 | `regional_unit_values.csv` | Stylised regional statistics: eight goods, ten importing countries (A = home), two rulers. |
@@ -38,9 +38,9 @@ Calibration line: random draw finds something on 1 to 8 lines in a hundred; this
 | `transit.csv` | Transit movements. |
 | `parcels.csv` | Low-value parcels by consignee and month. |
 | `land_border_mirror.csv` | Imports at each land crossing against the neighbour's exports through it. |
-| `corridor_importers.csv` | 2B sprint 2. Every importer of the plastics corridor (chapter 39 from the first partner), one row each: how much of what is left unexplained (the residual) it carries, its six fingerprints (new, broker, bunching, alternating, office, price: 1 when it fires) and its declared value month by month for the last twelve months. Ranked by its share of the residual. |
-| `invoice_extract.csv` | 2B sprint 3. What a document reader pulled from each invoice: related party, royalty clause, discount, the delivery terms written on the invoice; each with how sure the reader is (0 to 1). It reads the paper; the declaration carries its own figures, and the two can disagree. |
-| `valuation_neighbours_invoice.csv` | 2B sprint 3. For each of the five invoice lines, the 30 accepted lines whose description is most alike, with the price put on one basis (dollars, FOB), how alike they are (similarity, 0 to 1) and whether they pass the 0.85 floor. The range is read on the lines above the floor. |
+| `corridor_importers.csv` | 2B sprint 2. Every importer of the cotton-fabric corridor (chapter 52 from IND) with a line in months 1-18, one row each, months 1-18 only and no outcome: lines, declared value and its share of the corridor, the median share of the peers' median, the share of lines under 0.75 of the peers, the main seller and how many of the corridor's importers buy from it, the main broker and office, and four flags (new, shared address, bunching, alternating: 1 when it fires). Ranked by declared value (see below). |
+| `invoice_extract.csv` | 2B sprint 3. What a document reader pulled from each invoice: related party, royalty clause, discount, the delivery terms written on the invoice (and, on C1, the freight); each with how sure the reader is (0 to 1). It reads the paper; the declaration carries its own figures, and the two can disagree. |
+| `valuation_neighbours_invoice.csv` | 2B sprint 3. For each invoice line, the 30 accepted lines whose description is most alike, with the price put on one basis (dollars, FOB), how alike they are (similarity, 0 to 1) and whether they pass the 0.85 floor. V1-V5: same heading and origin, last 90 days; C1: any origin, any accepted line. The range is read on the lines above the floor. |
 | `pairs_4b.csv` | 4B sprint 1. The 25 importers against the tax register with the deck's recipe: how alike the name, the address and the director are (0 to 1), whether the phone matches, the combined confidence (name x 0.4 + address x 0.3 + director x 0.3, a missing field left out) and the band at the dial 0.90 / 0.70: link, review, no link. |
 | `network_counts.csv` | 4B sprint 3. The four counts per importer: the consignees (every party clearing under its tax ID: the other names declaring under it, plus its consignee records), the addresses and the brokers behind them, and turnover declared over imports. The flag fires at 8 or more consignees, one address and turnover under 20%. |
 | `rulebook_numbers.csv` | 1B sprint 1. The five old rules R1-R5 on each half of the data: share of traffic, hit rate (on the random draw for months 19-36), lift against the random draw, duty recovered per inspection, new to the book (flags no other rule raises), burden on compliant traders, the queue beyond a 5% budget, and the hit rate quarter by quarter. |
@@ -142,6 +142,36 @@ Calibration line: random draw finds something on 1 to 8 lines in a hundred; this
 | `kg_per_unit_ratio` | Kilos per unit against the code's usual: net kg / quantity, divided by the median of the same for that code over months 1-18; empty for goods declared in kilos |
 | `desc_chapters` | Chapters this description is used under: the number of different chapters declared with the same cleaned description in months 1-18 |
 | `value_vs_invoice` | Declared value against invoice x rate: the declared value on the incoterm's basis (FOB or EXW: fob_lcu; CFR: fob_lcu + freight_lcu; CIF: customs_value_lcu) divided by (invoice_value x the month's lcu_per_unit), minus 1. 0.05 means the declared value is 5% above the invoice |
+
+## trader_features: the 2B trader columns (months 1-18, no outcome)
+
+| Field | Meaning |
+| --- | --- |
+| `lines_h1` | The importer's lines in months 1-18 (all regimes) |
+| `med_ratio_h1` | Median of share_of_median over those lines (empty without a line) |
+| `low_share_h1` | Share of those lines priced under 0.75 of their peers' median (a line without peers counts as not under) |
+| `address_shared_n` | How many importers declared the same customs address in months 1-18 (address_customs, lower case, punctuation removed, unit numbers dropped, road/street/lane shortened); the importer's largest count |
+| `price_habit` | 1 when lines_h1 >= 5 and med_ratio_h1 < 0.80: habitually priced low |
+| `two_levels` | 1 when lines_h1 >= 8 and 25% to 75% of the lines sit under 0.75 of peers: two price levels |
+
+## corridor_importers (2B sprint 2)
+
+| Field | Meaning |
+| --- | --- |
+| `rank` | Rank by declared value of months 1-18 |
+| `lines_h1` | Lines in the corridor, months 1-18 |
+| `value_h1` | Declared customs value (LCU) of those lines |
+| `value_share_h1` | That value as a share of the corridor's |
+| `med_ratio_h1` | Median share of the peers' median over those lines |
+| `low_share_h1` | Share of those lines under 0.75 of the peers' median |
+| `seller` | Main seller (exporter_id; the most frequent, ties to the first in sort order) |
+| `seller_importers` | Importers of the corridor buying from that seller in months 1-18 |
+| `broker` | Main broker |
+| `office` | Main office |
+| `new` | 1 when the importer's tenure at its first line of months 1-18 in the corridor is under 12 months |
+| `shared_address` | 1 when its customs address is declared by 3 or more importers (address_shared_n >= 3) |
+| `bunching` | 1 when half or more of its lines are priced at 62-70% of the peers' median, just under the old reference threshold |
+| `alternating` | 1 when its monthly median value per kilo swings above and below its own median in 70% or more of consecutive months (6 months or more) |
 
 ## Generating rules in one paragraph each
 

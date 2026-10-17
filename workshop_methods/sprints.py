@@ -34,6 +34,10 @@ QUARTER = 3
 BUDGET_SHARE = 0.05
 HOME_USE = ("home_use", "home_use_exempt")
 CORRIDOR = ("CHN", "39")        # the plastics corridor of the deck's bridge
+CHAIN_CORRIDOR = ("IND", "52")  # the cotton-fabric chain of 2B (ADD-J-2b-cotton-chain J.2): gate 1's answer, sprint 2's importer table
+BELOW = 0.85                    # a corridor year "below 0.85": what we recorded, timing and hub included, under 85% of the partner's FOB
+SHARED_ADDRESS_MIN = 3          # the customs-declared address shared by 3+ importers (J.3)
+LOW_PRICE = 0.75                # a line "under 0.75 of peers" (J.2, J.3)
 DIAL = {"link": 0.90, "review": 0.70}
 WEIGHTS = {"name": 0.4, "address": 0.3, "director": 0.3}
 MARKUP = 0.25                   # expected sales = imports x (1 + MARKUP)
@@ -257,10 +261,26 @@ def corridor_id(partner: str, chapter: str) -> str:
     return f"{partner}-{chapter}"
 
 
+def mirror_ratio(mirror: pd.DataFrame) -> pd.Series:
+    """What we account for over what the partner shipped, both FOB: (home FOB, or home CIF / (1 + the chapter wedge) when the FOB
+    field is empty, + timing + hub) / partner FOB. NaN when the partner does not report."""
+    home = mirror["home_imports_fob_usd"].fillna(mirror["home_imports_cif_usd"] / (1 + mirror["cif_fob_adj"]))
+    return (home + mirror["timing_usd"].fillna(0) + mirror["hub_attributed_usd"].fillna(0)) / mirror["partner_exports_fob_usd"]
+
+
+def years_below(mirror: pd.DataFrame, threshold: float = BELOW) -> pd.Series:
+    """Per (partner, chapter): how many years the ratio sits under `threshold` (a year without a ratio does not count)."""
+    return mirror.assign(below=mirror_ratio(mirror) < threshold).groupby(["partner", "chapter"])["below"].sum().astype(int)
+
+
 def corridor_table(mirror: pd.DataFrame) -> pd.DataFrame:
-    """The 24 corridors in their latest year with the bridge, the weight ratio, the series shape and the flags."""
+    """The 24 corridors in their latest year: the FOB-to-FOB ratio and what it leaves unexplained (residual_share = 1 - ratio,
+    as chain_2b.json), the years below 0.85, the bridge in USD million (bridge_residual_share = residual / expected CIF, the
+    waterfall's own share), the weight ratio, the series shape and the flags; the largest residual share first."""
     shapes = classify_series(mirror).set_index(["chapter", "partner"])["shape"]
     latest = mirror["year"].max()
+    ratios = mirror_ratio(mirror)
+    below = years_below(mirror)
     rows = []
     for (partner, chapter), group in mirror.groupby(["partner", "chapter"]):
         r = group[group["year"] == latest].iloc[0]
@@ -280,12 +300,14 @@ def corridor_table(mirror: pd.DataFrame) -> pd.DataFrame:
             flags.append("the series is broken by a recode")
         if r["attribution"] == "origin" and "hub" not in note:
             note = (note + "; " if note else "") + "the partner records exports to the hub, home records origin"
+        ratio = _num(ratios[r.name], 4) if reports else None
         rows.append({"id": corridor_id(partner, chapter), "partner": partner, "chapter": str(chapter), "label": CHAPTER_LABELS.get(str(chapter), f"chapter {chapter}"),
-                     "year": int(latest), "fob_partner": _num(b["partner_exports"] if b else None, 1), "cif_home": _num(float(r["home_imports_cif_usd"]) / 1e6, 1), "wedge": wedge,
+                     "year": int(latest), "ratio": ratio, "residual_share": None if ratio is None else round(1 - ratio, 4), "years_below_085": int(below.get((partner, chapter), 0)),
+                     "fob_partner": _num(b["partner_exports"] if b else None, 1), "cif_home": _num(float(r["home_imports_cif_usd"]) / 1e6, 1), "wedge": wedge,
                      "expected": _num(b["expected_cif"] if b else None, 1), "recorded": _num(b["recorded"] if b else None, 1), "timing": _num(b["timing"] if b else None, 1),
                      "hub": _num(b["hub"] if b else None, 1), "explained": _num(b["explained"] if b else None, 1), "residual": _num(b["residual"] if b else None, 1),
-                     "residual_share": _num(b["residual_share"] if b else None, 3), "weight_ratio": _num(r["weight_ratio"], 3), "partner_reports": int(reports),
-                     "trade_system": str(r["trade_system"]), "series_shape": str(shapes.get((chapter, partner), "normal")), "flags": flags, "note": note})
+                     "bridge_residual_share": _num(b["residual_share"] if b else None, 3), "weight_ratio": _num(r["weight_ratio"], 3), "partner_reports": int(reports),
+                     "attribution": str(r["attribution"]), "trade_system": str(r["trade_system"]), "series_shape": str(shapes.get((chapter, partner), "normal")), "flags": flags, "note": note})
     return pd.DataFrame(rows).sort_values("residual_share", ascending=False, na_position="last").reset_index(drop=True)
 
 
@@ -295,7 +317,9 @@ def bridge_row(mirror: pd.DataFrame, id_: str) -> dict[str, Any]:
     rows = table[table["id"] == id_]
     if rows.empty:
         raise KeyError(f"no corridor {id_}")
-    r = rows.iloc[0].to_dict()
+    r = {k: v if isinstance(v, list) else _num(v) for k, v in rows.iloc[0].to_dict().items()}
+    r["corridor_residual_share"] = r["residual_share"]  # 1 - the FOB-to-FOB ratio, as in the corridor table
+    r["residual_share"] = r["bridge_residual_share"]     # the waterfall's own share: residual / expected CIF, the hand calculation
     r["flags"] = list(r["flags"])
     r["note"] = str(r.get("note") or "")
     if r["fob_partner"] is None:
@@ -317,6 +341,55 @@ def bridge_row(mirror: pd.DataFrame, id_: str) -> dict[str, Any]:
 
 def corridor_lines(features: pd.DataFrame, partner: str = CORRIDOR[0], chapter: str = CORRIDOR[1]) -> pd.DataFrame:
     return features[(features["origin"] == partner) & (features["chapter"].astype(str) == str(chapter)) & features["regime"].isin(HOME_USE)].copy()
+
+
+def chain_lines(features: pd.DataFrame, partner: str = CHAIN_CORRIDOR[0], chapter: str = CHAIN_CORRIDOR[1]) -> pd.DataFrame:
+    """A corridor as the cotton chain reads it (J.2): declared origin and chapter, every regime (the lines chain_2b.json counts)."""
+    return features[(features["origin"] == partner) & (features["chapter"].astype(str) == str(chapter))].copy()
+
+
+def _main(series: pd.Series) -> str:
+    """The most frequent value; a tie goes to the first in sort order."""
+    counts = series.dropna().astype(str).value_counts()
+    return str(min(counts.index[counts == counts.max()])) if len(counts) else ""
+
+
+def chain_importers(features: pd.DataFrame, importers: pd.DataFrame | None = None, traders: pd.DataFrame | None = None,
+                    partner: str = CHAIN_CORRIDOR[0], chapter: str = CHAIN_CORRIDOR[1]) -> pd.DataFrame:
+    """Sprint 2's importer table (J.2): one row per importer of the corridor on months 1-18, from participant data only, no outcome.
+
+    lines_h1, value_h1 and value_share_h1 (of the corridor's months 1-18 value); med_ratio_h1 (median share of peers' median) and
+    low_share_h1 (share of lines under 0.75 of peers; a line without peers counts as not under); seller, broker and office (the
+    most frequent); seller_importers (corridor importers behind that seller); new (a line less than 12 months after registration);
+    shared_address (the customs-declared address shared by 3+ importers, from trader_features.csv; without that column, the
+    registry address shared with another importer of the corridor). The largest value first.
+    """
+    lines = chain_lines(features, partner, chapter)
+    h1 = lines[lines["period_month"] <= H1]
+    if h1.empty:
+        return pd.DataFrame(columns=CHAIN_IMPORTER_COLUMNS)
+    g = h1.groupby("importer_id")
+    out = pd.DataFrame({"lines_h1": g.size(), "value_h1": g["customs_value_lcu"].sum().round(2), "med_ratio_h1": g["share_of_median"].median().round(4),
+                        "low_share_h1": g["share_of_median"].apply(lambda s: float((s < LOW_PRICE).mean())).round(4),
+                        "seller": g["exporter_id"].agg(_main), "broker": g["broker_id"].agg(_main), "office": g["office"].agg(_main),
+                        "new": g["importer_tenure_months"].min().lt(NEW_MONTHS).astype(int)})
+    out["value_share_h1"] = (out["value_h1"] / out["value_h1"].sum()).round(4)
+    behind = h1.groupby("exporter_id")["importer_id"].nunique()
+    out["seller_importers"] = out["seller"].map(behind).fillna(0).astype(int)
+    if traders is not None and "address_shared_n" in traders.columns:
+        shared = pd.to_numeric(traders.set_index("importer_id")["address_shared_n"], errors="coerce").reindex(out.index)
+        out["shared_address"] = (shared >= SHARED_ADDRESS_MIN).astype(int)
+    elif importers is not None and "address_line" in importers.columns:
+        address = importers.set_index("importer_id")["address_line"].reindex(out.index).fillna("").astype(str)
+        counts = address[address != ""].value_counts()
+        out["shared_address"] = address.map(lambda a: int(bool(a) and counts.get(a, 0) > 1))
+    else:
+        out["shared_address"] = 0
+    out = out.rename_axis("importer_id").reset_index().sort_values(["value_h1", "importer_id"], ascending=[False, True]).reset_index(drop=True)
+    return out[CHAIN_IMPORTER_COLUMNS]
+
+
+CHAIN_IMPORTER_COLUMNS = ["importer_id", "lines_h1", "value_h1", "value_share_h1", "med_ratio_h1", "low_share_h1", "seller", "seller_importers", "broker", "office", "new", "shared_address"]
 
 
 def alternating_test(series: pd.Series) -> dict[str, Any]:
@@ -391,7 +464,8 @@ def fingerprint_detail(table: pd.DataFrame, lines: pd.DataFrame, importer_id: st
     if rows.empty:
         raise KeyError(f"no importer {importer_id} in the corridor")
     row = {k: _num(v) for k, v in rows.iloc[0].to_dict().items()}
-    row["codes"] = str(row["codes"]).split()
+    if "codes" in row:  # the fingerprint table; sprint 2's chain table (J.2) has no codes column
+        row["codes"] = str(row["codes"]).split()
     monthly = importer_months(lines, importer_id)
     row["monthly"] = _records(monthly)
     row["alternating_test"] = alternating_test(monthly.set_index("month")["value_per_kg"])
@@ -421,8 +495,10 @@ def invoice_range(table: pd.DataFrame, history: pd.DataFrame, invoice: pd.DataFr
     if line.empty:
         raise KeyError(f"no invoice line {ref}")
     mine = table[table["query_id"] == ref]
-    sims = dict(zip(mine["line_id"], mine["similarity"]))
-    kept = valuation.neighbours(line.iloc[0], history, sims, fx, as_of=str(pd.to_datetime(line["invoice_date"].iloc[0]).date()))
+    # The range reads the line's precomputed neighbours above the floor: the same heading and origin within the window for
+    # V1-V5 (what valuation.neighbours keeps), the 30 most similar by description, any origin, for the cotton line C1 (J.2).
+    kept = mine[mine["similarity"] >= valuation.FLOOR].sort_values(["similarity", "accepted_on"], ascending=[False, False]).head(valuation.K)
+    kept = kept.rename(columns={"unit_price_usd_fob": "fob_usd"}).dropna(subset=["fob_usd"])
     rng = valuation.price_range(kept)
     declared = float(valuation.to_fob_usd(line, fx, "invoice_date").iloc[0])
     verdict = valuation.assess(declared, rng)
