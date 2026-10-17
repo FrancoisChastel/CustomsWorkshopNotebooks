@@ -1,4 +1,6 @@
-"""4B: match customs to tax with and without the identifier, the dial, and the four buckets.
+"""4B: match customs to tax with and without the identifier, and the dial (the notebook's recipe on a 0-100 scale).
+
+The four match classes and the four lists of sprint 2 live in four_lists.py, the one implementation.
 
 Plain words -> technical: matching records -> record linkage; the dial -> match threshold
 (precision/recall); probable match -> probabilistic linkage with blocking.
@@ -74,27 +76,3 @@ def dial(scores: pd.DataFrame, truth: pd.Series, thresholds: range = range(50, 1
         right = sum(accepted.get(r) == tin for r, tin in has_truth.items())
         rows.append({"threshold": t, "found": int(right), "wrong": int(len(accepted) - right), "missed": int(len(has_truth) - right)})
     return pd.DataFrame(rows)
-
-
-def buckets(importers: pd.DataFrame, registry: pd.DataFrame, returns: pd.DataFrame, periods: list[str], markup: float = 1.25, gap_periods: int = 6) -> pd.DataFrame:
-    """unregistered / not filing / under-reporting / consistent for matched importers.
-
-    `importers` needs importer_id, matched_tin (blank when no match) and import_value_12m.
-    """
-    reg = registry.set_index("tin")
-    recent, last12 = periods[-gap_periods:], periods[-12:]
-    filed = returns[returns["period"].isin(recent) & (returns["filed"] == 1)].groupby("tin").size()
-    sales = returns[returns["period"].isin(last12) & (returns["filed"] == 1)].groupby("tin")["sales_lcu"].sum()
-    out = []
-    for row in importers.itertuples(index=False):
-        tin = row.matched_tin
-        if not tin or tin not in reg.index or not bool(reg.at[tin, "vat_registered"]):
-            bucket, reason = "unregistered", "no registry match or not VAT-registered"
-        elif filed.get(tin, 0) < gap_periods - 1:
-            bucket, reason = "not filing", f"{gap_periods - int(filed.get(tin, 0))} of the last {gap_periods} returns missing"
-        elif sales.get(tin, 0) < row.import_value_12m * markup:
-            bucket, reason = "under-reporting", f"sales {sales.get(tin, 0) / max(row.import_value_12m, 1):.2f}x imports (expected at least {markup}x)"
-        else:
-            bucket, reason = "consistent", "sales consistent with imports"
-        out.append({"importer_id": row.importer_id, "bucket": bucket, "reason": reason})
-    return pd.DataFrame(out)

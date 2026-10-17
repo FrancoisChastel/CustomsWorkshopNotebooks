@@ -458,7 +458,7 @@
     "decide": [
       {
         "key": "pairs",
-        "label": "Status and confidence for each of the 25",
+        "label": "Class and confidence for each of the 25",
         "kind": "table",
         "required": true,
         "rows": [
@@ -490,13 +490,14 @@
         ],
         "columns": [
           {
-            "key": "status",
-            "label": "Status",
+            "key": "class",
+            "label": "Class",
             "kind": "choice",
             "options": [
-              "link",
-              "review",
-              "no link"
+              "exact",
+              "validated probable",
+              "unresolved",
+              "known exception"
             ],
             "required": true
           },
@@ -546,18 +547,18 @@
       },
       {
         "key": "cost",
-        "label": "What a wrong link costs (a letter to the wrong taxpayer)",
+        "label": "What a wrong link costs (a letter to the wrong taxpayer); a wrong link costs more than a missed one",
         "required": true
       }
     ]
   },
   "4b-2": {
-    "title": "Buckets",
-    "says": "What the data says: the two totals (import value and count per bucket)",
+    "title": "Four lists",
+    "says": "What the data says: the four questions in order, importers and VAT at stake per list",
     "decide": [
       {
         "key": "importers",
-        "label": "Bucket, action and lead per importer",
+        "label": "List, reason, action and lead per importer",
         "kind": "table",
         "required": true,
         "rows": [
@@ -589,15 +590,24 @@
         ],
         "columns": [
           {
-            "key": "bucket",
-            "label": "Bucket",
+            "key": "list",
+            "label": "List",
             "kind": "choice",
             "options": [
-              "unregistered",
-              "not filing",
-              "under-reporting",
-              "consistent"
+              "1 not known to tax",
+              "2 not filing",
+              "3 import not booked",
+              "4 desk audit, ranked by VAT at stake",
+              "4b below imports, beyond capacity",
+              "5 consistent for now"
             ],
+            "required": true
+          },
+          {
+            "key": "reason",
+            "label": "Reason (the number that decided)",
+            "kind": "text",
+            "max": 160,
             "required": true
           },
           {
@@ -605,9 +615,11 @@
             "label": "Action",
             "kind": "choice",
             "options": [
-              "registration letter",
-              "stop-filer case",
+              "registration check",
+              "stop-filer letter",
+              "import VAT query",
               "desk audit",
+              "wait for capacity",
               "none"
             ],
             "required": true
@@ -622,12 +634,28 @@
               "joint"
             ],
             "required": true
+          },
+          {
+            "key": "vat_at_stake",
+            "label": "VAT at stake (LCU)",
+            "kind": "number",
+            "min": 0,
+            "required": false
           }
         ]
       },
       {
-        "key": "value_per_bucket",
-        "label": "Import value and count per bucket",
+        "key": "capacity",
+        "label": "Desk audits the unit can open (capacity)",
+        "kind": "number",
+        "min": 1,
+        "max": 10,
+        "default": 3,
+        "required": true
+      },
+      {
+        "key": "per_list",
+        "label": "Importers and VAT at stake per list",
         "kind": "text",
         "max": 300,
         "required": true
@@ -721,72 +749,79 @@
     "says": "What the data says: the population (importers and import value) from lock 2",
     "decide": [
       {
-        "key": "bucket",
-        "label": "The bucket",
+        "key": "list",
+        "label": "The list",
         "kind": "choice",
         "options": [
-          "unregistered",
-          "not filing",
-          "under-reporting",
-          "consistent"
+          "1 not known to tax",
+          "2 not filing",
+          "3 import not booked",
+          "4 desk audit, ranked by VAT at stake"
         ],
         "required": true
       },
       {
         "key": "population",
-        "label": "The population (importers and import value)",
+        "label": "1 · One risk, one population: importers and import value",
         "kind": "text",
         "max": 200,
         "required": true
       },
       {
-        "key": "leads",
-        "label": "Who leads (a named owner in each agency)",
+        "key": "key",
+        "label": "2 · The key between the two",
+        "kind": "text",
+        "max": 200,
+        "required": true
+      },
+      {
+        "key": "reasons",
+        "label": "3 · Explainable reasons",
+        "kind": "text",
+        "max": 300,
+        "required": true
+      },
+      {
+        "key": "data_flow",
+        "label": "4 · A repeatable data flow",
+        "kind": "text",
+        "max": 200,
+        "required": true
+      },
+      {
+        "key": "owner_customs",
+        "label": "5 · An owner in each agency: customs",
+        "kind": "text",
+        "max": 120,
+        "required": true
+      },
+      {
+        "key": "owner_tax",
+        "label": "5 · An owner in each agency: tax",
+        "kind": "text",
+        "max": 120,
+        "required": true
+      },
+      {
+        "key": "outcomes_back",
+        "label": "6 · Outcomes sent back",
         "kind": "text",
         "max": 200,
         "required": true
       },
       {
         "key": "window",
-        "label": "The window",
+        "label": "7 · A window and a test: the window",
         "kind": "text",
         "max": 120,
         "required": true
       },
       {
-        "key": "window_number",
-        "label": "The number read at the end of the window",
+        "key": "held_out",
+        "label": "7 · A window and a test: the held-out group",
         "kind": "text",
-        "max": 200,
+        "max": 120,
         "required": true
-      },
-      {
-        "key": "governance",
-        "label": "The governance item your administrations lack today",
-        "kind": "choice",
-        "options": [
-          "sets budgets and the random share",
-          "approves hypotheses with expiry dates",
-          "reviews measures",
-          "owns overrides",
-          "the data-sharing instrument",
-          "the identifier rule"
-        ],
-        "required": true
-      },
-      {
-        "key": "first_step",
-        "label": "The first step before the end of the month",
-        "kind": "text",
-        "max": 200,
-        "required": true
-      },
-      {
-        "key": "middle_band",
-        "label": "Who reviews the middle band of the match, and under which legal basis",
-        "kind": "text",
-        "max": 200,
-        "required": false
       }
     ],
     "signs": [

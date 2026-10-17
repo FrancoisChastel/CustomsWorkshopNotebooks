@@ -255,12 +255,12 @@
    "The sample sets the dial, not the weights."
   ]
  },
- "4b.buckets": {
-  "topic": "sort each importer into unregistered, not filing, under-reporting or consistent",
+ "4b.lists": {
+  "topic": "follow one import through both administrations and put each importer on the list of the first question it fails",
   "hints": [
-   "Each bucket calls for a different agency.",
-   "Check registration, then missing returns, then sales against imports times the sector mark-up.",
-   "sales below imports times 1.25 means under-reporting; two missing returns in the last six means not filing."
+   "Ask the questions in order and stop at the first no.",
+   "Filing: count the last six returns. Books: import VAT deducted over paid under the number. Sales: sales over imports.",
+   "The lines are one half and 1; rank list 4 by VAT at stake and keep three."
   ]
  },
  "4b.network.borrowed_names": {
@@ -312,11 +312,11 @@
   ]
  },
  "4b.exercise": {
-  "topic": "track A: bucket each of the 25 importers, choose the action and the lead, find the two networks; track B: match the real register and set the dial",
+  "topic": "track A: give each of the 25 its class, put it on its list with the reason, the action and the lead, find the two networks; track B: match the real register and set the dial",
   "hints": [
    "Start from what the registry and the returns say.",
-   "Match, then registration, filing, and sales against imports; then look at shared addresses and brokers.",
-   "Under-reporting includes the two lenders and the one-digit TIN trap."
+   "Match, then filing, the import VAT in the books and sales against imports; then look at shared addresses and brokers.",
+   "The two lenders fall on list 3; the one-character number links on the recipe."
   ]
  }
 }

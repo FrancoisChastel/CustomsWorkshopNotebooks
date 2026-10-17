@@ -24,7 +24,8 @@ import numpy as np
 import pandas as pd
 from rapidfuzz import fuzz
 
-from . import valuation
+from . import four_lists, valuation
+from .four_lists import list_case, lists_key, lists_table, match_classes, number_table, sector_usual_table  # noqa: F401 - the 4B v2 lists, re-exported (ADD-J section 11)
 from .informality import normalise_address, normalise_name
 from .trade import bridge, classify_series
 
@@ -40,7 +41,6 @@ SHARED_ADDRESS_MIN = 3          # the customs-declared address shared by 3+ impo
 LOW_PRICE = 0.75                # a line "under 0.75 of peers" (J.2, J.3)
 DIAL = {"link": 0.90, "review": 0.70}
 WEIGHTS = {"name": 0.4, "address": 0.3, "director": 0.3}
-MARKUP = 0.25                   # expected sales = imports x (1 + MARKUP)
 GAP_PERIODS = 6
 HUB_RULE = {"consignees": 8, "addresses": 1, "turnover": 0.20}   # the deck's "11 consignees": the parties clearing under one tax ID
 BUNCHING_BAND = (0.62, 0.70)    # prices parked just under R2's 70% threshold
@@ -91,8 +91,8 @@ MENU: list[dict[str, Any]] = [
 # --------------------------------------------------------------------------- small helpers
 
 def _num(value: Any, digits: int | None = None) -> float | int | None:
-    """A JSON-safe number: None for NaN/inf, plain Python types otherwise."""
-    if value is None:
+    """A JSON-safe number: None for NaN/inf (and a missing integer), plain Python types otherwise."""
+    if value is None or value is pd.NA:
         return None
     if isinstance(value, (np.integer,)):
         return int(value)
@@ -610,61 +610,7 @@ def trackb_curve(scores: pd.DataFrame, sample: pd.DataFrame, dial: float = DIAL[
             "least_sure": [{"cust_id": c, "reg_id": r, "score": _num(v, 4)} for c, r, v in zip(nearest["cust_id"], nearest["reg_id"], nearest["score"])]}
 
 
-# --------------------------------------------------------------------------- 4B · buckets
-
-def bucket_table(importers_4b: pd.DataFrame, pairs: pd.DataFrame, registry: pd.DataFrame, returns: pd.DataFrame, dial: float = DIAL["link"]) -> tuple[pd.DataFrame, pd.DataFrame]:
-    """The 25 joined to the registry and the returns, the four rules as columns, the bucket, and the totals per bucket."""
-    reg = registry.fillna("").astype({"tin": str}).set_index("tin")
-    tins = set(reg.index)
-    periods = sorted(returns["period"].astype(str).unique())
-    recent, last12 = periods[-GAP_PERIODS:], periods[-12:]
-    filed_ok = returns[returns["filed"] == 1]
-    filed = filed_ok[filed_ok["period"].astype(str).isin(recent)].groupby("tin").size()
-    sales = filed_ok[filed_ok["period"].astype(str).isin(last12)].groupby("tin")["sales_lcu"].sum()
-    best = pairs.set_index("ref")
-    rows = []
-    for imp in importers_4b.fillna("").itertuples(index=False):
-        tin = str(imp.tin_customs)
-        if tin and tin in tins:
-            matched, basis = tin, "tin"
-        elif imp.ref in best.index and float(best.at[imp.ref, "confidence"]) >= dial:
-            matched, basis = str(best.at[imp.ref, "best_tin"]), "probable"
-        else:
-            matched, basis = "", "none"
-        registered = bool(matched)
-        vat = bool(reg.at[matched, "vat_registered"]) if matched else False
-        n_filed = int(filed.get(matched, 0)) if matched else None
-        imports = float(imp.import_value_12m_lcu)
-        expected = imports * (1 + MARKUP)
-        declared = float(sales.get(matched, 0.0)) if matched else None
-        rule1 = not (registered and vat)
-        rule2 = bool(not rule1 and n_filed is not None and n_filed < GAP_PERIODS - 1)
-        rule3 = bool(not rule1 and not rule2 and declared is not None and declared < expected)
-        rule4 = not (rule1 or rule2 or rule3)
-        bucket = "unregistered" if rule1 else "not filing" if rule2 else "under-reporting" if rule3 else "consistent"
-        rows.append({"ref": imp.ref, "importer_id": imp.importer_id, "importer_name": imp.importer_name, "tin_customs": tin, "matched_tin": matched, "match_basis": basis,
-                     "registered": int(registered), "vat_registered": int(vat), "returns_filed_of_6": n_filed, "imports_12m": round(imports, 0),
-                     "expected_sales": round(expected, 0), "declared_sales": None if declared is None else round(declared, 0),
-                     "shortfall": None if declared is None else round(max(0.0, expected - declared), 0),
-                     "rule1_unregistered": int(rule1), "rule2_not_filing": int(rule2), "rule3_under_reporting": int(rule3), "rule4_consistent": int(rule4), "bucket": bucket})
-    table = pd.DataFrame(rows)
-    totals = table.groupby("bucket").agg(importers=("ref", "size"), value=("imports_12m", "sum")).reindex(["unregistered", "not filing", "under-reporting", "consistent"], fill_value=0).reset_index()
-    totals["value"] = totals["value"].round(0)
-    totals["share_of_value"] = (totals["value"] / max(1.0, float(table["imports_12m"].sum()))).round(3)
-    return table, totals
-
-
-def bucket_case(table: pd.DataFrame, ref: str) -> dict[str, Any]:
-    rows = table[table["ref"] == ref]
-    if rows.empty:
-        raise KeyError(f"no importer {ref}")
-    r = {k: _num(v) for k, v in rows.iloc[0].to_dict().items()}
-    r["markup"] = MARKUP
-    r["steps"] = [{"label": "Imports over 12 months", "value": r["imports_12m"]}, {"label": f"Expected sales = imports x {1 + MARKUP:.2f}", "value": r["expected_sales"]},
-                  {"label": "Sales declared over 12 months", "value": r["declared_sales"]}, {"label": "Shortfall", "value": r["shortfall"]}]
-    r["verdict"] = "under-reporting" if r["rule3_under_reporting"] else ("no sales to compare" if r["declared_sales"] is None else "sales cover the imports")
-    return r
-
+# --------------------------------------------------------------------------- 4B · the four lists (ADD-L), in four_lists.py
 
 # --------------------------------------------------------------------------- 4B · networks
 
@@ -677,16 +623,27 @@ def _graph(network: dict[str, Any]) -> nx.Graph:
     return graph
 
 
-def four_counts(network: dict[str, Any], importers_4b: pd.DataFrame, importers: pd.DataFrame, returns: pd.DataFrame, registry: pd.DataFrame) -> pd.DataFrame:
-    """Per 4B importer: the consignees (every party clearing under its tax ID: other names plus the consignee records), the addresses and brokers behind them, and turnover over imports."""
+def _number_side(imp: Any, numbers: pd.DataFrame | None) -> tuple[float, float, bool]:
+    """Imports and import VAT paid over twelve months on the lines that bear VAT, per tax number used to clear (ADD-L L.3.3); the row's own values without a number."""
+    tin = imp.tin_customs
+    if not tin or numbers is None:
+        return float(imp.import_value_12m_lcu), float(imp.import_vat_paid_12m_lcu), False
+    per = numbers["imports_12m"].get(tin, float("nan")), numbers["import_vat_paid_12m"].get(tin, float("nan"))
+    return float(per[0]), float(per[1]), True
+
+
+def four_counts(network: dict[str, Any], importers_4b: pd.DataFrame, importers: pd.DataFrame, returns: pd.DataFrame, registry: pd.DataFrame,
+                numbers: pd.DataFrame | None = None) -> pd.DataFrame:
+    """Per 4B importer: the consignees (every party clearing under its tax ID: other names plus the consignee records), the addresses and brokers behind them,
+    turnover over imports and import VAT deducted over paid, both on the tax-number basis (numbers_4b: lines that bear VAT, last twelve months)."""
     graph = _graph(network)
     reg_all = importers.fillna("").astype(str)
     by_tin = reg_all[reg_all["tin"] != ""].groupby("tin")["importer_id"].apply(list)
     address_of = reg_all.set_index("importer_id")["address_line"]
     broker_of = reg_all.set_index("importer_id")["default_broker_id"]
-    periods = sorted(returns["period"].astype(str).unique())[-12:]
-    sales = returns[(returns["filed"] == 1) & returns["period"].astype(str).isin(periods)].groupby("tin")["sales_lcu"].sum()
+    books = four_lists.returns_by_number(returns)
     tins = set(registry["tin"].astype(str))
+    per_number = None if numbers is None else numbers.assign(tin_customs=numbers["tin_customs"].astype(str)).set_index("tin_customs")
     rows = []
     for imp in importers_4b.fillna("").astype(str).itertuples(index=False):
         names = [i for i in by_tin.get(imp.tin_customs, []) if i != imp.importer_id] if imp.tin_customs else []
@@ -694,16 +651,19 @@ def four_counts(network: dict[str, Any], importers_4b: pd.DataFrame, importers: 
         group = [imp.importer_id, *names]
         addresses = {address_of.get(i, "") for i in group} - {""}
         brokers = {broker_of.get(i, "") for i in group} - {""}
-        imports = float(imp.import_value_12m_lcu)
-        turnover = float(sales.get(imp.tin_customs, float("nan"))) if imp.tin_customs in tins else float("nan")
+        imports, paid, has_number = _number_side(imp, per_number)
+        known = imp.tin_customs in tins and float(books["filed_12m"].get(imp.tin_customs, 0)) > 0  # a number that filed no return in twelve months declared nothing
+        turnover = float(books["sales_12m"].get(imp.tin_customs)) if known else float("nan")
+        deducted = float(books["import_vat_deducted_12m"].get(imp.tin_customs)) if known else float("nan")
         ratio = turnover / imports if imports and turnover == turnover else float("nan")
+        booked = deducted / paid if has_number and paid and deducted == deducted else float("nan")
         clearing = len(names) + len(consignees)  # the deck's "consignees": every party clearing under the tax ID (other names, plus the consignee records)
         community = graph.nodes[imp.importer_id].get("community", -1) if imp.importer_id in graph else -1
         flag = bool(clearing >= HUB_RULE["consignees"] and len(addresses) == HUB_RULE["addresses"] and ratio == ratio and ratio < HUB_RULE["turnover"])
         rows.append({"ref": imp.ref, "importer_id": imp.importer_id, "tin_customs": imp.tin_customs, "names_under_tin": len(names), "consignee_nodes": len(consignees),
                      "consignees": clearing, "addresses": len(addresses), "brokers": len(brokers), "imports_12m": round(imports, 0),
                      "sales_12m": _num(turnover, 0), "turnover_ratio": _num(ratio, 3), "community": int(community), "flag": int(flag),
-                     "names": " ".join(sorted(names))})
+                     "names": " ".join(sorted(names)), "import_vat_booked": _num(booked, 3)})
     return pd.DataFrame(rows)
 
 
@@ -714,7 +674,8 @@ def count_case(table: pd.DataFrame, ref: str) -> dict[str, Any]:
     r = {k: _num(v) for k, v in rows.iloc[0].to_dict().items()}
     r["rule"] = HUB_RULE
     r["steps"] = [{"label": "Consignees: the names declaring under the tax ID, plus the consignee records", "value": r["consignees"]}, {"label": "Distinct addresses behind them", "value": r["addresses"]},
-                  {"label": "Distinct brokers", "value": r["brokers"]}, {"label": "Turnover declared / imports", "value": r["turnover_ratio"]}]
+                  {"label": "Distinct brokers", "value": r["brokers"]}, {"label": "Turnover declared / imports (per tax number, lines that bear VAT)", "value": r["turnover_ratio"]},
+                  {"label": "Import VAT deducted ÷ paid", "value": r.get("import_vat_booked")}]
     return r
 
 
