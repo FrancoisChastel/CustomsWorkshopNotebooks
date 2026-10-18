@@ -50,7 +50,7 @@ Calibration line: published customs datasets record an irregularity on 1 to 8 li
 | `sample_1b.csv` | 1B sprint 2. 25,000 lines for the Excel Sample sheet: value per kilo, the typical value of the peers, the spread, the distance from normal (the z, log and linear), the peer level used, the five recipe columns; the deck's worked line is flagged (deck_example = 1). |
 | `recipe_steps_1b.csv` | 1B sprint 2. Three or four settings of the one choice each recipe leaves open (recipes 2 to 5), as a condition, with their numbers on the random draw of months 1-18 only: share of traffic, random-draw lines flagged, findings, hit rate and lift against that draw. The months 19-36 test comes after the lock. |
 | `rule_flags_1b.csv` | 1B sprint 1. The risk engine's log: one row per line of both halves, the rules R1 to R4 that flagged it (legacy_rules.md), how many, and the lane the rule book gives it. Join it to the declarations on line_id. |
-| `controls.csv` | 1B. The control module's export: one row per control, every controlled line of months 1-36 (the lanes and the random draw of months 1-18, the random draw of months 19-36): what was done, what it found, the duty recovered and the officer. Look a line up on line_id; a line with no row was not controlled. |
+| `controls.csv` | 1B. The control module's export: one row per control, every controlled line of months 1-36 (the lanes and the random draw of months 1-18, the random draw of months 19-36): the control's number, the declaration, why the line was selected, the lane, what was done, by whom, for how long and when, what it found and the duty recovered. Look a line up on line_id; a line with no row was not controlled. |
 
 ## declarations_h1 / declarations_h2
 
@@ -195,12 +195,28 @@ Calibration line: published customs datasets record an irregularity on 1 to 8 li
 
 | Field | Meaning |
 | --- | --- |
+| `control_id` | The control's number (CTL + 7 digits, in line order) |
 | `line_id` | The line that was controlled; a line that was not controlled has no row (read it as not controlled) |
+| `decl_id` | The declaration the line belongs to |
+| `selection_basis` | Why the line was controlled: random draw (random_draw = 1 on the declaration; months 1-36), override (the lane was changed by hand, override_flag = 1, the reason in override_reason), officer discretion (an officer escalated a line the rules sent green: rule_flags_1b.book_lane green, lane yellow), lane rule (the lane the legacy rules gave it, months 1-18) |
+| `override_reason` | Why the lane was overridden by hand (intelligence, documents incomplete, random re-check, supervisor); empty otherwise |
+| `lane` | The lane recorded on the declaration (months 1-18: green, yellow or red; months 19-36: empty, no lanes) |
 | `control_type` | The checks done: documentary+physical = documents checked and goods examined; documentary+scanner = documents checked and container scanned; documentary+physical+scanner = documents, scanner and goods examined; full = documents, goods examined and a valuation query; full+scanner = documents, scanner, goods examined and a valuation query |
+| `officer_id` | The officer who did the control (office and number) |
+| `control_minutes` | Officer time spent on the control, in minutes |
+| `selected_on` | When the risk engine or the officer selected the line (date and time, to the minute): minutes after the declaration was lodged |
+| `started_on` | When the officer started the control |
+| `completed_on` | When the control ended: started_on + control_minutes |
+| `result_recorded_on` | When the result was recorded. The times sit between lodgement and release (release_hours after lodgement); where the officer's time is longer than the time to release (about 3 controls in 100) the goods were released first and the control ended, and was recorded, after the release |
 | `outcome` | finding = the control found something; no_finding = it found nothing. On a screen: found something, found nothing, or not controlled (no row) |
 | `finding_type` | What was found: undervaluation, misclassification, origin, quantity, documentary or prohibited goods; empty when nothing was found |
 | `duty_recovered_lcu` | Duty and VAT recovered after the control, in LCU (0 when nothing was recovered) |
-| `officer_id` | The officer who did the control (office and number) |
+| `status` | The line's status after the control, as the declaration files carry it: accepted, amended, withdrawn or under_query. A control that found something usually ends with the line amended: read it as a result of the control, never as a field to predict a finding with |
+
+## Two fields that know the outcome (ADD-P leak test)
+
+- `status` (declarations_h1, declarations_h2, controls): the generator sets "amended" on most lines where a control found something (on the months 19-36 random draw, 340 of the 394 findings), so `amended` is a result of the control, not something declared. Do not use it to predict a finding. The raw extract leaves it off its Declarations sheet (every line read accepted when lodged) and shows it on Controls, beside the outcome.
+- `release_hours`, and the control times drawn inside it (controls: selected_on, started_on, completed_on, result_recorded_on): on months 19-36 the generator draws the time to release from a legacy lane it still computes, so it carries a weak link to the outcome (on its own it ranks the random draw's findings a little better than chance: AUC about 0.6). Kept as it is; read it as noise, never as a signal.
 
 ## Generating rules in one paragraph each
 

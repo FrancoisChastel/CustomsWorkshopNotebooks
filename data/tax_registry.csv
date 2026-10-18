@@ -60,12 +60,12 @@ T100420,United Commercial International Ltd,,35 Airport Road,South,0336945144,Fa
 T100427,Golden Textiles Limited,Golden Textiles Ltd,55 Riverside,East,0674129122,Priya Bauer,2010-01-09,True,active,Steel and construction
 T100440,"Metro Motors Co., Ltd","Metro Motors Co., Ltd",215 Bazaar Lane,West,0929915234,Ingrid Al-Sayed,2013-04-28,True,active,Vehicles and parts
 T100445,Cobalt Mobile Ltd,,396 MILL ROAD,Capital,0334789891,Nadia Sato,2015-04-27,True,active,General trading
-T100450,Great Wall Fruits Partners Limited,Great Wall Fruits Partners Ltd,395 Garden Lane,North,0701160434,Mei Nguyen-Lee,2016-11-18,True,active,Fuel and chemicals
+T100450,Great Vellmoor Fruits Partners Limited,Great Vellmoor Fruits Partners Ltd,395 Garden Lane,North,0701160434,Mei Nguyen-Lee,2016-11-18,True,active,Fuel and chemicals
 T100466,Pacific Enterprises Holdings Ltd,,356 Station Road,East,0254736740,Farid Sato,2008-12-28,True,active,Fuel and chemicals
 T100474,"Green Valley Fruits Co., Ltd",,357 Market Street,East,0584646483,Daniel Al-Sayed,2018-08-14,True,active,Tobacco and beverages
 T100476,Evergreen Fruits Group Ltd,,74 Bazaar Lane,West,0673992353,Daniel Chen,2024-05-03,True,active,Pharmaceuticals
 T100490,Carrick Enterprises Co.,,143 Garden Lane,South,0759443551,Mei Mahmood,2026-03-09,True,active,Textiles and apparel
-T100497,Great Wall Pack Holdings Limited,Great Wall Pack Holdings Ltd,368 STATION ROAD,Capital,0244279675,Hassan Chen,2014-07-07,True,active,Vehicles and parts
+T100497,Great Vellmoor Pack Holdings Limited,Great Vellmoor Pack Holdings Ltd,368 STATION ROAD,Capital,0244279675,Hassan Chen,2014-07-07,True,active,Vehicles and parts
 T100510,GLOBAL PACK & SONS,Global Pack & Sons,172 Mill Road,South,0670197514,Hassan Bauer,2010-03-23,True,active,Furniture and household
 T100516,Dunmore Imports & Sons ,Dunmore Imports & Sons,93 Riverside,West,0802046839,Hassan Chen,2009-12-22,True,active,Food importers
 T100519,HARMONY TEXTILES LIMITED,,321 Market Street,Coastal,0543950447,Farid Silva,2025-09-29,True,active,Food importers
@@ -98,7 +98,7 @@ T100723,Blue Ocean Logistics Ltd,,329 Mill Road,South,0757878511,Aisha Kowalski,
 T100729,Arden Fruits Limited,Arden Fruits Ltd,3 RIVERSIDE,South,0501969412,Fatima Osei,2011-12-10,True,active,Food importers
 T100741,"Sunrise Textiles Co., Ltd","Sunrise Textiles Co., Ltd",228 Market Street,Capital,0615813591,Aisha Chen,2019-03-29,True,active,Electronics
 T100745,Metro Fruits Enterprises ,Metro Fruits Enterprises,"Unit 27, 369 Bazaar Lane",North,0807497130,Daniel Al-Sayed,2025-04-17,True,active,Electronics
-T100749,Great Wall Motors Partners Ltd,Great Wall Motors Partners Ltd,373 Temple Street,West,0533266170,Amina Al-Sayed,2018-07-13,True,active,Electronics
+T100749,Great Vellmoor Motors Partners Ltd,Great Vellmoor Motors Partners Ltd,373 Temple Street,West,0533266170,Amina Al-Sayed,2018-07-13,True,active,Electronics
 T100758,"Jade Logistics Co., Ltd",,245 MILL ROAD,Capital,0330527456,Daniel Haddad,2014-07-10,True,active,Machinery
 T100769,Coral Living International Ltd,Coral Living International Ltd,324 Bazaar Lane,South,0240087743,B. Ibrahim,2013-03-04,True,active,Vehicles and parts
 T100773,Global Logistics Co.,Global Logistics Co.,196 Market Street,West,0754320053,Grace Chen,2021-03-09,True,active,Textiles and apparel
@@ -146,7 +146,7 @@ T101131,Horizon Medical International Ltd,Horizon Medical International Ltd,289 
 T101138,Coral Trading Limited,Coral Trading Limited,150 Mill Road,South,0824964850,Lucia Chen,2021-05-24,True,active,Textiles and apparel
 T101142,Carrick Mobile Group Limited,Carrick Mobile Group Ltd,37 Harbour Road,West,0892978259,Samuel Reyes,2009-06-18,True,active,Fuel and chemicals
 T101148,"Coral Enterprises Co., Ltd",,309 Harbour Road,South,0560495632,Grace Mahmood,2016-05-05,True,active,Textiles and apparel
-T101160,Great Wall Mobile Limited,Great Wall Mobile Ltd,239 Station Road,East,0807381597,Grace Patel,2014-09-23,True,active,Food importers
+T101160,Great Vellmoor Mobile Limited,Great Vellmoor Mobile Ltd,239 Station Road,East,0807381597,Grace Patel,2014-09-23,True,active,Food importers
 T101167,Dunmore Steel & Sons,Dunmore Steel & Sons,238 Mill Road,North,0200083648,A. Silva,2015-05-23,True,active,Pharmaceuticals
 T101174,Delta Electronics International Limited,Delta Electronics International Ltd,135 Mill Road,Coastal,0686886422,Grace Mahmood,2019-07-17,True,active,Medical devices
 T101178,Silk Road Electronics & Sons ,Silk Road Electronics & Sons,144 MILL ROAD,Coastal,0458617573,Ravi Mensah,2013-07-02,True,active,Electronics
@@ -175,7 +175,7 @@ T101367,Green Valley Living Limited,,4 Harbour Road,East,0489060803,Samuel Reyes
 T101382,Harmony Glow Company,Harmony Glow Co.,341 Temple Street,North,0964226055,Amina Mensah,2020-11-19,True,active,Food importers
 T101387,Green Valley Glow Co.,,29 TEMPLE STREET,East,0739131722,Tomas Okafor,2017-03-02,True,active,Pharmaceuticals
 T101399,Arden Commercial Co.,,185 Industrial Estate,Coastal,0654243168,B. Al-Sayed,2013-12-28,True,active,Textiles and apparel
-T101403,Great Wall Enterprises Co.,,232 GARDEN LANE,Capital,0964518154,S. Reyes,2020-07-26,True,active,Machinery
+T101403,Great Vellmoor Enterprises Co.,,232 GARDEN LANE,Capital,0964518154,S. Reyes,2020-07-26,True,active,Machinery
 T101411,Metro Medical Limited,,288 Riverside,North,0976751244,Somchai Nguyen-Lee,2009-02-04,True,active,Cosmetics and personal care
 T101414,Saffron Medical & Sons,,263 Station Road,West,0539906428,Somchai Sato,2008-05-13,True,active,Food importers
 T101426,Ashcombe Glow Partners Limited,Ashcombe Glow Partners Ltd,34 Industrial Estate,North,0736352042,Lucia Mwangi,2019-12-14,True,active,Cosmetics and personal care
@@ -297,8 +297,8 @@ T102336,Saffron Motors Partners Limited,Saffron Motors Partners Ltd,118 Harbour 
 T102342,Meridian Medical Limited,,369 Garden Lane,Capital,0475926609,Joseph Mwangi,2023-07-04,True,active,Machinery
 T102357,Twin Rivers Supply Ltd,,156 Bazaar Lane,Capital,0718835125,Aisha Osei,2011-08-07,True,active,Medical devices
 T102364,Meridian Motors Group Ltd,,55 Mill Road,Coastal,0605908486,Omar Reyes,2021-07-08,True,active,Tobacco and beverages
-T102370,Great Wall Medical International Limited,Great Wall Medical International Ltd,15 Garden Lane,East,0221701831,Fatima Tanaka,2016-07-16,True,active,Food importers
-T102376,Great Wall Steel Enterprises,,43 Riverside,Capital,0913214249,Elena Haddad,2019-05-01,True,active,Fuel and chemicals
+T102370,Great Vellmoor Medical International Limited,Great Vellmoor Medical International Ltd,15 Garden Lane,East,0221701831,Fatima Tanaka,2016-07-16,True,active,Food importers
+T102376,Great Vellmoor Steel Enterprises,,43 Riverside,Capital,0913214249,Elena Haddad,2019-05-01,True,active,Fuel and chemicals
 T102380,Inverness Medical Co.,,62 Riverside,North,0442789211,Omar Tanaka,2014-10-24,True,active,Steel and construction
 T102394,Arden Pack Holdings Ltd,Arden Pack Holdings Ltd,110 Industrial Estate,Coastal,0894673918,Hassan Osei,2011-04-03,True,active,Vehicles and parts
 T102404,Horizon Medical Partners Limited,Horizon Medical Partners Ltd,"Unit 7, 80 Riverside",Coastal,0265288583,Joseph Al-Sayed,2010-05-30,True,active,Tobacco and beverages
@@ -412,7 +412,7 @@ T103188,Royal Industries Partners Ltd,,304 Garden Ln,South,0242805554,Daniel Che
 T103192,Royal Logistics Group Ltd,,"Unit 10, 92 Industrial Estate",Coastal,0404764063,Samuel Chen,2014-08-02,True,active,Textiles and apparel
 T103205,"Saffron Steel Co., Ltd","Saffron Steel Co., Ltd",21 Garden Lane,West,0603202097,Samuel Mahmood,2009-03-26,True,active,Fuel and chemicals
 T103208,Lotus Textiles Limited,,108 Garden Lane,North,0950957998,Nadia Sato,2019-08-18,True,active,General trading
-T103219,"Great Wall Enterprises Co., Ltd","Great Wall Enterprises Co., Ltd",196 Temple Street,East,0738405729,Somchai Nguyen-Lee,2017-10-09,True,active,Vehicles and parts
+T103219,"Great Vellmoor Enterprises Co., Ltd","Great Vellmoor Enterprises Co., Ltd",196 Temple Street,East,0738405729,Somchai Nguyen-Lee,2017-10-09,True,active,Vehicles and parts
 T103221,Meridian Pack Enterprises,,"Unit 1, 57 Market Street",East,0738754810,Elena Fernandes,2023-10-07,True,active,Fuel and chemicals
 T103229,Northern Commercial Limited,,"Unit 15, 167 Bazaar Lane",Capital,0705563827,M. Al-Sayed,2008-06-21,True,active,Tobacco and beverages
 T103236,Twin Rivers Fruits Enterprises,Twin Rivers Fruits Enterprises,143 Harbour Road,Coastal,0870306024,Tomas Bauer,2019-09-18,True,active,Food importers
@@ -421,7 +421,7 @@ T103261,Delta Motors Enterprises,Delta Motors Enterprises,129 MILL ROAD,South,05
 T103262,Eastern Trading Company Limited,"Eastern Trading Co., Ltd",290 Mill Road,East,0750126254,Grace Al-Sayed,2018-05-21,True,active,Cosmetics and personal care
 T103274,Metro Mobile & Sons,,222 Garden Lane,North,0529309718,Ingrid Novak,2025-03-16,True,active,Tobacco and beverages
 T103277,Orchid Motors Holdings Ltd,Orchid Centre,274 Industrial Estate,East,0565174034,Kenji Bauer,2020-12-10,True,active,Medical devices
-T103287,Great Wall Foods Limited,Great Wall Foods Limited,299 Station Road,East,0906573461,Aisha Silva,2024-11-08,True,active,Medical devices
+T103287,Great Vellmoor Foods Limited,Great Vellmoor Foods Limited,299 Station Road,East,0906573461,Aisha Silva,2024-11-08,True,active,Medical devices
 T103290,Silver Fruits Ltd,,85 Garden Lane,West,0336227887,Lucia Sato,2018-04-25,True,active,Furniture and household
 T103301,Saffron Enterprises Co.,,253 Harbour Road,West,0216215139,Farid Kowalski,2014-03-05,True,active,Medical devices
 T103306,Pacific Electronics Ltd,,62 Riverside,Capital,0749954866,Amina Mensah,2009-08-20,True,active,Textiles and apparel
@@ -434,7 +434,7 @@ T103351,Ocean Enterprises Ltd,,39 Industrial Estate,East,0633615048,Omar Mahmood
 T103358,"Horizon Mobile Co., Ltd",,11 AIRPORT ROAD,North,0364471431,B. Ibrahim,2019-08-11,True,active,Cosmetics and personal care
 T103362,HORIZON DISTRIBUTION ENTERPRISES,Horizon Distribution Enterprises,371 Riverside,South,0789922834,S. Silva,2018-04-05,True,active,Medical devices
 T103370,Phoenix Trading Partners Ltd,Phoenix Store,14 Temple Street,Capital,0752074247,Kenji Okafor,2020-10-01,True,dormant,Tobacco and beverages
-T103379,Great Wall Glow Partners Ltd,,"Unit 27, 270 Bazaar Lane",West,0470381136,A. Mahmood,2008-12-05,True,active,Electronics
+T103379,Great Vellmoor Glow Partners Ltd,,"Unit 27, 270 Bazaar Lane",West,0470381136,A. Mahmood,2008-12-05,True,active,Electronics
 T103385,Coral Glow Enterprises,Coral Glow Enterprises,165 Temple Street,West,0491774773,Nadia Silva,2025-07-11,True,active,Cosmetics and personal care
 T103391,Inverness Logistics Ltd,Inverness Logistics Ltd,392 Bazaar Lane,North,0346857534,Grace Ibrahim,2009-12-28,True,active,Cosmetics and personal care
 T103395,Global Distribution International Limited,,178 Garden Lane,North,0269232841,Kenji Bauer,2013-02-03,True,active,Furniture and household
@@ -475,7 +475,7 @@ T103667,Central Pack Holdings Ltd,Central Pack Holdings Ltd,13 Industrial Estate
 T103671,Orchid Supply International Limited,Orchid Supply International Ltd,362 Industrial Estate,Capital,0992655471,Omar Haddad,2017-05-27,True,active,Fuel and chemicals
 T103676,Ocean Imports Group Ltd,,65 Harbour Road,Coastal,0582922799,Farid Rahman,2025-01-03,True,active,Steel and construction
 T103683,Eastern Commercial Limited ,Eastern Commercial Limited,77 Harbour Road,North,0746581390,Grace Sato,2018-02-09,True,active,Food importers
-T103694,Great Wall Electronics International Limited,,199 Garden Lane,East,0921613630,S. Novak,2011-04-15,True,active,General trading
+T103694,Great Vellmoor Electronics International Limited,,199 Garden Lane,East,0921613630,S. Novak,2011-04-15,True,active,General trading
 T103698,Blue Ocean Industries Holdings Ltd,Blue Ocean Industries Holdings Ltd,121 Airport Road,North,0483507383,Lucia Mahmood,2010-01-07,True,active,Machinery
 T103707,Aldergate Electronics International Limited,Aldergate Electronics International Ltd,112 MARKET STREET,South,0410107890,Fatima Ibrahim,2009-08-30,True,active,Vehicles and parts
 T103712,"Inverness Distribution Co., Ltd","Inverness Distribution Co., Ltd",231 GARDEN LANE,Coastal,0368370013,Ravi Patel,2016-03-13,True,active,General trading
@@ -498,7 +498,7 @@ T103845,Jade Commercial Partners Limited,Jade Commercial Partners Ltd,281 Garden
 T103855,Phoenix Steel Partners Ltd,,19 Riverside,West,0204716401,Farid Tanaka,2014-05-30,True,active,Furniture and household
 T103862,Carrick Medical Co.,,396 Industrial Estate,Capital,0828474822,Tomas Ibrahim,2018-09-25,True,active,General trading
 T103867,Silk Road Living Limited,Silk Road Living Ltd,"Unit 2, 337 Mill Road",East,0315177102,M. Patel,2021-11-02,True,active,Cosmetics and personal care
-T103876,Great Wall Trading Group Limited,Great Wall Trading Group Ltd,12 Airport Rd,West,0389663631,Somchai Silva,2026-01-02,True,active,General trading
+T103876,Great Vellmoor Trading Group Limited,Great Vellmoor Trading Group Ltd,12 Airport Rd,West,0389663631,Somchai Silva,2026-01-02,True,active,General trading
 T103882,Aldergate Imports Limited ,,356 Station Road,Capital,0345744179,Elena Nguyen-Lee,2022-10-22,True,active,Fuel and chemicals
 T103891,Eastern Foods Holdings Ltd,Eastern Foods Holdings Ltd,98 Bazaar Lane,South,0719827763,Lucia Rahman,2021-02-27,True,active,General trading
 T103892,"Northern Electronics Co., Ltd",,194 Industrial Estate,West,0873569762,Hassan Mensah,2016-12-12,True,active,General trading
@@ -634,7 +634,7 @@ T104840,Aldergate Mobile Partners Ltd,,313 Airport Road,South,0874919797,Somchai
 T104846,Sunrise Medical Group Ltd,,105 Harbour Road,North,0662230616,Daniel Mensah,2025-04-30,True,active,General trading
 T104854,Twin Rivers Distribution Group Limited,,126 Airport Road,North,0498646759,Aisha Sato,2019-04-22,True,active,General trading
 T104862,Delta Enterprises & Sons ,Delta Enterprises & Sons,371 Temple Street,East,0444223736,A. Kowalski,2020-05-21,True,active,Steel and construction
-T104865,Great Wall Glow Company,,398 BAZAAR LANE,South,0482953763,Somchai Mensah,2019-12-23,True,active,Furniture and household
+T104865,Great Vellmoor Glow Company,,398 BAZAAR LANE,South,0482953763,Somchai Mensah,2019-12-23,True,active,Furniture and household
 T104876,"Global Logistics Co., Ltd",,25 Temple Street,West,0628552108,Nadia Chen,2023-01-27,True,active,Cosmetics and personal care
 T104884,Phoenix Industries & Sons ,Phoenix Industries & Sons,330 Mill Road,East,0489536613,Kenji Chen,2013-07-05,True,active,Machinery
 T104891,Orchid Trading International Ltd,Orchid Trading International Ltd,98 Mill Road,West,0960028279,Ingrid Okafor,2015-11-15,True,active,Cosmetics and personal care
@@ -645,7 +645,7 @@ T104914,Twin Rivers Pack International Limited,Twin Rivers Pack International Lt
 T104926,SUMMIT LIVING LIMITED,Summit Living Limited,1 Riverside,North,0436420613,Somchai Silva,2018-06-12,True,active,Electronics
 T104930,Metro Medical International Ltd,,160 Temple Street,East,0489823468,Priya Nguyen-Lee,2009-04-12,True,active,General trading
 T104941,Phoenix Supply Limited,Phoenix Supply Limited,68 Airport Road,East,0359451621,Mei Silva,2009-04-26,True,active,General trading
-T104942,Great Wall Electronics Limited,,5 Temple Street,South,0849052215,Elena Sato,2010-01-12,True,active,Medical devices
+T104942,Great Vellmoor Electronics Limited,,5 Temple Street,South,0849052215,Elena Sato,2010-01-12,True,active,Medical devices
 T104959,Metro Imports Holdings Limited,,171 Garden Lane,North,0262984343,Amina Haddad,2021-12-29,True,active,Electronics
 T104965,"Summit Pack Co., Ltd",,118 Mill Road,South,0798743238,Ravi Tanaka,2013-11-22,True,active,Cosmetics and personal care
 T104974,Jade Trading Enterprises,Jade Trading Enterprises,318 Station Road,North,0461869205,Aisha Ibrahim,2015-10-16,True,active,Food importers
@@ -706,7 +706,7 @@ T105391,Jade Industries Enterprises ,,"Unit 27, 343 Market Street",West,08767648
 T105400,Delta Trading Enterprises,,267 Temple Street,South,0845057793,Tomas Okafor,2022-01-17,True,active,General trading
 T105406,Delta Mobile International Ltd,Delta Trade,114 Garden Lane,East,0707756361,Ravi Novak,2026-05-17,True,active,Textiles and apparel
 T105416,Aldergate Textiles Limited,,79 Airport Road,South,0305609873,Joseph Silva,2024-05-15,True,active,Cosmetics and personal care
-T105426,Great Wall Pack Enterprises,,251 Market Street,East,0306475617,Somchai Okafor,2019-03-12,True,active,Furniture and household
+T105426,Great Vellmoor Pack Enterprises,,251 Market Street,East,0306475617,Somchai Okafor,2019-03-12,True,active,Furniture and household
 T105440,Northern Logistics Partners Limited,,93 Temple Street,East,0994549609,Mei Chen,2021-02-15,True,active,Electronics
 T105447,Northern Logistics International Ltd,,192 Bazaar Lane,South,0846583910,Mei Sato,2011-01-25,True,active,Machinery
 T105457,Aldergate Pack Enterprises,,150 Mill Road,Coastal,0519737298,Fatima Chen,2011-08-26,True,active,Textiles and apparel
@@ -754,24 +754,24 @@ T105747,Orchid Commercial Limited,Orchid Commercial Limited,233 Station Road,Coa
 T105759,Lotus Living Partners Ltd,Lotus Living Partners Ltd,145 Harbour Road,North,0788174373,Priya Reyes,2013-01-03,True,active,Textiles and apparel
 T105763,Sunrise Electronics Company,,378 Harbour Road,North,0841144313,Somchai Rahman,2020-01-30,True,active,General trading
 T105774,Pacific Living Limited ,Pacific Centre,222 Airport Road,North,0457115363,Ingrid Tanaka,2010-06-13,True,active,Pharmaceuticals
-T105779,GREAT WALL LOGISTICS & SONS,Great Centre,280 Harbour Road,West,0302257828,Somchai Chen,2022-08-12,True,active,Steel and construction
+T105779,GREAT VELLMOOR LOGISTICS & SONS,Great Centre,280 Harbour Road,West,0302257828,Somchai Chen,2022-08-12,True,active,Steel and construction
 T105785,Metro Distribution Ltd,,226 Harbour Road,South,0390509725,Farid Kowalski,2017-07-30,True,active,Food importers
 T105797,Inverness Electronics Partners Limited,,173 Market Street,Capital,0469286040,S. Haddad,2011-11-01,True,active,Pharmaceuticals
 T105807,Silver Electronics Limited,,192 Harbour Road,Capital,0724132537,Hassan Mwangi,2015-01-04,True,active,Vehicles and parts
 T105816,United Logistics Co.,United Logistics Co.,4 GARDEN LANE,Coastal,0345458706,Farid Patel,2024-12-06,True,active,Pharmaceuticals
 T105821,Central Supply Holdings Ltd,,286 Riverside,East,0217259578,Priya Nguyen-Lee,2012-11-27,True,active,Vehicles and parts
 T105825,Global Industries Company,Global Industries Co.,267 Garden Lane,East,0964382072,Ingrid Mensah,2020-03-24,True,active,Pharmaceuticals
-T105837,Great Wall Motors Enterprises,Great Wall Motors Enterprises,293 Industrial Estate,West,0790727078,M. Al-Sayed,2018-06-21,True,active,Machinery
+T105837,Great Vellmoor Motors Enterprises,Great Vellmoor Motors Enterprises,293 Industrial Estate,West,0790727078,M. Al-Sayed,2018-06-21,True,active,Machinery
 T105843,Inverness Living & Sons,,180 Bazaar Lane,West,0594066867,Nadia Mwangi,2014-06-26,True,active,Tobacco and beverages
 T105847,Orchid Glow Enterprises ,Orchid Glow Enterprises,340 Market St,North,0310745483,Ravi Rahman,2017-11-04,True,active,Food importers
 T105853,Phoenix Living International Limited,,366 Airport Road,Capital,0275787643,Nadia Rahman,2021-11-19,True,active,Tobacco and beverages
-T105860,Great Wall Electronics Ltd,Great Wall Electronics Ltd,230 Market Street,South,0738294324,Amina Rahman,2021-07-22,True,active,Textiles and apparel
+T105860,Great Vellmoor Electronics Ltd,Great Vellmoor Electronics Ltd,230 Market Street,South,0738294324,Amina Rahman,2021-07-22,True,active,Textiles and apparel
 T105868,Coral Distribution Enterprises,Coral Distribution Enterprises,385 Airport Road,Capital,0929167839,Farid Mwangi,2015-05-18,True,active,Pharmaceuticals
 T105875,"Carrick Agro Co., Ltd",,379 Airport Rd,North,0482534899,Elena Osei,2012-04-20,True,active,Tobacco and beverages
 T105885,Orchid Textiles Enterprises,,57 Airport Road,South,0734545797,Samuel Sato,2012-08-07,True,active,Furniture and household
 T105892,Pacific Medical & Sons,,215 Airport Road,South,0347186293,Lucia Osei,2012-11-30,True,active,Textiles and apparel
 T105896,Inverness Distribution & Sons,Inverness Distribution & Sons,260 INDUSTRIAL ESTATE,South,0442114483,Omar Sato,2015-06-04,True,active,General trading
-T105904,Great Wall Imports Co.,Great Wall Imports Co.,36 Garden Lane,Capital,0697097226,Grace Patel,2026-03-23,True,active,Vehicles and parts
+T105904,Great Vellmoor Imports Co.,Great Vellmoor Imports Co.,36 Garden Lane,Capital,0697097226,Grace Patel,2026-03-23,True,active,Vehicles and parts
 T105908,Twin Rivers Distribution Limited,,232 Market Street,West,0292237837,Ingrid Al-Sayed,2012-11-19,True,active,Furniture and household
 T105921,Royal Logistics International Ltd,,258 Mill Rd,Coastal,0974726531,Omar Sato,2021-03-09,True,active,General trading
 T105924,Golden Motors Holdings Ltd,,288 Airport Road,South,0717064564,Omar Haddad,2018-03-22,True,active,Textiles and apparel
@@ -820,7 +820,7 @@ T106245,"Golden Commercial Co., Ltd",,1 GARDEN LANE,North,0416285316,Nadia Ibrah
 T106261,Carrick Medical Limited,,238 Temple Street,South,0363970007,Joseph Mensah,2019-08-03,True,active,Steel and construction
 T106270,Silk Road Commercial Group Limited,Silk Road Commercial Group Ltd,298 Market Street,Capital,0357819819,Daniel Fernandes,2016-11-30,True,active,Textiles and apparel
 T106276,Prescott Fruits Group Ltd,Prescott Fruits Group Ltd,134 Riverside,East,0371374340,Tomas Okafor,2017-02-08,True,active,Pharmaceuticals
-T106281,Great Wall Textiles Ltd,,"Unit 11, 281 Garden Lane",Capital,0846768038,Lucia Fernandes,2017-09-13,True,active,Furniture and household
+T106281,Great Vellmoor Textiles Ltd,,"Unit 11, 281 Garden Lane",Capital,0846768038,Lucia Fernandes,2017-09-13,True,active,Furniture and household
 T106289,Sunrise Imports Group Ltd,,255 Bazaar Lane,North,0425949318,M. Mahmood,2011-07-04,True,active,Textiles and apparel
 T106297,Golden Glow Partners Ltd,Golden Glow Partners Ltd,251 Industrial Estate,South,0349427501,Kenji Nguyen-Lee,2009-01-08,True,active,Vehicles and parts
 T106313,Horizon Trading Company,,126 Station Road,Coastal,0966791784,S. Ibrahim,2009-02-03,True,active,Electronics
@@ -834,7 +834,7 @@ T106362,Carrick Living Partners Limited,Carrick Living Partners Ltd,"Unit 24, 18
 T106365,Delta Logistics Holdings Limited,Delta Logistics Holdings Ltd,366 Airport Road,West,0200329578,Amina Chen,2013-03-27,True,active,Fuel and chemicals
 T106372,Ocean Industries Enterprises,Ocean Industries Enterprises,275 Station Road,East,0424820984,Tomas Mensah,2025-05-22,True,active,Fuel and chemicals
 T106383,"Golden Motors Co., Ltd",,273 Harbour Rd,East,0689537658,Somchai Mwangi,2012-03-26,True,active,Textiles and apparel
-T106384,Great Wall Pack Group Ltd,Great Wall Pack Group Ltd,177 Airport Road,West,0749550835,B. Mwangi,2020-07-15,True,active,Furniture and household
+T106384,Great Vellmoor Pack Group Ltd,Great Vellmoor Pack Group Ltd,177 Airport Road,West,0749550835,B. Mwangi,2020-07-15,True,active,Furniture and household
 T106395,Prescott Trading Limited,Prescott Trading Ltd,34 Riverside,Capital,0559436662,B. Sato,2015-07-17,True,active,Food importers
 T106401,Aldergate Distribution Holdings Ltd,Aldergate Distribution Holdings Ltd,229 Station Road,North,0756568607,Fatima Okafor,2017-04-25,True,active,Steel and construction
 T106408,Evergreen Textiles Group Ltd,,215 Airport Road,Coastal,0836601418,Elena Silva,2009-05-31,True,active,Tobacco and beverages
@@ -912,7 +912,7 @@ T106933,Sunrise Electronics Limited,Sunrise Electronics Ltd,115 Industrial Estat
 T106939,Saffron Commercial & Sons,Saffron Commercial & Sons,"Unit 9, 44 Market Street",Capital,0372930164,M. Fernandes,2010-10-26,True,active,Furniture and household
 T106946,"Dunmore Industries Co., Ltd","Dunmore Industries Co., Ltd",344 Temple Street,Coastal,0866467230,Ravi Bauer,2015-01-31,True,active,Steel and construction
 T106957,Evergreen Supply International Limited,Evergreen Supply International Ltd,162 Riverside,West,0245636125,Omar Novak,2017-01-01,True,active,Vehicles and parts
-T106963,Great Wall Glow Limited,,155 Station Road,Coastal,0218550939,M. Silva,2017-10-16,True,active,Tobacco and beverages
+T106963,Great Vellmoor Glow Limited,,155 Station Road,Coastal,0218550939,M. Silva,2017-10-16,True,active,Tobacco and beverages
 T106970,Ocean Commercial Limited ,Ocean Commercial Limited,212 Temple Street,South,0516389930,Ravi Mwangi,2008-10-31,True,active,Steel and construction
 T106977,Delta Pack International Ltd,Delta Pack International Ltd,308 Airport Rd,East,0912228717,Daniel Fernandes,2013-05-21,True,active,Fuel and chemicals
 T106983,Evergreen Trading Group Ltd,,377 STATION ROAD,East,0407745834,Ingrid Okafor,2014-06-06,True,active,Pharmaceuticals
@@ -930,7 +930,7 @@ T107067,Central Electronics Limited,,95 Temple St,Coastal,0370776341,Amina Tanak
 T107076,Phoenix Steel International Ltd,Phoenix Steel International Ltd,272 Harbour Road,East,0210889615,Elena Novak,2017-02-19,True,active,Fuel and chemicals
 T107081,Delta Imports Holdings Ltd,Delta Imports Holdings Ltd,283 Bazaar Lane,West,0857200537,Mei Patel,2014-06-01,True,active,Textiles and apparel
 T107087,Twin Rivers Pack Ltd,,43 Market Street,East,0772031666,Ingrid Mensah,2009-10-21,True,active,Vehicles and parts
-T107091,Great Wall Industries International Ltd,Great Store,"Unit 14, 97 Industrial Estate",East,0742351028,Omar Bauer,2012-11-30,True,active,Electronics
+T107091,Great Vellmoor Industries International Ltd,Great Store,"Unit 14, 97 Industrial Estate",East,0742351028,Omar Bauer,2012-11-30,True,active,Electronics
 T107102,Delta Distribution Holdings Ltd,,230 Airport Road,South,0515883182,Farid Mahmood,2020-09-01,True,active,Pharmaceuticals
 T107109,"Cobalt Enterprises Co., Ltd","Cobalt Enterprises Co., Ltd",89 Bazaar Lane,Coastal,0429765876,Hassan Kowalski,2021-07-24,True,active,Food importers
 T107116,Delta Steel Company,Delta Steel Co.,27 BAZAAR LANE,Coastal,0865198104,Somchai Kowalski,2019-09-01,True,active,Cosmetics and personal care
@@ -945,7 +945,7 @@ T107170,Dunmore Textiles Holdings Ltd,,"Unit 28, 329 Garden Lane",North,08044593
 T107178,Orchid Electronics Holdings Ltd,,168 Mill Road,East,0379616027,Daniel Reyes,2021-06-23,True,active,Textiles and apparel
 T107185,Saffron Electronics & Sons,Saffron Electronics & Sons,"Unit 3, 89 Riverside",East,0369828996,Aisha Patel,2010-09-12,True,active,Furniture and household
 T107190,Eastern Living & Sons,Eastern Living & Sons,100 Market Street,East,0915922622,B. Bauer,2017-03-23,True,active,Vehicles and parts
-T107202,Great Wall Distribution Partners Ltd,Great Wall Distribution Partners Ltd,120 Airport Road,East,0598999453,Fatima Haddad,2010-07-14,True,active,Fuel and chemicals
+T107202,Great Vellmoor Distribution Partners Ltd,Great Vellmoor Distribution Partners Ltd,120 Airport Road,East,0598999453,Fatima Haddad,2010-07-14,True,active,Fuel and chemicals
 T107208,Summit Imports Group Ltd,,"Unit 15, 311 Station Road",East,0766180817,Omar Nguyen-Lee,2012-02-11,True,active,Steel and construction
 T107211,Delta Electronics Enterprises,,257 Mill Rd,Capital,0718156784,Aisha Al-Sayed,2025-10-18,True,active,Tobacco and beverages
 T107218,Pacific Distribution Partners Limited,,266 Harbour Rd,South,0510279861,Lucia Reyes,2017-09-11,True,active,Fuel and chemicals
@@ -956,7 +956,7 @@ T107261,Inverness Commercial International Ltd,,315 Garden Lane,West,0447476865,
 T107267,Metro Commercial Co.,Metro Commercial Co.,395 Station Road,East,0573500728,M. Novak,2014-10-15,True,active,Textiles and apparel
 T107273,Green Valley Logistics Partners Ltd,,18 Station Road,East,0275447922,Kenji Chen,2014-10-04,True,active,Furniture and household
 T107281,Cobalt Fruits Limited,Cobalt Fruits Limited,"Unit 6, 372 Mill Road",North,0545941176,Amina Osei,2012-11-10,True,active,General trading
-T107290,Great Wall Living Holdings Ltd,Great Wall Living Holdings Ltd,"Unit 23, 188 Mill Road",South,0976609054,Ravi Osei,2022-02-09,True,active,Electronics
+T107290,Great Vellmoor Living Holdings Ltd,Great Vellmoor Living Holdings Ltd,"Unit 23, 188 Mill Road",South,0976609054,Ravi Osei,2022-02-09,True,active,Electronics
 T107297,Inverness Fruits & Sons,,366 Garden Lane,Coastal,0755648906,Grace Tanaka,2015-09-17,True,active,General trading
 T107304,Ocean Commercial Group Ltd,,321 Harbour Road,North,0628442899,Kenji Mensah,2017-12-18,True,active,Pharmaceuticals
 T107313,Inverness Pack Co.,,"Unit 28, 230 Mill Road",Coastal,0832695549,Mei Nguyen-Lee,2015-03-06,True,active,Cosmetics and personal care
@@ -1018,7 +1018,7 @@ T107740,Blue Ocean Glow Company Limited,Blue Depot,58 Station Road,North,0477003
 T107746,Green Valley Distribution Group Ltd,Green Centre,77 Temple Street,East,0267495375,Ravi Silva,2016-08-07,True,active,General trading
 T107750,Harmony Trading Limited ,,355 Mill Road,South,0843619884,Farid Bauer,2013-03-25,True,active,Cosmetics and personal care
 T107760,Metro Logistics Group Limited,Metro Logistics Group Ltd,"Unit 12, 397 Industrial Estate",East,0343942907,Ravi Silva,2020-11-08,True,active,Tobacco and beverages
-T107766,Great Wall Commercial Group Ltd,Great Wall Commercial Group Ltd,175 Industrial Estate,Coastal,0665585829,Kenji Kowalski,2019-09-27,True,active,Pharmaceuticals
+T107766,Great Vellmoor Commercial Group Ltd,Great Vellmoor Commercial Group Ltd,175 Industrial Estate,Coastal,0665585829,Kenji Kowalski,2019-09-27,True,active,Pharmaceuticals
 T107776,Phoenix Commercial Group Ltd,,271 Temple Street,South,0233390599,Somchai Reyes,2019-06-18,True,active,Food importers
 T107779,Silver Imports & Sons,,"Unit 9, 332 Market Street",Capital,0986439479,Tomas Mwangi,2018-12-18,True,active,Cosmetics and personal care
 T107789,"Aldergate Agro Co., Ltd","Aldergate Agro Co., Ltd",138 Bazaar Ln,Coastal,0959310462,Daniel Okafor,2014-11-17,True,active,Textiles and apparel
@@ -1056,7 +1056,7 @@ T108019,DELTA GLOW ENTERPRISES,Delta Glow Enterprises,97 Airport Road,West,05805
 T108025,Star Distribution Co.,Star Distribution Co.,6 Industrial Estate,West,0220712602,Lucia Sato,2022-10-04,True,active,Medical devices
 T108039,Ocean Electronics Partners Limited,,74 Airport Road,South,0322852098,Ravi Osei,2010-01-12,True,active,Tobacco and beverages
 T108048,Meridian Pack Limited,,167 Bazaar Lane,East,0481300439,Amina Silva,2009-09-03,True,active,Food importers
-T108063,Great Wall Electronics Partners Ltd,Great Wall Electronics Partners Ltd,299 Temple Street,Coastal,0913757255,Priya Kowalski,2025-08-26,True,active,Machinery
+T108063,Great Vellmoor Electronics Partners Ltd,Great Vellmoor Electronics Partners Ltd,299 Temple Street,Coastal,0913757255,Priya Kowalski,2025-08-26,True,active,Machinery
 T108069,Metro Foods Partners Ltd,Metro Foods Partners Ltd,11 Riverside,Capital,0575018023,Farid Silva,2018-03-16,True,active,Cosmetics and personal care
 T108076,Inverness Motors Partners Ltd,Inverness Motors Partners Ltd,209 Temple Street,Coastal,0244695614,Grace Kowalski,2018-06-04,True,active,Steel and construction
 T108084,Saffron Pack Limited ,,106 Temple St,Coastal,0781681353,Daniel Silva,2016-12-20,True,active,Textiles and apparel
@@ -1157,7 +1157,7 @@ T108788,Jade Steel Holdings Ltd,Jade Steel Holdings Ltd,115 Harbour Road,Coastal
 T108793,Meridian Imports Ltd,,303 Market Street,Coastal,0309936668,A. Tanaka,2020-06-15,True,active,General trading
 T108799,Central Pack International Limited,Central Pack International Ltd,273 MARKET STREET,South,0405007873,Amina Patel,2011-02-03,True,active,Food importers
 T108811,Ocean Electronics & Sons,Ocean Electronics & Sons,303 Market Street,Coastal,0636761935,Amina Kowalski,2017-02-03,True,active,Tobacco and beverages
-T108824,Great Wall Enterprises Limited,Great Wall Enterprises Ltd,322 Airport Road,North,0360428452,Mei Patel,2021-11-08,True,active,Electronics
+T108824,Great Vellmoor Enterprises Limited,Great Vellmoor Enterprises Ltd,322 Airport Road,North,0360428452,Mei Patel,2021-11-08,True,active,Electronics
 T108831,Ashcombe Agro Company,Ashcombe Agro Co.,"Unit 10, 212 Riverside",North,0742160713,Fatima Reyes,2018-05-17,True,active,Food importers
 T108840,Northern Supply Holdings Ltd,Northern Supply Holdings Ltd,323 Airport Road,West,0631365974,Fatima Chen,2019-03-19,True,active,Pharmaceuticals
 T108847,Royal Steel Ltd,,307 GARDEN LANE,Coastal,0961244630,Grace Patel,2025-09-27,True,active,Food importers
@@ -1178,7 +1178,7 @@ T108947,Evergreen Industries Co.,,318 Industrial Estate,Coastal,0247064567,M. Ba
 T108957,Green Valley Motors & Sons,Green Valley Motors & Sons,"Unit 17, 144 Market Street",West,0787301882,Tomas Tanaka,2016-02-07,True,active,Textiles and apparel
 T108964,Cobalt Glow & Sons ,Cobalt Glow & Sons,202 Harbour Road,Capital,0998338462,Grace Okafor,2025-01-03,True,active,Furniture and household
 T108968,Sunrise Logistics Group Ltd,Sunrise Logistics Group Ltd,15 Riverside,East,0844844682,Lucia Patel,2009-02-10,True,active,Cosmetics and personal care
-T108974,Great Wall Motors Ltd,,21 Temple St,East,0225176128,Nadia Haddad,2024-02-13,True,active,Food importers
+T108974,Great Vellmoor Motors Ltd,,21 Temple St,East,0225176128,Nadia Haddad,2024-02-13,True,active,Food importers
 T108984,Summit Industries International Ltd,,298 TEMPLE STREET,Coastal,0216181518,Nadia Fernandes,2017-02-01,True,active,Vehicles and parts
 T108988,Aldergate Motors Ltd,,382 Riverside,North,0390182639,Elena Patel,2010-10-23,True,active,Steel and construction
 T108998,Ocean Textiles International Ltd,,291 Airport Road,East,0798152005,Mei Bauer,2009-02-20,True,active,Vehicles and parts
@@ -1207,13 +1207,13 @@ T109150,Golden Foods Group Limited,Golden Foods Group Ltd,286 Bazaar Lane,West,0
 T109161,Harmony Foods Limited,Harmony Foods Ltd,188 Station Road,North,0721472191,Joseph Haddad,2017-05-31,True,active,General trading
 T109167,Pacific Living Co.,Pacific Living Co.,329 Riverside,West,0346234502,Aisha Reyes,2020-12-31,True,active,Textiles and apparel
 T109171,Coral Mobile Partners Ltd,,161 Bazaar Lane,Coastal,0924165716,Hassan Reyes,2023-05-16,True,active,Medical devices
-T109183,Great Wall Trading Enterprises ,Great Wall Trading Enterprises,388 Harbour Road,Coastal,0732920805,Hassan Reyes,2020-07-12,True,active,General trading
+T109183,Great Vellmoor Trading Enterprises ,Great Vellmoor Trading Enterprises,388 Harbour Road,Coastal,0732920805,Hassan Reyes,2020-07-12,True,active,General trading
 T109190,Global Steel Limited ,Global Steel Limited,116 Temple Street,South,0212002046,Grace Haddad,2015-01-31,True,active,Cosmetics and personal care
 T109193,"United Foods Co., Ltd",,156 Harbour Road,West,0537934007,B. Al-Sayed,2021-12-10,True,active,Electronics
 T109203,Metro Foods & Sons ,Metro Foods & Sons,333 Temple Street,South,0738482660,Daniel Patel,2016-09-30,True,active,Pharmaceuticals
 T109212,Ocean Enterprises Holdings Ltd,Ocean Enterprises Holdings Ltd,292 Temple Street,East,0801315022,Elena Rahman,2011-10-20,True,active,Medical devices
 T109223,Pacific Logistics Ltd,Pacific Logistics Ltd,75 Bazaar Lane,South,0370383257,B. Chen,2011-11-05,True,active,Fuel and chemicals
-T109232,Great Wall Imports Group Ltd,,279 Temple Street,West,0921051336,Ravi Novak,2017-06-05,True,active,Food importers
+T109232,Great Vellmoor Imports Group Ltd,,279 Temple Street,West,0921051336,Ravi Novak,2017-06-05,True,active,Food importers
 T109238,Silver Logistics Holdings Ltd,Silver Logistics Holdings Ltd,336 Temple Street,South,0513467544,Priya Fernandes,2009-08-08,True,active,Vehicles and parts
 T109250,"Metro Pack Co., Ltd",,231 Riverside,East,0976436131,Tomas Patel,2020-10-01,True,active,Textiles and apparel
 T109255,Harmony Medical Holdings Ltd,,338 BAZAAR LANE,Capital,0273670429,Elena Chen,2014-10-10,True,active,Textiles and apparel
@@ -1374,7 +1374,7 @@ T110432,Evergreen Supply Limited ,Evergreen Supply Limited,399 Market St,Capital
 T110444,Ocean Commercial Ltd,,67 Temple Street,East,0575932862,Priya Patel,2021-05-21,True,active,Cosmetics and personal care
 T110452,"Harmony Medical Co., Ltd",,"Unit 1, 35 Mill Road",North,0668821802,Hassan Silva,2010-12-17,True,active,Textiles and apparel
 T110460,"Metro Supply Co., Ltd",,28 Industrial Estate,North,0302988258,Hassan Haddad,2025-08-10,True,active,Electronics
-T110467,Great Wall Enterprises Partners Ltd,Great Wall Enterprises Partners Ltd,387 Industrial Estate,South,0545246667,Priya Tanaka,2019-12-04,True,active,Cosmetics and personal care
+T110467,Great Vellmoor Enterprises Partners Ltd,Great Vellmoor Enterprises Partners Ltd,387 Industrial Estate,South,0545246667,Priya Tanaka,2019-12-04,True,active,Cosmetics and personal care
 T110473,Phoenix Glow Ltd,Phoenix Glow Ltd,25 Station Road,South,0861143858,Nadia Osei,2021-02-09,True,active,Food importers
 T110480,Prescott Foods Limited,Prescott Foods Limited,"Unit 23, 186 Temple Street",West,0315444759,Ingrid Silva,2019-07-04,True,active,General trading
 T110487,Ocean Foods International Ltd,Ocean Foods International Ltd,178 INDUSTRIAL ESTATE,South,0981303784,Amina Okafor,2012-04-19,True,active,Furniture and household
@@ -1394,7 +1394,7 @@ T251448,Central Electronics Partners Ltd,,333 Temple Street,West,0618210277,Dani
 T736595,Pacific Industries Ltd,,347 Temple Street,East,0431755968,Fatima Novak,2018-03-21,True,active,Steel and construction
 T577172,Jade Supply Partners Ltd,,250 Station Road,North,0542241484,Joseph Silva,2015-05-02,False,active,Furniture and household
 T410135,Meridian Trading Partners Ltd,,392 Airport Road,North,0386196292,Ravi Silva,2011-03-11,False,active,General trading
-T843530,Great Wall Partners Ltd,,214 Mill Road,South,0742334665,Joseph Silva,2022-04-06,True,dormant,Cosmetics and personal care
+T843530,Great Vellmoor Partners Ltd,,214 Mill Road,South,0742334665,Joseph Silva,2022-04-06,True,dormant,Cosmetics and personal care
 T539391,Ocean Foods International Ltd,,133 Garden Lane,East,0299865527,Amina Novak,2022-02-24,True,active,Furniture and household
 T326307,"Inverness Motors Co., Ltd",,316 Station Road,South,0277353382,Mei Silva,2024-08-23,False,deregistered,Machinery
 T281314,Central Foods International Ltd,,360 Bazaar Lane,Capital,0782653934,Joseph Patel,2018-11-03,False,active,Steel and construction
@@ -1450,7 +1450,7 @@ T372468,Orchid Construction & Sons,,290 Bazaar Lane,East,0345124242,Amina Patel,
 T216010,Inverness Restaurants Holdings Ltd,,334 Bazaar Lane,West,0901242044,Fatima Rahman,2015-06-06,True,active,Furniture and household
 T348390,Arden Construction Group Ltd,,144 Garden Lane,East,0617136569,Ravi Silva,2012-08-11,True,active,Machinery
 T874049,Ocean Logistics & Sons,,215 Garden Lane,East,0941902009,Ravi Novak,2016-09-17,True,active,Medical devices
-T602096,Great Wall Consulting Ltd,,65 Temple Street,South,0941677823,Fatima Chen,2023-08-08,True,active,Electronics
+T602096,Great Vellmoor Consulting Ltd,,65 Temple Street,South,0941677823,Fatima Chen,2023-08-08,True,active,Electronics
 T728231,Ashcombe Holdings International Ltd,,387 Harbour Road,West,0695747212,Joseph Rahman,2020-06-19,False,active,Tobacco and beverages
 T875030,Pacific Services Partners Ltd,,1 Station Road,East,0290203261,Amina Patel,2020-04-24,False,active,Machinery
 T788902,Green Valley Holdings Partners Ltd,,344 Airport Road,West,0388806722,Fatima Rahman,2018-12-24,True,active,Fuel and chemicals
@@ -1529,7 +1529,7 @@ T767246,Twin Rivers Consulting Co.,,377 Bazaar Lane,East,0674946964,Ravi Silva,2
 T787910,Blue Ocean Holdings Partners Ltd,,346 Riverside,West,0710232828,Fatima Osei,2016-08-29,True,active,Steel and construction
 T508470,Horizon Consulting Holdings Ltd,,69 Airport Road,Coastal,0409345088,Fatima Osei,2024-10-07,False,active,Vehicles and parts
 T331613,"Star Consulting Co., Ltd",,279 Industrial Estate,West,0961641470,Mei Osei,2011-07-11,True,active,Vehicles and parts
-T437739,Great Wall Services Co.,,348 Riverside,South,0820601717,Daniel Novak,2016-10-23,False,active,Medical devices
+T437739,Great Vellmoor Services Co.,,348 Riverside,South,0820601717,Daniel Novak,2016-10-23,False,active,Medical devices
 T615510,Twin Rivers Construction Group Ltd,,108 Airport Road,Coastal,0831468795,Daniel Chen,2021-08-10,True,dormant,Cosmetics and personal care
 T933668,Dunmore Services International Ltd,,218 Industrial Estate,West,0982066304,Ravi Silva,2010-12-21,True,active,Tobacco and beverages
 T899213,Aldergate Consulting Enterprises,,280 Industrial Estate,North,0203702736,Joseph Novak,2022-10-29,True,dormant,Tobacco and beverages
@@ -1573,7 +1573,7 @@ T417505,Ashcombe Construction Holdings Ltd,,215 Industrial Estate,Capital,078104
 T294000,"Golden Construction Co., Ltd",,374 Mill Road,North,0612298226,Joseph Osei,2015-09-12,False,active,Machinery
 T294101,Arden Construction International Ltd,,171 Garden Lane,Coastal,0754342521,Ravi Silva,2019-03-26,False,active,Medical devices
 T746798,Global Restaurants Ltd,,217 Market Street,North,0492245663,Ravi Osei,2023-03-14,True,active,Food importers
-T299450,Great Wall Holdings Ltd,,6 Airport Road,Capital,0228856684,Joseph Novak,2025-01-04,True,active,Vehicles and parts
+T299450,Great Vellmoor Holdings Ltd,,6 Airport Road,Capital,0228856684,Joseph Novak,2025-01-04,True,active,Vehicles and parts
 T875879,"Lotus Construction Co., Ltd",,162 Riverside,East,0813170600,Amina Osei,2013-08-06,True,active,General trading
 T993205,"Cobalt Consulting Co., Ltd",,167 Mill Road,West,0788459192,Mei Novak,2011-01-23,False,active,Pharmaceuticals
 T849195,Coral Holdings Holdings Ltd,,318 Mill Road,West,0789251462,Joseph Patel,2019-12-01,True,active,Vehicles and parts
@@ -1667,7 +1667,7 @@ T288897,Crown Holdings International Ltd,,207 Bazaar Lane,West,0575358713,Daniel
 T279420,Twin Rivers Construction Limited,,226 Garden Lane,East,0853664825,Joseph Novak,2013-05-30,True,active,Electronics
 T377467,Golden Holdings Enterprises,,214 Airport Road,North,0376598911,Daniel Patel,2014-12-25,True,active,Fuel and chemicals
 T323849,Twin Rivers Holdings International Ltd,,228 Station Road,North,0801683276,Joseph Osei,2024-03-10,True,active,Furniture and household
-T862368,Great Wall Holdings Limited,,267 Temple Street,East,0837599895,Fatima Chen,2020-07-12,True,deregistered,Textiles and apparel
+T862368,Great Vellmoor Holdings Limited,,267 Temple Street,East,0837599895,Fatima Chen,2020-07-12,True,deregistered,Textiles and apparel
 T999404,Saffron Restaurants & Sons,,241 Temple Street,South,0458272109,Mei Chen,2012-05-25,True,active,Textiles and apparel
 T722288,"Inverness Services Co., Ltd",,313 Riverside,South,0622141970,Daniel Osei,2025-03-11,True,active,Machinery
 T863354,Global Restaurants Ltd,,70 Industrial Estate,East,0280924810,Daniel Rahman,2023-01-21,True,active,Furniture and household
@@ -1712,13 +1712,13 @@ T783308,Prime Services Limited,,362 Airport Road,West,0689001786,Fatima Novak,20
 T516110,United Clinic Partners Ltd,,11 Harbour Road,East,0772300071,Fatima Patel,2019-03-21,True,active,Fuel and chemicals
 T743453,Jade Logistics & Sons,,72 Temple Street,North,0697259236,Daniel Patel,2014-05-24,True,active,Medical devices
 T486691,Prescott Construction & Sons,,164 Garden Lane,North,0535331180,Mei Novak,2025-09-20,False,active,Tobacco and beverages
-T966173,Great Wall Consulting Partners Ltd,,295 Airport Road,West,0358955819,Amina Rahman,2016-02-19,True,active,Electronics
+T966173,Great Vellmoor Consulting Partners Ltd,,295 Airport Road,West,0358955819,Amina Rahman,2016-02-19,True,active,Electronics
 T731907,Lotus Clinic Group Ltd,,19 Mill Road,South,0276375464,Amina Novak,2020-04-29,False,active,Vehicles and parts
 T203139,Star Services Holdings Ltd,,18 Harbour Road,East,0296696483,Joseph Novak,2019-02-24,True,active,Machinery
 T238551,Sunrise Construction Limited,,133 Bazaar Lane,South,0760445087,Mei Rahman,2024-05-31,True,active,Vehicles and parts
 T483994,Delta Consulting Co.,,235 Mill Road,South,0822044503,Mei Chen,2024-06-06,True,active,General trading
 T557499,Coral Services Holdings Ltd,,72 Garden Lane,West,0248021339,Amina Silva,2020-02-22,True,active,Electronics
-T383642,Great Wall Consulting Holdings Ltd,,179 Station Road,East,0250572850,Daniel Rahman,2024-06-09,True,active,Textiles and apparel
+T383642,Great Vellmoor Consulting Holdings Ltd,,179 Station Road,East,0250572850,Daniel Rahman,2024-06-09,True,active,Textiles and apparel
 T235935,Prescott Construction Group Ltd,,380 Industrial Estate,South,0898178094,Mei Silva,2012-11-18,True,active,Tobacco and beverages
 T291278,"Prescott Consulting Co., Ltd",,160 Riverside,West,0218883903,Ravi Novak,2016-09-05,True,active,Medical devices
 T550185,Lotus Logistics Co.,,209 Station Road,East,0739621810,Joseph Novak,2014-01-16,True,active,Furniture and household
@@ -1764,7 +1764,7 @@ T595866,Metro Clinic Ltd,,324 Airport Road,South,0489635469,Amina Rahman,2018-09
 T802297,Horizon Clinic Co.,,141 Bazaar Lane,South,0960172720,Fatima Osei,2012-06-25,True,active,Textiles and apparel
 T252882,"Harmony Consulting Co., Ltd",,378 Garden Lane,South,0950157246,Daniel Silva,2011-10-20,True,active,General trading
 T639590,Horizon Services Ltd,,8 Garden Lane,North,0558690201,Joseph Patel,2025-07-27,True,deregistered,Furniture and household
-T416347,"Great Wall Holdings Co., Ltd",,98 Bazaar Lane,North,0588427096,Amina Osei,2012-12-02,True,active,Electronics
+T416347,"Great Vellmoor Holdings Co., Ltd",,98 Bazaar Lane,North,0588427096,Amina Osei,2012-12-02,True,active,Electronics
 T318806,Central Construction Co.,,92 Market Street,South,0831136957,Joseph Rahman,2023-05-29,True,active,General trading
 T624183,Twin Rivers Clinic Holdings Ltd,,155 Station Road,South,0263454886,Fatima Patel,2011-02-27,True,active,Textiles and apparel
 T734438,Coral Holdings Partners Ltd,,304 Harbour Road,Coastal,0270485863,Mei Silva,2012-05-16,False,active,Tobacco and beverages
@@ -1775,7 +1775,7 @@ T590016,Royal Consulting Limited,,223 Harbour Road,West,0464414582,Joseph Osei,2
 T273665,Northern Holdings Group Ltd,,343 Harbour Road,South,0790639434,Mei Novak,2014-10-18,True,active,Steel and construction
 T396727,Global Restaurants & Sons,,231 Harbour Road,Capital,0783604677,Mei Silva,2012-09-25,True,active,Fuel and chemicals
 T706552,"Harmony Restaurants Co., Ltd",,397 Market Street,Capital,0978375905,Ravi Patel,2025-11-06,True,deregistered,Medical devices
-T987007,Great Wall Services Enterprises,,2 Industrial Estate,North,0745628994,Mei Patel,2010-05-02,True,active,Pharmaceuticals
+T987007,Great Vellmoor Services Enterprises,,2 Industrial Estate,North,0745628994,Mei Patel,2010-05-02,True,active,Pharmaceuticals
 T788113,Global Construction & Sons,,151 Mill Road,Coastal,0588213842,Ravi Patel,2020-08-12,True,active,Medical devices
 T659407,Metro Construction Limited,,294 Market Street,West,0355496229,Amina Osei,2023-10-15,False,active,Tobacco and beverages
 T544517,United Services Co.,,168 Station Road,North,0855305561,Amina Chen,2010-04-17,True,active,Machinery
@@ -1784,7 +1784,7 @@ T950369,Inverness Services & Sons,,290 Mill Road,South,0402401775,Mei Patel,2022
 T406399,Metro Holdings Partners Ltd,,267 Harbour Road,Coastal,0823372232,Daniel Silva,2013-02-02,True,active,General trading
 T845625,Harmony Logistics Enterprises,,155 Garden Lane,East,0365048112,Joseph Novak,2012-08-02,True,dormant,Medical devices
 T341725,Twin Rivers Restaurants Enterprises,,186 Station Road,North,0282934979,Fatima Osei,2017-03-08,True,active,Furniture and household
-T265945,Great Wall Holdings Partners Ltd,,140 Airport Road,East,0592327940,Fatima Osei,2017-06-02,False,active,Electronics
+T265945,Great Vellmoor Holdings Partners Ltd,,140 Airport Road,East,0592327940,Fatima Osei,2017-06-02,False,active,Electronics
 T939603,Central Clinic Group Ltd,,107 Harbour Road,East,0899421980,Amina Rahman,2014-09-27,True,active,Electronics
 T686707,Dunmore Services Holdings Ltd,,127 Harbour Road,Coastal,0952715786,Fatima Novak,2021-12-21,False,dormant,Fuel and chemicals
 T917084,Inverness Clinic Limited,,393 Mill Road,East,0866871334,Ravi Chen,2012-01-10,True,active,Textiles and apparel

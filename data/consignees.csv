@@ -63,14 +63,14 @@ C00061,United Commercial International Ltd,35 Airport Road,South,IMP00061,T10042
 C00062,Golden Textiles Ltd,55 Riverside,East,IMP00062,T100427
 C00063,"Metro Motors Co., Ltd",215 Bazaar Lane,West,IMP00063,T100440
 C00064,Cobalt Mobile Ltd,396 Mill Road,Capital,IMP00064,T100445
-C00065,Great Wall Fruits Partners Ltd,395 Garden Lane,North,IMP00065,T100450
+C00065,Great Vellmoor Fruits Partners Ltd,395 Garden Lane,North,IMP00065,T100450
 C00066,Northern Agro Partners Ltd,273 Industrial Estate,West,IMP00066,
 C00067,Pacific Enterprises Holdings Ltd,356 Station Road,East,IMP00067,T100466
 C00068,"Green Valley Fruits Co., Ltd",357 Market Street,East,IMP00068,T300474
 C00069,Evergreen Fruits Group Ltd,74 Bazaar Lane,West,IMP00069,T100476
 C00070,Coral Fruits Group Ltd,95 Temple Street,North,IMP00070,
 C00071,Carrick Enterprises Co.,56 Garden Lane,South,IMP00071,T100490
-C00072,Great Wall Pack Holdings Ltd,368 Station Road,Capital,IMP00072,T100497
+C00072,Great Vellmoor Pack Holdings Ltd,368 Station Road,Capital,IMP00072,T100497
 C00073,Global Pack & Sons,172 Mill Road,South,IMP00073,T100510
 C00074,Dunmore Imports & Sons,298 Garden Lane,West,IMP00074,T100516
 C00075,Harmony Textiles Limited,321 Market Street,Coastal,IMP00075,T100519
@@ -106,7 +106,7 @@ C00104,Blue Ocean Logistics Ltd,329 Mill Road,South,IMP00104,T100723
 C00105,Arden Fruits Ltd,3 Riverside,South,IMP00105,T100729
 C00106,"Sunrise Textiles Co., Ltd",228 Market Street,Capital,IMP00106,T100741
 C00107,Metro Fruits Enterprises,369 Bazaar Lane,North,IMP00107,T100745
-C00108,Great Wall Motors Partners Ltd,373 Temple Street,West,IMP00108,T100749
+C00108,Great Vellmoor Motors Partners Ltd,373 Temple Street,West,IMP00108,T100749
 C00109,"Jade Logistics Co., Ltd",233 Station Road,Capital,IMP00109,T100758
 C00110,Coral Living International Ltd,324 Bazaar Lane,South,IMP00110,T100769
 C00111,Global Logistics Co.,196 Market Street,West,IMP00111,T100773
@@ -164,7 +164,7 @@ C00162,Horizon Medical International Ltd,325 Garden Lane,West,IMP00162,T401131
 C00163,Coral Trading Limited,150 Mill Road,South,IMP00163,T101138
 C00164,Carrick Mobile Group Ltd,37 Harbour Road,West,IMP00164,T101142
 C00165,"Coral Enterprises Co., Ltd",309 Harbour Road,South,IMP00165,T101148
-C00166,Great Wall Mobile Ltd,239 Station Road,East,IMP00166,T101160
+C00166,Great Vellmoor Mobile Ltd,239 Station Road,East,IMP00166,T101160
 C00167,Dunmore Steel & Sons,238 Mill Road,North,IMP00167,T101167
 C00168,Delta Electronics International Ltd,135 Mill Road,Coastal,IMP00168,T101174
 C00169,Silk Road Electronics & Sons,144 Mill Road,Coastal,IMP00169,T101178
@@ -199,7 +199,7 @@ C00197,Global Foods International Ltd,346 Market Street,North,IMP00197,T100070
 C00198,Harmony Glow Co.,341 Temple Street,North,IMP00198,T101382
 C00199,Green Valley Glow Co.,379 Temple Street,East,IMP00199,T101387
 C00200,Arden Commercial Co.,185 Industrial Estate,Coastal,IMP00200,T101399
-C00201,Great Wall Enterprises Co.,232 Garden Lane,Capital,IMP00201,T101403
+C00201,Great Vellmoor Enterprises Co.,232 Garden Lane,Capital,IMP00201,T101403
 C00202,Metro Medical Limited,288 Riverside,North,IMP00202,T101411
 C00203,Saffron Medical & Sons,193 Harbour Road,West,IMP00203,T101414
 C00204,Ashcombe Glow Partners Ltd,34 Industrial Estate,North,IMP00204,T101426
@@ -337,8 +337,8 @@ C00335,Meridian Medical Limited,369 Garden Lane,Capital,IMP00335,T102342
 C00336,Global Enterprises & Sons,114 Industrial Estate,South,IMP00336,
 C00337,Twin Rivers Supply Ltd,156 Bazaar Lane,Capital,IMP00337,T102357
 C00338,Meridian Motors Group Ltd,55 Mill Road,Coastal,IMP00338,T102364
-C00339,Great Wall Medical International Ltd,15 Garden Lane,East,IMP00339,T102370
-C00340,Great Wall Steel Enterprises,43 Riverside,Capital,IMP00340,T102376
+C00339,Great Vellmoor Medical International Ltd,15 Garden Lane,East,IMP00339,T102370
+C00340,Great Vellmoor Steel Enterprises,43 Riverside,Capital,IMP00340,T102376
 C00341,Inverness Medical Co.,62 Riverside,North,IMP00341,T102380
 C00342,Silk Road Imports Holdings Ltd,397 Temple Street,Coastal,IMP00342,
 C00343,Arden Pack Holdings Ltd,110 Industrial Estate,Coastal,IMP00343,T102394
@@ -458,7 +458,7 @@ C00456,Royal Industries Partners Ltd,304 Garden Lane,South,IMP00456,T103188
 C00457,Royal Logistics Group Ltd,92 Industrial Estate,Coastal,IMP00457,T103192
 C00458,"Saffron Steel Co., Ltd",21 Garden Lane,West,IMP00458,T103205
 C00459,Lotus Textiles Limited,108 Garden Lane,North,IMP00459,T103208
-C00460,"Great Wall Enterprises Co., Ltd",57 Industrial Estate,East,IMP00460,T103219
+C00460,"Great Vellmoor Enterprises Co., Ltd",57 Industrial Estate,East,IMP00460,T103219
 C00461,Meridian Pack Enterprises,57 Market Street,East,IMP00461,T103221
 C00462,Northern Commercial Limited,185 Mill Road,Capital,IMP00462,T103229
 C00463,Twin Rivers Fruits Enterprises,298 Mill Road,Coastal,IMP00463,T103236
@@ -468,7 +468,7 @@ C00466,Delta Motors Enterprises,279 Market Street,South,IMP00466,T103261
 C00467,"Eastern Trading Co., Ltd",290 Mill Road,East,IMP00467,T103262
 C00468,Metro Mobile & Sons,222 Garden Lane,North,IMP00468,T103274
 C00469,Orchid Motors Holdings Ltd,76 Industrial Estate,East,IMP00469,T103277
-C00470,Great Wall Foods Limited,299 Station Road,East,IMP00470,T103287
+C00470,Great Vellmoor Foods Limited,299 Station Road,East,IMP00470,T103287
 C00471,Silver Fruits Ltd,222 Mill Road,West,IMP00471,T103290
 C00472,Saffron Enterprises Co.,253 Harbour Road,West,IMP00472,T103301
 C00473,Pacific Electronics Ltd,62 Riverside,Capital,IMP00473,T103306
@@ -481,7 +481,7 @@ C00479,Ocean Enterprises Ltd,39 Industrial Estate,East,IMP00479,T103351
 C00480,"Horizon Mobile Co., Ltd",11 Airport Road,North,IMP00480,T103358
 C00481,Horizon Distribution Enterprises,306 Station Road,South,IMP00481,T103362
 C00482,Phoenix Trading Partners Ltd,14 Temple Street,Capital,IMP00482,T103370
-C00483,Great Wall Glow Partners Ltd,270 Bazaar Lane,West,IMP00483,T103379
+C00483,Great Vellmoor Glow Partners Ltd,270 Bazaar Lane,West,IMP00483,T103379
 C00484,Coral Glow Enterprises,165 Temple Street,West,IMP00484,T103385
 C00485,Inverness Logistics Ltd,392 Bazaar Lane,North,IMP00485,T103391
 C00486,Global Distribution International Ltd,178 Garden Lane,North,IMP00486,T103395
@@ -526,7 +526,7 @@ C00524,Central Pack Holdings Ltd,13 Industrial Estate,East,IMP00524,T103667
 C00525,Orchid Supply International Ltd,226 Airport Road,Capital,IMP00525,T103671
 C00526,Ocean Imports Group Ltd,65 Harbour Road,Coastal,IMP00526,T103676
 C00527,Eastern Commercial Limited,77 Harbour Road,North,IMP00527,T103683
-C00528,Great Wall Electronics International Ltd,199 Garden Lane,East,IMP00528,T103694
+C00528,Great Vellmoor Electronics International Ltd,199 Garden Lane,East,IMP00528,T103694
 C00529,Blue Ocean Industries Holdings Ltd,121 Airport Road,North,IMP00529,T103698
 C00530,Aldergate Electronics International Ltd,112 Market Street,South,IMP00530,T103707
 C00531,"Inverness Distribution Co., Ltd",231 Garden Lane,Coastal,IMP00531,T103712
@@ -552,7 +552,7 @@ C00550,Jade Commercial Partners Ltd,281 Garden Lane,West,IMP00550,T103845
 C00551,Phoenix Steel Partners Ltd,19 Riverside,West,IMP00551,T103855
 C00552,Carrick Medical Co.,396 Industrial Estate,Capital,IMP00552,T103862
 C00553,Silk Road Living Ltd,337 Mill Road,East,IMP00553,T103867
-C00554,Great Wall Trading Group Ltd,12 Airport Road,West,IMP00554,T103876
+C00554,Great Vellmoor Trading Group Ltd,12 Airport Road,West,IMP00554,T103876
 C00555,Aldergate Imports Limited,356 Station Road,Capital,IMP00555,T103882
 C00556,Eastern Foods Holdings Ltd,98 Bazaar Lane,South,IMP00556,T103891
 C00557,"Northern Electronics Co., Ltd",194 Industrial Estate,West,IMP00557,T103892
@@ -638,7 +638,7 @@ C00636,Phoenix Distribution & Sons,229 Mill Road,Coastal,IMP00636,T104445
 C00637,Silver Logistics & Sons,141 Mill Road,Coastal,IMP00637,T104453
 C00638,Ocean Medical International Ltd,182 Mill Road,Coastal,IMP00638,T104463
 C00639,Sunrise Living International Ltd,141 Market Street,Coastal,IMP00639,T107467
-C00640,Great Wall Imports Ltd,58 Temple Street,South,IMP00640,
+C00640,Great Vellmoor Imports Ltd,58 Temple Street,South,IMP00640,
 C00641,Pacific Fruits & Sons,80 Bazaar Lane,Capital,IMP00641,T104484
 C00642,Twin Rivers Supply International Ltd,51 Market Street,Capital,IMP00642,T104491
 C00643,Aldergate Agro Holdings Ltd,340 Garden Lane,Coastal,IMP00643,T104498
@@ -694,7 +694,7 @@ C00692,Aldergate Mobile Partners Ltd,313 Airport Road,South,IMP00692,T104840
 C00693,Sunrise Medical Group Ltd,105 Harbour Road,North,IMP00693,T104846
 C00694,Twin Rivers Distribution Group Ltd,126 Airport Road,North,IMP00694,T104854
 C00695,Delta Enterprises & Sons,46 Mill Road,East,IMP00695,T104862
-C00696,Great Wall Glow Co.,398 Bazaar Lane,South,IMP00696,T104865
+C00696,Great Vellmoor Glow Co.,398 Bazaar Lane,South,IMP00696,T104865
 C00697,"Global Logistics Co., Ltd",25 Temple Street,West,IMP00697,T104876
 C00698,Phoenix Industries & Sons,330 Mill Road,East,IMP00698,T104884
 C00699,Orchid Trading International Ltd,98 Mill Road,West,IMP00699,T104891
@@ -705,7 +705,7 @@ C00703,Twin Rivers Pack International Ltd,296 Industrial Estate,South,IMP00703,T
 C00704,Summit Living Limited,1 Riverside,North,IMP00704,T104926
 C00705,Metro Medical International Ltd,160 Temple Street,East,IMP00705,T104930
 C00706,Phoenix Supply Limited,68 Airport Road,East,IMP00706,T104941
-C00707,Great Wall Electronics Limited,5 Temple Street,South,IMP00707,T104942
+C00707,Great Vellmoor Electronics Limited,5 Temple Street,South,IMP00707,T104942
 C00708,Meridian Agro & Sons,346 Market Street,North,IMP00708,T100070
 C00709,Metro Imports Holdings Ltd,171 Garden Lane,North,IMP00709,T104959
 C00710,"Summit Pack Co., Ltd",64 Airport Road,South,IMP00710,T104965
@@ -718,7 +718,7 @@ C00716,Delta Foods Co.,102 Station Road,North,IMP00716,T105010
 C00717,Dunmore Mobile Partners Ltd,235 Riverside,East,IMP00717,T105016
 C00718,Lotus Agro Co.,371 Garden Lane,East,IMP00718,T105020
 C00719,Cobalt Commercial & Sons,293 Industrial Estate,East,IMP00719,T105030
-C00720,Great Wall Distribution Group Ltd,149 Temple Street,North,IMP00720,
+C00720,Great Vellmoor Distribution Group Ltd,149 Temple Street,North,IMP00720,
 C00721,Phoenix Imports Partners Ltd,171 Garden Lane,Coastal,IMP00721,
 C00722,Silver Pack International Ltd,42 Bazaar Lane,Coastal,IMP00722,T105050
 C00723,Twin Rivers Living Ltd,28 Riverside,South,IMP00723,T105058
@@ -774,7 +774,7 @@ C00772,Delta Trading Enterprises,267 Temple Street,South,IMP00772,T105400
 C00773,Delta Mobile International Ltd,114 Garden Lane,East,IMP00773,T105406
 C00774,Aldergate Textiles Limited,79 Airport Road,South,IMP00774,T105416
 C00775,Lotus Industries Co.,359 Harbour Road,Capital,IMP00775,
-C00776,Great Wall Pack Enterprises,120 Airport Road,East,IMP00776,T105426
+C00776,Great Vellmoor Pack Enterprises,120 Airport Road,East,IMP00776,T105426
 C00777,Meridian Pack Holdings Ltd,101 Mill Road,West,IMP00777,
 C00778,Northern Logistics Partners Ltd,93 Temple Street,East,IMP00778,T105440
 C00779,Northern Logistics International Ltd,192 Bazaar Lane,South,IMP00779,T105447
@@ -824,7 +824,7 @@ C00822,Orchid Commercial Limited,233 Station Road,Coastal,IMP00822,T105747
 C00823,Lotus Living Partners Ltd,145 Harbour Road,North,IMP00823,T105759
 C00824,Sunrise Electronics Co.,135 Market Street,North,IMP00824,T105763
 C00825,Pacific Living Limited,222 Airport Road,North,IMP00825,T105774
-C00826,Great Wall Logistics & Sons,280 Harbour Road,West,IMP00826,T105779
+C00826,Great Vellmoor Logistics & Sons,280 Harbour Road,West,IMP00826,T105779
 C00827,Metro Distribution Ltd,226 Harbour Road,South,IMP00827,T105785
 C00828,Metro Living Enterprises,41 Mill Road,Capital,IMP00828,
 C00829,Inverness Electronics Partners Ltd,173 Market Street,Capital,IMP00829,T105797
@@ -832,17 +832,17 @@ C00830,Silver Electronics Limited,192 Harbour Road,Capital,IMP00830,T105807
 C00831,United Logistics Co.,4 Garden Lane,Coastal,IMP00831,T105816
 C00832,Central Supply Holdings Ltd,286 Riverside,East,IMP00832,T105821
 C00833,Global Industries Co.,267 Garden Lane,East,IMP00833,T105825
-C00834,Great Wall Motors Enterprises,293 Industrial Estate,West,IMP00834,T109837
+C00834,Great Vellmoor Motors Enterprises,293 Industrial Estate,West,IMP00834,T109837
 C00835,Inverness Living & Sons,180 Bazaar Lane,West,IMP00835,T105843
 C00836,Orchid Glow Enterprises,340 Market Street,North,IMP00836,T105847
 C00837,Phoenix Living International Ltd,366 Airport Road,Capital,IMP00837,T105853
-C00838,Great Wall Electronics Ltd,230 Market Street,South,IMP00838,T105860
+C00838,Great Vellmoor Electronics Ltd,230 Market Street,South,IMP00838,T105860
 C00839,Coral Distribution Enterprises,385 Airport Road,Capital,IMP00839,T105868
 C00840,"Carrick Agro Co., Ltd",379 Airport Road,North,IMP00840,T105875
 C00841,Orchid Textiles Enterprises,57 Airport Road,South,IMP00841,T105885
 C00842,Pacific Medical & Sons,215 Airport Road,South,IMP00842,T105892
 C00843,Inverness Distribution & Sons,260 Industrial Estate,South,IMP00843,T105896
-C00844,Great Wall Imports Co.,36 Garden Lane,Capital,IMP00844,T185904
+C00844,Great Vellmoor Imports Co.,36 Garden Lane,Capital,IMP00844,T185904
 C00845,Twin Rivers Distribution Limited,232 Market Street,West,IMP00845,T105908
 C00846,Royal Logistics International Ltd,331 Harbour Road,Coastal,IMP00846,T105921
 C00847,Golden Motors Holdings Ltd,288 Airport Road,South,IMP00847,T105924
@@ -856,7 +856,7 @@ C00854,Global Pack Ltd,168 Mill Road,West,IMP00854,T105973
 C00855,Northern Pack International Ltd,297 Riverside,North,IMP00855,T105983
 C00856,Dunmore Agro Group Ltd,108 Mill Road,South,IMP00856,T105985
 C00857,Jade Medical Holdings Ltd,333 Harbour Road,West,IMP00857,T105996
-C00858,Great Wall Industries Group Ltd,235 Mill Road,South,IMP00858,
+C00858,Great Vellmoor Industries Group Ltd,235 Mill Road,South,IMP00858,
 C00859,Sunrise Foods Enterprises,210 Airport Road,East,IMP00859,T106011
 C00860,Twin Rivers Foods Holdings Ltd,174 Temple Street,East,IMP00860,T106014
 C00861,Saffron Medical Holdings Ltd,78 Harbour Road,Coastal,IMP00861,T106021
@@ -896,7 +896,7 @@ C00894,Evergreen Agro Ltd,242 Airport Road,North,IMP00894,
 C00895,Carrick Medical Limited,238 Temple Street,South,IMP00895,T106261
 C00896,Silk Road Commercial Group Ltd,298 Market Street,Capital,IMP00896,T106270
 C00897,Prescott Fruits Group Ltd,134 Riverside,East,IMP00897,T106276
-C00898,Great Wall Textiles Ltd,281 Garden Lane,Capital,IMP00898,T106281
+C00898,Great Vellmoor Textiles Ltd,281 Garden Lane,Capital,IMP00898,T106281
 C00899,Sunrise Imports Group Ltd,374 Temple Street,North,IMP00899,T106289
 C00900,Golden Glow Partners Ltd,227 Mill Road,South,IMP00900,T106297
 C00901,Evergreen Fruits Holdings Ltd,346 Market Street,North,IMP00901,T100070
@@ -911,7 +911,7 @@ C00909,Carrick Living Partners Ltd,187 Harbour Road,North,IMP00909,T106362
 C00910,Delta Logistics Holdings Ltd,366 Airport Road,West,IMP00910,T106365
 C00911,Ocean Industries Enterprises,275 Station Road,East,IMP00911,T106372
 C00912,"Golden Motors Co., Ltd",58 Temple Street,East,IMP00912,T106383
-C00913,Great Wall Pack Group Ltd,177 Airport Road,West,IMP00913,T106384
+C00913,Great Vellmoor Pack Group Ltd,177 Airport Road,West,IMP00913,T106384
 C00914,Prescott Trading Ltd,34 Riverside,Capital,IMP00914,T106395
 C00915,Aldergate Distribution Holdings Ltd,229 Station Road,North,IMP00915,T106401
 C00916,Evergreen Textiles Group Ltd,215 Airport Road,Coastal,IMP00916,T106408
@@ -993,7 +993,7 @@ C00991,Sunrise Electronics Ltd,115 Industrial Estate,South,IMP00991,T106933
 C00992,Saffron Commercial & Sons,44 Market Street,Capital,IMP00992,T109939
 C00993,"Dunmore Industries Co., Ltd",344 Temple Street,Coastal,IMP00993,T106946
 C00994,Evergreen Supply International Ltd,162 Riverside,West,IMP00994,T106957
-C00995,Great Wall Glow Limited,155 Station Road,Coastal,IMP00995,T106963
+C00995,Great Vellmoor Glow Limited,155 Station Road,Coastal,IMP00995,T106963
 C00996,Ocean Commercial Limited,212 Temple Street,South,IMP00996,T106970
 C00997,Delta Pack International Ltd,308 Airport Road,East,IMP00997,T106977
 C00998,Evergreen Trading Group Ltd,307 Industrial Estate,East,IMP00998,T106983
@@ -1012,7 +1012,7 @@ C01010,Central Electronics Ltd,95 Temple Street,Coastal,IMP01010,T107067
 C01011,Phoenix Steel International Ltd,272 Harbour Road,East,IMP01011,T107076
 C01012,Delta Imports Holdings Ltd,283 Bazaar Lane,West,IMP01012,T107081
 C01013,Twin Rivers Pack Ltd,43 Market Street,East,IMP01013,T107087
-C01014,Great Wall Industries International Ltd,163 Riverside,East,IMP01014,T107091
+C01014,Great Vellmoor Industries International Ltd,163 Riverside,East,IMP01014,T107091
 C01015,Delta Distribution Holdings Ltd,230 Airport Road,South,IMP01015,T107102
 C01016,"Cobalt Enterprises Co., Ltd",64 Station Road,Coastal,IMP01016,T107109
 C01017,Delta Steel Co.,27 Bazaar Lane,Coastal,IMP01017,T107116
@@ -1027,7 +1027,7 @@ C01025,Dunmore Textiles Holdings Ltd,329 Garden Lane,North,IMP01025,T107170
 C01026,Orchid Electronics Holdings Ltd,266 Industrial Estate,East,IMP01026,T107178
 C01027,Saffron Electronics & Sons,44 Station Road,East,IMP01027,T107185
 C01028,Eastern Living & Sons,100 Market Street,East,IMP01028,T107190
-C01029,Great Wall Distribution Partners Ltd,120 Airport Road,East,IMP01029,T107202
+C01029,Great Vellmoor Distribution Partners Ltd,120 Airport Road,East,IMP01029,T107202
 C01030,Summit Imports Group Ltd,311 Station Road,East,IMP01030,T107208
 C01031,Delta Electronics Enterprises,257 Mill Road,Capital,IMP01031,T107211
 C01032,Pacific Distribution Partners Ltd,266 Harbour Road,South,IMP01032,T107218
@@ -1040,7 +1040,7 @@ C01038,Inverness Commercial International Ltd,315 Garden Lane,West,IMP01038,T107
 C01039,Metro Commercial Co.,395 Station Road,East,IMP01039,T107267
 C01040,Green Valley Logistics Partners Ltd,68 Station Road,East,IMP01040,T107271
 C01041,Cobalt Fruits Limited,372 Mill Road,North,IMP01041,T107281
-C01042,Great Wall Living Holdings Ltd,188 Mill Road,South,IMP01042,T107290
+C01042,Great Vellmoor Living Holdings Ltd,188 Mill Road,South,IMP01042,T107290
 C01043,Inverness Fruits & Sons,366 Garden Lane,Coastal,IMP01043,T107297
 C01044,Ocean Commercial Group Ltd,321 Harbour Road,North,IMP01044,T107304
 C01045,Inverness Pack Co.,230 Mill Road,Coastal,IMP01045,T107313
@@ -1108,7 +1108,7 @@ C01106,"Blue Ocean Glow Co., Ltd",58 Station Road,North,IMP01106,T107740
 C01107,Green Valley Distribution Group Ltd,77 Temple Street,East,IMP01107,T107746
 C01108,Harmony Trading Limited,355 Mill Road,South,IMP01108,T107750
 C01109,Metro Logistics Group Ltd,397 Industrial Estate,East,IMP01109,T107760
-C01110,Great Wall Commercial Group Ltd,175 Industrial Estate,Coastal,IMP01110,T107766
+C01110,Great Vellmoor Commercial Group Ltd,175 Industrial Estate,Coastal,IMP01110,T107766
 C01111,Phoenix Commercial Group Ltd,271 Temple Street,South,IMP01111,T108776
 C01112,Silver Imports & Sons,332 Market Street,Capital,IMP01112,T107779
 C01113,"Aldergate Agro Co., Ltd",138 Bazaar Lane,Coastal,IMP01113,T107789
@@ -1150,7 +1150,7 @@ C01148,Pacific Trading Limited,88 Temple Street,South,IMP01148,
 C01149,Ocean Electronics Partners Ltd,206 Riverside,South,IMP01149,T108039
 C01150,Meridian Pack Limited,167 Bazaar Lane,East,IMP01150,T108048
 C01151,Horizon Commercial Ltd,164 Mill Road,South,IMP01151,
-C01152,Great Wall Electronics Partners Ltd,299 Temple Street,Coastal,IMP01152,T108063
+C01152,Great Vellmoor Electronics Partners Ltd,299 Temple Street,Coastal,IMP01152,T108063
 C01153,Metro Foods Partners Ltd,11 Riverside,Capital,IMP01153,T108069
 C01154,Inverness Motors Partners Ltd,246 Harbour Road,Coastal,IMP01154,T108076
 C01155,Saffron Pack Limited,106 Temple Street,Coastal,IMP01155,T108084
@@ -1259,7 +1259,7 @@ C01257,Meridian Imports Ltd,303 Market Street,Coastal,IMP01257,T108793
 C01258,Central Pack International Ltd,273 Market Street,South,IMP01258,T108799
 C01259,Ocean Electronics & Sons,303 Market Street,Coastal,IMP01259,T108811
 C01260,Star Glow Limited,346 Market Street,North,IMP01260,T100070
-C01261,Great Wall Enterprises Ltd,322 Airport Road,North,IMP01261,T108824
+C01261,Great Vellmoor Enterprises Ltd,322 Airport Road,North,IMP01261,T108824
 C01262,Ashcombe Agro Co.,212 Riverside,North,IMP01262,T108831
 C01263,Northern Supply Holdings Ltd,323 Airport Road,West,IMP01263,T108840
 C01264,Royal Steel Ltd,307 Garden Lane,Coastal,IMP01264,T108847
@@ -1281,7 +1281,7 @@ C01279,Evergreen Industries Co.,318 Industrial Estate,Coastal,IMP01279,T108947
 C01280,Green Valley Motors & Sons,144 Market Street,West,IMP01280,T108957
 C01281,Cobalt Glow & Sons,202 Harbour Road,Capital,IMP01281,T108964
 C01282,Sunrise Logistics Group Ltd,15 Riverside,East,IMP01282,T108968
-C01283,Great Wall Motors Ltd,21 Temple Street,East,IMP01283,T108974
+C01283,Great Vellmoor Motors Ltd,21 Temple Street,East,IMP01283,T108974
 C01284,Summit Industries International Ltd,298 Temple Street,Coastal,IMP01284,T108984
 C01285,Aldergate Motors Ltd,382 Riverside,North,IMP01285,T108988
 C01286,Ocean Textiles International Ltd,291 Airport Road,East,IMP01286,T108998
@@ -1310,14 +1310,14 @@ C01308,Golden Foods Group Ltd,286 Bazaar Lane,West,IMP01308,T109150
 C01309,Harmony Foods Ltd,188 Station Road,North,IMP01309,T109161
 C01310,Pacific Living Co.,329 Riverside,West,IMP01310,T109167
 C01311,Coral Mobile Partners Ltd,161 Bazaar Lane,Coastal,IMP01311,T109171
-C01312,Great Wall Trading Enterprises,388 Harbour Road,Coastal,IMP01312,T169183
+C01312,Great Vellmoor Trading Enterprises,388 Harbour Road,Coastal,IMP01312,T169183
 C01313,Global Steel Limited,116 Temple Street,South,IMP01313,T109190
 C01314,"United Foods Co., Ltd",156 Harbour Road,West,IMP01314,T109193
 C01315,Metro Foods & Sons,333 Temple Street,South,IMP01315,T109203
 C01316,Evergreen Commercial Partners Ltd,227 Garden Lane,Capital,IMP01316,
 C01317,Ocean Enterprises Holdings Ltd,292 Temple Street,East,IMP01317,T109212
 C01318,Pacific Logistics Ltd,75 Bazaar Lane,South,IMP01318,T109223
-C01319,Great Wall Imports Group Ltd,279 Temple Street,West,IMP01319,T109232
+C01319,Great Vellmoor Imports Group Ltd,279 Temple Street,West,IMP01319,T109232
 C01320,Silver Logistics Holdings Ltd,336 Temple Street,South,IMP01320,T109238
 C01321,Sunrise Enterprises & Sons,209 Airport Road,Capital,IMP01321,
 C01322,"Metro Pack Co., Ltd",282 Riverside,East,IMP01322,T109250
@@ -1352,7 +1352,7 @@ C01350,Arden Steel Enterprises,260 Station Road,Coastal,IMP01350,T109448
 C01351,"Orchid Electronics Co., Ltd",118 Bazaar Lane,Capital,IMP01351,T109451
 C01352,Central Electronics Holdings Ltd,397 Market Street,North,IMP01352,
 C01353,Meridian Distribution Ltd,259 Market Street,East,IMP01353,T109470
-C01354,Great Wall Imports Enterprises,210 Riverside,South,IMP01354,
+C01354,Great Vellmoor Imports Enterprises,210 Riverside,South,IMP01354,
 C01355,Dunmore Foods Holdings Ltd,387 Industrial Estate,Coastal,IMP01355,T109478
 C01356,Coral Enterprises Co.,103 Garden Lane,Coastal,IMP01356,T109426
 C01357,Ashcombe Commercial Enterprises,225 Airport Road,Capital,IMP01357,T109495
@@ -1397,7 +1397,7 @@ C01395,Prime Imports Partners Ltd,110 Harbour Road,West,IMP01395,T109761
 C01396,Pacific Living & Sons,157 Industrial Estate,Capital,IMP01396,T109769
 C01397,Royal Living Group Ltd,337 Harbour Road,North,IMP01397,
 C01398,Meridian Agro Partners Ltd,348 Bazaar Lane,North,IMP01398,T109782
-C01399,Great Wall Mobile Partners Ltd,346 Market Street,North,IMP01399,T100070
+C01399,Great Vellmoor Mobile Partners Ltd,346 Market Street,North,IMP01399,T100070
 C01400,Pacific Fruits Group Ltd,327 Harbour Road,North,IMP01400,T105799
 C01401,Coral Motors Co.,43 Garden Lane,South,IMP01401,T109806
 C01402,Coral Pack International Ltd,27 Riverside,South,IMP01402,T109809
@@ -1494,7 +1494,7 @@ C01492,Pacific Steel Ltd,152 Harbour Road,West,IMP01492,
 C01493,Ocean Commercial Ltd,67 Temple Street,East,IMP01493,T110444
 C01494,"Harmony Medical Co., Ltd",35 Mill Road,North,IMP01494,T110452
 C01495,"Metro Supply Co., Ltd",28 Industrial Estate,North,IMP01495,T110460
-C01496,Great Wall Enterprises Partners Ltd,387 Industrial Estate,South,IMP01496,T110467
+C01496,Great Vellmoor Enterprises Partners Ltd,387 Industrial Estate,South,IMP01496,T110467
 C01497,Phoenix Glow Ltd,25 Station Road,South,IMP01497,T110473
 C01498,Prescott Foods Limited,186 Temple Street,West,IMP01498,T110480
 C01499,Ocean Foods International Ltd,178 Industrial Estate,South,IMP01499,T110487
@@ -1505,7 +1505,7 @@ C01503,Prime Branch South,80 Temple Street,North,IMP00997,T106977
 C01504,Silk Road Store Market,234 Station Road,South,IMP01160,T108113
 C01505,Twin Rivers Branch Market,152 Station Road,South,IMP00474,T103314
 C01506,Delta Retail South,279 Industrial Estate,Coastal,IMP00363,T102535
-C01507,Great Wall Branch South,346 Bazaar Lane,South,IMP01310,T109167
+C01507,Great Vellmoor Branch South,346 Bazaar Lane,South,IMP01310,T109167
 C01508,Global Outlet North,365 Station Road,West,IMP01353,T109470
 C01509,Prime Depot City,305 Harbour Road,Capital,IMP00533,T103728
 C01510,Dunmore Branch Market,282 Station Road,Coastal,IMP00213,T101488
@@ -1573,12 +1573,12 @@ C01571,Twin Rivers Store North,393 Garden Lane,North,IMP00542,T103789
 C01572,Twin Rivers Retail City,100 Market Street,Capital,IMP01063,T107434
 C01573,Summit Depot City,259 Station Road,Capital,IMP00628,T104392
 C01574,Harmony Store Market,378 Airport Road,West,IMP00507,T103544
-C01575,Great Wall Retail City,313 Airport Road,South,IMP00296,T102067
+C01575,Great Vellmoor Retail City,313 Airport Road,South,IMP00296,T102067
 C01576,Coral Store North,172 Station Road,East,IMP00345,T102414
 C01577,Crown Branch Market,161 Bazaar Lane,West,IMP00982,T106868
 C01578,Prime Depot South,189 Station Road,West,IMP01247,T108724
 C01579,Harmony Depot Market,49 Market Street,Capital,IMP00059,T100406
-C01580,Great Wall Outlet City,68 Market Street,East,IMP00838,T105860
+C01580,Great Vellmoor Outlet City,68 Market Street,East,IMP00838,T105860
 C01581,Ocean Depot North,132 Garden Lane,North,IMP01426,T109975
 C01582,Lotus Store South,293 Riverside,North,IMP00734,T105133
 C01583,Saffron Outlet Market,177 Harbour Road,North,IMP01296,T109068
@@ -1586,7 +1586,7 @@ C01584,Ocean Branch Market,101 Airport Road,South,IMP00657,T104595
 C01585,Cobalt Depot City,363 Bazaar Lane,Capital,IMP00555,T103882
 C01586,Phoenix Store South,120 Market Street,North,IMP01471,T110296
 C01587,Meridian Store Market,300 Airport Road,West,IMP01313,T109190
-C01588,Great Wall Outlet City,200 Market Street,East,IMP00555,T103882
+C01588,Great Vellmoor Outlet City,200 Market Street,East,IMP00555,T103882
 C01589,Crown Outlet City,339 Market Street,Capital,IMP00038,T100260
 C01590,Pacific Retail North,244 Mill Road,South,IMP00592,T101140
 C01591,Lotus Depot South,7 Industrial Estate,East,IMP00410,T102865
@@ -1690,7 +1690,7 @@ C01688,Horizon Retail City,130 Bazaar Lane,West,IMP00220,T101535
 C01689,United Retail South,145 Temple Street,West,IMP00982,T106868
 C01690,Cobalt Store North,89 Harbour Road,Capital,IMP01277,T108935
 C01691,Northern Retail City,98 Bazaar Lane,North,IMP00460,T103219
-C01692,Great Wall Depot Market,93 Airport Road,Coastal,IMP00140,T100978
+C01692,Great Vellmoor Depot Market,93 Airport Road,Coastal,IMP00140,T100978
 C01693,Delta Branch North,75 Bazaar Lane,Capital,IMP00363,T102535
 C01694,Eastern Store North,58 Garden Lane,Coastal,IMP00325,T102271
 C01695,Coral Branch South,179 Harbour Road,South,IMP00818,T105721
@@ -1703,7 +1703,7 @@ C01701,Star Outlet North,395 Riverside,North,IMP01229,T108596
 C01702,Carrick Retail City,151 Airport Road,West,IMP01046,T107318
 C01703,Ocean Depot South,199 Garden Lane,Coastal,IMP00243,T101700
 C01704,United Retail City,176 Bazaar Lane,Capital,IMP00591,T104135
-C01705,Great Wall Outlet North,131 Riverside,Coastal,IMP00288,T102011
+C01705,Great Vellmoor Outlet North,131 Riverside,Coastal,IMP00288,T102011
 C01706,Saffron Retail North,204 Garden Lane,South,IMP01161,T108126
 C01707,Metro Outlet South,129 Mill Road,West,IMP00404,T102826
 C01708,Saffron Branch Market,230 Station Road,North,IMP00100,T100699
@@ -1736,7 +1736,7 @@ C01734,Twin Rivers Outlet City,203 Harbour Road,Coastal,IMP01038,T107261
 C01735,Northern Retail Market,11 Mill Road,Coastal,IMP00935,T106540
 C01736,Green Valley Store City,1 Station Road,East,IMP00870,T106084
 C01737,Silk Road Outlet City,11 Harbour Road,Capital,IMP01248,T108729
-C01738,Great Wall Store Market,175 Harbour Road,North,IMP00351,T102452
+C01738,Great Vellmoor Store Market,175 Harbour Road,North,IMP00351,T102452
 C01739,Dunmore Branch North,311 Harbour Road,Capital,IMP00408,T102854
 C01740,Cobalt Depot South,149 Industrial Estate,Capital,IMP01161,T108126
 C01741,Global Store City,322 Industrial Estate,North,IMP01363,T109538
@@ -1904,7 +1904,7 @@ C01902,Green Valley Store North,376 Airport Road,East,IMP00123,T100856
 C01903,Prime Retail North,371 Temple Street,Coastal,IMP01361,T109520
 C01904,Golden Branch North,303 Market Street,Coastal,IMP00512,T103577
 C01905,Crown Branch North,388 Station Road,Capital,IMP00163,T101138
-C01906,Great Wall Outlet North,56 Harbour Road,South,IMP00105,T100729
+C01906,Great Vellmoor Outlet North,56 Harbour Road,South,IMP00105,T100729
 C01907,Star Outlet North,234 Industrial Estate,Capital,IMP00601,T104200
 C01908,Dunmore Store Market,209 Station Road,East,IMP00533,T103728
 C01909,Crown Depot City,61 Airport Road,South,IMP01043,T107297
@@ -1939,7 +1939,7 @@ C01937,Metro Depot Market,32 Market Street,Capital,IMP00364,T102546
 C01938,Silk Road Store North,319 Mill Road,Coastal,IMP01494,T110452
 C01939,Global Outlet North,165 Harbour Road,North,IMP00421,T102944
 C01940,Ashcombe Depot Market,106 Bazaar Lane,West,IMP00143,T100946
-C01941,Great Wall Retail City,322 Harbour Road,Coastal,IMP01449,T110140
+C01941,Great Vellmoor Retail City,322 Harbour Road,Coastal,IMP01449,T110140
 C01942,Aldergate Store North,211 Airport Road,South,IMP00744,T105203
 C01943,Dunmore Store North,336 Garden Lane,West,IMP00288,T102011
 C01944,Sunrise Branch Market,169 Bazaar Lane,East,IMP01329,T109297
