@@ -521,7 +521,7 @@ def invoice_range(table: pd.DataFrame, history: pd.DataFrame, invoice: pd.DataFr
     declared = float(valuation.to_fob_usd(line, fx, "invoice_date").iloc[0])
     verdict = valuation.assess(declared, rng)
     return {"ref": ref, "description": str(line["description"].iloc[0]), "declared": _num(declared, 2), "neighbours": int(len(mine)), "above_floor": int(rng["count"]),
-            "median": _num(rng["median"], 2), "p25": _num(rng["p25"], 2), "p75": _num(rng["p75"], 2), "mad": _num(rng["mad"], 2),
+            "median": _num(rng["median"], 2), "p25": _num(rng["p25"], 2), "p75": _num(rng["p75"], 2), "mad": _num(rng["mad"], 2), "spread": _num(rng["spread"], 2),
             "share_of_median": _num(verdict["share_of_median"], 3), "distance_spreads": _num(verdict["distance"], 2), "below_p25": bool(verdict["below_p25"]),
             "verdict": str(verdict["decision"]), "reason": str(verdict["reason"]), "rows": _records(mine)}
 

@@ -51,6 +51,11 @@ Calibration line: published customs datasets record an irregularity on 1 to 8 li
 | `recipe_steps_1b.csv` | 1B sprint 2. Three or four settings of the one choice each recipe leaves open (recipes 2 to 5), as a condition, with their numbers on the random draw of months 1-18 only: share of traffic, random-draw lines flagged, findings, hit rate and lift against that draw. The months 19-36 test comes after the lock. |
 | `rule_flags_1b.csv` | 1B sprint 1. The risk engine's log: one row per line of both halves, the rules R1 to R4 that flagged it (legacy_rules.md), how many, and the lane the rule book gives it. Join it to the declarations on line_id. |
 | `controls.csv` | 1B. The control module's export: one row per control, every controlled line of months 1-36 (the lanes and the random draw of months 1-18, the random draw of months 19-36): the control's number, the declaration, why the line was selected, the lane, what was done, by whom, for how long and when, what it found and the duty recovered. Look a line up on line_id; a line with no row was not controlled. |
+| `documents.csv` | The documents behind each declaration: the commercial invoice (number, date) and the transport document (bill of lading, air waybill, road or rail consignment note: type and number) with the containers it carries. One row per declaration. |
+| `declaration_events.csv` | What the clearance system logged for each declaration and its lines: lodged, accepted, selected for control, query raised, amended, query closed, released, withdrawn, each with its date and time. One row per event. |
+| `vat_filings.csv` | 4B. When each VAT return was due and filed, days late, its amendment number and how it was filed. One row per return of vat_returns.csv. |
+| `registry_history.csv` | 4B. The changes behind the tax register: address, director and status, with the value before and after and the date. One row per change. |
+| `tax_audits.csv` | 4B. The tax administration's VAT audits of 2025: a random sample of 20% of the tax numbers used to clear, and targeted audits on top, with what each found. One row per audit. |
 
 ## declarations_h1 / declarations_h2
 
@@ -212,6 +217,80 @@ Calibration line: published customs datasets record an irregularity on 1 to 8 li
 | `finding_type` | What was found: undervaluation, misclassification, origin, quantity, documentary or prohibited goods; empty when nothing was found |
 | `duty_recovered_lcu` | Duty and VAT recovered after the control, in LCU (0 when nothing was recovered) |
 | `status` | The line's status after the control, as the declaration files carry it: accepted, amended, withdrawn or under_query. A control that found something usually ends with the line amended: read it as a result of the control, never as a field to predict a finding with |
+
+## documents (ADD-P)
+
+The documents behind each declaration: the commercial invoice (number, date) and the transport document (bill of lading, air waybill, road or rail consignment note: type and number) with the containers it carries. One row per declaration.
+
+| Field | Meaning |
+| --- | --- |
+| `decl_id` | The declaration |
+| `commercial_invoice_no` | The seller's invoice number (INV-, the seller's code, the year, the invoice's number in the seller's series). Each number is on one declaration only. A declaration whose lines name several sellers carries its first line's seller's invoice |
+| `invoice_date` | The invoice's date, before the lodgement (the voyage or the flight in between) |
+| `transport_doc_type` | B/L = bill of lading (a seaport), AWB = air waybill (an airport), CMR = road consignment note (a land crossing), CIM = rail consignment note (the rail terminal, LAND7). From the office of the declaration's first line |
+| `transport_doc_no` | The transport document's number: a B/L carries the carrier's code and the year, an AWB the airline prefix and an 8-digit serial whose last digit is a check digit. Each number is on one declaration only |
+| `containers` | Containers (sea), trailers (road) or wagons (rail) the goods fill, from the declared gross weight (about 20 tonnes each); 0 for a sea shipment under 5 tonnes, in a shared container; empty for air |
+
+## declaration_events (ADD-P)
+
+What the clearance system logged for each declaration and its lines: lodged, accepted, selected for control, query raised, amended, query closed, released, withdrawn, each with its date and time. One row per event.
+
+| Field | Meaning |
+| --- | --- |
+| `decl_id` | The declaration |
+| `line_no` | The line, for an event of one line (selected for control, released, amended, query raised or closed, withdrawn); empty for an event of the whole declaration (lodged, accepted) |
+| `event` | lodged, accepted, selected for control, query raised, amended, query closed, released, withdrawn |
+| `at` | Date and time (to the minute). Lodged: the declaration's date (decl_date; its first line's where its lines carry two dates, 47 declarations) at its time of day; released: lodgement + release_hours, where a release time is recorded (months 19-36 outside the random draw record none, so those lines have no released event); selected for control: controls.selected_on |
+
+## vat_filings (ADD-P)
+
+4B. When each VAT return was due and filed, days late, its amendment number and how it was filed. One row per return of vat_returns.csv.
+
+| Field | Meaning |
+| --- | --- |
+| `tin` | The taxpayer |
+| `period` | The VAT period (year and month) |
+| `due_date` | The deadline: the 20th of the month after the period |
+| `filed_on` | The date the return was filed; empty exactly where vat_returns.filed is 0 (no return). Every filing is on or before the extract date, 15 October 2026 |
+| `days_late` | Days from the deadline to the filing; 0 when filed on time; empty when no return. A late return still counts as filed (vat_returns.filed = 1) |
+| `amendment_no` | 0 for the return as first filed; 1 or 2 when the taxpayer amended it since (the amounts in vat_returns are the latest) |
+| `channel` | e-filing, tax agent or paper |
+
+## registry_history (ADD-P)
+
+4B. The changes behind the tax register: address, director and status, with the value before and after and the date. One row per change.
+
+| Field | Meaning |
+| --- | --- |
+| `tin` | The taxpayer |
+| `field` | address, director or status |
+| `value_before` | The value before the change |
+| `value_after` | The value after the change; the last change of each taxpayer and field gives the value tax_registry.csv holds today |
+| `changed_on` | The date of the change (on or after the registration date, before the extract date) |
+
+## tax_audits (ADD-P)
+
+4B. The tax administration's VAT audits of 2025: a random sample of 20% of the tax numbers used to clear, and targeted audits on top, with what each found. One row per audit.
+
+| Field | Meaning |
+| --- | --- |
+| `audit_id` | The audit (AUD + 5 digits) |
+| `tin` | The tax number audited: a number used to clear (numbers_4b.csv), or for a targeted audit any registered taxpayer |
+| `selection_basis` | random: drawn in the random sample (a simple random sample of 20% of the 1,194 numbers used to clear of numbers_4b.csv, drawn before any list and not stratified by one); targeted: chosen for a reason, on top of the sample (for realism; measure with the random ones) |
+| `targeted_reason` | For a targeted audit: refund claim (a return of October 2024 to March 2025 deducted more import VAT than 10% of its sales), customs referral (a customs finding of months 1-18 on a line cleared under the number), third-party information; empty for a random one |
+| `selected_on` | When the audit was opened |
+| `completed_on` | When it was completed: every audit ends by 30 September 2025, before customs months 25-36 |
+| `audit_type` | desk (from the returns and documents) or field (a visit); a field audit finds more |
+| `periods_from` | The first VAT period covered (2024-10) |
+| `periods_to` | The last VAT period covered (2025-09) |
+| `outcome` | adjustment (tax was assessed) or no adjustment |
+| `finding_type` | The main finding of an adjustment: sales not declared, import VAT deduction not supported, activity not registered, a number lent to others; empty when no adjustment. A number the register does not know gets a registration check: activity not registered when the traders using it are registered nowhere, no adjustment when they are registered under another number (a number keyed wrong at customs) |
+| `tax_assessed_lcu` | The tax assessed, in LCU (0 when no adjustment) |
+
+## Notes on the new tables (ADD-P)
+
+- No amendments.csv (ADD-P P.2.3): the generator holds no value as first declared before an amendment. A line with the status amended carries the values it ships with; where a control found something, the corrected values exist only on the facilitator's side, never in a participant file. So the events say when a line was amended, not what changed.
+- declaration_events repeats the line's status as events (amended, query raised and closed, withdrawn): like `status`, an amendment after a control that found something is a result of the control, not a signal.
 
 ## Two fields that know the outcome (ADD-P leak test)
 

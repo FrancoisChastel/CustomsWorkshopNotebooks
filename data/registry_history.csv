@@ -1,0 +1,744 @@
+tin,field,value_before,value_after,changed_on
+T100013,address,789 Temple Street,102 Temple Street,2025-08-21
+T100016,status,active,dormant,2026-02-19
+T100025,address,845 Riverside,297 Airport Road,2026-08-19
+T100025,director,Grace Mahmood,Nadia Sato,2021-05-10
+T100052,director,Lucia Haddad,Amina Osei,2023-05-28
+T100104,address,628 Garden Lane,239 Airport Road,2022-12-26
+T100134,director,Samuel Mensah,Priya Patel,2019-10-04
+T100144,address,527 Riverside,230 Garden Lane,2026-07-12
+T100152,address,716 Bazaar Lane,256 Market Street,2025-01-14
+T100165,status,active,dormant,2026-08-23
+T100242,address,566 Riverside,681 Temple Street,2013-10-03
+T100242,address,681 Temple Street,139 Airport Road,2026-10-04
+T100260,address,931 Riverside,228 Industrial Estate,2024-10-17
+T100277,address,923 Industrial Estate,96 Garden Lane,2022-03-13
+T100315,director,Mei Mwangi,B. Novak,2024-08-15
+T100374,director,Aisha Ibrahim,Priya Osei,2020-04-20
+T100405,status,active,dormant,2024-10-28
+T100415,status,active,dormant,2017-10-25
+T100415,status,dormant,active,2025-07-19
+T100440,address,580 Station Road,215 Bazaar Lane,2022-08-22
+T100450,address,535 Harbour Road,535 Market Street,2018-03-23
+T100450,address,535 Market Street,395 Garden Lane,2025-05-25
+T100474,address,855 Station Road,580 Airport Road,2019-09-17
+T100474,address,580 Airport Road,357 Market Street,2024-08-21
+T100497,director,Grace Patel,Hassan Chen,2016-06-16
+T100519,director,Fatima Nguyen-Lee,Farid Silva,2026-03-31
+T100578,address,771 Riverside,127 Garden Lane,2022-07-23
+T100578,status,active,dormant,2020-01-23
+T100578,status,dormant,active,2025-05-02
+T100592,status,active,dormant,2025-06-23
+T100616,address,732 Industrial Estate,588 Bazaar Lane,2015-01-29
+T100616,address,588 Bazaar Lane,350 Temple Street,2023-03-26
+T100631,address,857 Industrial Estate,191 Garden Lane,2025-04-11
+T100645,address,811 Riverside,344 Mill Road,2023-08-27
+T100680,address,835 Harbour Road,139 Harbour Rd,2023-08-04
+T100690,address,651 Garden Lane,96 GARDEN LANE,2024-09-19
+T100758,address,782 Airport Road,245 MILL ROAD,2024-03-18
+T100773,address,836 Garden Lane,196 Market Street,2024-05-31
+T100785,director,Amina Haddad,Omar Osei,2023-01-04
+T100799,address,991 Garden Lane,856 Market Street,2012-06-06
+T100799,address,856 Market Street,115 RIVERSIDE,2021-06-03
+T100851,director,Farid Ibrahim,Fatima Bauer,2026-08-08
+T100895,address,773 Bazaar Lane,503 Mill Road,2018-07-25
+T100895,address,503 Mill Road,116 STATION ROAD,2024-07-27
+T100922,address,979 Market Street,404 Riverside,2016-02-19
+T100922,address,404 Riverside,200 Station Road,2026-04-08
+T100938,address,732 Harbour Road,191 Garden Lane,2026-06-21
+T100948,director,Priya Mahmood,Daniel Al-Sayed,2023-12-16
+T100957,address,971 Riverside,364 Garden Lane,2022-02-13
+T100978,address,822 Station Road,919 Mill Road,2020-08-28
+T100978,address,919 Mill Road,334 Industrial Estate,2023-10-10
+T100996,address,480 Harbour Road,357 Market Street,2025-04-24
+T101017,address,553 Temple Street,44 AIRPORT ROAD,2025-06-30
+T101076,address,498 Riverside,256 Mill Road,2025-04-12
+T101114,director,Nadia Haddad,Joseph Ibrahim,2025-06-17
+T101131,address,856 Harbour Road,289 Riverside,2025-08-15
+T101160,director,Mei Okafor,Grace Patel,2024-03-12
+T101167,director,Amina Mahmood,A. Silva,2026-05-05
+T101174,address,510 Mill Road,135 Mill Road,2023-09-10
+T101275,director,Joseph Bauer,Aisha Rahman,2026-06-19
+T101320,address,978 Airport Road,44 Airport Road,2024-01-13
+T101329,address,451 Bazaar Lane,"Unit 17, 287 Bazaar Lane",2021-08-26
+T101333,address,671 Bazaar Lane,371 Industrial Estate,2025-11-09
+T101362,address,910 Airport Road,461 Harbour Road,2018-02-15
+T101362,address,461 Harbour Road,226 Mill Road,2021-06-16
+T101403,address,611 Mill Road,232 GARDEN LANE,2025-05-27
+T101403,director,Daniel Fernandes,S. Reyes,2026-10-09
+T101434,address,942 Airport Road,146 MARKET STREET,2025-11-09
+T101434,director,Tomas Mwangi,Daniel Chen,2022-03-15
+T101445,address,525 Garden Lane,215 Airport Road,2026-05-21
+T101481,director,Mei Nguyen-Lee,Joseph Reyes,2010-11-17
+T101522,address,591 Airport Road,426 Market Street,2020-06-11
+T101522,address,426 Market Street,247 Harbour Road,2026-04-03
+T101535,address,710 Garden Lane,266 Mill Road,2023-09-23
+T101543,address,642 Garden Lane,36 Airport Road,2024-05-31
+T101624,address,671 Mill Road,474 Industrial Estate,2012-08-30
+T101624,address,474 Industrial Estate,87 Mill Road,2023-01-30
+T101673,address,985 Garden Lane,443 Harbour Road,2014-11-26
+T101673,address,443 Harbour Road,6 Temple Street,2021-09-23
+T101673,director,Kenji Ibrahim,Somchai Al-Sayed,2021-02-22
+T101700,director,Joseph Tanaka,Farid Osei,2023-06-08
+T101708,address,980 Industrial Estate,38 Harbour Road,2026-04-06
+T101716,address,693 Airport Road,389 Market Street,2024-03-27
+T101750,address,531 Market Street,338 Station Road,2026-05-22
+T101750,status,active,dormant,2024-05-19
+T101750,status,dormant,active,2025-01-18
+T101782,address,411 Airport Road,308 Harbour Road,2025-11-05
+T101786,director,Ingrid Nguyen-Lee,Lucia Haddad,2022-03-16
+T101814,address,843 Mill Road,74 Harbour Rd,2025-04-18
+T101903,address,407 Station Road,38 Airport Road,2025-01-09
+T101916,director,Priya Silva,Aisha Haddad,2015-12-22
+T101953,address,468 Station Road,378 Temple Street,2021-09-19
+T101983,address,603 Riverside,"Unit 18, 184 Industrial Estate",2026-04-06
+T101990,address,995 Industrial Estate,399 Garden Lane,2022-01-27
+T102050,director,Tomas Haddad,Ravi Ibrahim,2025-05-05
+T102052,address,877 Station Road,320 Market Street,2022-08-13
+T102052,director,Daniel Chen,Aisha Fernandes,2021-04-18
+T102074,status,active,dormant,2024-11-17
+T102096,status,active,dormant,2026-04-01
+T102141,address,712 Harbour Road,314 Industrial Estate,2026-03-05
+T102165,address,575 Temple Street,296 Airport Road,2026-09-07
+T102171,address,913 Market Street,318 AIRPORT ROAD,2026-01-06
+T102186,address,467 Garden Lane,"Unit 16, 310 Mill Road",2023-11-19
+T102205,address,538 Airport Road,377 Riverside,2025-12-24
+T102234,address,591 Temple Street,849 Industrial Estate,2019-01-10
+T102234,address,849 Industrial Estate,"Unit 13, 348 Harbour Road",2023-08-25
+T102234,director,Mei Mwangi,B. Bauer,2026-04-26
+T102255,director,Farid Tanaka,Fatima Bauer,2012-07-13
+T102261,director,Ingrid Sato,Daniel Osei,2026-04-04
+T102271,address,433 Airport Road,592 Harbour Road,2015-06-30
+T102271,address,592 Harbour Road,88 Station Road,2023-07-19
+T102304,address,592 Riverside,138 Market Street,2021-09-22
+T102312,director,Ingrid Osei,Nadia Novak,2022-02-07
+T102357,director,Joseph Chen,Aisha Osei,2025-01-14
+T102422,address,601 Market Street,174 Industrial Estate,2024-09-03
+T102506,director,Hassan Chen,Hassan Kowalski,2024-01-28
+T102550,status,active,dormant,2026-02-18
+T102625,address,617 Riverside,95 Mill Road,2024-11-03
+T102643,director,Omar Reyes,Fatima Osei,2018-10-31
+T102647,director,Mei Sato,Ingrid Silva,2026-06-29
+T102672,address,749 Airport Road,183 TEMPLE STREET,2025-08-05
+T102675,address,862 Garden Lane,75 Bazaar Lane,2020-01-27
+T102697,director,Omar Osei,Somchai Novak,2018-07-18
+T102735,director,Ingrid Okafor,Samuel Reyes,2023-08-28
+T102740,director,Grace Patel,Lucia Mahmood,2026-09-06
+T102847,director,Aisha Okafor,Joseph Haddad,2025-11-15
+T102865,address,812 Mill Road,39 Mill Rd,2024-08-09
+T102872,address,861 Harbour Road,"Unit 12, 213 Garden Lane",2024-06-14
+T102896,address,545 Market Street,300 Harbour Road,2026-03-29
+T102913,status,active,dormant,2022-02-12
+T102913,status,dormant,active,2025-07-10
+T102972,address,665 Harbour Road,145 Temple Street,2025-05-23
+T103006,director,Priya Ibrahim,S. Bauer,2022-12-11
+T103043,status,active,dormant,2021-03-16
+T103043,status,dormant,active,2026-04-17
+T103096,address,424 Riverside,136 Garden Lane,2022-05-14
+T103147,director,Hassan Fernandes,Mei Ibrahim,2021-12-21
+T103173,address,825 Mill Road,356 MILL ROAD,2024-01-26
+T103173,status,active,dormant,2020-05-20
+T103173,status,dormant,active,2025-03-05
+T103188,status,active,dormant,2026-09-24
+T103236,address,990 Harbour Road,143 Harbour Road,2024-04-30
+T103262,address,811 Station Road,290 Mill Road,2024-02-06
+T103274,director,Fatima Novak,Ingrid Novak,2026-08-26
+T103277,address,998 Garden Lane,274 Industrial Estate,2024-11-21
+T103287,address,760 Station Road,299 Station Road,2026-08-05
+T103323,director,Priya Chen,Hassan Nguyen-Lee,2018-04-15
+T103345,director,Lucia Haddad,S. Bauer,2023-03-16
+T103362,address,985 Market Street,371 Riverside,2024-10-17
+T103370,status,active,dormant,2024-10-04
+T103385,address,406 Station Road,165 Temple Street,2026-07-12
+T103391,address,763 Station Road,826 Bazaar Lane,2017-08-18
+T103391,address,826 Bazaar Lane,392 Bazaar Lane,2025-12-14
+T103415,status,active,dormant,2021-04-22
+T103415,status,dormant,active,2026-05-04
+T103449,address,545 Airport Road,298 Industrial Estate,2026-03-04
+T103460,director,Hassan Patel,Hassan Mensah,2023-05-08
+T103468,address,442 Mill Road,116 MARKET STREET,2022-11-11
+T103492,address,497 Station Road,334 Mill Road,2025-10-22
+T103496,director,Farid Rahman,Joseph Okafor,2026-09-24
+T103507,address,650 Industrial Estate,45 Station Road,2026-10-13
+T103515,address,788 Riverside,1 Airport Road,2023-10-25
+T103527,address,946 Riverside,64 Industrial Estate,2022-11-02
+T103529,address,809 Garden Lane,270 Airport Rd,2026-01-30
+T103544,address,597 Harbour Road,370 INDUSTRIAL ESTATE,2026-01-04
+T103555,address,970 Temple Street,87 Airport Road,2026-01-19
+T103567,address,888 Harbour Road,519 Bazaar Lane,2015-11-18
+T103567,address,519 Bazaar Lane,"Unit 21, 165 Mill Road",2025-10-01
+T103599,director,Lucia Bauer,B. Sato,2023-05-14
+T103616,address,865 Airport Road,337 Airport Road,2018-09-13
+T103649,director,Ingrid Silva,Nadia Reyes,2024-04-06
+T103657,address,559 Harbour Road,321 INDUSTRIAL ESTATE,2025-09-11
+T103769,address,576 Market Street,"Unit 13, 313 Mill Road",2021-03-04
+T103776,address,953 Mill Road,243 Industrial Estate,2022-08-09
+T103810,address,922 Industrial Estate,375 Airport Road,2024-09-18
+T103825,address,673 Station Road,193 BAZAAR LANE,2021-10-12
+T103835,address,882 Riverside,47 BAZAAR LANE,2024-10-20
+T103882,address,814 Airport Road,356 Station Road,2026-03-05
+T103882,director,Ravi Patel,Elena Nguyen-Lee,2026-10-02
+T103912,director,Somchai Patel,Amina Mahmood,2022-04-07
+T103949,director,Aisha Fernandes,Aisha Chen,2021-04-15
+T103956,address,575 Bazaar Lane,816 Garden Lane,2019-07-11
+T103956,address,816 Garden Lane,244 Airport Road,2024-06-18
+T103996,address,477 Airport Road,123 Station Road,2025-03-01
+T103996,director,Somchai Mensah,Kenji Patel,2018-07-15
+T103997,address,572 Bazaar Lane,964 Market Street,2018-06-07
+T103997,address,964 Market Street,88 Garden Lane,2026-10-01
+T104007,address,564 Airport Road,563 Harbour Road,2014-07-24
+T104007,address,563 Harbour Road,86 Mill Road,2021-12-11
+T104036,address,893 Temple Street,27 Garden Lane,2023-02-17
+T104069,address,759 Bazaar Lane,930 Mill Road,2017-02-06
+T104069,address,930 Mill Road,227 Station Road,2021-03-17
+T104076,address,951 Temple Street,130 Harbour Road,2026-05-05
+T104151,director,Grace Rahman,Mei Mahmood,2025-10-06
+T104167,status,active,dormant,2017-01-08
+T104167,status,dormant,active,2026-05-06
+T104172,address,402 Temple Street,540 Mill Road,2018-09-25
+T104172,address,540 Mill Road,95 Bazaar Lane,2023-11-18
+T104211,address,963 Airport Road,472 Station Road,2013-09-05
+T104211,address,472 Station Road,361 BAZAAR LANE,2024-11-27
+T104269,address,452 Bazaar Lane,4 Market Street,2026-09-11
+T104271,director,Priya Silva,Fatima Rahman,2020-09-11
+T104287,address,889 Airport Road,64 Industrial Estate,2024-08-02
+T104313,address,449 Temple Street,351 Garden Lane,2025-01-06
+T104347,address,897 Airport Road,164 Riverside,2023-12-03
+T104369,director,Ingrid Ibrahim,Somchai Mahmood,2024-11-04
+T104380,director,Fatima Nguyen-Lee,Priya Patel,2023-03-05
+T104382,address,547 Riverside,45 Station Road,2023-06-06
+T104382,director,Amina Al-Sayed,Farid Chen,2018-01-08
+T104401,director,Priya Rahman,Ingrid Fernandes,2025-05-07
+T104414,address,991 Mill Road,396 HARBOUR ROAD,2021-08-11
+T104438,address,563 Industrial Estate,181 Mill Road,2022-08-09
+T104453,director,Fatima Okafor,Somchai Haddad,2012-11-06
+T104463,director,Hassan Sato,A. Rahman,2023-11-24
+T104467,status,active,dormant,2017-08-15
+T104467,status,dormant,active,2025-07-07
+T104484,address,535 Industrial Estate,677 Industrial Estate,2010-11-03
+T104484,address,677 Industrial Estate,80 Bazaar Lane,2020-08-24
+T104491,address,685 Station Road,51 Market Street,2018-07-28
+T104540,status,active,dormant,2026-06-11
+T104540,status,dormant,active,2026-09-04
+T104559,director,Samuel Fernandes,Samuel Rahman,2023-05-14
+T104575,director,Fatima Okafor,Somchai Patel,2023-04-29
+T104582,address,809 Station Road,221 Bazaar Lane,2022-04-04
+T104582,director,Kenji Mwangi,Somchai Fernandes,2022-10-21
+T104589,address,938 Station Road,395 Temple Street,2024-03-19
+T104608,address,773 Harbour Road,246 Market Street,2022-07-23
+T104624,address,526 Market Street,148 Market Street,2025-02-11
+T104624,director,Mei Patel,Mei Silva,2026-01-28
+T104629,address,949 Bazaar Lane,332 Airport Road,2022-04-12
+T104664,address,509 Station Road,342 MILL ROAD,2025-06-11
+T104678,director,Kenji Novak,Ingrid Rahman,2019-08-10
+T104692,address,708 Temple Street,207 Garden Lane,2025-04-04
+T104697,address,435 Industrial Estate,115 Industrial Estate,2024-12-24
+T104745,director,Hassan Mahmood,Grace Osei,2025-05-24
+T104753,address,527 Market Street,230 Industrial Estate,2025-11-19
+T104783,director,Samuel Kowalski,Ingrid Chen,2017-11-13
+T104831,director,Priya Tanaka,Tomas Chen,2012-08-23
+T104884,address,530 Temple Street,330 Mill Road,2024-06-02
+T104894,address,455 Riverside,98 Riverside,2023-11-22
+T104894,status,active,dormant,2026-01-08
+T104900,address,843 Riverside,327 Garden Lane,2023-02-22
+T104911,address,980 Market Street,85 Industrial Estate,2024-09-10
+T104941,address,817 Airport Road,68 Airport Road,2025-12-24
+T104942,director,Ravi Mensah,Elena Sato,2025-08-08
+T104990,director,Samuel Kowalski,S. Novak,2024-02-03
+T105016,director,Kenji Mahmood,Nadia Osei,2025-10-11
+T105020,address,498 Station Road,371 Garden Lane,2026-08-25
+T105085,status,active,dormant,2015-09-30
+T105085,status,dormant,active,2025-11-07
+T105095,status,active,dormant,2026-08-11
+T105116,director,Fatima Tanaka,Somchai Osei,2025-05-14
+T105127,address,442 Garden Lane,779 Bazaar Lane,2015-10-02
+T105127,address,779 Bazaar Lane,29 Station Road,2024-05-06
+T105148,status,active,dormant,2026-03-24
+T105165,address,806 Station Road,447 Mill Road,2017-11-23
+T105165,address,447 Mill Road,"Unit 4, 54 Station Road",2024-06-30
+T105165,director,Kenji Fernandes,Samuel Nguyen-Lee,2013-11-07
+T105177,address,729 Industrial Estate,233 Bazaar Lane,2022-07-23
+T105203,address,686 Airport Road,248 Mill Road,2025-09-21
+T105220,address,913 Station Road,"Unit 18, 216 Station Road",2026-08-16
+T105304,status,active,dormant,2018-07-10
+T105304,status,dormant,active,2025-10-01
+T105345,director,Ingrid Tanaka,Omar Rahman,2019-08-30
+T105368,address,763 Temple Street,85 Industrial Estate,2023-10-01
+T105416,address,600 Temple Street,968 Market Street,2024-08-14
+T105416,address,968 Market Street,79 Airport Road,2026-02-02
+T105426,address,531 Mill Road,251 Market Street,2026-07-13
+T105440,director,Grace Novak,Mei Chen,2024-11-14
+T105518,address,682 Mill Road,672 Mill Road,2019-07-30
+T105518,address,672 Mill Road,302 STATION ROAD,2024-04-23
+T105536,status,active,dormant,2026-04-02
+T105616,address,904 Temple Street,16 Temple Street,2025-07-18
+T105651,director,Omar Bauer,Kenji Bauer,2015-07-24
+T105667,status,active,dormant,2025-02-27
+T105667,status,dormant,active,2025-05-16
+T105673,address,474 Bazaar Lane,219 Mill Rd,2024-03-24
+T105741,address,527 Harbour Road,221 Industrial Estate,2023-06-21
+T105759,status,active,dormant,2019-03-14
+T105759,status,dormant,active,2025-01-26
+T105763,address,421 Mill Road,378 Harbour Road,2025-07-05
+T105763,director,Amina Osei,Somchai Rahman,2025-07-06
+T105774,director,Kenji Patel,Ingrid Tanaka,2022-04-23
+T105785,address,573 Bazaar Lane,226 Harbour Road,2025-01-11
+T105807,address,598 Industrial Estate,192 Harbour Road,2022-12-12
+T105868,director,Somchai Rahman,Farid Mwangi,2019-01-04
+T105875,address,664 Bazaar Lane,379 Airport Rd,2022-10-11
+T105875,director,Elena Nguyen-Lee,Elena Osei,2016-10-14
+T105904,director,Omar Fernandes,Grace Patel,2026-06-23
+T105940,address,610 Garden Lane,352 HARBOUR ROAD,2024-12-25
+T105944,address,817 Garden Lane,603 Garden Lane,2012-07-04
+T105944,address,603 Garden Lane,5 BAZAAR LANE,2021-09-28
+T105968,address,903 Airport Road,301 Temple Street,2021-08-20
+T106011,address,567 Airport Road,210 Airport Road,2026-10-06
+T106028,address,878 Mill Road,52 MILL ROAD,2022-09-19
+T106056,address,637 Riverside,939 Market Street,2016-05-22
+T106056,address,939 Market Street,58 Bazaar Ln,2022-10-01
+T106092,address,698 Market Street,115 Industrial Estate,2022-12-04
+T106113,address,540 Market Street,139 GARDEN LANE,2026-07-15
+T106137,address,614 Mill Road,56 Riverside,2022-12-16
+T106159,address,963 Market Street,226 Mill Road,2026-04-13
+T106175,address,651 Market Street,832 Station Road,2012-01-27
+T106175,address,832 Station Road,"Unit 2, 59 Industrial Estate",2020-02-09
+T106224,address,854 Airport Road,9 Garden Lane,2025-03-22
+T106236,address,442 Industrial Estate,149 Market Street,2026-09-16
+T106289,address,418 Airport Road,984 Market Street,2013-05-23
+T106289,address,984 Market Street,255 Bazaar Lane,2026-06-07
+T106313,address,654 Airport Road,126 Station Road,2020-06-23
+T106355,address,534 Airport Road,88 Garden Lane,2020-10-13
+T106455,address,534 Industrial Estate,382 HARBOUR ROAD,2026-02-01
+T106463,director,Mei Mensah,Lucia Patel,2022-10-18
+T106469,address,570 Mill Road,702 Market Street,2019-08-18
+T106469,address,702 Market Street,315 Mill Road,2023-08-03
+T106469,status,active,dormant,2022-07-01
+T106469,status,dormant,active,2025-07-08
+T106489,status,active,dormant,2025-06-27
+T106616,address,907 Mill Road,346 Market Street,2025-03-27
+T106630,address,585 Industrial Estate,965 Riverside,2026-02-18
+T106630,address,965 Riverside,62 MARKET STREET,2026-09-19
+T106654,address,990 Industrial Estate,18 Garden Lane,2024-09-19
+T106660,address,475 Market Street,602 Temple Street,2012-10-02
+T106660,address,602 Temple Street,69 Garden Lane,2019-06-04
+T106683,address,478 Airport Road,128 Harbour Road,2025-03-05
+T106719,address,794 Riverside,119 Temple Street,2025-12-07
+T106720,director,Elena Bauer,Kenji Fernandes,2025-04-12
+T106720,status,active,dormant,2023-12-13
+T106720,status,dormant,active,2024-11-22
+T106731,director,Hassan Tanaka,Ravi Patel,2026-06-04
+T106765,address,647 Temple Street,314 Station Road,2025-02-12
+T106765,status,active,dormant,2025-04-16
+T106770,address,410 Riverside,390 Harbour Road,2021-05-24
+T106777,address,879 Bazaar Lane,74 Airport Road,2026-07-03
+T106787,status,active,dormant,2024-10-25
+T106803,director,Fatima Mensah,A. Ibrahim,2019-04-23
+T106805,address,562 Market Street,308 Temple Street,2022-10-15
+T106823,address,920 Mill Road,763 Market Street,2016-05-18
+T106823,address,763 Market Street,292 Harbour Road,2025-02-16
+T106874,director,Hassan Sato,Amina Sato,2017-11-17
+T106901,director,Joseph Mahmood,Farid Haddad,2021-07-26
+T106922,address,634 Garden Lane,309 Industrial Estate,2020-09-29
+T106963,address,581 Harbour Road,155 Station Road,2026-03-14
+T106963,director,Aisha Reyes,M. Silva,2026-07-12
+T106987,status,active,dormant,2025-11-01
+T106998,director,Somchai Fernandes,Elena Silva,2024-08-14
+T107015,address,427 Harbour Road,997 Mill Road,2016-09-18
+T107015,address,997 Mill Road,345 Garden Lane,2023-11-21
+T107040,address,534 Harbour Road,17 Mill Road,2024-05-14
+T107040,director,Fatima Chen,Tomas Al-Sayed,2024-02-22
+T107076,director,Tomas Fernandes,Elena Novak,2019-08-28
+T107081,director,Nadia Reyes,Mei Patel,2015-02-05
+T107102,address,829 Market Street,426 Airport Road,2022-03-18
+T107102,address,426 Airport Road,230 Airport Road,2024-05-22
+T107116,address,619 Industrial Estate,27 BAZAAR LANE,2024-04-10
+T107116,director,Joseph Rahman,Somchai Kowalski,2026-02-18
+T107178,address,716 Temple Street,732 Riverside,2022-08-06
+T107178,address,732 Riverside,168 Mill Road,2024-05-10
+T107190,status,active,dormant,2022-11-25
+T107190,status,dormant,active,2026-08-20
+T107202,director,Somchai Chen,Fatima Haddad,2024-05-05
+T107208,director,Priya Nguyen-Lee,Omar Nguyen-Lee,2012-05-18
+T107273,address,408 Station Road,18 Station Road,2026-07-16
+T107273,director,Mei Novak,Kenji Chen,2023-07-05
+T107281,address,409 Station Road,582 Temple Street,2018-06-25
+T107281,address,582 Temple Street,"Unit 6, 372 Mill Road",2026-04-25
+T107290,address,527 Airport Road,"Unit 23, 188 Mill Road",2024-12-30
+T107343,address,487 Airport Road,368 Harbour Road,2026-06-03
+T107374,address,689 Temple Street,"Unit 19, 51 Market Street",2024-04-20
+T107415,address,748 Harbour Road,785 Bazaar Lane,2019-10-29
+T107415,address,785 Bazaar Lane,18 Bazaar Lane,2026-08-04
+T107425,address,897 Market Street,239 Temple Street,2022-11-23
+T107431,address,705 Mill Road,85 RIVERSIDE,2022-11-03
+T107444,address,918 Market Street,237 Airport Road,2022-08-23
+T107458,address,890 Harbour Road,746 Bazaar Lane,2017-10-23
+T107458,address,746 Bazaar Lane,162 Bazaar Lane,2024-07-15
+T107518,director,Omar Osei,Hassan Al-Sayed,2026-09-21
+T107545,director,Amina Chen,Grace Bauer,2015-01-01
+T107561,address,970 Bazaar Lane,67 Bazaar Lane,2019-01-19
+T107585,address,423 Airport Road,774 Bazaar Lane,2016-05-15
+T107585,address,774 Bazaar Lane,110 Mill Road,2024-01-30
+T107617,address,742 Station Road,172 Airport Road,2025-12-06
+T107617,status,active,dormant,2026-07-19
+T107643,address,460 Market Street,609 Mill Road,2015-06-07
+T107643,address,609 Mill Road,201 Airport Road,2025-02-06
+T107683,director,Tomas Okafor,A. Mensah,2020-07-28
+T107695,address,627 Market Street,244 Industrial Estate,2021-08-17
+T107732,address,805 Station Road,316 Harbour Road,2025-01-26
+T107766,director,Mei Kowalski,Kenji Kowalski,2022-03-13
+T107822,status,active,dormant,2025-06-15
+T107833,address,706 Temple Street,205 Temple Street,2026-10-02
+T107845,address,613 Garden Lane,"Unit 18, 52 Harbour Road",2026-01-31
+T107856,status,active,dormant,2026-01-09
+T107882,director,Farid Al-Sayed,Lucia Ibrahim,2016-08-08
+T107890,address,671 Riverside,175 Harbour Road,2026-10-05
+T107957,address,560 Temple Street,91 Station Road,2020-06-11
+T107966,address,711 Riverside,"Unit 13, 140 Airport Road",2026-09-09
+T107985,director,Farid Tanaka,Omar Mahmood,2019-10-02
+T107994,address,695 Mill Road,992 Temple Street,2025-10-24
+T107994,address,992 Temple Street,10 Airport Road,2026-06-19
+T108019,address,885 Riverside,97 Airport Road,2021-06-03
+T108048,address,575 Mill Road,167 Bazaar Lane,2026-07-15
+T108076,address,796 Temple Street,209 Temple Street,2024-06-04
+T108084,address,746 Industrial Estate,653 Riverside,2019-06-05
+T108084,address,653 Riverside,106 Temple St,2022-06-25
+T108106,address,957 Garden Lane,191 Bazaar Lane,2024-08-03
+T108129,address,608 Mill Road,564 Industrial Estate,2015-06-13
+T108129,address,564 Industrial Estate,392 Riverside,2025-12-23
+T108137,address,872 Riverside,950 Mill Road,2014-01-19
+T108137,address,950 Mill Road,220 Temple St,2019-07-04
+T108158,address,690 Bazaar Lane,131 Mill Road,2025-08-21
+T108201,address,906 Industrial Estate,425 Bazaar Lane,2020-11-28
+T108201,address,425 Bazaar Lane,101 Market Street,2023-12-07
+T108222,address,972 Harbour Road,14 Airport Road,2025-06-05
+T108249,address,588 Temple Street,353 Station Road,2024-08-25
+T108253,address,675 Industrial Estate,318 Bazaar Lane,2021-12-18
+T108273,address,775 Mill Road,220 Market Street,2026-07-24
+T108351,address,927 Industrial Estate,265 Riverside,2025-03-13
+T108425,address,416 Temple Street,117 Industrial Estate,2026-01-01
+T108439,address,760 Airport Road,171 Garden Ln,2026-10-04
+T108439,director,Tomas Mahmood,M. Nguyen-Lee,2026-06-13
+T108479,address,866 Station Road,791 Temple Street,2026-05-06
+T108479,address,791 Temple Street,53 Bazaar Lane,2026-07-22
+T108534,director,Joseph Fernandes,Daniel Tanaka,2023-06-22
+T108613,director,Aisha Patel,M. Mahmood,2025-12-03
+T108631,address,914 Temple Street,504 Market Street,2018-09-22
+T108631,address,504 Market Street,153 Mill Road,2025-12-11
+T108692,status,active,dormant,2021-12-23
+T108692,status,dormant,active,2024-11-23
+T108694,address,755 Garden Lane,512 Harbour Road,2015-01-08
+T108694,address,512 Harbour Road,285 Mill Road,2025-08-10
+T108709,director,Hassan Mensah,B. Novak,2020-12-30
+T108729,director,Joseph Sato,Lucia Chen,2022-04-27
+T108756,address,793 Market Street,394 Temple Street,2024-11-11
+T108799,address,986 Garden Lane,273 MARKET STREET,2023-04-29
+T108811,address,478 Garden Lane,303 Market Street,2026-09-03
+T108859,director,Aisha Bauer,Kenji Mahmood,2019-10-04
+T108883,address,673 Market Street,569 Harbour Road,2015-02-25
+T108883,address,569 Harbour Road,349 Airport Road,2024-01-07
+T108891,director,Fatima Kowalski,Mei Kowalski,2023-12-26
+T108901,status,active,dormant,2026-01-18
+T108921,address,941 Airport Road,253 Mill Road,2024-12-18
+T108935,address,598 Harbour Road,391 Airport Road,2025-01-04
+T108947,address,647 Industrial Estate,936 Riverside,2017-07-05
+T108947,address,936 Riverside,318 Industrial Estate,2023-07-14
+T108957,director,Elena Ibrahim,Tomas Tanaka,2022-03-28
+T108964,director,Amina Rahman,Grace Okafor,2026-02-20
+T108984,address,596 Industrial Estate,298 TEMPLE STREET,2025-09-01
+T108988,address,654 Market Street,382 Riverside,2020-08-23
+T109015,status,active,dormant,2023-08-13
+T109015,status,dormant,active,2025-10-09
+T109073,status,active,dormant,2024-11-15
+T109116,address,537 Market Street,290 Bazaar Lane,2022-06-07
+T109133,address,569 Station Road,244 Industrial Estate,2026-05-02
+T109140,director,Hassan Haddad,Kenji Tanaka,2011-06-15
+T109212,address,702 Harbour Road,852 Station Road,2013-11-12
+T109212,address,852 Station Road,292 Temple Street,2023-03-31
+T109250,address,454 Industrial Estate,231 Riverside,2024-07-03
+T109263,address,639 Industrial Estate,658 Market Street,2026-04-06
+T109263,address,658 Market Street,23 Airport Road,2026-06-28
+T109347,address,895 Station Road,309 Mill Rd,2024-02-18
+T109377,address,642 Riverside,256 Garden Lane,2026-07-22
+T109382,status,active,dormant,2025-09-15
+T109419,address,704 Garden Lane,"Unit 26, 164 Garden Lane",2023-07-31
+T109439,address,494 Bazaar Lane,182 Temple Street,2025-12-24
+T109507,address,678 Airport Road,461 Airport Road,2020-04-19
+T109507,address,461 Airport Road,278 Industrial Estate,2024-04-22
+T109559,address,964 Riverside,468 Airport Road,2014-12-31
+T109559,address,468 Airport Road,3 BAZAAR LANE,2023-03-05
+T109580,status,active,dormant,2017-11-13
+T109580,status,dormant,active,2025-02-17
+T109618,director,Joseph Kowalski,Farid Tanaka,2026-06-01
+T109643,status,active,dormant,2025-06-14
+T109649,address,595 Airport Road,67 Temple Street,2024-05-25
+T109675,director,Daniel Okafor,Samuel Al-Sayed,2026-08-16
+T109686,director,Mei Silva,S. Kowalski,2019-02-19
+T109711,address,774 Airport Road,213 Station Road,2022-10-07
+T109782,address,514 Market Street,348 Bazaar Lane,2026-03-31
+T109782,director,Omar Bauer,Priya Patel,2022-03-11
+T109806,address,719 Airport Road,43 Garden Lane,2024-05-05
+T109835,address,649 Temple Street,206 Garden Lane,2020-07-29
+T109852,address,650 Station Road,257 Riverside,2026-07-05
+T109868,director,Omar Tanaka,Kenji Mwangi,2017-09-24
+T109890,status,active,dormant,2026-08-12
+T109901,status,active,dormant,2025-09-03
+T109915,address,765 Station Road,"Unit 16, 50 Market Street",2022-12-22
+T109924,address,653 Temple Street,118 Harbour Road,2023-02-08
+T109952,address,946 Airport Road,244 Riverside,2023-10-19
+T109987,status,active,dormant,2023-12-03
+T109987,status,dormant,active,2025-04-18
+T110015,director,Somchai Okafor,Hassan Osei,2021-12-08
+T110051,address,467 Temple Street,948 Bazaar Lane,2013-04-05
+T110051,address,948 Bazaar Lane,141 Mill Road,2022-01-06
+T110074,status,active,dormant,2014-12-05
+T110074,status,dormant,active,2025-01-21
+T110081,status,active,dormant,2025-08-04
+T110109,director,Hassan Fernandes,Amina Okafor,2022-12-15
+T110109,status,active,dormant,2025-10-25
+T110119,address,419 Industrial Estate,51 Airport Road,2023-09-13
+T110140,director,Joseph Rahman,Ravi Tanaka,2025-10-04
+T110145,address,824 Airport Road,236 Temple St,2021-07-11
+T110145,status,active,dormant,2026-05-21
+T110261,address,982 Harbour Road,64 Bazaar Lane,2024-06-29
+T110280,director,Kenji Osei,Samuel Novak,2010-08-02
+T110296,address,636 Mill Road,101 Riverside,2023-04-22
+T110319,address,827 Market Street,289 Riverside,2026-02-18
+T110343,director,Lucia Reyes,Hassan Haddad,2019-05-30
+T110413,director,Amina Patel,Joseph Ibrahim,2021-09-01
+T110420,address,533 Riverside,80 Industrial Estate,2026-04-11
+T110432,address,973 Harbour Road,399 Market St,2025-04-02
+T110452,address,589 Temple Street,"Unit 1, 35 Mill Road",2023-02-13
+T110499,address,515 Airport Road,497 Garden Lane,2011-10-15
+T110499,address,497 Garden Lane,87 Mill Road,2026-10-12
+T204687,address,906 Harbour Road,319 Temple Street,2022-07-19
+T204815,status,active,dormant,2025-10-21
+T214018,address,748 Airport Road,321 Station Road,2023-03-22
+T215234,status,active,dormant,2024-11-02
+T215234,status,dormant,active,2025-03-28
+T217525,director,Aisha Okafor,Joseph Silva,2026-07-27
+T219083,director,Kenji Chen,Fatima Patel,2024-03-27
+T226294,address,422 Industrial Estate,393 Harbour Road,2021-06-12
+T229359,status,active,dormant,2026-07-10
+T232870,director,Kenji Silva,Amina Patel,2021-01-26
+T235940,status,active,deregistered,2025-10-31
+T238551,director,Ingrid Fernandes,Mei Rahman,2024-10-16
+T252207,director,Grace Bauer,Fatima Silva,2025-02-05
+T257009,director,Somchai Nguyen-Lee,Mei Chen,2021-11-23
+T262012,address,435 Bazaar Lane,643 Riverside,2023-06-26
+T262012,address,643 Riverside,215 Riverside,2025-03-05
+T262012,status,active,dormant,2024-09-10
+T262012,status,dormant,active,2025-01-31
+T263313,address,945 Harbour Road,31 Garden Lane,2020-10-07
+T263313,status,active,dormant,2020-11-13
+T263313,status,dormant,active,2025-06-13
+T265945,address,501 Temple Street,140 Airport Road,2024-03-01
+T267543,director,Grace Fernandes,Amina Chen,2026-04-06
+T270003,address,495 Garden Lane,215 Riverside,2023-12-24
+T272984,status,active,deregistered,2025-10-27
+T273354,status,active,dormant,2025-12-26
+T276274,director,Priya Ibrahim,Mei Chen,2026-01-09
+T276315,status,active,deregistered,2025-10-30
+T277240,status,active,dormant,2025-01-20
+T288897,director,Priya Al-Sayed,Daniel Novak,2023-05-17
+T290146,address,849 Mill Road,737 Market Street,2025-07-26
+T290146,address,737 Market Street,259 Market Street,2026-04-10
+T294000,director,Ravi Rahman,Joseph Osei,2016-07-26
+T298468,director,Omar Rahman,Fatima Osei,2022-09-07
+T304234,status,active,dormant,2026-09-21
+T310136,director,Somchai Fernandes,Fatima Rahman,2024-08-25
+T319342,address,635 Temple Street,59 Mill Road,2025-11-26
+T319342,director,Somchai Chen,Fatima Silva,2024-10-06
+T323849,address,746 Market Street,228 Station Road,2026-02-07
+T325285,address,766 Market Street,389 Garden Lane,2023-05-28
+T325285,status,active,dormant,2025-01-10
+T326307,status,active,deregistered,2024-11-23
+T336099,status,active,dormant,2024-09-05
+T336099,status,dormant,active,2025-05-14
+T341725,director,Farid Mahmood,Fatima Osei,2019-11-09
+T346980,director,Elena Chen,Amina Chen,2020-02-14
+T346980,status,active,dormant,2019-08-21
+T346980,status,dormant,active,2025-02-17
+T347584,address,940 Riverside,831 Harbour Road,2024-07-29
+T347584,address,831 Harbour Road,375 Market Street,2026-02-08
+T352392,address,724 Station Road,326 Garden Lane,2022-10-29
+T356262,director,Tomas Bauer,Amina Novak,2026-05-06
+T357801,address,965 Garden Lane,125 Industrial Estate,2026-08-25
+T361859,director,Priya Chen,Joseph Rahman,2024-09-12
+T370918,address,919 Market Street,225 Station Road,2025-09-16
+T372468,address,532 Temple Street,290 Bazaar Lane,2026-06-28
+T377467,address,556 Harbour Road,678 Station Road,2015-09-20
+T377467,address,678 Station Road,214 Airport Road,2022-01-17
+T380862,director,Nadia Rahman,Amina Chen,2024-11-14
+T389104,address,412 Bazaar Lane,43 Harbour Road,2025-12-18
+T389946,address,648 Mill Road,396 Harbour Road,2024-11-19
+T389946,director,Aisha Osei,Fatima Osei,2021-04-11
+T396727,address,687 Riverside,988 Industrial Estate,2015-04-10
+T396727,address,988 Industrial Estate,231 Harbour Road,2023-03-04
+T399931,status,active,deregistered,2025-11-01
+T403571,address,575 Harbour Road,43 Station Road,2022-11-11
+T408849,address,539 Station Road,204 Station Road,2026-07-24
+T416347,address,929 Market Street,98 Bazaar Lane,2023-04-06
+T421279,address,820 Bazaar Lane,686 Station Road,2021-08-28
+T421279,address,686 Station Road,323 Market Street,2024-05-02
+T429664,address,575 Riverside,278 Bazaar Lane,2023-01-17
+T429664,status,active,dormant,2019-12-26
+T429664,status,dormant,active,2025-02-27
+T438733,status,active,deregistered,2025-10-02
+T446642,director,Mei Ibrahim,Amina Osei,2013-05-09
+T460910,address,618 Bazaar Lane,398 Bazaar Lane,2021-09-26
+T465231,director,Samuel Mwangi,Ravi Osei,2022-12-09
+T465231,status,active,deregistered,2025-10-19
+T466561,address,590 Riverside,196 Garden Lane,2024-10-11
+T467837,address,849 Temple Street,359 Airport Road,2026-05-25
+T467837,director,Amina Al-Sayed,Amina Silva,2026-07-11
+T468836,address,745 Temple Street,383 Industrial Estate,2023-11-06
+T470748,address,507 Harbour Road,47 Bazaar Lane,2022-07-16
+T471528,status,active,dormant,2026-02-16
+T473627,director,Samuel Bauer,Mei Rahman,2023-07-13
+T479333,status,active,dormant,2024-11-20
+T486691,director,Lucia Patel,Mei Novak,2025-11-28
+T491374,address,774 Harbour Road,59 Riverside,2023-12-29
+T492425,address,509 Temple Street,227 Temple Street,2023-12-31
+T492425,status,active,dormant,2023-06-18
+T492425,status,dormant,active,2026-05-06
+T500367,director,Omar Novak,Ravi Rahman,2016-05-11
+T500367,status,active,dormant,2026-04-24
+T506474,director,Omar Nguyen-Lee,Fatima Novak,2023-02-27
+T509018,director,Mei Fernandes,Fatima Osei,2025-03-29
+T511606,address,628 Market Street,709 Temple Street,2024-12-19
+T511606,address,709 Temple Street,270 Industrial Estate,2026-02-25
+T514418,director,Farid Bauer,Ravi Patel,2024-01-03
+T521461,address,800 Garden Lane,294 Harbour Road,2024-03-26
+T526376,address,598 Station Road,219 Airport Road,2025-11-22
+T537130,status,active,deregistered,2025-10-15
+T537768,address,991 Bazaar Lane,881 Bazaar Lane,2021-11-29
+T537768,address,881 Bazaar Lane,114 Riverside,2024-01-15
+T537768,status,active,deregistered,2025-10-13
+T550185,director,Lucia Mahmood,Joseph Novak,2014-12-19
+T555982,status,active,deregistered,2026-02-27
+T567865,director,Lucia Silva,Mei Osei,2019-11-15
+T575802,address,953 Industrial Estate,184 Garden Lane,2025-12-23
+T594653,address,618 Riverside,76 Market Street,2024-10-12
+T595866,director,Amina Fernandes,Amina Rahman,2025-01-28
+T600406,address,589 Station Road,127 Riverside,2019-11-04
+T600406,status,active,dormant,2026-06-14
+T608214,address,500 Harbour Road,57 Mill Road,2026-02-19
+T615510,status,active,dormant,2026-09-23
+T618208,address,831 Mill Road,341 Airport Road,2025-02-02
+T624357,status,active,deregistered,2025-07-31
+T626462,address,658 Station Road,159 Market Street,2021-01-23
+T639590,address,983 Bazaar Lane,403 Garden Lane,2025-10-03
+T639590,address,403 Garden Lane,8 Garden Lane,2026-09-11
+T639590,status,active,deregistered,2025-10-03
+T640402,address,895 Mill Road,391 Riverside,2025-06-28
+T652776,director,Samuel Novak,Mei Osei,2025-06-18
+T652776,status,active,dormant,2026-09-10
+T656593,address,416 Station Road,823 Garden Lane,2015-08-25
+T656593,address,823 Garden Lane,310 Mill Road,2024-04-28
+T658995,address,771 Garden Lane,333 Bazaar Lane,2026-05-29
+T658995,status,active,dormant,2026-08-10
+T659407,director,Ravi Tanaka,Amina Osei,2024-07-10
+T663897,address,638 Industrial Estate,122 Market Street,2022-05-01
+T663897,status,active,deregistered,2025-10-11
+T670188,address,426 Garden Lane,328 Station Road,2022-11-23
+T670188,status,active,dormant,2024-12-02
+T674080,address,694 Garden Lane,814 Bazaar Lane,2021-10-04
+T674080,address,814 Bazaar Lane,199 Bazaar Lane,2023-09-27
+T677445,status,active,dormant,2025-06-09
+T679806,director,Priya Ibrahim,Mei Novak,2023-05-05
+T679806,status,active,dormant,2025-11-13
+T686707,address,504 Mill Road,127 Harbour Road,2025-09-02
+T686707,status,active,dormant,2025-05-25
+T687727,director,Ravi Novak,Ravi Chen,2016-10-14
+T691541,status,active,dormant,2022-07-09
+T691541,status,dormant,active,2024-12-29
+T691797,status,active,deregistered,2025-10-28
+T693856,address,520 Bazaar Lane,265 Bazaar Lane,2024-05-08
+T694794,address,437 Temple Street,510 Bazaar Lane,2019-11-01
+T694794,address,510 Bazaar Lane,86 Harbour Road,2023-05-25
+T698791,address,796 Garden Lane,172 Garden Lane,2026-09-28
+T701051,address,409 Industrial Estate,141 Mill Road,2026-06-06
+T701051,director,Somchai Rahman,Fatima Osei,2011-09-03
+T701372,address,576 Station Road,561 Industrial Estate,2017-05-24
+T701372,address,561 Industrial Estate,350 Garden Lane,2024-08-28
+T706552,address,818 Airport Road,397 Market Street,2026-06-14
+T706552,status,active,deregistered,2025-12-06
+T721529,address,555 Industrial Estate,634 Market Street,2015-01-17
+T721529,address,634 Market Street,388 Station Road,2022-02-17
+T723702,address,987 Airport Road,12 Harbour Road,2025-12-03
+T725897,status,active,deregistered,2025-10-23
+T727739,address,453 Harbour Road,264 Industrial Estate,2020-11-03
+T735655,status,active,dormant,2024-11-10
+T736595,address,685 Airport Road,347 Temple Street,2023-05-31
+T743453,address,904 Riverside,72 Temple Street,2025-05-30
+T758050,address,449 Mill Road,396 Airport Road,2021-12-15
+T761423,director,Aisha Reyes,Daniel Novak,2023-02-25
+T767246,address,753 Industrial Estate,377 Bazaar Lane,2024-12-27
+T775785,address,924 Temple Street,160 Industrial Estate,2026-03-26
+T781961,address,911 Riverside,211 Mill Road,2025-11-27
+T783112,address,969 Bazaar Lane,764 Temple Street,2025-12-16
+T783112,address,764 Temple Street,14 Station Road,2026-04-25
+T783308,address,889 Temple Street,362 Airport Road,2020-01-19
+T784082,status,active,dormant,2024-11-23
+T802297,address,690 Mill Road,141 Bazaar Lane,2020-11-26
+T805220,status,active,dormant,2026-04-19
+T815866,address,401 Riverside,903 Riverside,2022-06-16
+T815866,address,903 Riverside,349 Garden Lane,2024-08-26
+T816941,address,615 Airport Road,52 Bazaar Lane,2025-06-12
+T818474,status,active,deregistered,2025-10-16
+T822714,director,Nadia Bauer,Daniel Silva,2025-07-14
+T837829,director,Mei Al-Sayed,Ravi Patel,2024-09-12
+T839530,status,active,dormant,2025-10-05
+T843530,status,active,dormant,2025-09-01
+T845625,status,active,dormant,2026-01-28
+T849195,director,Omar Nguyen-Lee,Joseph Patel,2021-06-17
+T861214,status,active,dormant,2026-08-11
+T862368,address,618 Industrial Estate,267 Temple Street,2026-02-16
+T862368,status,active,deregistered,2025-10-10
+T863130,director,Ravi Okafor,Daniel Chen,2026-01-02
+T865213,director,Samuel Tanaka,Fatima Osei,2025-08-07
+T871397,status,active,dormant,2024-12-29
+T874049,director,Daniel Al-Sayed,Ravi Novak,2026-06-10
+T875449,address,519 Airport Road,322 Airport Road,2022-12-20
+T875449,director,Kenji Patel,Ravi Novak,2019-02-02
+T888018,director,Daniel Sato,Ravi Patel,2016-05-02
+T888018,status,active,dormant,2025-01-25
+T891876,address,802 Station Road,129 Mill Road,2026-02-24
+T896650,address,758 Market Street,230 Garden Lane,2025-03-27
+T897414,address,624 Harbour Road,810 Industrial Estate,2022-11-23
+T897414,address,810 Industrial Estate,34 Harbour Road,2025-07-17
+T897446,address,756 Garden Lane,511 Market Street,2022-10-25
+T897446,address,511 Market Street,385 Bazaar Lane,2024-08-09
+T899213,status,active,dormant,2026-05-14
+T902251,status,active,deregistered,2025-10-18
+T902719,director,Grace Nguyen-Lee,Amina Osei,2023-01-20
+T920137,director,Kenji Mensah,Joseph Osei,2022-08-20
+T922905,director,Joseph Mensah,Amina Rahman,2025-11-23
+T924688,address,460 Harbour Road,297 Industrial Estate,2022-04-13
+T925267,address,621 Bazaar Lane,984 Airport Road,2023-04-10
+T925267,address,984 Airport Road,7 Airport Road,2026-08-10
+T935750,address,736 Bazaar Lane,606 Station Road,2021-07-02
+T935750,address,606 Station Road,35 Airport Road,2025-11-22
+T936436,director,Joseph Mahmood,Mei Silva,2023-01-29
+T938500,status,active,deregistered,2025-10-08
+T939603,director,Samuel Fernandes,Amina Rahman,2022-05-29
+T946579,address,587 Airport Road,409 Airport Road,2017-03-02
+T946579,address,409 Airport Road,27 Station Road,2022-03-10
+T948848,address,863 Temple Street,237 Industrial Estate,2026-01-27
+T950369,address,955 Industrial Estate,290 Mill Road,2026-02-12
+T950369,director,Farid Patel,Mei Patel,2023-02-01
+T953766,director,Ravi Rahman,Ravi Novak,2024-07-14
+T966173,address,727 Mill Road,295 Airport Road,2022-06-17
+T975775,address,576 Industrial Estate,47 Market Street,2026-08-07
+T983169,address,663 Bazaar Lane,142 Riverside,2025-09-11
+T983169,director,Tomas Kowalski,Fatima Osei,2026-08-01
+T985635,address,537 Temple Street,796 Industrial Estate,2022-11-15
+T985635,address,796 Industrial Estate,296 Station Road,2024-09-02
+T990895,address,638 Riverside,401 Harbour Road,2018-03-16
+T990895,address,401 Harbour Road,143 Airport Road,2026-04-03
+T991950,status,active,deregistered,2025-10-07
+T996177,address,939 Harbour Road,204 Bazaar Lane,2023-12-25
+T996177,status,active,dormant,2025-04-14
+T999402,address,843 Harbour Road,165 Industrial Estate,2024-09-26
+T999404,address,923 Market Street,241 Temple Street,2023-03-16
+T999404,director,Omar Mwangi,Mei Chen,2026-09-04

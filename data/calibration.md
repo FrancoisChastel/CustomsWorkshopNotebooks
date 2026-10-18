@@ -33,7 +33,7 @@ Every figure printed in the decks, with the value the generated set reproduces.
 | valuation median | 74 | 74 |
 | valuation middle half | 66-83 | 66-83 |
 | valuation declared share of median | 82% | 82% |
-| valuation distance in spreads | -1.6 | -1.6 |
+| valuation distance in spreads | -1.1 | -1.1 |
 | bridge expected | 129.6 | 129.6 |
 | bridge explained | 88.0 | 88.0 |
 | bridge residual | 32% | 32% |

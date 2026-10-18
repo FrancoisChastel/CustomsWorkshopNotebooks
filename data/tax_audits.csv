@@ -1,0 +1,285 @@
+audit_id,tin,selection_basis,targeted_reason,selected_on,completed_on,audit_type,periods_from,periods_to,outcome,finding_type,tax_assessed_lcu
+AUD00001,T100013,random,,2025-01-15,2025-08-02,field,2024-10,2025-09,no adjustment,,0.0
+AUD00002,T100052,random,,2025-01-15,2025-02-21,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00003,T100056,random,,2025-01-15,2025-03-18,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00004,T100070,random,,2025-01-15,2025-06-04,desk,2024-10,2025-09,adjustment,a number lent to others,33298528.0
+AUD00005,T100082,random,,2025-01-15,2025-02-20,desk,2024-10,2025-09,adjustment,sales not declared,669545.0
+AUD00006,T100152,random,,2025-01-15,2025-04-27,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00007,T100165,random,,2025-01-15,2025-03-22,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00008,T100193,random,,2025-01-15,2025-05-16,field,2024-10,2025-09,adjustment,sales not declared,5916409.0
+AUD00009,T100201,random,,2025-01-15,2025-04-18,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00010,T100260,random,,2025-01-15,2025-08-01,field,2024-10,2025-09,adjustment,sales not declared,2251836.0
+AUD00011,T100374,random,,2025-01-15,2025-05-25,field,2024-10,2025-09,adjustment,sales not declared,432395.0
+AUD00012,T100466,random,,2025-01-15,2025-04-29,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00013,T100476,random,,2025-01-15,2025-05-26,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00014,T100497,random,,2025-01-15,2025-05-26,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00015,T100510,random,,2025-01-15,2025-06-12,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00016,T100538,random,,2025-01-15,2025-05-03,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00017,T100614,random,,2025-01-15,2025-03-10,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00018,T100631,random,,2025-01-15,2025-09-07,field,2024-10,2025-09,no adjustment,,0.0
+AUD00019,T100680,random,,2025-01-15,2025-03-21,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00020,T100699,random,,2025-01-15,2025-07-30,field,2024-10,2025-09,adjustment,sales not declared,2693976.0
+AUD00021,T100705,random,,2025-01-15,2025-04-17,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00022,T100720,random,,2025-01-15,2025-05-29,desk,2024-10,2025-09,adjustment,sales not declared,7429383.0
+AUD00023,T100729,random,,2025-01-15,2025-04-20,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00024,T100741,random,,2025-01-15,2025-04-01,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00025,T100758,random,,2025-01-15,2025-08-11,field,2024-10,2025-09,no adjustment,,0.0
+AUD00026,T100781,random,,2025-01-15,2025-06-08,field,2024-10,2025-09,adjustment,sales not declared,3843901.0
+AUD00027,T100799,random,,2025-01-15,2025-03-25,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00028,T100811,random,,2025-01-15,2025-08-23,field,2024-10,2025-09,no adjustment,,0.0
+AUD00029,T100861,random,,2025-01-15,2025-03-25,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00030,T100870,random,,2025-01-15,2025-03-15,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00031,T100957,random,,2025-01-15,2025-08-25,field,2024-10,2025-09,no adjustment,,0.0
+AUD00032,T100987,random,,2025-01-15,2025-07-18,field,2024-10,2025-09,no adjustment,,0.0
+AUD00033,T101036,random,,2025-01-15,2025-03-23,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00034,T101148,random,,2025-01-15,2025-03-02,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00035,T101160,random,,2025-01-15,2025-07-14,field,2024-10,2025-09,no adjustment,,0.0
+AUD00036,T101178,random,,2025-01-15,2025-07-08,field,2024-10,2025-09,adjustment,sales not declared,47262.0
+AUD00037,T101202,random,,2025-01-15,2025-04-28,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00038,T101224,random,,2025-01-15,2025-03-17,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00039,T101250,random,,2025-01-15,2025-08-12,field,2024-10,2025-09,no adjustment,,0.0
+AUD00040,T101362,random,,2025-01-15,2025-06-09,field,2024-10,2025-09,no adjustment,,0.0
+AUD00041,T101426,random,,2025-01-15,2025-05-25,field,2024-10,2025-09,no adjustment,,0.0
+AUD00042,T101451,random,,2025-01-15,2025-04-03,desk,2024-10,2025-09,adjustment,sales not declared,852176.0
+AUD00043,T101458,random,,2025-01-15,2025-05-22,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00044,T101459,random,,2025-01-15,2025-03-17,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00045,T101550,random,,2025-01-15,2025-02-23,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00046,T101562,random,,2025-01-15,2025-06-08,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00047,T101651,random,,2025-01-15,2025-06-05,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00048,T101656,random,,2025-01-15,2025-04-11,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00049,T101660,random,,2025-01-15,2025-03-15,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00050,T101683,random,,2025-01-15,2025-03-08,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00051,T101700,random,,2025-01-15,2025-07-24,field,2024-10,2025-09,no adjustment,,0.0
+AUD00052,T101824,random,,2025-01-15,2025-05-27,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00053,T101828,random,,2025-01-15,2025-06-07,field,2024-10,2025-09,no adjustment,,0.0
+AUD00054,T101861,random,,2025-01-15,2025-03-19,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00055,T101970,random,,2025-01-15,2025-06-11,desk,2024-10,2025-09,adjustment,sales not declared,103007.0
+AUD00056,T101983,random,,2025-01-15,2025-07-09,field,2024-10,2025-09,no adjustment,,0.0
+AUD00057,T102074,random,,2025-01-15,2025-07-13,field,2024-10,2025-09,no adjustment,,0.0
+AUD00058,T102096,random,,2025-01-15,2025-05-09,field,2024-10,2025-09,no adjustment,,0.0
+AUD00059,T102294,random,,2025-01-15,2025-05-15,desk,2024-10,2025-09,adjustment,sales not declared,115812.0
+AUD00060,T102357,random,,2025-01-15,2025-04-28,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00061,T102414,random,,2025-01-15,2025-05-25,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00062,T102469,random,,2025-01-15,2025-03-02,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00063,T102516,random,,2025-01-15,2025-04-17,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00064,T102520,random,,2025-01-15,2025-05-04,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00065,T102531,random,,2025-01-15,2025-07-05,field,2024-10,2025-09,adjustment,sales not declared,2987987.0
+AUD00066,T102616,random,,2025-01-15,2025-08-11,field,2024-10,2025-09,no adjustment,,0.0
+AUD00067,T102643,random,,2025-01-15,2025-04-18,desk,2024-10,2025-09,adjustment,sales not declared,148577.0
+AUD00068,T102647,random,,2025-01-15,2025-06-01,field,2024-10,2025-09,no adjustment,,0.0
+AUD00069,T102705,random,,2025-01-15,2025-06-14,field,2024-10,2025-09,adjustment,sales not declared,320740.0
+AUD00070,T102740,random,,2025-01-15,2025-08-11,field,2024-10,2025-09,no adjustment,,0.0
+AUD00071,T102784,random,,2025-01-15,2025-06-20,field,2024-10,2025-09,adjustment,sales not declared,536590.0
+AUD00072,T103006,random,,2025-01-15,2025-06-09,desk,2024-10,2025-09,adjustment,sales not declared,118848.0
+AUD00073,T103045,random,,2025-01-15,2025-02-17,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00074,T103082,random,,2025-01-15,2025-06-03,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00075,T103111,random,,2025-01-15,2025-05-24,field,2024-10,2025-09,no adjustment,,0.0
+AUD00076,T103125,random,,2025-01-15,2025-03-02,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00077,T103173,random,,2025-01-15,2025-03-23,desk,2024-10,2025-09,adjustment,sales not declared,2213128.0
+AUD00078,T103192,random,,2025-01-15,2025-05-16,desk,2024-10,2025-09,adjustment,sales not declared,1164804.0
+AUD00079,T103274,random,,2025-01-15,2025-04-19,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00080,T103377,random,,2025-01-15,2025-08-26,field,2024-10,2025-09,no adjustment,,0.0
+AUD00081,T103391,random,,2025-01-15,2025-05-27,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00082,T103425,random,,2025-01-15,2025-04-16,field,2024-10,2025-09,no adjustment,,0.0
+AUD00083,T103507,random,,2025-01-15,2025-03-11,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00084,T103555,random,,2025-01-15,2025-08-18,field,2024-10,2025-09,no adjustment,,0.0
+AUD00085,T103567,random,,2025-01-15,2025-02-20,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00086,T103572,random,,2025-01-15,2025-03-24,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00087,T103667,random,,2025-01-15,2025-04-28,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00088,T103761,random,,2025-01-15,2025-05-17,field,2024-10,2025-09,no adjustment,,0.0
+AUD00089,T103835,random,,2025-01-15,2025-03-27,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00090,T103855,random,,2025-01-15,2025-04-15,field,2024-10,2025-09,no adjustment,,0.0
+AUD00091,T103882,random,,2025-01-15,2025-05-07,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00092,T103939,random,,2025-01-15,2025-04-19,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00093,T103983,random,,2025-01-15,2025-03-27,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00094,T104030,random,,2025-01-15,2025-09-08,field,2024-10,2025-09,no adjustment,,0.0
+AUD00095,T104057,random,,2025-01-15,2025-09-10,field,2024-10,2025-09,no adjustment,,0.0
+AUD00096,T104135,random,,2025-01-15,2025-04-13,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00097,T104234,random,,2025-01-15,2025-08-16,field,2024-10,2025-09,no adjustment,,0.0
+AUD00098,T104305,random,,2025-01-15,2025-05-25,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00099,T104345,random,,2025-01-15,2025-05-16,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00100,T104361,random,,2025-01-15,2025-05-02,desk,2024-10,2025-09,adjustment,sales not declared,1426597.0
+AUD00101,T104484,random,,2025-01-15,2025-02-17,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00102,T104498,random,,2025-01-15,2025-03-27,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00103,T104569,random,,2025-01-15,2025-02-22,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00104,T104575,random,,2025-01-15,2025-05-16,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00105,T104582,random,,2025-01-15,2025-04-30,field,2024-10,2025-09,no adjustment,,0.0
+AUD00106,T104726,random,,2025-01-15,2025-05-01,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00107,T104768,random,,2025-01-15,2025-02-21,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00108,T104777,random,,2025-01-15,2025-06-08,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00109,T104840,random,,2025-01-15,2025-02-23,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00110,T104884,random,,2025-01-15,2025-09-11,field,2024-10,2025-09,adjustment,sales not declared,43428.0
+AUD00111,T104959,random,,2025-01-15,2025-09-12,field,2024-10,2025-09,no adjustment,,0.0
+AUD00112,T104974,random,,2025-01-15,2025-08-05,field,2024-10,2025-09,adjustment,import VAT deduction not supported,33180042.0
+AUD00113,T105077,random,,2025-01-15,2025-05-15,field,2024-10,2025-09,no adjustment,,0.0
+AUD00114,T105085,random,,2025-01-15,2025-07-17,field,2024-10,2025-09,adjustment,sales not declared,44872.0
+AUD00115,T105264,random,,2025-01-15,2025-04-13,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00116,T105337,random,,2025-01-15,2025-05-13,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00117,T105345,random,,2025-01-15,2025-09-03,field,2024-10,2025-09,no adjustment,,0.0
+AUD00118,T105358,random,,2025-01-15,2025-04-19,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00119,T105465,random,,2025-01-15,2025-04-17,field,2024-10,2025-09,adjustment,sales not declared,2661657.0
+AUD00120,T105525,random,,2025-01-15,2025-04-17,field,2024-10,2025-09,no adjustment,,0.0
+AUD00121,T105564,random,,2025-01-15,2025-04-24,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00122,T105584,random,,2025-01-15,2025-05-11,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00123,T105608,random,,2025-01-15,2025-04-30,desk,2024-10,2025-09,adjustment,sales not declared,16403211.0
+AUD00124,T105640,random,,2025-01-15,2025-06-13,field,2024-10,2025-09,adjustment,sales not declared,322183.0
+AUD00125,T105700,random,,2025-01-15,2025-06-04,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00126,T105738,random,,2025-01-15,2025-05-15,field,2024-10,2025-09,no adjustment,,0.0
+AUD00127,T105747,random,,2025-01-15,2025-05-24,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00128,T105807,random,,2025-01-15,2025-06-08,field,2024-10,2025-09,no adjustment,,0.0
+AUD00129,T105860,random,,2025-01-15,2025-02-16,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00130,T105868,random,,2025-01-15,2025-06-09,field,2024-10,2025-09,adjustment,sales not declared,38864.0
+AUD00131,T105960,random,,2025-01-15,2025-06-07,desk,2024-10,2025-09,adjustment,sales not declared,80935.0
+AUD00132,T106053,random,,2025-01-15,2025-06-07,field,2024-10,2025-09,adjustment,sales not declared,44655.0
+AUD00133,T106092,random,,2025-01-15,2025-03-02,desk,2024-10,2025-09,adjustment,sales not declared,30403.0
+AUD00134,T106098,random,,2025-01-15,2025-07-10,field,2024-10,2025-09,no adjustment,,0.0
+AUD00135,T106145,random,,2025-01-15,2025-09-16,field,2024-10,2025-09,adjustment,sales not declared,1254587.0
+AUD00136,T106150,random,,2025-01-15,2025-02-17,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00137,T106159,random,,2025-01-15,2025-04-17,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00138,T106203,random,,2025-01-15,2025-09-17,field,2024-10,2025-09,adjustment,sales not declared,10429724.0
+AUD00139,T106210,random,,2025-01-15,2025-09-10,field,2024-10,2025-09,no adjustment,,0.0
+AUD00140,T106318,random,,2025-01-15,2025-05-29,field,2024-10,2025-09,no adjustment,,0.0
+AUD00141,T106365,random,,2025-01-15,2025-04-08,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00142,T106384,random,,2025-01-15,2025-04-27,field,2024-10,2025-09,no adjustment,,0.0
+AUD00143,T106414,random,,2025-01-15,2025-05-05,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00144,T106469,random,,2025-01-15,2025-04-30,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00145,T106488,random,,2025-01-15,2025-08-11,field,2024-10,2025-09,adjustment,sales not declared,118438.0
+AUD00146,T106506,random,,2025-01-15,2025-04-10,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00147,T106540,random,,2025-01-15,2025-04-30,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00148,T106561,random,,2025-01-15,2025-04-25,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00149,T106607,random,,2025-01-15,2025-04-29,field,2024-10,2025-09,no adjustment,,0.0
+AUD00150,T106664,random,,2025-01-15,2025-04-23,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00151,T106719,random,,2025-01-15,2025-05-06,field,2024-10,2025-09,adjustment,sales not declared,2579987.0
+AUD00152,T106720,random,,2025-01-15,2025-02-22,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00153,T106758,random,,2025-01-15,2025-02-21,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00154,T106770,random,,2025-01-15,2025-05-30,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00155,T106813,random,,2025-01-15,2025-04-18,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00156,T106892,random,,2025-01-15,2025-04-26,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00157,T106907,random,,2025-01-15,2025-06-25,field,2024-10,2025-09,adjustment,sales not declared,1806878.0
+AUD00158,T106963,random,,2025-01-15,2025-07-04,field,2024-10,2025-09,no adjustment,,0.0
+AUD00159,T107040,random,,2025-01-15,2025-04-24,field,2024-10,2025-09,adjustment,sales not declared,1352478.0
+AUD00160,T107051,random,,2025-01-15,2025-05-13,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00161,T107067,random,,2025-01-15,2025-05-16,field,2024-10,2025-09,adjustment,sales not declared,102036.0
+AUD00162,T107267,random,,2025-01-15,2025-04-19,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00163,T107297,random,,2025-01-15,2025-03-19,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00164,T107304,random,,2025-01-15,2025-09-01,field,2024-10,2025-09,adjustment,sales not declared,792477.0
+AUD00165,T107332,random,,2025-01-15,2025-03-19,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00166,T107415,random,,2025-01-15,2025-05-10,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00167,T107458,random,,2025-01-15,2025-05-25,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00168,T107467,random,,2025-01-15,2025-09-09,field,2024-10,2025-09,no adjustment,,0.0
+AUD00169,T107475,random,,2025-01-15,2025-03-27,desk,2024-10,2025-09,adjustment,sales not declared,687861.0
+AUD00170,T107538,random,,2025-01-15,2025-06-03,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00171,T107561,random,,2025-01-15,2025-04-17,field,2024-10,2025-09,no adjustment,,0.0
+AUD00172,T107573,random,,2025-01-15,2025-06-02,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00173,T107579,random,,2025-01-15,2025-03-16,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00174,T107732,random,,2025-01-15,2025-06-08,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00175,T107746,random,,2025-01-15,2025-04-25,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00176,T107789,random,,2025-01-15,2025-03-31,desk,2024-10,2025-09,adjustment,sales not declared,350622.0
+AUD00177,T107797,random,,2025-01-15,2025-05-05,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00178,T107871,random,,2025-01-15,2025-05-07,field,2024-10,2025-09,no adjustment,,0.0
+AUD00179,T107985,random,,2025-01-15,2025-04-15,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00180,T108039,random,,2025-01-15,2025-06-12,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00181,T108095,random,,2025-01-15,2025-06-11,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00182,T108106,random,,2025-01-15,2025-05-17,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00183,T108129,random,,2025-01-15,2025-03-26,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00184,T108201,random,,2025-01-15,2025-02-20,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00185,T108275,random,,2025-01-15,2025-02-16,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00186,T108298,random,,2025-01-15,2025-06-06,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00187,T108340,random,,2025-01-15,2025-04-20,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00188,T108505,random,,2025-01-15,2025-04-02,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00189,T108544,random,,2025-01-15,2025-06-30,field,2024-10,2025-09,no adjustment,,0.0
+AUD00190,T108565,random,,2025-01-15,2025-04-26,field,2024-10,2025-09,no adjustment,,0.0
+AUD00191,T108596,random,,2025-01-15,2025-04-29,desk,2024-10,2025-09,adjustment,sales not declared,13985056.0
+AUD00192,T108617,random,,2025-01-15,2025-04-14,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00193,T108631,random,,2025-01-15,2025-04-19,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00194,T108665,random,,2025-01-15,2025-03-07,desk,2024-10,2025-09,adjustment,sales not declared,121584.0
+AUD00195,T108724,random,,2025-01-15,2025-02-26,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00196,T108742,random,,2025-01-15,2025-06-01,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00197,T108782,random,,2025-01-15,2025-02-22,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00198,T108866,random,,2025-01-15,2025-08-26,field,2024-10,2025-09,no adjustment,,0.0
+AUD00199,T108964,random,,2025-01-15,2025-07-19,field,2024-10,2025-09,no adjustment,,0.0
+AUD00200,T108974,random,,2025-01-15,2025-09-12,field,2024-10,2025-09,adjustment,sales not declared,1836439.0
+AUD00201,T108988,random,,2025-01-15,2025-05-09,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00202,T109029,random,,2025-01-15,2025-05-10,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00203,T109048,random,,2025-01-15,2025-06-05,field,2024-10,2025-09,no adjustment,,0.0
+AUD00204,T109102,random,,2025-01-15,2025-04-12,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00205,T109127,random,,2025-01-15,2025-06-03,field,2024-10,2025-09,no adjustment,,0.0
+AUD00206,T109150,random,,2025-01-15,2025-08-02,field,2024-10,2025-09,adjustment,sales not declared,585628.0
+AUD00207,T109161,random,,2025-01-15,2025-03-29,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00208,T109190,random,,2025-01-15,2025-05-19,desk,2024-10,2025-09,adjustment,sales not declared,8870564.0
+AUD00209,T109203,random,,2025-01-15,2025-05-07,field,2024-10,2025-09,no adjustment,,0.0
+AUD00210,T109268,random,,2025-01-15,2025-03-26,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00211,T109286,random,,2025-01-15,2025-03-05,desk,2024-10,2025-09,adjustment,sales not declared,551737.0
+AUD00212,T109334,random,,2025-01-15,2025-04-05,desk,2024-10,2025-09,adjustment,sales not declared,3221468.0
+AUD00213,T109368,random,,2025-01-15,2025-08-15,field,2024-10,2025-09,adjustment,sales not declared,114138.0
+AUD00214,T109373,random,,2025-01-15,2025-03-10,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00215,T109451,random,,2025-01-15,2025-06-01,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00216,T109509,random,,2025-01-15,2025-03-03,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00217,T109559,random,,2025-01-15,2025-05-06,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00218,T109711,random,,2025-01-15,2025-05-22,field,2024-10,2025-09,no adjustment,,0.0
+AUD00219,T109722,random,,2025-01-15,2025-04-30,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00220,T109782,random,,2025-01-15,2025-05-14,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00221,T109868,random,,2025-01-15,2025-03-30,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00222,T109890,random,,2025-01-15,2025-08-08,field,2024-10,2025-09,no adjustment,,0.0
+AUD00223,T110015,random,,2025-01-15,2025-07-01,field,2024-10,2025-09,no adjustment,,0.0
+AUD00224,T110038,random,,2025-01-15,2025-04-06,desk,2024-10,2025-09,adjustment,sales not declared,525047.0
+AUD00225,T110061,random,,2025-01-15,2025-06-03,field,2024-10,2025-09,no adjustment,,0.0
+AUD00226,T110101,random,,2025-01-15,2025-04-27,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00227,T110170,random,,2025-01-15,2025-03-18,desk,2024-10,2025-09,adjustment,sales not declared,1214986.0
+AUD00228,T110187,random,,2025-01-15,2025-03-18,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00229,T110244,random,,2025-01-15,2025-08-27,field,2024-10,2025-09,no adjustment,,0.0
+AUD00230,T110280,random,,2025-01-15,2025-05-20,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00231,T110319,random,,2025-01-15,2025-03-09,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00232,T110467,random,,2025-01-15,2025-03-16,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00233,T110473,random,,2025-01-15,2025-05-25,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00234,T148640,random,,2025-01-15,2025-03-11,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00235,T205283,random,,2025-01-15,2025-03-11,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00236,T504332,random,,2025-01-15,2025-03-19,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00237,T603810,random,,2025-01-15,2025-09-05,field,2024-10,2025-09,no adjustment,,0.0
+AUD00238,T800064,random,,2025-01-15,2025-04-05,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00239,T806787,random,,2025-01-15,2025-05-26,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00240,T100529,targeted,refund claim,2025-05-14,2025-08-21,desk,2024-10,2025-09,adjustment,sales not declared,759326.0
+AUD00241,T101208,targeted,refund claim,2025-05-13,2025-06-18,desk,2024-10,2025-09,adjustment,sales not declared,747198.0
+AUD00242,T102900,targeted,refund claim,2025-04-25,2025-07-30,field,2024-10,2025-09,adjustment,sales not declared,32878.0
+AUD00243,T103769,targeted,refund claim,2025-05-12,2025-06-19,desk,2024-10,2025-09,adjustment,sales not declared,240411.0
+AUD00244,T104697,targeted,refund claim,2025-05-25,2025-06-30,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00245,T105304,targeted,refund claim,2025-05-07,2025-08-23,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00246,T106395,targeted,refund claim,2025-05-04,2025-08-11,field,2024-10,2025-09,adjustment,sales not declared,107649.0
+AUD00247,T106441,targeted,refund claim,2025-05-09,2025-06-30,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00248,T106549,targeted,refund claim,2025-05-02,2025-07-09,desk,2024-10,2025-09,adjustment,sales not declared,3927350.0
+AUD00249,T106841,targeted,refund claim,2025-05-14,2025-08-28,field,2024-10,2025-09,adjustment,sales not declared,644427.0
+AUD00250,T106901,targeted,refund claim,2025-05-04,2025-08-27,desk,2024-10,2025-09,adjustment,sales not declared,134047.0
+AUD00251,T108170,targeted,refund claim,2025-05-22,2025-09-07,field,2024-10,2025-09,adjustment,sales not declared,222994.0
+AUD00252,T108308,targeted,refund claim,2025-05-29,2025-09-17,field,2024-10,2025-09,adjustment,sales not declared,15270117.0
+AUD00253,T110266,targeted,refund claim,2025-04-23,2025-08-15,field,2024-10,2025-09,adjustment,sales not declared,1937699.0
+AUD00254,T110370,targeted,refund claim,2025-05-07,2025-08-06,desk,2024-10,2025-09,adjustment,sales not declared,25057904.0
+AUD00255,T100578,targeted,customs referral,2025-05-30,2025-09-10,field,2024-10,2025-09,no adjustment,,0.0
+AUD00256,T101231,targeted,customs referral,2025-05-30,2025-09-23,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00257,T102452,targeted,customs referral,2025-05-01,2025-08-07,field,2024-10,2025-09,no adjustment,,0.0
+AUD00258,T102735,targeted,customs referral,2025-05-01,2025-08-28,field,2024-10,2025-09,adjustment,sales not declared,1759630.0
+AUD00259,T103290,targeted,customs referral,2025-05-04,2025-07-16,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00260,T103867,targeted,customs referral,2025-05-10,2025-07-19,desk,2024-10,2025-09,adjustment,sales not declared,672490.0
+AUD00261,T103891,targeted,customs referral,2025-04-24,2025-08-13,field,2024-10,2025-09,no adjustment,,0.0
+AUD00262,T105246,targeted,customs referral,2025-04-24,2025-08-13,field,2024-10,2025-09,no adjustment,,0.0
+AUD00263,T105853,targeted,customs referral,2025-05-22,2025-09-01,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00264,T105892,targeted,customs referral,2025-04-26,2025-07-31,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00265,T107218,targeted,customs referral,2025-05-21,2025-08-19,field,2024-10,2025-09,no adjustment,,0.0
+AUD00266,T108253,targeted,customs referral,2025-05-28,2025-07-07,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00267,T109761,targeted,customs referral,2025-05-10,2025-08-10,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00268,T110140,targeted,customs referral,2025-05-08,2025-07-02,desk,2024-10,2025-09,adjustment,sales not declared,5832829.0
+AUD00269,T110384,targeted,customs referral,2025-05-16,2025-08-27,desk,2024-10,2025-09,adjustment,sales not declared,3769718.0
+AUD00270,T100540,targeted,third-party information,2025-05-20,2025-08-18,field,2024-10,2025-09,no adjustment,,0.0
+AUD00271,T102625,targeted,third-party information,2025-05-14,2025-08-17,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00272,T103731,targeted,third-party information,2025-05-02,2025-07-28,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00273,T104347,targeted,third-party information,2025-05-17,2025-09-06,field,2024-10,2025-09,no adjustment,,0.0
+AUD00274,T105186,targeted,third-party information,2025-05-26,2025-08-30,desk,2024-10,2025-09,adjustment,sales not declared,2619126.0
+AUD00275,T105730,targeted,third-party information,2025-05-28,2025-07-30,desk,2024-10,2025-09,adjustment,sales not declared,260126.0
+AUD00276,T107444,targeted,third-party information,2025-05-16,2025-09-12,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00277,T109276,targeted,third-party information,2025-04-24,2025-07-30,field,2024-10,2025-09,no adjustment,,0.0
+AUD00278,T109313,targeted,third-party information,2025-05-18,2025-09-13,field,2024-10,2025-09,adjustment,sales not declared,10504503.0
+AUD00279,T109478,targeted,third-party information,2025-04-30,2025-08-14,field,2024-10,2025-09,no adjustment,,0.0
+AUD00280,T109617,targeted,third-party information,2025-05-29,2025-09-22,field,2024-10,2025-09,no adjustment,,0.0
+AUD00281,T109673,targeted,third-party information,2025-05-18,2025-09-04,field,2024-10,2025-09,no adjustment,,0.0
+AUD00282,T110021,targeted,third-party information,2025-05-19,2025-08-28,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00283,T250051,targeted,third-party information,2025-05-21,2025-08-10,desk,2024-10,2025-09,no adjustment,,0.0
+AUD00284,T849195,targeted,third-party information,2025-05-14,2025-09-04,field,2024-10,2025-09,no adjustment,,0.0

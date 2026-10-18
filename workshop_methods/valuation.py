@@ -5,13 +5,16 @@ whose descriptions are most alike, put every price on one basis (US dollars, FOB
 range: the median and the middle half. The range is a reference for a question, never a value.
 
 Technical: k nearest neighbours by cosine similarity of multilingual sentence embeddings, with a
-similarity floor and a time window; robust distance (median, MAD).
+similarity floor and a time window; robust distance (median, MAD). The spread is 1.4826 x the MAD, the robust
+standard deviation 1B's z uses (ADD-Q Q.6.1: one spread for the whole workshop); the distance is in those spreads.
 """
 
 from __future__ import annotations
 
 import numpy as np
 import pandas as pd
+
+from .peer import MAD_TO_SD
 
 K = 30
 FLOOR = 0.85
@@ -59,12 +62,14 @@ def neighbours(line: pd.Series, history: pd.DataFrame, similarity: dict[str, flo
 
 
 def price_range(kept: pd.DataFrame) -> dict[str, float]:
+    """Count, median, middle half, the MAD (the median distance from the median) and the spread (1.4826 x the MAD)."""
     prices = kept["fob_usd"]
     if prices.empty:
-        return {"count": 0, "median": np.nan, "p25": np.nan, "p75": np.nan, "mad": np.nan}
+        return {"count": 0, "median": np.nan, "p25": np.nan, "p75": np.nan, "mad": np.nan, "spread": np.nan}
     median = float(prices.median())
+    mad = float((prices - median).abs().median())
     return {"count": int(len(prices)), "median": median, "p25": float(prices.quantile(0.25)), "p75": float(prices.quantile(0.75)),
-            "mad": float((prices - median).abs().median())}
+            "mad": mad, "spread": MAD_TO_SD * mad}
 
 
 def assess(declared_fob_usd: float, rng: dict[str, float], enough: int = ENOUGH) -> dict[str, object]:
@@ -73,7 +78,8 @@ def assess(declared_fob_usd: float, rng: dict[str, float], enough: int = ENOUGH)
         return {"share_of_median": np.nan, "distance": np.nan, "below_p25": False, "decision": "nothing",
                 "reason": "no accepted line of the same goods and origin passes the floor"}
     share = declared_fob_usd / rng["median"]
-    distance = (declared_fob_usd - rng["median"]) / rng["mad"] if rng["mad"] else np.nan
+    spread = rng.get("spread", MAD_TO_SD * rng["mad"])   # a range from before the spread carried no "spread": the same 1.4826 x MAD
+    distance = (declared_fob_usd - rng["median"]) / spread if spread else np.nan
     below = declared_fob_usd < rng["p25"]
     if rng["count"] < enough:
         decision, reason = "nothing", f"only {rng['count']} neighbours: too thin a range to carry a question"
