@@ -34,8 +34,10 @@
               "share of traffic",
               "hit rate",
               "lift",
+              "lift range",
               "duty per inspection",
-              "new to the book"
+              "new to the book",
+              "queue beyond budget"
             ],
             "required": true
           },
@@ -57,12 +59,12 @@
       },
       {
         "key": "control",
-        "label": "The control type R4 keeps",
+        "label": "The control type of each rule you keep",
         "required": false
       },
       {
         "key": "cost",
-        "label": "What retiring R3 costs (a mandatory control if the law requires it)",
+        "label": "What retiring a rule would cost (for example a control the law makes mandatory)",
         "required": true
       }
     ]

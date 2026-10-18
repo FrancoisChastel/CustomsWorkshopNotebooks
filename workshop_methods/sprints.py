@@ -212,9 +212,48 @@ def rule_numbers(features: pd.DataFrame, mask: np.ndarray, period: str, others: 
             "new_to_book": _num(new_to_book, 3), "burden_on_compliant": _num(burden, 3), "queue_beyond_budget": _num(queue, 0), "quarterly": quarterly}
 
 
+def lift_range(hits: int, lines: int, draw_rate: float) -> tuple[float | None, float | None]:
+    """The 95% range of a lift: the Wilson interval of the rule's hit rate over its lines, divided by the random draw's own hit rate
+    (as recipes_1b.py and the deck read it). On months 1-18 the lines are the controlled lines the rule flags."""
+    if not lines or not draw_rate or draw_rate != draw_rate:
+        return None, None
+    lo, hi = four_lists.wilson(int(hits), int(lines))
+    return _num(lo / draw_rate, 2), _num(hi / draw_rate, 2)
+
+
+# 1B sprint 1 (ADD-K K.8): how the deck reads an old rule, in this order. Over the budget (a queue beyond 5% of traffic) or a hit rate that falls
+# (the last three quarters below the first three): revise. A rule that selects on a place rather than a risk: retire it as a risk rule. A lift
+# whose 95% range spans 1: the draw cannot tell, so retire or keep. Otherwise the committee's rule: keep at lift 2 or more with half or more of
+# the flags new to the book, retire under 1.5 or under a fifth new, revise the rest.
+SELECTS_ON = {"R1": "the importer's age", "R2": "a price against a 2022 list", "R3": "an office (a place)", "R4": "an origin claim", "R5": "chance"}
+PLACE_RULES = ("R3",)
+
+
+def rule_verdict(rule: str, numbers: dict[str, Any]) -> tuple[str, str]:
+    """(verdict, the condition that gave it) for one rule's months 19-36 numbers (a rulebook_numbers row)."""
+    quarters = [numbers.get(f"q{q}_hit_rate") for q in range(1, 7)]
+    known = [q for q in quarters if q is not None and q == q]
+    falls = len(known) == 6 and float(np.mean(quarters[3:])) < float(np.mean(quarters[:3]))
+    if (numbers.get("queue_beyond_budget") or 0) > 0 or falls:
+        return "revise", "over the budget" if (numbers.get("queue_beyond_budget") or 0) > 0 else "its hit rate falls quarter after quarter"
+    if rule in PLACE_RULES:
+        return "retire", "it names a place, not a risk"
+    lo, hi, lift, new = numbers.get("lift_lo"), numbers.get("lift_hi"), numbers.get("lift"), numbers.get("new_to_book")
+    if lo is not None and hi is not None and lo < 1 < hi:
+        return "retire or keep", "the draw cannot tell: the lift's 95% range spans 1"
+    if lift is not None and new is not None and lift >= 2 and new >= 0.5:
+        return "keep", "lift 2 or more, half or more of its flags new to the book"
+    if lift is not None and (lift < 1.5 or (new is not None and new < 0.2)):
+        return "retire", "lift under 1.5, or under a fifth of its flags new to the book"
+    return "revise", "between keep and retire"
+
+
 def rulebook_numbers(features: pd.DataFrame, tariff: pd.DataFrame, period: str) -> pd.DataFrame:
-    """R1-R5 on one half: one row per rule with the five numbers, the tiles and the six quarterly hit rates."""
+    """R1-R5 on one half: one row per rule with the five numbers, the lift's 95% range (lift_lo, lift_hi: the reading of a rule that
+    rests on few random-draw lines, ADD-K K.8), the tiles and the six quarterly hit rates."""
     masks = legacy_masks(features, tariff)
+    half = period_mask(features, period)
+    draw_rate = _rate(features["outcome"][half & (features["random_draw"] == 1).to_numpy()])
     rows = []
     for rule in ("R1", "R2", "R3", "R4", "R5"):
         others = np.zeros(len(features), dtype=bool)
@@ -223,7 +262,9 @@ def rulebook_numbers(features: pd.DataFrame, tariff: pd.DataFrame, period: str) 
                 others |= masks[other]
         numbers = rule_numbers(features, masks[rule], period, None if rule == "R5" else others)
         quarters = {f"q{q['quarter']}_hit_rate": q["hit_rate"] for q in numbers.pop("quarterly")}
-        rows.append({"rule": rule, "label": LEGACY_LABELS[rule], "period": period, **numbers, **quarters})
+        lo, hi = lift_range(numbers["hits"], numbers["controlled"], draw_rate)
+        ordered = {k: v for key, value in numbers.items() for k, v in ([(key, value), ("lift_lo", lo), ("lift_hi", hi)] if key == "lift" else [(key, value)])}
+        rows.append({"rule": rule, "label": LEGACY_LABELS[rule], "period": period, **ordered, **quarters})
     return pd.DataFrame(rows)
 
 
@@ -660,7 +701,10 @@ def four_counts(network: dict[str, Any], importers_4b: pd.DataFrame, importers: 
         clearing = len(names) + len(consignees)  # the deck's "consignees": every party clearing under the tax ID (other names, plus the consignee records)
         community = graph.nodes[imp.importer_id].get("community", -1) if imp.importer_id in graph else -1
         flag = bool(clearing >= HUB_RULE["consignees"] and len(addresses) == HUB_RULE["addresses"] and ratio == ratio and ratio < HUB_RULE["turnover"])
-        rows.append({"ref": imp.ref, "importer_id": imp.importer_id, "tin_customs": imp.tin_customs, "names_under_tin": len(names), "consignee_nodes": len(consignees),
+        # the window of each count (data-v13): names_under_tin reads the register over all 36 months; names_12m the importer codes clearing under the
+        # number on the lines that bear VAT over the last twelve months (numbers_4b.names_under_number, the deck's count); the flag reads the first, unchanged
+        names_12m = int(per_number["names_under_number"].get(imp.tin_customs, 0)) if per_number is not None and imp.tin_customs else 0
+        rows.append({"ref": imp.ref, "importer_id": imp.importer_id, "tin_customs": imp.tin_customs, "names_under_tin": len(names), "names_12m": names_12m, "consignee_nodes": len(consignees),
                      "consignees": clearing, "addresses": len(addresses), "brokers": len(brokers), "imports_12m": round(imports, 0),
                      "sales_12m": _num(turnover, 0), "turnover_ratio": _num(ratio, 3), "community": int(community), "flag": int(flag),
                      "names": " ".join(sorted(names)), "import_vat_booked": _num(booked, 3)})
@@ -673,7 +717,8 @@ def count_case(table: pd.DataFrame, ref: str) -> dict[str, Any]:
         raise KeyError(f"no importer {ref}")
     r = {k: _num(v) for k, v in rows.iloc[0].to_dict().items()}
     r["rule"] = HUB_RULE
-    r["steps"] = [{"label": "Consignees: the names declaring under the tax ID, plus the consignee records", "value": r["consignees"]}, {"label": "Distinct addresses behind them", "value": r["addresses"]},
+    r["steps"] = [{"label": "Consignees: the names declaring under the tax ID (all 36 months), plus the consignee records", "value": r["consignees"]},
+                  {"label": "Names clearing under the number in the last twelve months", "value": r.get("names_12m")}, {"label": "Distinct addresses behind them", "value": r["addresses"]},
                   {"label": "Distinct brokers", "value": r["brokers"]}, {"label": "Turnover declared / imports (per tax number, lines that bear VAT)", "value": r["turnover_ratio"]},
                   {"label": "Import VAT deducted ÷ paid", "value": r.get("import_vat_booked")}]
     return r

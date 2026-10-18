@@ -9,14 +9,14 @@ describes a real company or person. Answers and facilitator notes are not in thi
 ## Notebooks
 
 Open a notebook in Google Colab, then *Runtime › Run all*. Nothing to install: the first cell loads the
-data and the methods of release `data-v12`.
+data and the methods of release `data-v13`.
 
 | Session | Notebook |
 | --- | --- |
-| Breakout 1B · Targeting: from signals to a score | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v12/notebooks/1b_targeting.ipynb) |
-| Plenary 8 · Six questions, six numbers | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v12/notebooks/p8_quick_diagnostics.ipynb) |
-| Breakout 2B · Trade and the border | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v12/notebooks/2b_trade_border.ipynb) |
-| Breakout 4B · Customs and tax together | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v12/notebooks/4b_informality.ipynb) |
+| Breakout 1B · Targeting: from signals to a score | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v13/notebooks/1b_targeting.ipynb) |
+| Plenary 8 · Six questions, six numbers | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v13/notebooks/p8_quick_diagnostics.ipynb) |
+| Breakout 2B · Trade and the border | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v13/notebooks/2b_trade_border.ipynb) |
+| Breakout 4B · Customs and tax together | [Open in Colab](https://colab.research.google.com/github/FrancoisChastel/CustomsWorkshopNotebooks/blob/data-v13/notebooks/4b_informality.ipynb) |
 
 The exercises end with a reveal that only the facilitator can open.
 
@@ -53,8 +53,8 @@ reads the CSV files over HTTPS (the large line files are release assets: see the
 Keep the code columns as text when you read a CSV yourself (`hs8`, `hs6`, `chapter`, `month`,
 `period`, `tin`): `load_tables` does this for you.
 
-Calibration line, printed under every rate: random draw finds something on 1 to 8 lines in a hundred;
-this set is enriched on the 20 exercise lines only.
+Calibration line, printed under every rate: published customs datasets record an irregularity on 1 to 8 lines in 100;
+in this lab the random draw finds 3 in 100. This set is enriched on the 20 exercise lines only.
 
 ## Data versions
 

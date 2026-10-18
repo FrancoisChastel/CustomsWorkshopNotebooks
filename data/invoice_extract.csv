@@ -3,10 +3,10 @@ V1,related_party,no,0.88
 V1,royalty_clause,no,0.88
 V1,discount,none,0.88
 V1,incoterm_on_invoice,CIF,0.97
-V2,related_party,yes,0.93
-V2,royalty_clause,yes,0.88
-V2,discount,12%,0.97
-V2,incoterm_on_invoice,EXW,0.95
+V2,related_party,no,0.93
+V2,royalty_clause,no,0.88
+V2,discount,5%,0.97
+V2,incoterm_on_invoice,FOB,0.95
 V3,related_party,no,0.92
 V3,royalty_clause,no,0.89
 V3,discount,none,0.96
@@ -19,8 +19,3 @@ V5,related_party,no,0.87
 V5,royalty_clause,no,0.9
 V5,discount,none,0.94
 V5,incoterm_on_invoice,CIF,0.91
-C1,related_party,yes (the seller is an affiliate of the buyer),0.91
-C1,royalty_clause,"yes (a licence fee for the designs, not included in the price)",0.87
-C1,discount,12%,0.96
-C1,incoterm_on_invoice,EXW,0.94
-C1,freight,"a flat amount, whatever the weight",0.89

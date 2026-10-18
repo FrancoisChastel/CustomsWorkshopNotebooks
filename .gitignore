@@ -1,3 +1,5 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+# The full Excel workbook (over GitHub's 100 MB file limit): attached to each release and inside workshop-data.zip, never committed.
+data/workshop_data.xlsx

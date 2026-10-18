@@ -133,33 +133,3 @@ V5,11,L0250256,0.512,0,31128.45,29448.55,EUR,CFR,1.0,pieces,2026-08-22,90221401,
 V5,12,L0250259,0.503,0,10061.07,9559.87,EUR,CIF,1.0,pieces,2026-07-20,90221401,DEU,Dental chair unit,72
 V5,13,L0250257,0.503,0,10835.71,10295.92,EUR,CIF,1.0,pieces,2026-08-05,90221401,DEU,Dental chair unit,56
 V5,14,L0250258,0.503,0,10292.27,9779.56,EUR,CIF,1.0,pieces,2026-08-08,90221401,DEU,Dental chair unit,53
-C1,1,L0248452,1.0,1,2.18,2.179,USD,FOB,7069.5,kg,2026-09-21,52051202,TUR,"Cotton yarn, single, > 14 but <= 43 metric, grade B",9
-C1,2,L0247575,1.0,1,1.86,1.9497,USD,CFR,32211.5,kg,2026-09-18,52051202,IDN,"Cotton yarn, single, > 14 but <= 43 metric, grade B",12
-C1,3,L0246645,1.0,1,1.84,1.7885,USD,EXW,15586.4,kg,2026-09-13,52051202,TUR,"Cotton yarn, single, > 14 but <= 43 metric, grade B",17
-C1,4,L0242563,1.0,1,1.71,12.4221,CNY,FOB,15836.9,kg,2026-08-24,52051204,CHN,"Cotton yarn, single, > 14 but <= 43 metric, grade B",37
-C1,5,L0242326,1.0,1,3.73,3.9543,USD,CIF,4112.6,kg,2026-08-23,52085204,CHN,"Cotton yarn, single, > 14 but <= 43 metric, grade B",38
-C1,6,L0236265,1.0,1,1.95,1.9522,USD,FOB,112689.8,kg,2026-07-27,52051202,TUR,"Cotton yarn, single, > 14 but <= 43 metric, grade B",65
-C1,7,L0231028,1.0,1,4.2,30.4494,CNY,FOB,5240.5,kg,2026-07-06,52085204,CHN,"Cotton yarn, single, > 14 but <= 43 metric, grade B",86
-C1,8,L0244358,0.992,1,2.17,2.3046,USD,CIF,11220.5,kg,2026-09-04,52051202,TUR,"Cotton yarn, single, > 14 but <= 43 metric, grade B (棉织物)",26
-C1,9,L0232480,0.992,1,2.24,2.3591,USD,CFR,34032.5,kg,2026-07-12,52051202,TUR,"Cotton yarn, single, > 14 but <= 43 metric, grade B (棉织物)",80
-C1,10,L0247189,0.954,1,1.47,1.4661,USD,FOB,39153.5,kg,2026-09-16,52051203,PAK,"Cotton yarn, single, > 14 but <= 43 metric, other",14
-C1,11,L0244685,0.954,1,1.65,11.9276,CNY,FOB,9990.7,kg,2026-09-06,52051203,CHN,"Cotton yarn, single, > 14 but <= 43 metric, other",24
-C1,12,L0242567,0.954,1,4.15,4.3587,USD,CFR,3650.4,kg,2026-08-23,52085204,CHN,"Cotton yarn, single, > 14 but <= 43 metric, other",38
-C1,13,L0241328,0.954,1,5.66,5.2237,EUR,FOB,4846.4,kg,2026-08-19,52085204,ITA,"Cotton yarn, single, > 14 but <= 43 metric, other",42
-C1,14,L0239888,0.954,1,3.76,3.9535,USD,CFR,5122.7,kg,2026-08-12,52085204,CHN,"Cotton yarn, single, > 14 but <= 43 metric, other",49
-C1,15,L0237340,0.954,1,1.43,1.4346,USD,FOB,12217.5,kg,2026-08-04,52051203,CHN,"Cotton yarn, single, > 14 but <= 43 metric, other",57
-C1,16,L0235577,0.954,1,1.63,1.6322,USD,FOB,33301.0,kg,2026-07-24,52051203,CHN,"Cotton yarn, single, > 14 but <= 43 metric, other",68
-C1,17,L0233942,0.954,1,1.38,1.3789,USD,FOB,13405.3,kg,2026-07-16,52051203,IDN,"Cotton yarn, single, > 14 but <= 43 metric, other",76
-C1,18,L0232523,0.954,1,1.47,1.4725,USD,FOB,5048.8,kg,2026-07-10,52051203,IDN,"Cotton yarn, single, > 14 but <= 43 metric, other",82
-C1,19,L0230533,0.954,1,3.76,3.7551,USD,FOB,5433.3,kg,2026-07-04,52085204,CHN,"Cotton yarn, single, > 14 but <= 43 metric, other",88
-C1,20,L0250075,0.901,1,1.6,1.6942,USD,CIF,5958.4,kg,2026-09-30,52051204,CHN,"Cotton yarn, single, > 14 but <= 43 metric, bulk packed",0
-C1,21,L0250082,0.901,1,1.71,1.7997,USD,CFR,30483.0,kg,2026-09-30,52051204,CHN,"Cotton yarn, single, > 14 but <= 43 metric, bulk packed",0
-C1,22,L0249446,0.901,1,1.18,1.1815,USD,FOB,19869.8,kg,2026-09-27,52051204,IND,"Cotton yarn, single, > 14 but <= 43 metric, bulk packed",3
-C1,23,L0248737,0.901,1,1.56,12.0027,CNY,CIF,22080.5,kg,2026-09-22,52051204,CHN,"Cotton yarn, single, > 14 but <= 43 metric, bulk packed",8
-C1,24,L0247956,0.901,1,1.71,1.8137,USD,CIF,11254.1,kg,2026-09-20,52051204,IDN,"Cotton yarn, single, > 14 but <= 43 metric, bulk packed",10
-C1,25,L0247173,0.901,1,1.79,12.938,CNY,FOB,16913.5,pieces,2026-09-17,52051204,CHN,"Cotton yarn, single, > 14 but <= 43 metric, bulk packed",13
-C1,26,L0247177,0.901,1,4.15,4.3974,USD,CIF,6389.6,kg,2026-09-15,52085204,CHN,"Cotton yarn, single, > 14 but <= 43 metric, bulk packed",15
-C1,27,L0245970,0.901,1,1.85,153.7531,INR,FOB,4165.6,kg,2026-09-12,52051204,IND,"Cotton yarn, single, > 14 but <= 43 metric, bulk packed",18
-C1,28,L0245631,0.901,1,1.83,1.945,USD,CIF,26380.1,kg,2026-09-09,52051204,IDN,"Cotton yarn, single, > 14 but <= 43 metric, bulk packed",21
-C1,29,L0244649,0.901,1,3.98,3.9838,USD,FOB,4464.9,kg,2026-09-04,52085204,CHN,"Cotton yarn, single, > 14 but <= 43 metric, bulk packed",26
-C1,30,L0242327,0.901,1,1.61,11.6711,CNY,FOB,11414.6,kg,2026-08-23,52051204,CHN,"Cotton yarn, single, > 14 but <= 43 metric, bulk packed",38

@@ -36,6 +36,9 @@ CAPACITY = 3                            # desk audits the unit can open this qua
 CAPACITY_RANGE = (1, 10)
 VAT_BEARING = ("home_use", "warehouse_out")
 DIAL = {"link": 0.90, "review": 0.70}
+MIN_CLASS_LINES = 30                    # under 30 random-draw lines a class of the join audit shows its counts, never a hit rate or a lift (ADD-K K.8 item 8)
+TOO_FEW = "too few lines"
+AUDIT_CLASSES = ("linked", "no number", "one character off", "unknown number")
 CLASSES = ("exact", "validated probable", "unresolved", "known exception")
 # A written rule that links a record without the recipe (a branch, a broker's own number, a group company, a
 # re-registration): ref -> (tax number, the rule). None of the 25 needs one in this lab.
@@ -307,6 +310,18 @@ def join_audit(importers: pd.DataFrame, registry: pd.DataFrame, features: pd.Dat
                      "random_lines_h2": n, "findings": k, "hit": k / n if n else None, "lift": k / n / base if n else None,
                      "lift_lo": lo / base if n else None, "lift_hi": hi / base if n else None}
     return out
+
+
+def audit_view(entry: dict[str, Any]) -> dict[str, Any]:
+    """One class of the join audit as a page, a workbook or a report shows it: its counts always; its hit rate and its lift (95% range)
+    only from MIN_CLASS_LINES random-draw lines, else `reading` says "too few lines" and the rates stay empty."""
+    out = {k: entry[k] for k in ("importers", "value_share_last12", "random_lines_h2", "findings")}
+    n = int(entry["random_lines_h2"])
+    if n < MIN_CLASS_LINES:
+        return {**out, "hit": None, "lift": None, "lift_lo": None, "lift_hi": None,
+                "reading": f"{TOO_FEW}: {entry['findings']} finding{'s' if entry['findings'] != 1 else ''} on {n} random-draw line{'s' if n != 1 else ''}"}
+    return {**out, "hit": entry["hit"], "lift": entry["lift"], "lift_lo": entry["lift_lo"], "lift_hi": entry["lift_hi"],
+            "reading": f"{entry['findings']} of {n}, lift {entry['lift']:.1f} ({entry['lift_lo']:.1f}-{entry['lift_hi']:.1f})"}
 
 
 def population_figures(numbers: pd.DataFrame, returns: pd.DataFrame, registry: pd.DataFrame, importers: pd.DataFrame) -> dict[str, Any]:

@@ -6,7 +6,7 @@
   "signal_origin": "1 when a preference is claimed",
   "signal_weight": "how far the weight per unit sits from the usual weight for the code (log scale)"
  },
- "calibration": "random draw finds something on 1 to 8 lines in a hundred; this set is enriched on the 20 exercise lines only",
+ "calibration": "Published customs datasets record an irregularity on 1 to 8 lines in 100; in this lab the random draw finds 3 in 100. This set is enriched on the 20 exercise lines only",
  "lines": [
   {
    "line_ref": "W01",

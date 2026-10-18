@@ -2,11 +2,11 @@
 
 Every rate a participant can compute, beside the real-world number it is scaled to. Sources are listed in full in the facilitator binder and in docs/data.md.
 
-Calibration line, printed under every rate table: **random draw finds something on 1 to 8 lines in a hundred; this set is enriched on the 20 exercise lines only.**
+Calibration line, printed under every rate table: **published customs datasets record an irregularity on 1 to 8 lines in 100; in this lab the random draw finds 3 in 100.** This set is enriched on the 20 exercise lines only.
 
 | Quantity | In this set | Real-world anchor |
 | --- | --- | --- |
-| Findings on the random draw | about 3% of lines | published random-inspection finding rates 1-8%: Senegal 1.06% (Laporte 2011), 1.2-8.2% in three African datasets (GraphFC 2023), Nigeria 2.24% (DATE), Madagascar 3.2% (Chalendard et al. 2020) |
+| Findings on the random draw | about 3% of lines | published customs datasets record an irregularity on 1 to 8 lines in 100 (recorded rates, not random-draw rates): Senegal 1.06% (Laporte 2011), 1.2-8.2% in three African datasets (GraphFC 2023), Nigeria 2.24% (DATE), Madagascar 3.2% (Chalendard et al. 2020) |
 | Random share | 10% of lines, drawn before the rules, stratified by office and regime | Mai et al. 2021: 10-20% exploration best where patterns drift; a committee decision, never a hard-coded 3% |
 | Legacy lanes | green 80%, yellow 12%, red 8% | inspection shares: about 40% of countries control under 5% of declarations, 60% under 10% (WCO / World Bank Doing Business time-release data) |
 | Red-lane hit rate | 20% | published red-lane hit rates 10-30% |
@@ -42,9 +42,9 @@ Every figure printed in the decks, with the value the generated set reproduces.
 | match example probable | 60 | 60 |
 | match example no link | 60 | 60 |
 | lines | 250000 | 250000 |
-| importers | 1500 | 1500 |
+| importers | 1500 | 1502 |
 | brokers | 80 | 80 |
-| consignees | 2000 | 2000 |
+| consignees | 2000 | 2002 |
 | controlled lines with an outcome, months 1-18 (thousands) | 32 | 34 |
 | random draw, months 19-36 (thousands) | 12.5 | 12.5 |
 | legacy red lane hit rate | 18% | 20% |
