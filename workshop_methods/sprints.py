@@ -221,31 +221,8 @@ def lift_range(hits: int, lines: int, draw_rate: float) -> tuple[float | None, f
     return _num(lo / draw_rate, 2), _num(hi / draw_rate, 2)
 
 
-# 1B sprint 1 (ADD-K K.8): how the deck reads an old rule, in this order. Over the budget (a queue beyond 5% of traffic) or a hit rate that falls
-# (the last three quarters below the first three): revise. A rule that selects on a place rather than a risk: retire it as a risk rule. A lift
-# whose 95% range spans 1: the draw cannot tell, so retire or keep. Otherwise the committee's rule: keep at lift 2 or more with half or more of
-# the flags new to the book, retire under 1.5 or under a fifth new, revise the rest.
+# 1B sprint 1: what each old rule selects on, in plain words (the S1 Rule book's column; the reading of the numbers stays with the facilitator's key).
 SELECTS_ON = {"R1": "the importer's age", "R2": "a price against a 2022 list", "R3": "an office (a place)", "R4": "an origin claim", "R5": "chance"}
-PLACE_RULES = ("R3",)
-
-
-def rule_verdict(rule: str, numbers: dict[str, Any]) -> tuple[str, str]:
-    """(verdict, the condition that gave it) for one rule's months 19-36 numbers (a rulebook_numbers row)."""
-    quarters = [numbers.get(f"q{q}_hit_rate") for q in range(1, 7)]
-    known = [q for q in quarters if q is not None and q == q]
-    falls = len(known) == 6 and float(np.mean(quarters[3:])) < float(np.mean(quarters[:3]))
-    if (numbers.get("queue_beyond_budget") or 0) > 0 or falls:
-        return "revise", "over the budget" if (numbers.get("queue_beyond_budget") or 0) > 0 else "its hit rate falls quarter after quarter"
-    if rule in PLACE_RULES:
-        return "retire", "it names a place, not a risk"
-    lo, hi, lift, new = numbers.get("lift_lo"), numbers.get("lift_hi"), numbers.get("lift"), numbers.get("new_to_book")
-    if lo is not None and hi is not None and lo < 1 < hi:
-        return "retire or keep", "the draw cannot tell: the lift's 95% range spans 1"
-    if lift is not None and new is not None and lift >= 2 and new >= 0.5:
-        return "keep", "lift 2 or more, half or more of its flags new to the book"
-    if lift is not None and (lift < 1.5 or (new is not None and new < 0.2)):
-        return "retire", "lift under 1.5, or under a fifth of its flags new to the book"
-    return "revise", "between keep and retire"
 
 
 def rulebook_numbers(features: pd.DataFrame, tariff: pd.DataFrame, period: str) -> pd.DataFrame:
