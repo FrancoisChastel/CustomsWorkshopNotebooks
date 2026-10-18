@@ -49,6 +49,8 @@ Calibration line: published customs datasets record an irregularity on 1 to 8 li
 | `menu_1b.csv` | 1B sprint 2. Twenty-four starting rules on the fields the evaluator accepts, in plain words and as a condition, scored on months 1-18: share of traffic, hit rate on the controlled lines they flag, lift against the random draw of months 1-18, new to the book. A starting point, never an answer: the honest test comes after the lock. |
 | `sample_1b.csv` | 1B sprint 2. 25,000 lines for the Excel Sample sheet: value per kilo, the typical value of the peers, the spread, the distance from normal (the z, log and linear), the peer level used, the five recipe columns; the deck's worked line is flagged (deck_example = 1). |
 | `recipe_steps_1b.csv` | 1B sprint 2. Three or four settings of the one choice each recipe leaves open (recipes 2 to 5), as a condition, with their numbers on the random draw of months 1-18 only: share of traffic, random-draw lines flagged, findings, hit rate and lift against that draw. The months 19-36 test comes after the lock. |
+| `rule_flags_1b.csv` | 1B sprint 1. The risk engine's log: one row per line of both halves, the rules R1 to R4 that flagged it (legacy_rules.md), how many, and the lane the rule book gives it. Join it to the declarations on line_id. |
+| `controls.csv` | 1B. The control module's export: one row per control, every controlled line of months 1-36 (the lanes and the random draw of months 1-18, the random draw of months 19-36): what was done, what it found, the duty recovered and the officer. Look a line up on line_id; a line with no row was not controlled. |
 
 ## declarations_h1 / declarations_h2
 
@@ -100,9 +102,9 @@ Calibration line: published customs datasets record an irregularity on 1 to 8 li
 | `importer_tenure_months` | Months since the importer's registration |
 | `enriched_demo` | 1 on the 20 lines of the 1B exercise (deliberately rich in findings) and nowhere else |
 | `lane` | Months 1-18: green, yellow or red from the five legacy rules; months 19-36: null (no lanes) |
-| `control_type` | Controls applied, or null when none took place |
+| `control_type` | Controls applied, or null when none took place: documentary+physical = documents checked and goods examined; documentary+scanner = documents checked and container scanned; documentary+physical+scanner = documents, scanner and goods examined; full = documents, goods examined and a valuation query; full+scanner = documents, scanner, goods examined and a valuation query |
 | `random_draw` | 1 when the line was in the random draw (RANDOM_SHARE, drawn before the rules, stratified by office and regime) |
-| `outcome` | finding or no_finding on every controlled line; null wherever no control took place (never 'no finding') |
+| `outcome` | finding (found something) or no_finding (found nothing) on every controlled line; null wherever no control took place: read it as not controlled, never as found nothing |
 | `finding_type` | undervaluation, misclassification, origin, quantity, prohibited or documentary |
 | `duty_recovered_lcu` | Duty and VAT recovered after a finding (0 on no_finding; null without a control) |
 | `control_minutes` | Officer minutes spent on the control |
@@ -175,6 +177,30 @@ Calibration line: published customs datasets record an irregularity on 1 to 8 li
 | `shared_address` | 1 when its customs address is declared by 3 or more importers (address_shared_n >= 3) |
 | `bunching` | 1 when half or more of its lines are priced at 62-70% of the peers' median, just under the old reference threshold |
 | `alternating` | 1 when its monthly median value per kilo swings above and below its own median in 70% or more of consecutive months (6 months or more) |
+
+## rule_flags_1b (1B sprint 1: the risk engine's log)
+
+| Field | Meaning |
+| --- | --- |
+| `line_id` | The declaration line (the key of declarations_h1, declarations_h2 and features_lines) |
+| `R1` | 1 when R1 flags the line: the importer's first line is less than 12 months old (new_importer = 1) |
+| `R2` | 1 when R2 flags the line: its value per kilo (customs value ÷ net kg ÷ 25 LCU to the dollar) is below 70% of the 2022 reference price of its code (tariff.static_reference_2022) |
+| `R3` | 1 when R3 flags the line: sensitive goods (chapters 22, 24, 85, 87 or the refined-sugar code 1701.99) lodged at AIR2 or LAND1 |
+| `R4` | 1 when R4 flags the line: a preference is claimed (FTA) and the origin is MYS or IDN |
+| `rules_logged` | The rules that flagged the line, as the engine logged them, for example "R2, R4"; empty when none |
+| `n_rules` | How many of R1 to R4 flagged the line (0 to 4) |
+| `book_lane` | The lane the rule book gives the line: red if R2, yellow if R1, R3 or R4, else green. On months 1-18 the recorded lane (declarations, lane) agrees on about 95 lines in 100; the others were escalated by an officer or overridden by hand. Months 19-36 have no recorded lane |
+
+## controls (1B: one row per control)
+
+| Field | Meaning |
+| --- | --- |
+| `line_id` | The line that was controlled; a line that was not controlled has no row (read it as not controlled) |
+| `control_type` | The checks done: documentary+physical = documents checked and goods examined; documentary+scanner = documents checked and container scanned; documentary+physical+scanner = documents, scanner and goods examined; full = documents, goods examined and a valuation query; full+scanner = documents, scanner, goods examined and a valuation query |
+| `outcome` | finding = the control found something; no_finding = it found nothing. On a screen: found something, found nothing, or not controlled (no row) |
+| `finding_type` | What was found: undervaluation, misclassification, origin, quantity, documentary or prohibited goods; empty when nothing was found |
+| `duty_recovered_lcu` | Duty and VAT recovered after the control, in LCU (0 when nothing was recovered) |
+| `officer_id` | The officer who did the control (office and number) |
 
 ## Generating rules in one paragraph each
 
